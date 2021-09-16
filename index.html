@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Character sheet</title>
+		<style type="text/css">
+			table, th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+				padding-left: 5px;
+				padding-right: 5px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				margin: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+
+var db = {
+	json: {
+		loadingCount: 0,
+		character_mst_list: null,
+		character_ability_mst_list: null,
+	},
+	index: {
+		characters: null,
+	}
+};
+
+function onLoadingDone(db) {
+	var remaining = --db.json.loadingCount;
+	if (remaining > 0)
+		return;
+
+	var character_mst_list         = db.json.character_mst_list;
+	var character_ability_mst_list = db.json.character_ability_mst_list;
+
+	db.index.characters = {};
+
+	var characters = db.index.characters;
+
+	// Build indices.
+	for (var i = 0; i < character_mst_list.length; i++) {
+		var character_mst = character_mst_list[i];
+		characters[character_mst.characterMstId] = {
+			mst: character_mst,
+			skills: [],
+		};
+	}
+
+	for (var i = 0; i < character_ability_mst_list.length; i++) {
+		var character_ability_mst = character_ability_mst_list[i];
+		var c = characters[character_ability_mst.characterMstId];
+		c.skills.push(character_ability_mst);
+	}
+
+	var totalStats = [0, 0, 0, 0, 0, 0, 0];
+
+	var html = "<h1>Character skills</h1>";
+	for (var k in characters) {
+		var v = characters[k];
+		html += `<section><h2>${v.mst.name}</h2>`;
+
+		// 1: hp, 2: patk, 3: pdef, 4: matk, 5: mdef, 6: weapon, 7: cost
+		var stats = {
+			base:    [0, 0, 0, 0, 0, 0, 0],
+			arcana1: [0, 0, 0, 0, 0, 0, 0],
+			arcana2: [0, 0, 0, 0, 0, 0, 0],
+			arcana3: [0, 0, 0, 0, 0, 0, 0],
+			arcana4: [0, 0, 0, 0, 0, 0, 0],
+			arcana5: [0, 0, 0, 0, 0, 0, 0],
+		};
+
+		html += '<table><tr>';
+		html += '<th>id</th>';
+		html += '<th>releaseLevel</th>';
+		html += '<th>name</th>';
+		html += '<th>skillType</th>';
+		html += '<th>effectType</th>';
+		html += '<th>effectValue</th>';
+		html += '<th>cardDetailType</th>';
+		html += '</tr>';
+		for (var i = 0; i < v.skills.length; i++) {
+			var skill = v.skills[i];
+			html += '<tr>';
+			html += `<td>${skill.characterAbilityMstId}</td>`;
+			html += `<td>${skill.releaseLevel}</td>`;
+			html += `<td>${skill.name}</td>`;
+			html += `<td>${skill.skillType}</td>`;
+			html += `<td>${skill.effectType}</td>`;
+			html += `<td>${skill.effectValue}</td>`;
+			html += `<td>${skill.cardDetailType}</td>`;
+			html += '</tr>';
+			if (skill.skillType == 1 || skill.skillType == 2) {
+				var unlock = null;
+				if (skill.releaseLevel <= 10) {
+					unlock = stats.base
+				} else if (skill.releaseLevel <= 12) {
+					unlock = stats.arcana1;
+				} else if (skill.releaseLevel <= 14) {
+					unlock = stats.arcana2;
+				} else if (skill.releaseLevel <= 16) {
+					unlock = stats.arcana3;
+				} else if (skill.releaseLevel <= 18) {
+					unlock = stats.arcana4;
+				} else {
+					unlock = stats.arcana5;
+				}
+				unlock[skill.effectType - 1] += skill.effectValue;
+				totalStats[skill.effectType - 1] += skill.effectValue;
+			}
+		}
+		html += '</table>';
+
+		html += '<table><tr>';
+		html += '<th>unlock</th>';
+		html += '<th>HP</th>';
+		html += '<th>patk</th>';
+		html += '<th>pdef</th>';
+		html += '<th>matk</th>';
+		html += '<th>mdef</th>';
+		html += '<th>cost</th>';
+		html += '</tr>';
+
+		for (var k in stats) {
+			var unlock = stats[k];
+			html += '<tr>';
+			html += `<td>${k}</td>`;
+			for (var i = 0; i < unlock.length; i++) {
+				if (i == 5) continue;
+				if (unlock[i] != 0) {
+					html += `<td>${unlock[i]}</td>`;
+				} else {
+					html += '<td></td>';
+				}
+			}
+			html += '</tr>';
+		}
+		html += '</table>';
+
+		html += '</section>';
+	}
+
+	html += '<h2>Total stats</h2><ul>';
+	html += `<li>HP: ${totalStats[0]}</li>`;
+	html += `<li>patk: ${totalStats[1]}</li>`;
+	html += `<li>pdef: ${totalStats[2]}</li>`;
+	html += `<li>matk: ${totalStats[3]}</li>`;
+	html += `<li>mdef: ${totalStats[4]}</li>`;
+	html += `<li>cost: ${totalStats[6]}</li>`;
+	html += '</ul>';
+
+	var body = document.getElementsByTagName("body");
+	body[0].innerHTML = html;
+}
+
+function asyncLoadJsonEn(name) {
+	db.json.loadingCount++;
+	loadJSON(`https://raw.githubusercontent.com/sinoalice-datamine/data/master/EN/${name}.json`, function(response) {
+		db.json[name] = JSON.parse(response);
+		onLoadingDone(db);
+	})
+}
+
+function loadJSON(path, callback) {
+	var xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+	xobj.open('GET', path, true);
+	xobj.onreadystatechange = function () {
+		if (xobj.readyState == 4 && xobj.status == "200") {
+			callback(xobj.responseText);
+		}
+	};
+	xobj.send(null);
+}
+
+window.addEventListener('load', function() {
+	db.json.loadingCount++;
+	asyncLoadJsonEn("character_mst_list");
+	asyncLoadJsonEn("character_ability_mst_list");
+	onLoadingDone(db);
+});
+		</script>
+	</body>
+</html>
