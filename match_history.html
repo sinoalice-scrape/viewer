@@ -63,7 +63,7 @@ function onLoadingDone(db) {
 	];
 
 	let match_count = match_history.items.length;
-	for (let i = 0; i < match_count; i++) {
+	for (let i = match_count-1; i >= 0; i--) {
 		let m = match_history.items[i];
 		let dt = new Date(m.start_time * 1000);
 		let shinma_1 = m.shinma[0];
