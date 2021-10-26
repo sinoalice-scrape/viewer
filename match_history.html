@@ -22,6 +22,28 @@ let db = {
 	}
 };
 
+const shinma_weapon_map = [
+	'',
+	'I', 'T', 'A', 'S',
+	'B', 'H', 'P', 'P',
+];
+
+function generateShinmaCells(shinma, shinma_skills) {
+	if (!shinma) {
+		return '<td align="center"></td><td align="center"></td>';
+	}
+
+	let shinma_mst = shinma_skills[shinma.art_mst_id];
+	let shinma_weapons =
+		shinma_weapon_map[shinma_mst.element1] +
+		shinma_weapon_map[shinma_mst.element2] +
+		shinma_weapon_map[shinma_mst.element3] +
+		shinma_weapon_map[shinma_mst.element4];
+
+	return `<td align="center">${shinma_weapons}</td>` +
+		`<td align="center">${shinma.guild_a_count}/${shinma.guild_b_count}</td>`;
+}
+
 function onLoadingDone(db) {
 	let remaining = --db.json.loadingCount;
 	if (remaining > 0)
@@ -56,30 +78,10 @@ function onLoadingDone(db) {
 	html += '<th>Tally</th>';
 	html += '</tr>';
 
-	let shinma_weapon_map = [
-		'',
-		'I', 'T', 'A', 'S',
-		'B', 'H', 'P', 'P',
-	];
-
 	let match_count = match_history.items.length;
 	for (let i = match_count-1; i >= 0; i--) {
 		let m = match_history.items[i];
 		let dt = new Date(m.start_time * 1000);
-		let shinma_1 = m.shinma[0];
-		let shinma_2 = m.shinma[1];
-		let shinma_1_mst = shinma_skills[shinma_1.art_mst_id];
-		let shinma_2_mst = shinma_skills[shinma_2.art_mst_id];
-		let shinma_1_weapons =
-			shinma_weapon_map[shinma_1_mst.element1] +
-			shinma_weapon_map[shinma_1_mst.element2] +
-			shinma_weapon_map[shinma_1_mst.element3] +
-			shinma_weapon_map[shinma_1_mst.element4];
-		let shinma_2_weapons =
-			shinma_weapon_map[shinma_2_mst.element1] +
-			shinma_weapon_map[shinma_2_mst.element2] +
-			shinma_weapon_map[shinma_2_mst.element3] +
-			shinma_weapon_map[shinma_2_mst.element4];
 
 		let result = "Tie";
 		if (m.guild_a_points > m.guild_b_points)
@@ -99,10 +101,8 @@ function onLoadingDone(db) {
 		html += `<td align="right">${m.guild_b_combo}</td>`;
 		html += `<td align="right">${m.guild_a_ship_win}</td>`;
 		html += `<td align="right">${m.guild_b_ship_win}</td>`;
-		html += `<td align="center">${shinma_1_weapons}</td>`;
-		html += `<td align="center">${shinma_1.guild_a_count}/${shinma_1.guild_b_count}</td>`;
-		html += `<td align="center">${shinma_2_weapons}</td>`;
-		html += `<td align="center">${shinma_2.guild_a_count}/${shinma_2.guild_b_count}</td>`;
+		html += generateShinmaCells(m.shinma[0], shinma_skills);
+		html += generateShinmaCells(m.shinma[1], shinma_skills);
 		html += '</tr>';
 	}
 	html += '</table>';
