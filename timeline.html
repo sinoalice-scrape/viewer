@@ -202,8 +202,6 @@ function generateTimelineSvg(canvasId, timeline) {
 			scale = 1.125;
 		else
 			return;
-		//1124 -> 1518 (instead of 1377)
-		timeline.viewDim.x *= scale;
 
 		let svg = document.getElementById('timeline-events');
 
@@ -211,6 +209,12 @@ function generateTimelineSvg(canvasId, timeline) {
 		let dstBounds = dst.getBoundingClientRect();
 
 		let widthNew = svgBounds.width * scale;
+		if (widthNew < dstBounds.width) {
+			// Prevent svg from getting smaller than its container. No need to zoom further
+			// out once everything is visible.
+			widthNew = dstBounds.width;
+			scale = widthNew / svgBounds.width;
+		}
 
 		let cursorWnd_x = event.x;
 		let cursorDst_x = cursorWnd_x - dstBounds.x;
@@ -220,6 +224,8 @@ function generateTimelineSvg(canvasId, timeline) {
 
 		svg.setAttribute('width', widthNew);
 		dst.scrollLeft = scrollLeftNew;
+
+		timeline.viewDim.x = widthNew;
 	};
 
 	const dragStartHandler = function(event) {
