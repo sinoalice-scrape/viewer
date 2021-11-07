@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Match timeline</title>
+		<style type="text/css">
+			.vis-timeline {
+				font-size: 9pt;
+			}
+
+			div.timeline {
+				height: 100%;
+				width: 100%;
+				/*border:2px solid #000;*/
+				overflow: auto;
+			}
+			svg.timeline-events {
+				/*border:1px dotted #ccc;*/
+				/*background-color: #ccc;*/
+			}
+		</style>
+	</head>
+	<body>
+		<div id="visualization-2" class="timeline"></div>
+
+		<div id="visualization" style="visibility: hidden;"></div>
+		<!--
+			This may be potentially more efficient way to create the timeline without going as far as WebGL.
+			Things to figure out:
+				- How to make names stay on place while timeline is scrolled horizontally
+					- A table as neighbor of the div(svg) element? Tricky to line up.
+					- Another div(svg) neighbor next to the div(svg) with timeline? Might be easier to control and line up.
+				- How to efficiently "zoom" (non-uniform shape-preserving scale)?
+					- Or give up on shapes that would suffer from non-uniform scaling (use rects instead of circles).
+				- How to reorder lines? Can svg graphics listen for DOM events?
+		-->
+		<div id="test-timeline" class="timeline" style="visibility: hidden;">
+			<!--
+				Increasing `width` will make canvas larger (creating scrollbars on overflow, etc.).
+				`viewbox` should be constant and cover whole range with data at all times, so that increasing
+				`width` will effectively act as zooming horizontally by changing projection.
+			-->
+			<svg id="test-timeline-events" class="timeline-events" width="1000" height="40" viewbox="0 0 60 40" preserveAspectRatio="none">
+				<!-- [1635001200; 1635002396] => [0; 1196] -->
+				<!-- fill="rgb(213,221,246)" stroke="rgb(151,176,248)" -->
+				<g fill="rgb(151,176,248)">
+					<!-- GimmeL -->
+					<rect x="0" y="0" width="0.5" height="10" />
+					<rect x="8" y="0" width="0.5" height="10" />
+
+					<!-- Juddy -->
+					<rect x="0" y="10" width="0.5" height="10" />
+					<rect x="7" y="10" width="0.5" height="10" />
+
+					<!-- KouBunny〤 -->
+					<rect x="0" y="20" width="0.5" height="10" />
+					<rect x="8" y="20" width="0.5" height="10" />
+
+					<!-- Miro -->
+					<rect x="1" y="30" width="0.5" height="10" />
+					<rect x="5" y="30" width="0.5" height="10" />
+				</g>
+			</svg>
+		</div>
+
+		<script type="text/javascript" src="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
+		<script type="text/javascript" src="match_log.js"></script>
+
+		<!--
+			Including other packages like Vis Network or Vis Graph3D here won't work.
+			You need the peer build to do that.
+		-->
+
+		<script type="text/javascript">
+
+
+function prepareTimeline() {
+	let groupMap = {};
+	groupMap[-1] = { value: -1, id: -1, content: "own guild" };
+	groupMap[-2] = { value: -2, id: -2, content: "enemy guild" };
+	let ownCounter = 0;
+	let enemyCounter = -3;
+	let minTimestamp = Number.MAX_SAFE_INTEGER;
+	let maxTimestamp = -Number.MAX_SAFE_INTEGER;
+
+	for (let i = 0; i < data.length; i++) {
+		let entry = data[i];
+		let gid = entry.userId;
+		if (gid === 0) {
+			if (entry.isOwnGuild) {
+				gid = -1;
+			} else {
+				gid = -2;
+			}
+		}
+
+		if (!groupMap[gid])
+		{
+			let value = 0;
+			if (entry.isOwnGuild) {
+				value = ownCounter++;
+			} else {
+				value = enemyCounter--;
+			}
+
+			groupMap[gid] = {
+				value: value,
+				id: gid,
+				content: entry.userName,
+			};
+		}
+
+		let actTime = entry.actTime;
+		if (actTime < minTimestamp) minTimestamp = actTime;
+		if (actTime > maxTimestamp) maxTimestamp = actTime;
+	}
+
+	let groupData = [];
+	for (let k in groupMap) {
+		groupData.push(groupMap[k]);
+	}
+	groupData.sort(function(a, b) { return a.value - b.value; });
+	for (let i = 0; i < groupData.length; i++) {
+		groupData[i].rowIdx = i;
+		console.assert(i == groupMap[groupData[i].id].rowIdx);
+	}
+
+	let timelineLength = maxTimestamp - minTimestamp;
+	if (timelineLength <= 0)
+		timelineLength = 3;
+
+	let rowHeight = 25;
+	let height = rowHeight * groupData.length;
+
+	return {
+		timestampStart: minTimestamp,
+		timestampEnd: maxTimestamp,
+		rowHeight: rowHeight,
+		virtualDim: {
+			x: timelineLength,
+			y: height,
+		},
+		viewDim: {
+			x: 20*60*2,
+			y: height,
+		},
+		data: data,
+		groupMap: groupMap,
+		groupData: groupData,
+	};
+}
+
+function generateTimelineSvg(canvasId, timeline) {
+	const eventHeight = 15;
+	const linePadding = (timeline.rowHeight - eventHeight) / 2;
+	let svg = '';
+	svg += '<svg id="timeline-events" class="timeline-events"';
+	svg += ` width="${timeline.viewDim.x}" height="${timeline.viewDim.y}"`;
+	svg += ` viewbox="0 0 ${timeline.virtualDim.x} ${timeline.virtualDim.y}"`;
+	svg += ' preserveAspectRatio="none"';
+	svg += '>';
+	{
+		svg += '<g fill="rgb(191,191,191)">';
+		for (let i = 0; i <= timeline.groupData.length; i++) {
+			let rowOffset = i*timeline.rowHeight;
+			// Line seems to have inconsistent width, while rect (without borders) is pretty accurate.
+			svg += `<rect x="0" y="${rowOffset}" width="${timeline.timestampEnd - timeline.timestampStart}" height="1" />`;
+		}
+		svg += '</g>';
+
+		svg += '<g id="layer-events" fill="rgb(151,176,248)">';
+		for (let i = 0; i < timeline.data.length; i++) {
+			let event = timeline.data[i];
+			let gid = event.userId;
+			if (gid === 0) {
+				if (event.isOwnGuild) {
+					gid = -1;
+				} else {
+					gid = -2;
+				}
+			}
+
+			let group = timeline.groupMap[gid];
+			let rowOffset = group.rowIdx*timeline.rowHeight;
+			svg += `<rect x="${event.actTime-timeline.timestampStart}" y="${rowOffset + linePadding}" width="0.5" height="${eventHeight}" />`;
+		}
+		svg += '</g>';
+	}
+	svg += '</svg>';
+
+	const wheelHandler = function(event) {
+		if (!event.ctrlKey)
+			return;
+
+		event.preventDefault();
+
+		let scale = 1.0;
+		if (event.deltaY > 0)
+			scale = 0.888888888;
+		else if (event.deltaY < 0)
+			scale = 1.125;
+		else
+			return;
+		//1124 -> 1518 (instead of 1377)
+		timeline.viewDim.x *= scale;
+
+		let svg = document.getElementById('timeline-events');
+
+		let svgBounds = svg.getBoundingClientRect();
+		let dstBounds = dst.getBoundingClientRect();
+
+		let widthNew = svgBounds.width * scale;
+
+		let cursorWnd_x = event.x;
+		let cursorDst_x = cursorWnd_x - dstBounds.x;
+		let cursorSvg_x = cursorWnd_x - svgBounds.x;
+		let cursorSvgNew_x = cursorSvg_x * scale;
+		let scrollLeftNew = cursorSvgNew_x - cursorDst_x;
+
+		svg.setAttribute('width', widthNew);
+		dst.scrollLeft = scrollLeftNew;
+	};
+
+	const dragStartHandler = function(event) {
+		const dragMoveHandler = function(event) {
+			dst.scrollLeft -= event.movementX;
+		};
+		const dragReleaseHandler = function(event) {
+			dst.style.removeProperty('cursor');
+			dst.style.removeProperty('user-select');
+			document.removeEventListener('mousemove', dragMoveHandler);
+			document.removeEventListener('mouseup', dragReleaseHandler);
+		};
+
+		dst.style.cursor = 'grabbing';
+		dst.style.userSelect = 'none';
+		document.addEventListener('mousemove', dragMoveHandler);
+		document.addEventListener('mouseup', dragReleaseHandler);
+	};
+
+	let dst = document.getElementById(canvasId);
+	dst.innerHTML = svg;
+	dst.addEventListener('wheel', wheelHandler);
+	dst.addEventListener('mousedown', dragStartHandler);
+
+	// let eventsLayer = document.getElementById("layer-events");
+	// console.log(eventsLayer);
+}
+
+function visJsVersion() {
+	let groupMap = {};
+	groupMap[-1] = { value: -1, id: -1, content: "own guild" };
+	groupMap[-2] = { value: -2, id: -2, content: "enemy guild" };
+	let ownCounter = 0;
+	let enemyCounter = -3;
+	let minTimestamp = Number.MAX_SAFE_INTEGER;
+	let maxTimestamp = -Number.MAX_SAFE_INTEGER;
+	let itemData = [];
+
+	let itemLimit = data.length > 500 ? 500 : data.length;
+	itemLimit = data.length;
+	for (let i = 0; i < itemLimit; i++) {
+		let entry = data[i];
+		let gid = entry.userId;
+		if (gid === 0) {
+			if (entry.isOwnGuild) {
+				gid = -1;
+			} else {
+				gid = -2;
+			}
+		}
+
+		if (!groupMap[gid])
+		{
+			let value = 0;
+			if (entry.isOwnGuild) {
+				value = ownCounter++;
+			} else {
+				value = enemyCounter--;
+			}
+
+			groupMap[gid] = {
+				value: value,
+				id: gid,
+				content: entry.userName,
+			};
+		}
+
+		let actTime = entry.actTime * 1000;
+
+		if (actTime < minTimestamp) minTimestamp = actTime;
+		if (actTime > maxTimestamp) maxTimestamp = actTime;
+
+		itemData.push({
+			id: itemData.length,
+			group: gid,
+			start: new Date(actTime),
+			end: new Date(actTime + 500),
+		});
+	}
+
+	let groupData = [];
+	for (let k in groupMap) {
+		groupData.push(groupMap[k]);
+	}
+	groupData.sort(function(a, b) { return a.value - b.value; });
+	const groups = new vis.DataSet(groupData);
+	const items = new vis.DataSet(itemData);
+
+	// DOM element where the Timeline will be attached
+	const container = document.getElementById("visualization");
+
+	// const gidOwnGuild = 0;
+	// const gidEnemy = 1;
+	// const gidJeanne = 594178109;
+	// const gidJuddy = 658397897;
+	// const gidOnonoki = 813733121;
+	// const gidAyumi = 638166759;
+
+	// const groups = new vis.DataSet([
+	// 	{ value: 0, id: gidOwnGuild, content: "own guild" },
+	// 	{ value: 1, id: gidEnemy, content: "enemy guild" },
+	// 	{ value: 2, id: gidJeanne, content: "Jeanne" },
+	// 	{ value: 3, id: gidJuddy, content: "Juddy" },
+	// 	{ value: 4, id: gidOnonoki, content: "Ononoki" },
+	// 	{ value: 5, id: gidAyumi, content: "Ayumi" },
+	// ]);
+
+	// // Create a DataSet (allows two way data-binding)
+	// const items = new vis.DataSet([
+	// 	{ id: 1, group: gidJuddy,   content: "Evil Thunder of Assault (III) Lv.16", start: new Date(1634829597666) },
+	// 	{ id: 2, group: gidEnemy,   content: "Counter shield", start: new Date(1634829597666), end: new Date(1634829600000) },
+	// 	{ id: 3, group: gidJeanne,  content: "The Passion of the Gladiator (III) Lv.17", start: new Date(1634829597333) },
+	// 	{ id: 4, group: gidOnonoki, content: "Shrieks of Demise (Verse 3) Lv.20", start: new Date(1634829597000) },
+	// 	{ id: 5, group: gidAyumi,   content: "False Victor's Wave of Destruction (IV) Lv.13", start: new Date(1634829596500) },
+	// ]);
+
+	// Configuration for the Timeline
+	var options = {
+		groupOrder: function (a, b) {
+			return a.value - b.value;
+		},
+		groupOrderSwap: function (a, b, groups) {
+			var v = a.value;
+			a.value = b.value;
+			b.value = v;
+		},
+		orientation: 'both',
+		groupHeightMode: 'fixed',
+		editable: true,
+		stack: false,
+		clickToUse: true,
+		groupEditable: true,
+		type: 'range',
+		maxHeight: '100%',
+		start: new Date(minTimestamp - 1000),
+		end: new Date(minTimestamp + 60000),
+		min: new Date(minTimestamp),
+		max: new Date(maxTimestamp),
+		zoomMin: 1000,
+		zoomMax: 20*60*1000,
+		zoomKey: 'ctrlKey',
+		margin: {
+			axis: 0,
+			item: {
+				horizontal: 0,
+				vertical: 7,
+			}
+		},
+	};
+
+	// Create a Timeline
+	let timeline = new vis.Timeline(container);
+	timeline.setOptions(options);
+	timeline.setGroups(groups);
+	timeline.setItems(items);
+}
+
+visJsVersion();
+timeline = prepareTimeline();
+generateTimelineSvg('visualization-2', timeline);
+
+		</script>
+	</body>
+</html>
