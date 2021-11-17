@@ -7,9 +7,14 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
+		<nav id="menu">
+			Units (Character/Class) <a href="?version=EN&view=classes">EN</a>/<a href="?version=JP&view=classes">JP</a> |
+			Weapons <a href="?version=EN&view=weapons">EN</a>/<a href="?version=JP&view=weapons">JP</a>
+		</nav>
+		<div id="content"></div>
 		<script>
 
-var db = {
+let db = {
 	json: {
 		loadingCount: 0,
 		character_mst_list: null,
@@ -20,42 +25,38 @@ var db = {
 	}
 };
 
-function onLoadingDone(db) {
-	var remaining = --db.json.loadingCount;
-	if (remaining > 0)
-		return;
-
-	var character_mst_list         = db.json.character_mst_list;
-	var character_ability_mst_list = db.json.character_ability_mst_list;
+function viewClasses(db, isDebug) {
+	let character_mst_list         = db.json.character_mst_list;
+	let character_ability_mst_list = db.json.character_ability_mst_list;
 
 	db.index.characters = {};
 
-	var characters = db.index.characters;
+	let characters = db.index.characters;
 
 	// Build indices.
-	for (var i = 0; i < character_mst_list.length; i++) {
-		var character_mst = character_mst_list[i];
+	for (let i = 0; i < character_mst_list.length; i++) {
+		let character_mst = character_mst_list[i];
 		characters[character_mst.characterMstId] = {
 			mst: character_mst,
 			skills: [],
 		};
 	}
 
-	for (var i = 0; i < character_ability_mst_list.length; i++) {
-		var character_ability_mst = character_ability_mst_list[i];
-		var c = characters[character_ability_mst.characterMstId];
+	for (let i = 0; i < character_ability_mst_list.length; i++) {
+		let character_ability_mst = character_ability_mst_list[i];
+		let c = characters[character_ability_mst.characterMstId];
 		c.skills.push(character_ability_mst);
 	}
 
-	var totalStats = [0, 0, 0, 0, 0, 0, 0];
+	let totalStats = [0, 0, 0, 0, 0, 0, 0];
 
-	var html = "<h1>Character skills</h1>";
-	for (var k in characters) {
-		var v = characters[k];
+	let html = "<h1>Character skills</h1>";
+	for (let k in characters) {
+		let v = characters[k];
 		html += `<section><h2>${v.mst.name}</h2>`;
 
 		// 1: hp, 2: patk, 3: pdef, 4: matk, 5: mdef, 6: weapon, 7: cost
-		var stats = {
+		let stats = {
 			base:    [0, 0, 0, 0, 0, 0, 0],
 			arcana1: [0, 0, 0, 0, 0, 0, 0],
 			arcana2: [0, 0, 0, 0, 0, 0, 0],
@@ -65,27 +66,36 @@ function onLoadingDone(db) {
 		};
 
 		html += '<table><tr>';
-		html += '<th>id</th>';
-		html += '<th>releaseLevel</th>';
-		html += '<th>name</th>';
-		html += '<th>skillType</th>';
-		html += '<th>effectType</th>';
-		html += '<th>effectValue</th>';
-		html += '<th>cardDetailType</th>';
+		if (isDebug) {
+			html += '<th>id</th>';
+			html += '<th>releaseLevel</th>';
+			html += '<th>name</th>';
+			html += '<th>skillType</th>';
+			html += '<th>effectType</th>';
+			html += '<th>effectValue</th>';
+			html += '<th>cardDetailType</th>';
+		} else {
+			html += '<th>level</th>';
+			html += '<th>effect</th>';
+		}
 		html += '</tr>';
-		for (var i = 0; i < v.skills.length; i++) {
-			var skill = v.skills[i];
+		for (let i = 0; i < v.skills.length; i++) {
+			let skill = v.skills[i];
 			html += '<tr>';
-			html += `<td>${skill.characterAbilityMstId}</td>`;
+			if (isDebug) {
+				html += `<td>${skill.characterAbilityMstId}</td>`;
+			}
 			html += `<td>${skill.releaseLevel}</td>`;
 			html += `<td>${skill.name}</td>`;
-			html += `<td>${skill.skillType}</td>`;
-			html += `<td>${skill.effectType}</td>`;
-			html += `<td>${skill.effectValue}</td>`;
-			html += `<td>${skill.cardDetailType}</td>`;
+			if (isDebug) {
+				html += `<td>${skill.skillType}</td>`;
+				html += `<td>${skill.effectType}</td>`;
+				html += `<td>${skill.effectValue}</td>`;
+				html += `<td>${skill.cardDetailType}</td>`;
+			}
 			html += '</tr>';
 			if (skill.skillType == 1 || skill.skillType == 2) {
-				var unlock = null;
+				let unlock = null;
 				if (skill.releaseLevel <= 10) {
 					unlock = stats.base
 				} else if (skill.releaseLevel <= 12) {
@@ -115,11 +125,11 @@ function onLoadingDone(db) {
 		html += '<th>cost</th>';
 		html += '</tr>';
 
-		for (var k in stats) {
-			var unlock = stats[k];
+		for (let k in stats) {
+			let unlock = stats[k];
 			html += '<tr>';
 			html += `<td>${k}</td>`;
-			for (var i = 0; i < unlock.length; i++) {
+			for (let i = 0; i < unlock.length; i++) {
 				if (i == 5) continue;
 				if (unlock[i] != 0) {
 					html += `<td>${unlock[i]}</td>`;
@@ -143,20 +153,137 @@ function onLoadingDone(db) {
 	html += `<li>cost: ${totalStats[6]}</li>`;
 	html += '</ul>';
 
-	var body = document.getElementsByTagName("body");
-	body[0].innerHTML = html;
+	let content = document.getElementById("content");
+	content.innerHTML = html;
 }
 
-function asyncLoadJsonEn(name) {
+function viewWeapons(version, db, isDebug, cardMstListName) {
+	let card_mst_list = db.json[cardMstListName];
+
+	const cardType_weapon = 1;
+	const cardType_armor = 2;
+	const cardType_nightmare = 3;
+	const cardType_upgradeExp = 5;
+	const cardType_gold = 6;
+	const cardType_skillExp = 7;
+
+		/* card type:
+			1 - weapon
+			2 - armor
+			3 - nightmare
+			5 - upgrade sword/shield/tablet
+			6 - gold sack
+			7 - gem (story/story support/colo/colo support)
+		*/
+
+	db.index.cards = {};
+	let cards = db.index.cards;
+	for (let i = 0; i < card_mst_list.length; i++) {
+		let card_mst = card_mst_list[i];
+
+		if (card_mst.cardType != cardType_weapon)
+			continue;
+
+		if (!isDebug && !card_mst.isRelease)
+			continue;
+
+		let card = cards[card_mst.name];
+		if (!card) {
+			card = {
+				name: card_mst.name,
+				variants: [],
+			};
+			cards[card_mst.name] = card;
+		}
+		card.variants.push(card_mst);
+	}
+
+	for (let k in cards) {
+		let card = cards[k];
+		card.variants.sort(function(a, b) {
+			if (a.evolutionLevel != b.evolutionLevel)
+				return a.evolutionLevel - b.evolutionLevel;
+
+			return a.cardMstId - b.cardMstId;
+		});
+	}
+
+	let html = "<h1>Cards</h1>";
+	html += '<table><tr>';
+	html += '<th>name</th>';
+	html += '<th>rarity</th>';
+	if (isDebug) {
+		html += '<th>cardType</th>';
+		html += '<th>cardMstId</th>';
+		html += '<th>isRelease</th>';
+		html += '<th>frontSkillMstId</th>';
+		html += '<th>autoSkillMstId</th>';
+		html += '<th>questSkillMstId</th>';
+		html += '<th>limitBreakSkillMstId</th>';
+	}
+	html += '</tr>';
+
+	const rarityMap = ["D", "C", "B", "A", "S", "SR", "L", "LL"];
+
+	for (let k in cards) {
+		let card = cards[k];
+		for (let i = 0; i < card.variants.length; i++) {
+			let variant = card.variants[i];
+			html += '<tr>';
+			if (i == 0) {
+				html += `<td rowspan="${card.variants.length}">${variant.name}</td>`;
+			}
+
+			html += `<td>${rarityMap[variant.rarity]}`;
+			if (variant.isInfiniteEvolution) {
+				html += ` (${variant.evolutionLevel}/${card.variants.length - 1})`;
+			}
+			html += `</td>`
+
+			if (isDebug) {
+				let note = (variant.backSkillMstId && variant.frontSkillMstId != variant.backSkillMstId)
+					? " different back skill" : "";
+				html += `<td>${variant.cardType}</td>`;
+				html += `<td>${variant.cardMstId}</td>`;
+				html += `<td>${variant.isRelease}</td>`;
+				html += `<td>${variant.frontSkillMstId}${note}</td>`;
+				html += `<td>${variant.autoSkillMstId}</td>`;
+				html += `<td>${variant.questSkillMstId}</td>`;
+				html += `<td>${variant.limitBreakSkillMstId}</td>`;
+			}
+			html += '</tr>';
+		}
+	}
+	html += '</table>';
+
+	let content = document.getElementById("content");
+	content.innerHTML = html;
+}
+
+function sanitizeVersion(version) {
+	if (!version)
+		return "EN";
+
+	version = version.toUpperCase();
+	if (version != "EN" && version != "JP")
+		return "EN";
+
+	return version;
+}
+
+function asyncLoadDatamineJson(version, name, onLoadingDone) {
 	db.json.loadingCount++;
-	loadJSON(`https://raw.githubusercontent.com/sinoalice-datamine/data/master/EN/${name}.json`, function(response) {
+	loadJSON(`https://raw.githubusercontent.com/sinoalice-datamine/data/master/${version}/${name}.json`, function(response) {
 		db.json[name] = JSON.parse(response);
+		const remaining = --db.json.loadingCount;
+		if (remaining > 0)
+			return;
 		onLoadingDone(db);
 	})
 }
 
 function loadJSON(path, callback) {
-	var xobj = new XMLHttpRequest();
+	let xobj = new XMLHttpRequest();
 	xobj.overrideMimeType("application/json");
 	xobj.open('GET', path, true);
 	xobj.onreadystatechange = function () {
@@ -167,12 +294,65 @@ function loadJSON(path, callback) {
 	xobj.send(null);
 }
 
+function showCurrentView(db) {
+	let params = new URLSearchParams(document.location.search);
+	let isDebug = params.has("debug");
+	let version = sanitizeVersion(params.get("version"));
+	switch(params.get("view").toLowerCase()) {
+		case "classes":
+			let onLoadedClasses = function(db) {
+				viewClasses(db, isDebug);
+			};
+			asyncLoadDatamineJson(version, "character_mst_list", onLoadedClasses);
+			asyncLoadDatamineJson(version, "character_ability_mst_list", onLoadedClasses);
+			break;
+
+		case "weapons":
+			let cardMstListName = (version == "JP")
+				? "card_mst_list"
+				: ("card_mst_list_" + version.toLowerCase());
+			let onLoadedCards = function(db) {
+				viewWeapons(version, db, isDebug, cardMstListName);
+			};
+			asyncLoadDatamineJson(version, cardMstListName, onLoadedCards);
+			break;
+	}
+}
+
+// Script returning current skill multipliers from Blue's sheet.
+// https://script.google.com/macros/s/AKfycbz9EJA6OVAidLavVaP1GhDaTYaj-4hPE0K7YCbwaZZBrcG6SVKabKqTAsEkSrArTI8/exec
+
 window.addEventListener('load', function() {
-	db.json.loadingCount++;
-	asyncLoadJsonEn("character_mst_list");
-	asyncLoadJsonEn("character_ability_mst_list");
-	onLoadingDone(db);
+	showCurrentView(db);
 });
+
+function onHashChange() {
+	let section = null;
+	if (location.hash.startsWith("#") && location.hash.length > 1)
+		section = document.getElementById(location.hash.slice(1));
+
+	if (!section)
+		section = document.getElementById("main");
+
+	showSection(section);
+}
+window.addEventListener('hashchange', onHashChange);
+
+{
+	let params = new URLSearchParams(document.location.search);
+	params.forEach(function(v, k) {
+		console.log(k + ': ' + v);
+	});
+	switch(params.get("view"))
+	{
+		case "classes":
+			console.log("Viewing classes.");
+			break;
+		case "weapons-colo":
+			console.log("Viewing weapon colo skills.");
+			break;
+	}
+}
 		</script>
 	</body>
 </html>
