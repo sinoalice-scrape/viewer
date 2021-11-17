@@ -152,14 +152,26 @@ function prepareTimeline() {
 }
 
 function generateTimelineSvg(canvasId, timeline) {
+	/*
+		SVG patterns may be worth considering for highlighting events (eg. nightmare boosted, etc.) example: ```
+			<defs>
+				<pattern id="pattern1" x="10" y="10" width="20" height="20" patternUnits="userSpaceOnUse" >
+					<rect x="0" y="0" width="20" height="10" style="stroke: none; fill: #0000ff" />
+				</pattern>
+			</defs>
+			<rect x="10" y="10" width="100" height="100" style="stroke: none; fill: url(#pattern1);"></rect>
+		```
+	*/
+
 	const eventHeight = 15;
 	const linePadding = (timeline.rowHeight - eventHeight) / 2;
 	let svg = '';
-	svg += '<svg id="timeline-events" class="timeline-events"';
-	svg += ` width="${timeline.viewDim.x}" height="${timeline.viewDim.y}"`;
-	svg += ` viewbox="0 0 ${timeline.virtualDim.x} ${timeline.virtualDim.y}"`;
-	svg += ' preserveAspectRatio="none"';
-	svg += '>';
+	svg += `<svg
+		id="timeline-events" class="timeline-events"
+		width="${timeline.viewDim.x}" height="${timeline.viewDim.y}"
+		viewbox="0 0 ${timeline.virtualDim.x} ${timeline.virtualDim.y}"
+		preserveAspectRatio="none"
+	>`;
 	{
 		svg += '<g fill="rgb(191,191,191)">';
 		for (let i = 0; i <= timeline.groupData.length; i++) {
