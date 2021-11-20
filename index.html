@@ -3,12 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Character sheet</title>
+		<title>Datamine viewer</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
 		<nav id="menu">
-			Units (Character/Class) <a href="?version=EN&view=classes">EN</a>/<a href="?version=JP&view=classes">JP</a> |
+			Units (character/class) <a href="?version=EN&view=classes">EN</a>/<a href="?version=JP&view=classes">JP</a> |
 			Weapons <a href="?version=EN&view=weapons">EN</a>/<a href="?version=JP&view=weapons">JP</a>
 		</nav>
 		<div id="content"></div>
@@ -50,7 +50,7 @@ function viewClasses(db, isDebug) {
 
 	let totalStats = [0, 0, 0, 0, 0, 0, 0];
 
-	let html = "<h1>Character skills</h1>";
+	let html = "<h1>Units (character/class)</h1>";
 	for (let k in characters) {
 		let v = characters[k];
 		html += `<section><h2>${v.mst.name}</h2>`;
@@ -208,7 +208,7 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 		});
 	}
 
-	let html = "<h1>Cards</h1>";
+	let html = "<h1>Weapons</h1>";
 	html += '<table><tr>';
 	html += '<th>name</th>';
 	html += '<th>rarity</th>';
