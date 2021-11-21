@@ -13,7 +13,6 @@
 		</nav>
 		<div id="content"></div>
 		<script>
-
 let db = {
 	json: {
 		loadingCount: 0,
@@ -22,7 +21,9 @@ let db = {
 	},
 	index: {
 		characters: null,
-	}
+		cards: null,
+		skills: null,
+	},
 };
 
 function viewClasses(db, isDebug) {
@@ -159,24 +160,19 @@ function viewClasses(db, isDebug) {
 
 function viewWeapons(version, db, isDebug, cardMstListName) {
 	let card_mst_list = db.json[cardMstListName];
+	let skill_mst_list = db.json.skill_mst_list;
+	let skill_multipliers = db.json.skill_multipliers;
 
 	const cardType_weapon = 1;
 	const cardType_armor = 2;
 	const cardType_nightmare = 3;
-	const cardType_upgradeExp = 5;
+	const cardType_upgradeExp = 5; // upgrade sword/shield/tablet
 	const cardType_gold = 6;
-	const cardType_skillExp = 7;
-
-		/* card type:
-			1 - weapon
-			2 - armor
-			3 - nightmare
-			5 - upgrade sword/shield/tablet
-			6 - gold sack
-			7 - gem (story/story support/colo/colo support)
-		*/
+	const cardType_skillExp = 7; // gem (story, story support, colo, colo support)
 
 	db.index.cards = {};
+	db.index.skills = {};
+
 	let cards = db.index.cards;
 	for (let i = 0; i < card_mst_list.length; i++) {
 		let card_mst = card_mst_list[i];
@@ -198,6 +194,17 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 		card.variants.push(card_mst);
 	}
 
+	let skills = db.index.skills;
+	for (let i = 0; i < skill_mst_list.length; i++) {
+		let skill_mst = skill_mst_list[i];
+		skills[skill_mst.skillMstId] = skill_mst;
+	}
+	for (let i = 0; i < skill_multipliers.length; i++) {
+		let mult = skill_multipliers[i];
+		let skill = skills[mult.skillMstId];
+		skill.mult = mult;
+	}
+
 	for (let k in cards) {
 		let card = cards[k];
 		card.variants.sort(function(a, b) {
@@ -210,14 +217,35 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 
 	let html = "<h1>Weapons</h1>";
 	html += '<table><tr>';
+	if (isDebug) {
+		html += '<th>cardMstId</th>';
+	}
 	html += '<th>name</th>';
 	html += '<th>rarity</th>';
 	if (isDebug) {
-		html += '<th>cardType</th>';
-		html += '<th>cardMstId</th>';
 		html += '<th>isRelease</th>';
-		html += '<th>frontSkillMstId</th>';
+		html += '<th>roleType</th>';
+		html += '<th>cardType</th>';
+		html += '<th>cardDetailType</th>';
+		html += '<th>weaponType</th>';
+		html += '<th>attribute</th>';
+	}
+	if (isDebug) {
 		html += '<th>autoSkillMstId</th>';
+	}
+	html += '<th>Colosseum Support</th>';
+	if (isDebug) {
+		html += '<th>frontSkillMstId</th>';
+	}
+	html += '<th>Colosseum</th>';
+	html += '<th>SP</th>'
+	html += '<th>damage</th>'
+	html += '<th>recovery</th>'
+	html += '<th>patk</th>'
+	html += '<th>matk</th>'
+	html += '<th>pdef</th>'
+	html += '<th>mdef</th>'
+	if (isDebug) {
 		html += '<th>questSkillMstId</th>';
 		html += '<th>limitBreakSkillMstId</th>';
 	}
@@ -225,15 +253,40 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 
 	const rarityMap = ["D", "C", "B", "A", "S", "SR", "L", "LL"];
 
+	const getMultiplierText = function(skill, multName) {
+		let res = "";
+		let mult = skill.mult;
+		if (!mult)
+			return res;
+
+		if (mult.base && mult.base[multName]) {
+			res += mult.base[multName];
+		}
+
+		if (mult.alt && mult.alt[multName]) {
+			res += `(${mult.alt[multName]})`;
+		}
+
+		return res;
+	};
+
 	for (let k in cards) {
 		let card = cards[k];
 		for (let i = 0; i < card.variants.length; i++) {
 			let variant = card.variants[i];
+
 			html += '<tr>';
+
+			if (isDebug) {
+				html += `<td>${variant.cardMstId}</td>`;
+			}
+
+			// name
 			if (i == 0) {
 				html += `<td rowspan="${card.variants.length}">${variant.name}</td>`;
 			}
 
+			// rarity
 			html += `<td>${rarityMap[variant.rarity]}`;
 			if (variant.isInfiniteEvolution) {
 				html += ` (${variant.evolutionLevel}/${card.variants.length - 1})`;
@@ -241,13 +294,45 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 			html += `</td>`
 
 			if (isDebug) {
+				html += `<td>${variant.isRelease}</td>`;
+				html += `<td>${variant.roleType}</td>`;
+				html += `<td>${variant.cardType}</td>`;
+				html += `<td>${variant.cardDetailType}</td>`;
+				html += `<td>${variant.weaponType}</td>`;
+				html += `<td>${variant.attribute}</td>`;
+			}
+
+			if (isDebug) {
+				html += `<td>${variant.autoSkillMstId}</td>`;
+			}
+			let autoSkill = skills[variant.autoSkillMstId];
+			html += "<td>";
+			if (autoSkill)
+				html += autoSkill.name;
+			else
+				html += "undef"
+			html += "</td>";
+
+			if (isDebug) {
 				let note = (variant.backSkillMstId && variant.frontSkillMstId != variant.backSkillMstId)
 					? " different back skill" : "";
-				html += `<td>${variant.cardType}</td>`;
-				html += `<td>${variant.cardMstId}</td>`;
-				html += `<td>${variant.isRelease}</td>`;
 				html += `<td>${variant.frontSkillMstId}${note}</td>`;
-				html += `<td>${variant.autoSkillMstId}</td>`;
+			}
+			let frontSkill = skills[variant.frontSkillMstId];
+			if (frontSkill) {
+				html += `<td>${frontSkill.name}</td>`;
+				html += `<td>${frontSkill.sp}</td>`;
+				html += `<td>${getMultiplierText(frontSkill, 'damage')}</td>`;
+				html += `<td>${getMultiplierText(frontSkill, 'recovery')}</td>`;
+				html += `<td>${getMultiplierText(frontSkill, 'patk')}</td>`;
+				html += `<td>${getMultiplierText(frontSkill, 'matk')}</td>`;
+				html += `<td>${getMultiplierText(frontSkill, 'pdef')}</td>`;
+				html += `<td>${getMultiplierText(frontSkill, 'mdef')}</td>`;
+			} else {
+				html += `<td colspan="8">undef</td>`;
+			}
+
+			if (isDebug) {
 				html += `<td>${variant.questSkillMstId}</td>`;
 				html += `<td>${variant.limitBreakSkillMstId}</td>`;
 			}
@@ -272,14 +357,21 @@ function sanitizeVersion(version) {
 }
 
 function asyncLoadDatamineJson(version, name, onLoadingDone) {
+	asyncLoadJson(
+		`https://raw.githubusercontent.com/sinoalice-datamine/data/master/${version}/${name}.json`,
+		name, onLoadingDone
+	);
+}
+
+function asyncLoadJson(url, name, onLoadingDone) {
 	db.json.loadingCount++;
-	loadJSON(`https://raw.githubusercontent.com/sinoalice-datamine/data/master/${version}/${name}.json`, function(response) {
+	loadJSON(url, function(response) {
 		db.json[name] = JSON.parse(response);
 		const remaining = --db.json.loadingCount;
 		if (remaining > 0)
 			return;
 		onLoadingDone(db);
-	})
+	});
 }
 
 function loadJSON(path, callback) {
@@ -308,13 +400,19 @@ function showCurrentView(db) {
 			break;
 
 		case "weapons":
-			let cardMstListName = (version == "JP")
-				? "card_mst_list"
-				: ("card_mst_list_" + version.toLowerCase());
+			let cardMstListName = "card_mst_list";
+			if (version != "JP")
+				cardMstListName += `_${version.toLowerCase()}`;
 			let onLoadedCards = function(db) {
 				viewWeapons(version, db, isDebug, cardMstListName);
 			};
 			asyncLoadDatamineJson(version, cardMstListName, onLoadedCards);
+			asyncLoadDatamineJson(version, "skill_mst_list", onLoadedCards);
+			asyncLoadJson(
+				"https://script.google.com/macros/s/AKfycbz9EJA6OVAidLavVaP1GhDaTYaj-4hPE0K7YCbwaZZBrcG6SVKabKqTAsEkSrArTI8/exec",
+				"skill_multipliers",
+				onLoadedCards
+			);
 			break;
 	}
 }
@@ -338,21 +436,6 @@ function onHashChange() {
 }
 window.addEventListener('hashchange', onHashChange);
 
-{
-	let params = new URLSearchParams(document.location.search);
-	params.forEach(function(v, k) {
-		console.log(k + ': ' + v);
-	});
-	switch(params.get("view"))
-	{
-		case "classes":
-			console.log("Viewing classes.");
-			break;
-		case "weapons-colo":
-			console.log("Viewing weapon colo skills.");
-			break;
-	}
-}
 		</script>
 	</body>
 </html>
