@@ -190,6 +190,7 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 		skill.mult = mult;
 	}
 
+	let cardList = [];
 	for (let k in cards) {
 		let card = cards[k];
 		card.variants.sort(function(a, b) {
@@ -198,7 +199,29 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 
 			return a.cardMstId - b.cardMstId;
 		});
+		cardList.push(card);
 	}
+
+	cardList.sort(function(a, b) {
+		let variantA = a.variants[a.variants.length - 1];
+		let variantB = b.variants[b.variants.length - 1];
+		if (variantA.isInfiniteEvolution) {
+			if (variantB.isInfiniteEvolution)
+				return variantA.name.localeCompare(variantB.name);
+			else
+				return -1;
+		} else if (variantB.isInfiniteEvolution) {
+			return 1;
+		} else {
+			let skillA = skills[variantA.frontSkillMstId];
+			let skillB = skills[variantB.frontSkillMstId];
+			let nameOrder = skillA.name.localeCompare(skillB.name);
+			if (nameOrder != 0)
+				return nameOrder;
+
+			return variantA.frontSkillMstId - variantB.frontSkillMstId;
+		}
+	});
 
 	let html = "<h1>Weapons</h1>";
 	html += '<table><tr>';
@@ -255,8 +278,8 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 		return res;
 	};
 
-	for (let k in cards) {
-		let card = cards[k];
+	for (let c = 0; c < cardList.length; c++) {
+		let card = cardList[c];
 		for (let i = 0; i < card.variants.length; i++) {
 			let variant = card.variants[i];
 
