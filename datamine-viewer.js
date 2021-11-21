@@ -188,6 +188,21 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 		let mult = skill_multipliers[i];
 		let skill = skills[mult.skillMstId];
 		skill.mult = mult;
+		if (skill.rangeIcon == 1) {
+			skill.mult.base.targetsMin = 1;
+			skill.mult.base.targetsMax = 1;
+		} else if (skill.rangeIcon == 3) {
+			const regex = /(\d) (?:ally|allies|enemies)/;
+			let match = regex.exec(skill.description);
+			let targetCount = match[1]|0;
+			skill.mult.base.targetsMin = targetCount;
+			skill.mult.base.targetsMax = targetCount;
+		} else if (skill.rangeIcon == 2) {
+			const regex = /(\d) (?:to|or) (\d)/;
+			let match = regex.exec(skill.description);
+			skill.mult.base.targetsMin = match[1]|0;
+			skill.mult.base.targetsMax = match[2]|0;
+		}
 	}
 
 	let cardList = [];
@@ -247,6 +262,7 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 	}
 	html += '<th>Colosseum</th>';
 	html += '<th>SP</th>'
+	html += '<th>targets</th>';
 	html += '<th>damage</th>'
 	html += '<th>recovery</th>'
 	html += '<th>patk</th>'
@@ -321,15 +337,45 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 				html += "undef"
 			html += "</td>";
 
+			let frontSkill = skills[variant.frontSkillMstId];
 			if (isDebug) {
 				let note = (variant.backSkillMstId && variant.frontSkillMstId != variant.backSkillMstId)
 					? " different back skill" : "";
 				html += `<td>${variant.frontSkillMstId}${note}</td>`;
 			}
-			let frontSkill = skills[variant.frontSkillMstId];
 			if (frontSkill) {
+				let targetsText = "";
+				if (frontSkill.mult) {
+					let baseTargetsMin = frontSkill.mult.base.targetsMin;
+					let baseTargetsMax = frontSkill.mult.base.targetsMax;
+					let altTargetsMin = baseTargetsMin;
+					let altTargetsMax = baseTargetsMax;
+					if (frontSkill.mult.alt) {
+						if (frontSkill.mult.alt.targetsMin) {
+							altTargetsMin = frontSkill.mult.alt.targetsMin;
+						}
+						if (frontSkill.mult.alt.targetsMax) {
+							altTargetsMax = frontSkill.mult.alt.targetsMax;
+						}
+					}
+					if (baseTargetsMin != baseTargetsMax) {
+						targetsText += `${baseTargetsMin}-${baseTargetsMax}`;
+					} else {
+						targetsText += `${baseTargetsMin}`;
+					}
+					if (baseTargetsMin != altTargetsMin || baseTargetsMax != altTargetsMax) {
+						targetsText += ' (';
+						if (altTargetsMin != altTargetsMax) {
+							targetsText += `${altTargetsMin}-${altTargetsMax}`;
+						} else {
+							targetsText += `${altTargetsMin}`;
+						}
+						targetsText += ')';
+					}
+				}
 				html += `<td>${frontSkill.name}</td>`;
 				html += `<td>${frontSkill.sp}</td>`;
+				html += `<td>${targetsText}</td>`;
 				html += `<td>${getMultiplierText(frontSkill, 'damage')}</td>`;
 				html += `<td>${getMultiplierText(frontSkill, 'recovery')}</td>`;
 				html += `<td>${getMultiplierText(frontSkill, 'patk')}</td>`;
@@ -337,7 +383,7 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 				html += `<td>${getMultiplierText(frontSkill, 'pdef')}</td>`;
 				html += `<td>${getMultiplierText(frontSkill, 'mdef')}</td>`;
 			} else {
-				html += `<td colspan="8">undef</td>`;
+				html += `<td colspan="9">undef</td>`;
 			}
 
 			if (isDebug) {
@@ -416,6 +462,10 @@ function showCurrentView(db) {
 			};
 			asyncLoadDatamineJson(version, cardMstListName, onLoadedCards);
 			asyncLoadDatamineJson(version, "skill_mst_list", onLoadedCards);
+			// JP skill multipliers (origin of values in Blue's sheets):
+			//   https://script.google.com/macros/s/AKfycbzz_h3lGLUPMsSSfwvPZYQrj7r0cR2j0rdQ0YI7lC0prXc5Yrnj2ag9rrm_iPG-ZYfu/exec?callback=jsondata&_=1637531292144
+			// TODO: Use these as source if possible. Requires checking whether skillMstId matches between
+			// EN and JP or creating translation table of skill names (which kinda defeats the purpose).
 			asyncLoadJson(
 				"https://script.google.com/macros/s/AKfycbz9EJA6OVAidLavVaP1GhDaTYaj-4hPE0K7YCbwaZZBrcG6SVKabKqTAsEkSrArTI8/exec",
 				"skill_multipliers",
