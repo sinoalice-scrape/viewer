@@ -35,6 +35,7 @@ function viewClasses(db, isDebug) {
 	}
 
 	let totalStats = [0, 0, 0, 0, 0, 0, 0];
+	const skillType_names = ["", "Common", "Class", "Support", "Support"];
 
 	let html = "<h1>Units (character/class)</h1>";
 	for (let k in characters) {
@@ -55,6 +56,7 @@ function viewClasses(db, isDebug) {
 		if (isDebug) {
 			html += '<th>id</th>';
 			html += '<th>releaseLevel</th>';
+			html += '<th>skillType_name</th>';
 			html += '<th>name</th>';
 			html += '<th>skillType</th>';
 			html += '<th>effectType</th>';
@@ -62,6 +64,7 @@ function viewClasses(db, isDebug) {
 			html += '<th>cardDetailType</th>';
 		} else {
 			html += '<th>level</th>';
+			html += '<th>type</th>';
 			html += '<th>effect</th>';
 		}
 		html += '</tr>';
@@ -72,6 +75,7 @@ function viewClasses(db, isDebug) {
 				html += `<td>${skill.characterAbilityMstId}</td>`;
 			}
 			html += `<td>${skill.releaseLevel}</td>`;
+			html += `<td>${skillType_names[skill.skillType]}</td>`;
 			html += `<td>${skill.name}</td>`;
 			if (isDebug) {
 				html += `<td>${skill.skillType}</td>`;
