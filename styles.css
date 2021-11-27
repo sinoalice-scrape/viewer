@@ -1,7 +1,3 @@
-body {
-	margin: 8px;
-}
-
 table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
@@ -11,19 +7,3 @@ table, th, td {
 	padding-bottom: 2px;
 	margin: 5px;
 }
-
-/*@media screen and (min-width: 700px) {*/
-	#menu {
-		position: fixed;
-		padding: 8px;
-		width: 100%;
-		height: 20px;
-		top: 0px;
-		left: 0px;
-		background-color: lightblue;
-	}
-
-	#content {
-		margin-top: 36px;
-	}
-/*}*/
