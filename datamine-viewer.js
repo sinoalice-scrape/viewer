@@ -192,20 +192,24 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 		let mult = skill_multipliers[i];
 		let skill = skills[mult.skillMstId];
 		skill.mult = mult;
-		if (skill.rangeIcon == 1) {
-			skill.mult.base.targetsMin = 1;
-			skill.mult.base.targetsMax = 1;
-		} else if (skill.rangeIcon == 3) {
-			const regex = /(\d) (?:ally|allies|enemies)/;
-			let match = regex.exec(skill.description);
-			let targetCount = match[1]|0;
-			skill.mult.base.targetsMin = targetCount;
-			skill.mult.base.targetsMax = targetCount;
-		} else if (skill.rangeIcon == 2) {
-			const regex = /(\d) (?:to|or) (\d)/;
-			let match = regex.exec(skill.description);
-			skill.mult.base.targetsMin = match[1]|0;
-			skill.mult.base.targetsMax = match[2]|0;
+
+		// TODO: Support JP skills.
+		if (version == "EN") {
+			if (skill.rangeIcon == 1) {
+				skill.mult.base.targetsMin = 1;
+				skill.mult.base.targetsMax = 1;
+			} else if (skill.rangeIcon == 3) {
+				const regex = /(\d) (?:ally|allies|enemies)/;
+				let match = regex.exec(skill.description);
+				let targetCount = match[1]|0;
+				skill.mult.base.targetsMin = targetCount;
+				skill.mult.base.targetsMax = targetCount;
+			} else if (skill.rangeIcon == 2) {
+				const regex = /(\d) (?:to|or) (\d)/;
+				let match = regex.exec(skill.description);
+				skill.mult.base.targetsMin = match[1]|0;
+				skill.mult.base.targetsMax = match[2]|0;
+			}
 		}
 	}
 
@@ -349,7 +353,7 @@ function viewWeapons(version, db, isDebug, cardMstListName) {
 			}
 			if (frontSkill) {
 				let targetsText = "";
-				if (frontSkill.mult) {
+				if (version == "EN" && frontSkill.mult) {
 					let baseTargetsMin = frontSkill.mult.base.targetsMin;
 					let baseTargetsMax = frontSkill.mult.base.targetsMax;
 					let altTargetsMin = baseTargetsMin;
