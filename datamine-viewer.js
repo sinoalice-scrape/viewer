@@ -15,32 +15,37 @@ function viewClasses(db, isDebug) {
 	let character_mst_list         = db.json.character_mst_list;
 	let character_ability_mst_list = db.json.character_ability_mst_list;
 
-	db.index.characters = {};
+	db.index.characters = new Map();
 
 	let characters = db.index.characters;
 
 	// Build indices.
 	for (let i = 0; i < character_mst_list.length; i++) {
 		let character_mst = character_mst_list[i];
-		characters[character_mst.characterMstId] = {
+		characters.set(character_mst.characterMstId, {
 			mst: character_mst,
 			skills: [],
-		};
+		});
 	}
 
 	for (let i = 0; i < character_ability_mst_list.length; i++) {
 		let character_ability_mst = character_ability_mst_list[i];
-		let c = characters[character_ability_mst.characterMstId];
+		let c = characters.get(character_ability_mst.characterMstId);
 		c.skills.push(character_ability_mst);
 	}
 
 	let totalStats = [0, 0, 0, 0, 0, 0, 0];
 	const skillType_names = ["", "Common", "Class", "Support", "Support"];
 
-	let html = "<h1>Units (character/class)</h1>";
-	for (let k in characters) {
-		let v = characters[k];
-		html += `<section><h2>${v.mst.name}</h2>`;
+	let heading = "<h1>Units (character/class)</h1>";
+
+	let unitSections = ""
+	for (const [k, v] of characters) {
+		unitSections += `<section><h2>${v.mst.name}</h2>`;
+		if (v.mst.displayStartTime) {
+			const date = new Date(v.mst.displayStartTime * 1000);
+			unitSections += `<p>Display start time: ${date.toISOString()}</p>`;
+		}
 
 		// 1: hp, 2: patk, 3: pdef, 4: matk, 5: mdef, 6: weapon, 7: cost
 		let stats = {
@@ -52,38 +57,38 @@ function viewClasses(db, isDebug) {
 			arcana5: [0, 0, 0, 0, 0, 0, 0],
 		};
 
-		html += '<table><tr>';
+		unitSections += '<table><tr>';
 		if (isDebug) {
-			html += '<th>id</th>';
-			html += '<th>releaseLevel</th>';
-			html += '<th>skillType_name</th>';
-			html += '<th>name</th>';
-			html += '<th>skillType</th>';
-			html += '<th>effectType</th>';
-			html += '<th>effectValue</th>';
-			html += '<th>cardDetailType</th>';
+			unitSections += '<th>id</th>';
+			unitSections += '<th>releaseLevel</th>';
+			unitSections += '<th>skillType_name</th>';
+			unitSections += '<th>name</th>';
+			unitSections += '<th>skillType</th>';
+			unitSections += '<th>effectType</th>';
+			unitSections += '<th>effectValue</th>';
+			unitSections += '<th>cardDetailType</th>';
 		} else {
-			html += '<th>level</th>';
-			html += '<th>type</th>';
-			html += '<th>effect</th>';
+			unitSections += '<th>level</th>';
+			unitSections += '<th>type</th>';
+			unitSections += '<th>effect</th>';
 		}
-		html += '</tr>';
+		unitSections += '</tr>';
 		for (let i = 0; i < v.skills.length; i++) {
 			let skill = v.skills[i];
-			html += '<tr>';
+			unitSections += '<tr>';
 			if (isDebug) {
-				html += `<td>${skill.characterAbilityMstId}</td>`;
+				unitSections += `<td>${skill.characterAbilityMstId}</td>`;
 			}
-			html += `<td>${skill.releaseLevel}</td>`;
-			html += `<td>${skillType_names[skill.skillType]}</td>`;
-			html += `<td>${skill.name}</td>`;
+			unitSections += `<td>${skill.releaseLevel}</td>`;
+			unitSections += `<td>${skillType_names[skill.skillType]}</td>`;
+			unitSections += `<td>${skill.name}</td>`;
 			if (isDebug) {
-				html += `<td>${skill.skillType}</td>`;
-				html += `<td>${skill.effectType}</td>`;
-				html += `<td>${skill.effectValue}</td>`;
-				html += `<td>${skill.cardDetailType}</td>`;
+				unitSections += `<td>${skill.skillType}</td>`;
+				unitSections += `<td>${skill.effectType}</td>`;
+				unitSections += `<td>${skill.effectValue}</td>`;
+				unitSections += `<td>${skill.cardDetailType}</td>`;
 			}
-			html += '</tr>';
+			unitSections += '</tr>';
 			if (skill.skillType == 1 || skill.skillType == 2) {
 				let unlock = null;
 				if (skill.releaseLevel <= 10) {
@@ -103,48 +108,50 @@ function viewClasses(db, isDebug) {
 				totalStats[skill.effectType - 1] += skill.effectValue;
 			}
 		}
-		html += '</table>';
+		unitSections += '</table>';
 
-		html += '<table><tr>';
-		html += '<th>unlock</th>';
-		html += '<th>HP</th>';
-		html += '<th>patk</th>';
-		html += '<th>pdef</th>';
-		html += '<th>matk</th>';
-		html += '<th>mdef</th>';
-		html += '<th>cost</th>';
-		html += '</tr>';
+		unitSections += '<table><tr>';
+		unitSections += '<th>unlock</th>';
+		unitSections += '<th>HP</th>';
+		unitSections += '<th>patk</th>';
+		unitSections += '<th>pdef</th>';
+		unitSections += '<th>matk</th>';
+		unitSections += '<th>mdef</th>';
+		unitSections += '<th>cost</th>';
+		unitSections += '</tr>';
 
 		for (let k in stats) {
 			let unlock = stats[k];
-			html += '<tr>';
-			html += `<td>${k}</td>`;
+			unitSections += '<tr>';
+			unitSections += `<td>${k}</td>`;
 			for (let i = 0; i < unlock.length; i++) {
 				if (i == 5) continue;
 				if (unlock[i] != 0) {
-					html += `<td>${unlock[i]}</td>`;
+					unitSections += `<td>${unlock[i]}</td>`;
 				} else {
-					html += '<td></td>';
+					unitSections += '<td></td>';
 				}
 			}
-			html += '</tr>';
+			unitSections += '</tr>';
 		}
-		html += '</table>';
+		unitSections += '</table>';
 
-		html += '</section>';
+		unitSections += '</section>';
 	}
 
-	html += '<h2>Total stats</h2><ul>';
-	html += `<li>HP: ${totalStats[0]}</li>`;
-	html += `<li>patk: ${totalStats[1]}</li>`;
-	html += `<li>pdef: ${totalStats[2]}</li>`;
-	html += `<li>matk: ${totalStats[3]}</li>`;
-	html += `<li>mdef: ${totalStats[4]}</li>`;
-	html += `<li>cost: ${totalStats[6]}</li>`;
-	html += '</ul>';
+	let totalStatsSection = "";
+	totalStatsSection += '<section><h2>Total stats</h2><ul>';
+	totalStatsSection += `<li>Number of units: ${characters.size}</li>`;
+	totalStatsSection += `<li>HP: ${totalStats[0]}</li>`;
+	totalStatsSection += `<li>patk: ${totalStats[1]}</li>`;
+	totalStatsSection += `<li>pdef: ${totalStats[2]}</li>`;
+	totalStatsSection += `<li>matk: ${totalStats[3]}</li>`;
+	totalStatsSection += `<li>mdef: ${totalStats[4]}</li>`;
+	totalStatsSection += `<li>cost: ${totalStats[6]}</li>`;
+	totalStatsSection += '</ul></section>';
 
 	let content = document.getElementById("content");
-	content.innerHTML = html;
+	content.innerHTML = heading + totalStatsSection + unitSections;
 }
 
 function viewWeapons(version, db, isDebug, cardMstListName) {
