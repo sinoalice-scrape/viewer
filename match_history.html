@@ -10,7 +10,7 @@
 		<script>
 
 let repo_datamine = "sinoalice-datamine/data/master/EN";
-let repo_public_tools = "krolli/sino-tools-public/main";
+let repo_public_scrape = "sinoalice-scrape/viewer/main";
 let db = {
 	json: {
 		loadingCount: 0,
@@ -49,7 +49,7 @@ function onLoadingDone(db) {
 	if (remaining > 0)
 		return;
 
-	let match_history = db.json.match_history_Melesie;
+	let match_history = db.json.match_history;
 	let shinma_table = db.json.ultimate_art_method_mst_list;
 
 	db.index.shinma_skills = {};
@@ -111,9 +111,12 @@ function onLoadingDone(db) {
 	body[0].innerHTML = html;
 }
 
-function asyncLoadJson(repo, name) {
+function asyncLoadJson(repo, name, fileName) {
+	if (!fileName)
+		fileName = name;
+
 	db.json.loadingCount++;
-	loadJSON(`https://raw.githubusercontent.com/${repo}/${name}.json`, function(response) {
+	loadJSON(`https://raw.githubusercontent.com/${repo}/${fileName}.json`, function(response) {
 		db.json[name] = JSON.parse(response);
 		onLoadingDone(db);
 	})
@@ -132,7 +135,7 @@ function loadJSON(path, callback) {
 }
 
 window.addEventListener('load', function() {
-	asyncLoadJson(repo_public_tools, "match_history_Melesie");
+	asyncLoadJson(repo_public_scrape, "match_history", "match_history_Melesie");
 	asyncLoadJson(repo_datamine, "ultimate_art_method_mst_list");
 });
 		</script>
