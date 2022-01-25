@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Match history (Daydreamer)</title>
+		<title>Match history</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
@@ -59,6 +59,8 @@ function onLoadingDone(db) {
 		shinma_skills[shinma_mst.ultimateArtMethodMstId] = shinma_mst;
 	}
 
+	let guild_a_name = match_history.items[0].guild_a_name;
+
 	let html = "<h1>Match history</h1>";
 	html += '<table><tr>';
 	html += '<th>Date</th>';
@@ -66,11 +68,11 @@ function onLoadingDone(db) {
 	html += '<th>Result</th>';
 	html += '<th>Enemy Guild</th>';
 	html += '<th>Guild ID</th>';
-	html += '<th>Daydreamer (Lifeforce)</th>';
+	html += `<th>${guild_a_name} (Lifeforce)</th>`;
 	html += '<th>Enemy Guild (Lifeforce)</th>';
-	html += '<th>Daydreamer (Combo)</th>';
+	html += `<th>${guild_a_name} (Combo)</th>`;
 	html += '<th>Enemy Guild (Combo)</th>';
-	html += '<th>Daydreamer (Ship)</th>';
+	html += `<th>${guild_a_name} (Ship)</th>`;
 	html += '<th>Enemy Guild (Ship)</th>';
 	html += '<th>1st Shinma</th>';
 	html += '<th>Tally</th>';
@@ -135,7 +137,18 @@ function loadJSON(path, callback) {
 }
 
 window.addEventListener('load', function() {
-	asyncLoadJson(repo_public_scrape, "match_history", "match_history_Melesie");
+	let params = new URLSearchParams(document.location.search);
+	let char = params.get("character").toLowerCase();
+	switch (char) {
+		case "melesie":
+			asyncLoadJson(repo_public_scrape, "match_history", "match_history_Melesie");
+			break;
+		case "ludmila":
+			asyncLoadJson(repo_public_scrape, "match_history", "match_history_Ludmila");
+			break;
+		default:
+			return;
+	}
 	asyncLoadJson(repo_datamine, "ultimate_art_method_mst_list");
 });
 		</script>
