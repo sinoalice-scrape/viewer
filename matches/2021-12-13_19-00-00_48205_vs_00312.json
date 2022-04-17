@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 203,
+      "battleStartTime": 1639422000,
+      "battleEndTime": 1639423199,
+      "gvgDataId": 2536207,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 780810,
+      "selfComboCount": 1500,
+      "selfSiegeWinCount": 1,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 312,
+      "enemyGuildName": "Gateway",
+      "enemyTotalGuildPoint": 6489368,
+      "enemyComboCount": 1816,
+      "enemySiegeWinCount": 10,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 708751,
+      "enemyRankUserId": 355663020,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Sybil",
+      "enemyRankGuildPoint": 1089121,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 708751,
+            "valueB": 1089121,
+            "userIdA": 489820080,
+            "userIdB": 355663020,
+            "nameA": "Poetic0",
+            "nameB": "Sybil"
+          },
+          {
+            "rank": 2,
+            "valueA": 649548,
+            "valueB": 1021412,
+            "userIdA": 528967104,
+            "userIdB": 507242833,
+            "nameA": "Guider",
+            "nameB": "Lunabi"
+          },
+          {
+            "rank": 3,
+            "valueA": 639495,
+            "valueB": 994357,
+            "userIdA": 897796188,
+            "userIdB": 397753343,
+            "nameA": "GiGi",
+            "nameB": "Detlik"
+          },
+          {
+            "rank": 4,
+            "valueA": 431010,
+            "valueB": 797840,
+            "userIdA": 311155260,
+            "userIdB": 186344313,
+            "nameA": "Tamuko",
+            "nameB": "Lolabutt"
+          },
+          {
+            "rank": 5,
+            "valueA": 210875,
+            "valueB": 637342,
+            "userIdA": 658397897,
+            "userIdB": 304774620,
+            "nameA": "Juddy",
+            "nameB": "Ryuli"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 17630889,
+            "valueB": 17578100,
+            "userIdA": 335076343,
+            "userIdB": 535816816,
+            "nameA": "Melesie",
+            "nameB": "Rufus"
+          },
+          {
+            "rank": 2,
+            "valueA": 16909347,
+            "valueB": 12836710,
+            "userIdA": 237959838,
+            "userIdB": 973413039,
+            "nameA": "Nheksh",
+            "nameB": "TokiDoki"
+          },
+          {
+            "rank": 3,
+            "valueA": 11639982,
+            "valueB": 11653126,
+            "userIdA": 595872065,
+            "userIdB": 221033992,
+            "nameA": "Fuyune<3",
+            "nameB": "Cnny"
+          },
+          {
+            "rank": 4,
+            "valueA": 635756,
+            "valueB": 141180,
+            "userIdA": 252654652,
+            "userIdB": 355663020,
+            "nameA": "Xameria",
+            "nameB": "Sybil"
+          },
+          {
+            "rank": 5,
+            "valueA": 394808,
+            "valueB": 132609,
+            "userIdA": 898672025,
+            "userIdB": 186344313,
+            "nameA": "colonel",
+            "nameB": "Lolabutt"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2235052,
+            "valueB": 1645956,
+            "userIdA": 842372146,
+            "userIdB": 877350667,
+            "nameA": "Zircat",
+            "nameB": "ShiroTk"
+          },
+          {
+            "rank": 2,
+            "valueA": 1361791,
+            "valueB": 1497636,
+            "userIdA": 252654652,
+            "userIdB": 404745864,
+            "nameA": "Xameria",
+            "nameB": "Kawakami"
+          },
+          {
+            "rank": 3,
+            "valueA": 1083226,
+            "valueB": 921957,
+            "userIdA": 898672025,
+            "userIdB": 343666332,
+            "nameA": "colonel",
+            "nameB": "NekoEve"
+          },
+          {
+            "rank": 4,
+            "valueA": 461868,
+            "valueB": 418729,
+            "userIdA": 594178109,
+            "userIdB": 724777973,
+            "nameA": "Jeanne",
+            "nameB": "Ryuu"
+          },
+          {
+            "rank": 5,
+            "valueA": 199704,
+            "valueB": 296641,
+            "userIdA": 237959838,
+            "userIdB": 987519240,
+            "nameA": "Nheksh",
+            "nameB": "Caitlin"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1727316,
+            "valueB": 2419055,
+            "userIdA": 842372146,
+            "userIdB": 404745864,
+            "nameA": "Zircat",
+            "nameB": "Kawakami"
+          },
+          {
+            "rank": 2,
+            "valueA": 1306061,
+            "valueB": 2098114,
+            "userIdA": 252654652,
+            "userIdB": 877350667,
+            "nameA": "Xameria",
+            "nameB": "ShiroTk"
+          },
+          {
+            "rank": 3,
+            "valueA": 1193224,
+            "valueB": 1672968,
+            "userIdA": 898672025,
+            "userIdB": 343666332,
+            "nameA": "colonel",
+            "nameB": "NekoEve"
+          },
+          {
+            "rank": 4,
+            "valueA": 715721,
+            "valueB": 534133,
+            "userIdA": 594178109,
+            "userIdB": 987519240,
+            "nameA": "Jeanne",
+            "nameB": "Caitlin"
+          },
+          {
+            "rank": 5,
+            "valueA": 352664,
+            "valueB": 248342,
+            "userIdA": 237959838,
+            "userIdB": 535816816,
+            "nameA": "Nheksh",
+            "nameB": "Rufus"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1675456,
+            "valueB": 1998638,
+            "userIdA": 594178109,
+            "userIdB": 102600103,
+            "nameA": "Jeanne",
+            "nameB": "Hap21"
+          },
+          {
+            "rank": 2,
+            "valueA": 1537139,
+            "valueB": 1675248,
+            "userIdA": 590008353,
+            "userIdB": 724777973,
+            "nameA": "Fintz",
+            "nameB": "Ryuu"
+          },
+          {
+            "rank": 3,
+            "valueA": 665224,
+            "valueB": 1634350,
+            "userIdA": 580947666,
+            "userIdB": 431686622,
+            "nameA": "MeanRin",
+            "nameB": "lilzabub"
+          },
+          {
+            "rank": 4,
+            "valueA": 384669,
+            "valueB": 1577661,
+            "userIdA": 842372146,
+            "userIdB": 987519240,
+            "nameA": "Zircat",
+            "nameB": "Caitlin"
+          },
+          {
+            "rank": 5,
+            "valueA": 262962,
+            "valueB": 122001,
+            "userIdA": 252654652,
+            "userIdB": 397753343,
+            "nameA": "Xameria",
+            "nameB": "Detlik"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2952675,
+            "valueB": 2306711,
+            "userIdA": 590008353,
+            "userIdB": 724777973,
+            "nameA": "Fintz",
+            "nameB": "Ryuu"
+          },
+          {
+            "rank": 2,
+            "valueA": 2009856,
+            "valueB": 2020088,
+            "userIdA": 594178109,
+            "userIdB": 102600103,
+            "nameA": "Jeanne",
+            "nameB": "Hap21"
+          },
+          {
+            "rank": 3,
+            "valueA": 1713439,
+            "valueB": 1561436,
+            "userIdA": 580947666,
+            "userIdB": 431686622,
+            "nameA": "MeanRin",
+            "nameB": "lilzabub"
+          },
+          {
+            "rank": 4,
+            "valueA": 490672,
+            "valueB": 1341670,
+            "userIdA": 557593123,
+            "userIdB": 987519240,
+            "nameA": "Derpy",
+            "nameB": "Caitlin"
+          },
+          {
+            "rank": 5,
+            "valueA": 371037,
+            "valueB": 201232,
+            "userIdA": 252654652,
+            "userIdB": 186344313,
+            "nameA": "Xameria",
+            "nameB": "Lolabutt"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 283,
+            "valueB": 278,
+            "userIdA": 489820080,
+            "userIdB": 355663020,
+            "nameA": "Poetic0",
+            "nameB": "Sybil"
+          },
+          {
+            "rank": 2,
+            "valueA": 223,
+            "valueB": 276,
+            "userIdA": 528967104,
+            "userIdB": 397753343,
+            "nameA": "Guider",
+            "nameB": "Detlik"
+          },
+          {
+            "rank": 3,
+            "valueA": 162,
+            "valueB": 266,
+            "userIdA": 658397897,
+            "userIdB": 507242833,
+            "nameA": "Juddy",
+            "nameB": "Lunabi"
+          },
+          {
+            "rank": 4,
+            "valueA": 144,
+            "valueB": 248,
+            "userIdA": 237959838,
+            "userIdB": 186344313,
+            "nameA": "Nheksh",
+            "nameB": "Lolabutt"
+          },
+          {
+            "rank": 5,
+            "valueA": 135,
+            "valueB": 211,
+            "userIdA": 897796188,
+            "userIdB": 304774620,
+            "nameA": "GiGi",
+            "nameB": "Ryuli"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2536207,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 75,
+          "guildBCount": 65
+        },
+        {
+          "artMstId": 29,
+          "ultimateArtMethodMstId": 29,
+          "guildACount": 63,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 203,
+    "gvgDataId": 2536207,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 312,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Gateway",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 103,
+        "level": 191,
+        "totalPower": 256134,
+        "maxHp": 60053
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 235,
+        "level": 200,
+        "totalPower": 251541,
+        "maxHp": 63205
+      },
+      {
+        "userId": 897796188,
+        "name": "GiGi",
+        "characterMstId": 48,
+        "level": 205,
+        "totalPower": 272383,
+        "maxHp": 69015
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 48,
+        "level": 208,
+        "totalPower": 257730,
+        "maxHp": 64276
+      },
+      {
+        "userId": 528967104,
+        "name": "Guider",
+        "characterMstId": 48,
+        "level": 195,
+        "totalPower": 247865,
+        "maxHp": 58695
+      },
+      {
+        "userId": 842372146,
+        "name": "Zircat",
+        "characterMstId": 137,
+        "level": 202,
+        "totalPower": 259810,
+        "maxHp": 68622
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 94,
+        "level": 189,
+        "totalPower": 229493,
+        "maxHp": 56784
+      },
+      {
+        "userId": 898672025,
+        "name": "colonel",
+        "characterMstId": 114,
+        "level": 189,
+        "totalPower": 214111,
+        "maxHp": 51934
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 561,
+        "level": 208,
+        "totalPower": 269323,
+        "maxHp": 62026
+      },
+      {
+        "userId": 590008353,
+        "name": "Fintz",
+        "characterMstId": 93,
+        "level": 203,
+        "totalPower": 248628,
+        "maxHp": 65851
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 93,
+        "level": 199,
+        "totalPower": 230610,
+        "maxHp": 60942
+      },
+      {
+        "userId": 557593123,
+        "name": "Derpy",
+        "characterMstId": 520,
+        "level": 154,
+        "totalPower": 218776,
+        "maxHp": 47345
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 85,
+        "level": 204,
+        "totalPower": 321528,
+        "maxHp": 82982
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 219,
+        "totalPower": 271987,
+        "maxHp": 72516
+      },
+      {
+        "userId": 595872065,
+        "name": "Fuyune<3",
+        "characterMstId": 85,
+        "level": 195,
+        "totalPower": 236323,
+        "maxHp": 57445
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 397753343,
+        "name": "Detlik",
+        "characterMstId": 103,
+        "level": 202,
+        "totalPower": 269158,
+        "maxHp": 65722
+      },
+      {
+        "userId": 355663020,
+        "name": "Sybil",
+        "characterMstId": 103,
+        "level": 206,
+        "totalPower": 267747,
+        "maxHp": 63500
+      },
+      {
+        "userId": 507242833,
+        "name": "Lunabi",
+        "characterMstId": 103,
+        "level": 195,
+        "totalPower": 260592,
+        "maxHp": 63145
+      },
+      {
+        "userId": 304774620,
+        "name": "Ryuli",
+        "characterMstId": 48,
+        "level": 201,
+        "totalPower": 267153,
+        "maxHp": 62895
+      },
+      {
+        "userId": 186344313,
+        "name": "Lolabutt",
+        "characterMstId": 48,
+        "level": 204,
+        "totalPower": 267139,
+        "maxHp": 63682
+      },
+      {
+        "userId": 404745864,
+        "name": "Kawakami",
+        "characterMstId": 114,
+        "level": 199,
+        "totalPower": 271440,
+        "maxHp": 61092
+      },
+      {
+        "userId": 877350667,
+        "name": "ShiroTk",
+        "characterMstId": 114,
+        "level": 195,
+        "totalPower": 252321,
+        "maxHp": 58245
+      },
+      {
+        "userId": 343666332,
+        "name": "NekoEve",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 248330,
+        "maxHp": 62155
+      },
+      {
+        "userId": 102600103,
+        "name": "Hap21",
+        "characterMstId": 93,
+        "level": 199,
+        "totalPower": 277314,
+        "maxHp": 59392
+      },
+      {
+        "userId": 724777973,
+        "name": "Ryuu",
+        "characterMstId": 93,
+        "level": 208,
+        "totalPower": 267545,
+        "maxHp": 63176
+      },
+      {
+        "userId": 987519240,
+        "name": "Caitlin",
+        "characterMstId": 561,
+        "level": 188,
+        "totalPower": 242336,
+        "maxHp": 61525
+      },
+      {
+        "userId": 431686622,
+        "name": "lilzabub",
+        "characterMstId": 93,
+        "level": 192,
+        "totalPower": 236886,
+        "maxHp": 52313
+      },
+      {
+        "userId": 535816816,
+        "name": "Rufus",
+        "characterMstId": 85,
+        "level": 205,
+        "totalPower": 280008,
+        "maxHp": 66015
+      },
+      {
+        "userId": 221033992,
+        "name": "Cnny",
+        "characterMstId": 85,
+        "level": 202,
+        "totalPower": 268246,
+        "maxHp": 65422
+      },
+      {
+        "userId": 973413039,
+        "name": "TokiDoki",
+        "characterMstId": 85,
+        "level": 192,
+        "totalPower": 261661,
+        "maxHp": 61563
+      }
+    ]
+  }
+}

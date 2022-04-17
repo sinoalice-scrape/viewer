@@ -1,0 +1,191 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 505,
+      "battleStartTime": 1636059600,
+      "battleEndTime": 1636060799,
+      "gvgDataId": 2442400,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 63009,
+      "selfGuildName": "Donbo",
+      "selfTotalGuildPoint": 0,
+      "selfComboCount": 0,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 40386,
+      "enemyGuildName": "JustMe",
+      "enemyTotalGuildPoint": 0,
+      "enemyComboCount": 0,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 607502937,
+      "selfRankNum": 1,
+      "selfRankUserName": "Astra",
+      "selfRankGuildPoint": 0,
+      "enemyRankUserId": 662580638,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Syre",
+      "enemyRankGuildPoint": 0,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 124
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 607502937,
+            "userIdB": 662580638,
+            "nameA": "Astra",
+            "nameB": "Syre"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2442400,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 31,
+          "ultimateArtMethodMstId": 31,
+          "guildACount": 0,
+          "guildBCount": 0
+        },
+        {
+          "artMstId": 7,
+          "ultimateArtMethodMstId": 7,
+          "guildACount": 0,
+          "guildBCount": 0
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 505,
+    "gvgDataId": 2442400,
+    "guildDataIdA": 63009,
+    "guildDataIdB": 40386,
+    "guildDataNameA": "Donbo",
+    "guildDataNameB": "JustMe",
+    "guildDataLevelA": 1,
+    "guildDataLevelB": 4,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 8,
+        "totalPower": 5556,
+        "maxHp": 1000
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 662580638,
+        "name": "Syre",
+        "characterMstId": 38,
+        "level": 27,
+        "totalPower": 17616,
+        "maxHp": 3815
+      }
+    ]
+  }
+}

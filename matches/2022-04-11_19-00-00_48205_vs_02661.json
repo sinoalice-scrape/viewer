@@ -1,0 +1,651 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 203,
+      "battleStartTime": 1649703600,
+      "battleEndTime": 1649704799,
+      "gvgDataId": 2797785,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 2866626,
+      "selfComboCount": 1871,
+      "selfSiegeWinCount": 15,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 2661,
+      "enemyGuildName": "gaydoris",
+      "enemyTotalGuildPoint": 48658,
+      "enemyComboCount": 646,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 942994,
+      "enemyRankUserId": 686411006,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Madjyx",
+      "enemyRankGuildPoint": 109715,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 942994,
+            "valueB": 109715,
+            "userIdA": 489820080,
+            "userIdB": 686411006,
+            "nameA": "Poetic0",
+            "nameB": "Madjyx"
+          },
+          {
+            "rank": 2,
+            "valueA": 826140,
+            "valueB": 63497,
+            "userIdA": 311155260,
+            "userIdB": 549409338,
+            "nameA": "Tamuko",
+            "nameB": "-.-"
+          },
+          {
+            "rank": 3,
+            "valueA": 386346,
+            "valueB": 33434,
+            "userIdA": 528967104,
+            "userIdB": 590115183,
+            "nameA": "Guider",
+            "nameB": "Salemlight"
+          },
+          {
+            "rank": 4,
+            "valueA": 180096,
+            "valueB": 26494,
+            "userIdA": 658397897,
+            "userIdB": 495502166,
+            "nameA": "Juddy",
+            "nameB": "acerola"
+          },
+          {
+            "rank": 5,
+            "valueA": 121259,
+            "valueB": 18802,
+            "userIdA": 897796188,
+            "userIdB": 522523890,
+            "nameA": "GiGi",
+            "nameB": "Douz94"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 23244871,
+            "valueB": 4679422,
+            "userIdA": 237959838,
+            "userIdB": 187501230,
+            "nameA": "Nheksh",
+            "nameB": "Ruby"
+          },
+          {
+            "rank": 2,
+            "valueA": 18918869,
+            "valueB": 532538,
+            "userIdA": 112665300,
+            "userIdB": 495502166,
+            "nameA": "ilyas",
+            "nameB": "acerola"
+          },
+          {
+            "rank": 3,
+            "valueA": 398255,
+            "valueB": 473051,
+            "userIdA": 519350497,
+            "userIdB": 686411006,
+            "nameA": "Andy",
+            "nameB": "Madjyx"
+          },
+          {
+            "rank": 4,
+            "valueA": 126487,
+            "valueB": 470315,
+            "userIdA": 489820080,
+            "userIdB": 210062778,
+            "nameA": "Poetic0",
+            "nameB": "fruit"
+          },
+          {
+            "rank": 5,
+            "valueA": 79251,
+            "valueB": 467876,
+            "userIdA": 311155260,
+            "userIdB": 228172927,
+            "nameA": "Tamuko",
+            "nameB": "Gudako"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 465804,
+            "valueB": 572320,
+            "userIdA": 884034009,
+            "userIdB": 782999851,
+            "nameA": "Cheshipuss",
+            "nameB": "Nadeko"
+          },
+          {
+            "rank": 2,
+            "valueA": 336299,
+            "valueB": 396128,
+            "userIdA": 252654652,
+            "userIdB": 652776256,
+            "nameA": "Xameria",
+            "nameB": "alevser"
+          },
+          {
+            "rank": 3,
+            "valueA": 246665,
+            "valueB": 75647,
+            "userIdA": 519350497,
+            "userIdB": 187501230,
+            "nameA": "Andy",
+            "nameB": "Ruby"
+          },
+          {
+            "rank": 4,
+            "valueA": 71362,
+            "valueB": 70544,
+            "userIdA": 594178109,
+            "userIdB": 210062778,
+            "nameA": "Jeanne",
+            "nameB": "fruit"
+          },
+          {
+            "rank": 5,
+            "valueA": 60115,
+            "valueB": 40328,
+            "userIdA": 335076343,
+            "userIdB": 686411006,
+            "nameA": "Melesie",
+            "nameB": "Madjyx"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 235492,
+            "valueB": 404130,
+            "userIdA": 594178109,
+            "userIdB": 652776256,
+            "nameA": "Jeanne",
+            "nameB": "alevser"
+          },
+          {
+            "rank": 2,
+            "valueA": 225509,
+            "valueB": 295202,
+            "userIdA": 252654652,
+            "userIdB": 782999851,
+            "nameA": "Xameria",
+            "nameB": "Nadeko"
+          },
+          {
+            "rank": 3,
+            "valueA": 190293,
+            "valueB": 81638,
+            "userIdA": 112665300,
+            "userIdB": 210062778,
+            "nameA": "ilyas",
+            "nameB": "fruit"
+          },
+          {
+            "rank": 4,
+            "valueA": 142930,
+            "valueB": 63624,
+            "userIdA": 580947666,
+            "userIdB": 187501230,
+            "nameA": "MeanRin",
+            "nameB": "Ruby"
+          },
+          {
+            "rank": 5,
+            "valueA": 112484,
+            "valueB": 55410,
+            "userIdA": 237959838,
+            "userIdB": 549409338,
+            "nameA": "Nheksh",
+            "nameB": "-.-"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1266138,
+            "valueB": 76250,
+            "userIdA": 580947666,
+            "userIdB": 210062778,
+            "nameA": "MeanRin",
+            "nameB": "fruit"
+          },
+          {
+            "rank": 2,
+            "valueA": 145103,
+            "valueB": 73539,
+            "userIdA": 252654652,
+            "userIdB": 686411006,
+            "nameA": "Xameria",
+            "nameB": "Madjyx"
+          },
+          {
+            "rank": 3,
+            "valueA": 57987,
+            "valueB": 71323,
+            "userIdA": 897796188,
+            "userIdB": 507967463,
+            "nameA": "GiGi",
+            "nameB": "Heartlight"
+          },
+          {
+            "rank": 4,
+            "valueA": 53776,
+            "valueB": 19186,
+            "userIdA": 658397897,
+            "userIdB": 549409338,
+            "nameA": "Juddy",
+            "nameB": "-.-"
+          },
+          {
+            "rank": 5,
+            "valueA": 9174,
+            "valueB": 18928,
+            "userIdA": 311155260,
+            "userIdB": 228172927,
+            "nameA": "Tamuko",
+            "nameB": "Gudako"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1863607,
+            "valueB": 57581,
+            "userIdA": 904133218,
+            "userIdB": 228172927,
+            "nameA": "ヌードル",
+            "nameB": "Gudako"
+          },
+          {
+            "rank": 2,
+            "valueA": 1129622,
+            "valueB": 42558,
+            "userIdA": 594178109,
+            "userIdB": 507967463,
+            "nameA": "Jeanne",
+            "nameB": "Heartlight"
+          },
+          {
+            "rank": 3,
+            "valueA": 729761,
+            "valueB": 28521,
+            "userIdA": 335076343,
+            "userIdB": 686411006,
+            "nameA": "Melesie",
+            "nameB": "Madjyx"
+          },
+          {
+            "rank": 4,
+            "valueA": 296836,
+            "valueB": 22716,
+            "userIdA": 252654652,
+            "userIdB": 921470929,
+            "nameA": "Xameria",
+            "nameB": "bon"
+          },
+          {
+            "rank": 5,
+            "valueA": 115226,
+            "valueB": 21198,
+            "userIdA": 580947666,
+            "userIdB": 549409338,
+            "nameA": "MeanRin",
+            "nameB": "-.-"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 279,
+            "valueB": 157,
+            "userIdA": 311155260,
+            "userIdB": 686411006,
+            "nameA": "Tamuko",
+            "nameB": "Madjyx"
+          },
+          {
+            "rank": 2,
+            "valueA": 262,
+            "valueB": 108,
+            "userIdA": 489820080,
+            "userIdB": 495502166,
+            "nameA": "Poetic0",
+            "nameB": "acerola"
+          },
+          {
+            "rank": 3,
+            "valueA": 230,
+            "valueB": 91,
+            "userIdA": 528967104,
+            "userIdB": 151460410,
+            "nameA": "Guider",
+            "nameB": "alexi"
+          },
+          {
+            "rank": 4,
+            "valueA": 153,
+            "valueB": 89,
+            "userIdA": 658397897,
+            "userIdB": 522523890,
+            "nameA": "Juddy",
+            "nameB": "Douz94"
+          },
+          {
+            "rank": 5,
+            "valueA": 135,
+            "valueB": 78,
+            "userIdA": 237959838,
+            "userIdB": 590115183,
+            "nameA": "Nheksh",
+            "nameB": "Salemlight"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2797785,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 75,
+          "guildBCount": 43
+        },
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 75,
+          "guildBCount": 28
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 203,
+    "gvgDataId": 2797785,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 2661,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "gaydoris",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 2,
+    "guildMemberA": [
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 103,
+        "level": 203,
+        "totalPower": 294044,
+        "maxHp": 70801
+      },
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 126,
+        "level": 198,
+        "totalPower": 292650,
+        "maxHp": 66180
+      },
+      {
+        "userId": 897796188,
+        "name": "GiGi",
+        "characterMstId": 48,
+        "level": 207,
+        "totalPower": 291070,
+        "maxHp": 74737
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 139,
+        "level": 213,
+        "totalPower": 294113,
+        "maxHp": 71928
+      },
+      {
+        "userId": 528967104,
+        "name": "Guider",
+        "characterMstId": 64,
+        "level": 196,
+        "totalPower": 228156,
+        "maxHp": 61406
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 233,
+        "level": 198,
+        "totalPower": 273167,
+        "maxHp": 65230
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 130,
+        "level": 194,
+        "totalPower": 245394,
+        "maxHp": 58834
+      },
+      {
+        "userId": 884034009,
+        "name": "Cheshipuss",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 239474,
+        "maxHp": 50655
+      },
+      {
+        "userId": 662352178,
+        "name": "9Days",
+        "characterMstId": 93,
+        "level": 204,
+        "totalPower": 294600,
+        "maxHp": 67082
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 561,
+        "level": 215,
+        "totalPower": 288204,
+        "maxHp": 68327
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 444,
+        "level": 220,
+        "totalPower": 271009,
+        "maxHp": 79733
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 254,
+        "level": 201,
+        "totalPower": 258221,
+        "maxHp": 67445
+      },
+      {
+        "userId": 904133218,
+        "name": "ヌードル",
+        "characterMstId": 93,
+        "level": 207,
+        "totalPower": 232176,
+        "maxHp": 60187
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 85,
+        "level": 213,
+        "totalPower": 402562,
+        "maxHp": 99328
+      },
+      {
+        "userId": 112665300,
+        "name": "ilyas",
+        "characterMstId": 85,
+        "level": 204,
+        "totalPower": 313367,
+        "maxHp": 73182
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 549409338,
+        "name": "-.-",
+        "characterMstId": 103,
+        "level": 162,
+        "totalPower": 178781,
+        "maxHp": 43066
+      },
+      {
+        "userId": 151460410,
+        "name": "alexi",
+        "characterMstId": 575,
+        "level": 53,
+        "totalPower": 54791,
+        "maxHp": 7275
+      },
+      {
+        "userId": 686411006,
+        "name": "Madjyx",
+        "characterMstId": 154,
+        "level": 196,
+        "totalPower": 264394,
+        "maxHp": 66406
+      },
+      {
+        "userId": 590115183,
+        "name": "Salemlight",
+        "characterMstId": 1,
+        "level": 134,
+        "totalPower": 175757,
+        "maxHp": 36779
+      },
+      {
+        "userId": 522523890,
+        "name": "Douz94",
+        "characterMstId": 443,
+        "level": 114,
+        "totalPower": 160582,
+        "maxHp": 33498
+      },
+      {
+        "userId": 495502166,
+        "name": "acerola",
+        "characterMstId": 64,
+        "level": 195,
+        "totalPower": 250535,
+        "maxHp": 60245
+      },
+      {
+        "userId": 782999851,
+        "name": "Nadeko",
+        "characterMstId": 114,
+        "level": 175,
+        "totalPower": 218389,
+        "maxHp": 51540
+      },
+      {
+        "userId": 652776256,
+        "name": "alevser",
+        "characterMstId": 114,
+        "level": 127,
+        "totalPower": 165129,
+        "maxHp": 30925
+      },
+      {
+        "userId": 210062778,
+        "name": "fruit",
+        "characterMstId": 23,
+        "level": 103,
+        "totalPower": 122717,
+        "maxHp": 21414
+      },
+      {
+        "userId": 507967463,
+        "name": "Heartlight",
+        "characterMstId": 93,
+        "level": 102,
+        "totalPower": 78629,
+        "maxHp": 15729
+      },
+      {
+        "userId": 228172927,
+        "name": "Gudako",
+        "characterMstId": 67,
+        "level": 47,
+        "totalPower": 61665,
+        "maxHp": 7060
+      },
+      {
+        "userId": 187501230,
+        "name": "Ruby",
+        "characterMstId": 85,
+        "level": 193,
+        "totalPower": 222490,
+        "maxHp": 54523
+      },
+      {
+        "userId": 921470929,
+        "name": "bon",
+        "characterMstId": 291,
+        "level": 111,
+        "totalPower": 84197,
+        "maxHp": 18279
+      }
+    ]
+  }
+}

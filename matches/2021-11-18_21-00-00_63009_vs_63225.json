@@ -1,0 +1,191 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 505,
+      "battleStartTime": 1637269200,
+      "battleEndTime": 1637270399,
+      "gvgDataId": 2478591,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 63009,
+      "selfGuildName": "Donbo",
+      "selfTotalGuildPoint": 9,
+      "selfComboCount": 1,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 63225,
+      "enemyGuildName": "Daydream",
+      "enemyTotalGuildPoint": 47624,
+      "enemyComboCount": 1,
+      "enemySiegeWinCount": 8,
+      "selfRankUserId": 607502937,
+      "selfRankNum": 1,
+      "selfRankUserName": "Astra",
+      "selfRankGuildPoint": 27,
+      "enemyRankUserId": 995571604,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Nigthshade",
+      "enemyRankGuildPoint": 47606,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 27,
+            "valueB": 47606,
+            "userIdA": 607502937,
+            "userIdB": 995571604,
+            "nameA": "Astra",
+            "nameB": "Nigthshade"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 17000,
+            "valueB": 8630,
+            "userIdA": 607502937,
+            "userIdB": 995571604,
+            "nameA": "Astra",
+            "nameB": "Nigthshade"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 71,
+            "valueB": 1471,
+            "userIdA": 607502937,
+            "userIdB": 995571604,
+            "nameA": "Astra",
+            "nameB": "Nigthshade"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 1374,
+            "userIdA": 0,
+            "userIdB": 995571604,
+            "nameA": "",
+            "nameB": "Nigthshade"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1,
+            "valueB": 1,
+            "userIdA": 607502937,
+            "userIdB": 995571604,
+            "nameA": "Astra",
+            "nameB": "Nigthshade"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2478591,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 19,
+          "ultimateArtMethodMstId": 19,
+          "guildACount": 0,
+          "guildBCount": 1
+        },
+        {
+          "artMstId": 25,
+          "ultimateArtMethodMstId": 25,
+          "guildACount": 3,
+          "guildBCount": 2
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 505,
+    "gvgDataId": 2478591,
+    "guildDataIdA": 63009,
+    "guildDataIdB": 63225,
+    "guildDataNameA": "Donbo",
+    "guildDataNameB": "Daydream",
+    "guildDataLevelA": 1,
+    "guildDataLevelB": 7,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 8,
+        "totalPower": 5556,
+        "maxHp": 1000
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 995571604,
+        "name": "Nigthshade",
+        "characterMstId": 5,
+        "level": 111,
+        "totalPower": 80256,
+        "maxHp": 18879
+      }
+    ]
+  }
+}

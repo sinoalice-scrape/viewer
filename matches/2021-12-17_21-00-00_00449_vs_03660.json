@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 605,
+      "battleStartTime": 1639774800,
+      "battleEndTime": 1639775999,
+      "gvgDataId": 2545571,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 806304,
+      "selfComboCount": 1560,
+      "selfSiegeWinCount": 1,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 3660,
+      "enemyGuildName": "Phantasm",
+      "enemyTotalGuildPoint": 8948454,
+      "enemyComboCount": 1880,
+      "enemySiegeWinCount": 8,
+      "selfRankUserId": 934398383,
+      "selfRankNum": 1,
+      "selfRankUserName": "FrostBiTE",
+      "selfRankGuildPoint": 818533,
+      "enemyRankUserId": 689330178,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "orgamado",
+      "enemyRankGuildPoint": 1700385,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 380
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 818533,
+            "valueB": 1700385,
+            "userIdA": 934398383,
+            "userIdB": 689330178,
+            "nameA": "FrostBiTE",
+            "nameB": "orgamado"
+          },
+          {
+            "rank": 2,
+            "valueA": 808090,
+            "valueB": 1336402,
+            "userIdA": 101832605,
+            "userIdB": 232289860,
+            "nameA": "ElBautista",
+            "nameB": "Trigorn"
+          },
+          {
+            "rank": 3,
+            "valueA": 771859,
+            "valueB": 1112702,
+            "userIdA": 593439881,
+            "userIdB": 170386282,
+            "nameA": "Ludmila",
+            "nameB": "NekoDesu"
+          },
+          {
+            "rank": 4,
+            "valueA": 539531,
+            "valueB": 1103869,
+            "userIdA": 718599324,
+            "userIdB": 300597850,
+            "nameA": "RockとDevil",
+            "nameB": "Maruko"
+          },
+          {
+            "rank": 5,
+            "valueA": 441522,
+            "valueB": 1063323,
+            "userIdA": 161754158,
+            "userIdB": 348216052,
+            "nameA": "oeuf",
+            "nameB": "Cioran"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 10813568,
+            "valueB": 22055348,
+            "userIdA": 801961098,
+            "userIdB": 433430084,
+            "nameA": "ShiroMoko",
+            "nameB": "Réiss"
+          },
+          {
+            "rank": 2,
+            "valueA": 9822340,
+            "valueB": 19727803,
+            "userIdA": 167791490,
+            "userIdB": 865287519,
+            "nameA": "Reisz",
+            "nameB": "Ruspah"
+          },
+          {
+            "rank": 3,
+            "valueA": 8926872,
+            "valueB": 17791115,
+            "userIdA": 510800799,
+            "userIdB": 525197192,
+            "nameA": "Leev56",
+            "nameB": "CowInside"
+          },
+          {
+            "rank": 4,
+            "valueA": 6743660,
+            "valueB": 355575,
+            "userIdA": 515568020,
+            "userIdB": 170386282,
+            "nameA": "Enigma",
+            "nameB": "NekoDesu"
+          },
+          {
+            "rank": 5,
+            "valueA": 823774,
+            "valueB": 302626,
+            "userIdA": 101832605,
+            "userIdB": 689330178,
+            "nameA": "ElBautista",
+            "nameB": "orgamado"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2530345,
+            "valueB": 2288126,
+            "userIdA": 991509328,
+            "userIdB": 224695973,
+            "nameA": "Drystar",
+            "nameB": "PlayazzMIN"
+          },
+          {
+            "rank": 2,
+            "valueA": 2483314,
+            "valueB": 1925313,
+            "userIdA": 727928971,
+            "userIdB": 716724789,
+            "nameA": "Heikki",
+            "nameB": "OrsoBruno"
+          },
+          {
+            "rank": 3,
+            "valueA": 785489,
+            "valueB": 1571745,
+            "userIdA": 890964279,
+            "userIdB": 844191105,
+            "nameA": "S0J",
+            "nameB": "Romea"
+          },
+          {
+            "rank": 4,
+            "valueA": 133664,
+            "valueB": 1196611,
+            "userIdA": 801961098,
+            "userIdB": 982866397,
+            "nameA": "ShiroMoko",
+            "nameB": "Amhero"
+          },
+          {
+            "rank": 5,
+            "valueA": 60833,
+            "valueB": 234367,
+            "userIdA": 510800799,
+            "userIdB": 433430084,
+            "nameA": "Leev56",
+            "nameB": "Réiss"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2520641,
+            "valueB": 1929909,
+            "userIdA": 727928971,
+            "userIdB": 224695973,
+            "nameA": "Heikki",
+            "nameB": "PlayazzMIN"
+          },
+          {
+            "rank": 2,
+            "valueA": 2456616,
+            "valueB": 1881405,
+            "userIdA": 991509328,
+            "userIdB": 844191105,
+            "nameA": "Drystar",
+            "nameB": "Romea"
+          },
+          {
+            "rank": 3,
+            "valueA": 1532464,
+            "valueB": 1464102,
+            "userIdA": 890964279,
+            "userIdB": 716724789,
+            "nameA": "S0J",
+            "nameB": "OrsoBruno"
+          },
+          {
+            "rank": 4,
+            "valueA": 243226,
+            "valueB": 1046496,
+            "userIdA": 801961098,
+            "userIdB": 982866397,
+            "nameA": "ShiroMoko",
+            "nameB": "Amhero"
+          },
+          {
+            "rank": 5,
+            "valueA": 209725,
+            "valueB": 371556,
+            "userIdA": 510800799,
+            "userIdB": 433430084,
+            "nameA": "Leev56",
+            "nameB": "Réiss"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2929111,
+            "valueB": 1856996,
+            "userIdA": 130589516,
+            "userIdB": 787472741,
+            "nameA": "Cyaine",
+            "nameB": "Eve"
+          },
+          {
+            "rank": 2,
+            "valueA": 2151483,
+            "valueB": 1455683,
+            "userIdA": 946559622,
+            "userIdB": 770225031,
+            "nameA": "Thanatos",
+            "nameB": "Mikimad"
+          },
+          {
+            "rank": 3,
+            "valueA": 1459211,
+            "valueB": 1204417,
+            "userIdA": 357058633,
+            "userIdB": 987586905,
+            "nameA": "Zoe",
+            "nameB": "Klarth"
+          },
+          {
+            "rank": 4,
+            "valueA": 479915,
+            "valueB": 424743,
+            "userIdA": 727928971,
+            "userIdB": 716724789,
+            "nameA": "Heikki",
+            "nameB": "OrsoBruno"
+          },
+          {
+            "rank": 5,
+            "valueA": 72373,
+            "valueB": 178622,
+            "userIdA": 161754158,
+            "userIdB": 982866397,
+            "nameA": "oeuf",
+            "nameB": "Amhero"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3773136,
+            "valueB": 2913941,
+            "userIdA": 357058633,
+            "userIdB": 787472741,
+            "nameA": "Zoe",
+            "nameB": "Eve"
+          },
+          {
+            "rank": 2,
+            "valueA": 2244921,
+            "valueB": 2698290,
+            "userIdA": 946559622,
+            "userIdB": 770225031,
+            "nameA": "Thanatos",
+            "nameB": "Mikimad"
+          },
+          {
+            "rank": 3,
+            "valueA": 692691,
+            "valueB": 1694545,
+            "userIdA": 130589516,
+            "userIdB": 987586905,
+            "nameA": "Cyaine",
+            "nameB": "Klarth"
+          },
+          {
+            "rank": 4,
+            "valueA": 305139,
+            "valueB": 621682,
+            "userIdA": 727928971,
+            "userIdB": 844191105,
+            "nameA": "Heikki",
+            "nameB": "Romea"
+          },
+          {
+            "rank": 5,
+            "valueA": 215564,
+            "valueB": 178212,
+            "userIdA": 934398383,
+            "userIdB": 224695973,
+            "nameA": "FrostBiTE",
+            "nameB": "PlayazzMIN"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 305,
+            "valueB": 323,
+            "userIdA": 593439881,
+            "userIdB": 300597850,
+            "nameA": "Ludmila",
+            "nameB": "Maruko"
+          },
+          {
+            "rank": 2,
+            "valueA": 279,
+            "valueB": 282,
+            "userIdA": 934398383,
+            "userIdB": 348216052,
+            "nameA": "FrostBiTE",
+            "nameB": "Cioran"
+          },
+          {
+            "rank": 3,
+            "valueA": 246,
+            "valueB": 273,
+            "userIdA": 101832605,
+            "userIdB": 689330178,
+            "nameA": "ElBautista",
+            "nameB": "orgamado"
+          },
+          {
+            "rank": 4,
+            "valueA": 221,
+            "valueB": 220,
+            "userIdA": 718599324,
+            "userIdB": 232289860,
+            "nameA": "RockとDevil",
+            "nameB": "Trigorn"
+          },
+          {
+            "rank": 5,
+            "valueA": 126,
+            "valueB": 182,
+            "userIdA": 161754158,
+            "userIdB": 170386282,
+            "nameA": "oeuf",
+            "nameB": "NekoDesu"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2545571,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 67,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 43,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 605,
+    "gvgDataId": 2545571,
+    "guildDataIdA": 449,
+    "guildDataIdB": 3660,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Phantasm",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 101832605,
+        "name": "ElBautista",
+        "characterMstId": 103,
+        "level": 198,
+        "totalPower": 264080,
+        "maxHp": 61380
+      },
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 201,
+        "totalPower": 256587,
+        "maxHp": 61045
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 293053,
+        "maxHp": 71578
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 48,
+        "level": 196,
+        "totalPower": 258723,
+        "maxHp": 66406
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 64,
+        "level": 206,
+        "totalPower": 248091,
+        "maxHp": 64150
+      },
+      {
+        "userId": 727928971,
+        "name": "Heikki",
+        "characterMstId": 114,
+        "level": 216,
+        "totalPower": 379488,
+        "maxHp": 92963
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 203,
+        "totalPower": 250252,
+        "maxHp": 60701
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 191,
+        "totalPower": 242706,
+        "maxHp": 64353
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 195,
+        "totalPower": 276200,
+        "maxHp": 66295
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 167,
+        "level": 200,
+        "totalPower": 266809,
+        "maxHp": 58205
+      },
+      {
+        "userId": 130589516,
+        "name": "Cyaine",
+        "characterMstId": 167,
+        "level": 159,
+        "totalPower": 256037,
+        "maxHp": 59483
+      },
+      {
+        "userId": 510800799,
+        "name": "Leev56",
+        "characterMstId": 85,
+        "level": 195,
+        "totalPower": 254136,
+        "maxHp": 51195
+      },
+      {
+        "userId": 801961098,
+        "name": "ShiroMoko",
+        "characterMstId": 85,
+        "level": 168,
+        "totalPower": 234210,
+        "maxHp": 51602
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 144,
+        "totalPower": 229483,
+        "maxHp": 50955
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 85,
+        "level": 163,
+        "totalPower": 191987,
+        "maxHp": 41378
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 348216052,
+        "name": "Cioran",
+        "characterMstId": 103,
+        "level": 208,
+        "totalPower": 313866,
+        "maxHp": 78526
+      },
+      {
+        "userId": 300597850,
+        "name": "Maruko",
+        "characterMstId": 103,
+        "level": 203,
+        "totalPower": 275026,
+        "maxHp": 61051
+      },
+      {
+        "userId": 232289860,
+        "name": "Trigorn",
+        "characterMstId": 48,
+        "level": 208,
+        "totalPower": 338144,
+        "maxHp": 74726
+      },
+      {
+        "userId": 689330178,
+        "name": "orgamado",
+        "characterMstId": 48,
+        "level": 217,
+        "totalPower": 320418,
+        "maxHp": 82356
+      },
+      {
+        "userId": 170386282,
+        "name": "NekoDesu",
+        "characterMstId": 48,
+        "level": 210,
+        "totalPower": 281762,
+        "maxHp": 72960
+      },
+      {
+        "userId": 224695973,
+        "name": "PlayazzMIN",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 276768,
+        "maxHp": 62272
+      },
+      {
+        "userId": 844191105,
+        "name": "Romea",
+        "characterMstId": 114,
+        "level": 205,
+        "totalPower": 275650,
+        "maxHp": 67915
+      },
+      {
+        "userId": 716724789,
+        "name": "OrsoBruno",
+        "characterMstId": 114,
+        "level": 208,
+        "totalPower": 273232,
+        "maxHp": 61376
+      },
+      {
+        "userId": 982866397,
+        "name": "Amhero",
+        "characterMstId": 114,
+        "level": 193,
+        "totalPower": 244975,
+        "maxHp": 62673
+      },
+      {
+        "userId": 770225031,
+        "name": "Mikimad",
+        "characterMstId": 86,
+        "level": 208,
+        "totalPower": 284436,
+        "maxHp": 68876
+      },
+      {
+        "userId": 787472741,
+        "name": "Eve",
+        "characterMstId": 167,
+        "level": 206,
+        "totalPower": 282701,
+        "maxHp": 63750
+      },
+      {
+        "userId": 987586905,
+        "name": "Klarth",
+        "characterMstId": 254,
+        "level": 202,
+        "totalPower": 253196,
+        "maxHp": 58672
+      },
+      {
+        "userId": 525197192,
+        "name": "CowInside",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 279466,
+        "maxHp": 62987
+      },
+      {
+        "userId": 433430084,
+        "name": "Réiss",
+        "characterMstId": 85,
+        "level": 210,
+        "totalPower": 276986,
+        "maxHp": 63860
+      },
+      {
+        "userId": 865287519,
+        "name": "Ruspah",
+        "characterMstId": 85,
+        "level": 204,
+        "totalPower": 270437,
+        "maxHp": 63382
+      }
+    ]
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 203,
+      "battleStartTime": 1628535600,
+      "battleEndTime": 1628536799,
+      "gvgDataId": 2198138,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 3607,
+      "selfGuildName": "Mindless",
+      "selfTotalGuildPoint": 105331,
+      "selfComboCount": 1023,
+      "selfSiegeWinCount": 1,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 1035,
+      "enemyGuildName": "Germans",
+      "enemyTotalGuildPoint": 38570,
+      "enemyComboCount": 776,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 162850803,
+      "selfRankNum": 1,
+      "selfRankUserName": "Max",
+      "selfRankGuildPoint": 32087,
+      "enemyRankUserId": 745600467,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Berenard",
+      "enemyRankGuildPoint": 13214,
+      "scheduleNo": 0,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 276
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 32087,
+            "valueB": 13214,
+            "userIdA": 162850803,
+            "userIdB": 745600467,
+            "nameA": "Max",
+            "nameB": "Berenard"
+          },
+          {
+            "rank": 2,
+            "valueA": 21826,
+            "valueB": 12672,
+            "userIdA": 298613804,
+            "userIdB": 341090261,
+            "nameA": "DarkAz",
+            "nameB": "Soul"
+          },
+          {
+            "rank": 3,
+            "valueA": 11423,
+            "valueB": 7099,
+            "userIdA": 480542285,
+            "userIdB": 879103184,
+            "nameA": "Midarin",
+            "nameB": "Valeria"
+          },
+          {
+            "rank": 4,
+            "valueA": 10594,
+            "valueB": 6425,
+            "userIdA": 628142319,
+            "userIdB": 255337576,
+            "nameA": "Kraine",
+            "nameB": "Teaser"
+          },
+          {
+            "rank": 5,
+            "valueA": 4863,
+            "valueB": 3277,
+            "userIdA": 775526341,
+            "userIdB": 522433810,
+            "nameA": "N.E.R.D",
+            "nameB": "Scarlett"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 56693,
+            "valueB": 237794,
+            "userIdA": 775526341,
+            "userIdB": 471803567,
+            "nameA": "N.E.R.D",
+            "nameB": "Lilyenn"
+          },
+          {
+            "rank": 2,
+            "valueA": 53794,
+            "valueB": 133345,
+            "userIdA": 188863573,
+            "userIdB": 255337576,
+            "nameA": "Guilty",
+            "nameB": "Teaser"
+          },
+          {
+            "rank": 3,
+            "valueA": 49321,
+            "valueB": 87956,
+            "userIdA": 162850803,
+            "userIdB": 511214254,
+            "nameA": "Max",
+            "nameB": "Icarus"
+          },
+          {
+            "rank": 4,
+            "valueA": 35749,
+            "valueB": 44786,
+            "userIdA": 480542285,
+            "userIdB": 839979686,
+            "nameA": "Midarin",
+            "nameB": "Pbasurto"
+          },
+          {
+            "rank": 5,
+            "valueA": 34883,
+            "valueB": 44297,
+            "userIdA": 409563292,
+            "userIdB": 745600467,
+            "nameA": "Mantovas",
+            "nameB": "Berenard"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 9308,
+            "valueB": 16723,
+            "userIdA": 409563292,
+            "userIdB": 511214254,
+            "nameA": "Mantovas",
+            "nameB": "Icarus"
+          },
+          {
+            "rank": 2,
+            "valueA": 8669,
+            "valueB": 11863,
+            "userIdA": 162850803,
+            "userIdB": 471803567,
+            "nameA": "Max",
+            "nameB": "Lilyenn"
+          },
+          {
+            "rank": 3,
+            "valueA": 6130,
+            "valueB": 7099,
+            "userIdA": 178901344,
+            "userIdB": 255337576,
+            "nameA": "Kaio",
+            "nameB": "Teaser"
+          },
+          {
+            "rank": 4,
+            "valueA": 4893,
+            "valueB": 5916,
+            "userIdA": 775526341,
+            "userIdB": 777400578,
+            "nameA": "N.E.R.D",
+            "nameB": "Ponkhy"
+          },
+          {
+            "rank": 5,
+            "valueA": 3892,
+            "valueB": 5172,
+            "userIdA": 188863573,
+            "userIdB": 187700566,
+            "nameA": "Guilty",
+            "nameB": "Nikolas"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 26518,
+            "valueB": 7523,
+            "userIdA": 775526341,
+            "userIdB": 255337576,
+            "nameA": "N.E.R.D",
+            "nameB": "Teaser"
+          },
+          {
+            "rank": 2,
+            "valueA": 8877,
+            "valueB": 6793,
+            "userIdA": 409563292,
+            "userIdB": 511214254,
+            "nameA": "Mantovas",
+            "nameB": "Icarus"
+          },
+          {
+            "rank": 3,
+            "valueA": 4708,
+            "valueB": 5312,
+            "userIdA": 480542285,
+            "userIdB": 777400578,
+            "nameA": "Midarin",
+            "nameB": "Ponkhy"
+          },
+          {
+            "rank": 4,
+            "valueA": 2841,
+            "valueB": 3364,
+            "userIdA": 298613804,
+            "userIdB": 522433810,
+            "nameA": "DarkAz",
+            "nameB": "Scarlett"
+          },
+          {
+            "rank": 5,
+            "valueA": 2771,
+            "valueB": 1852,
+            "userIdA": 178901344,
+            "userIdB": 632340931,
+            "nameA": "Kaio",
+            "nameB": "WiiZone"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 6844,
+            "valueB": 15157,
+            "userIdA": 162850803,
+            "userIdB": 511214254,
+            "nameA": "Max",
+            "nameB": "Icarus"
+          },
+          {
+            "rank": 2,
+            "valueA": 3238,
+            "valueB": 7550,
+            "userIdA": 409563292,
+            "userIdB": 255337576,
+            "nameA": "Mantovas",
+            "nameB": "Teaser"
+          },
+          {
+            "rank": 3,
+            "valueA": 2698,
+            "valueB": 5914,
+            "userIdA": 775526341,
+            "userIdB": 777400578,
+            "nameA": "N.E.R.D",
+            "nameB": "Ponkhy"
+          },
+          {
+            "rank": 4,
+            "valueA": 2336,
+            "valueB": 2594,
+            "userIdA": 480542285,
+            "userIdB": 879103184,
+            "nameA": "Midarin",
+            "nameB": "Valeria"
+          },
+          {
+            "rank": 5,
+            "valueA": 1493,
+            "valueB": 2489,
+            "userIdA": 193289944,
+            "userIdB": 187700566,
+            "nameA": "Lambchop",
+            "nameB": "Nikolas"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 9612,
+            "valueB": 17179,
+            "userIdA": 775526341,
+            "userIdB": 511214254,
+            "nameA": "N.E.R.D",
+            "nameB": "Icarus"
+          },
+          {
+            "rank": 2,
+            "valueA": 8991,
+            "valueB": 6004,
+            "userIdA": 409563292,
+            "userIdB": 341090261,
+            "nameA": "Mantovas",
+            "nameB": "Soul"
+          },
+          {
+            "rank": 3,
+            "valueA": 5142,
+            "valueB": 5742,
+            "userIdA": 188863573,
+            "userIdB": 777400578,
+            "nameA": "Guilty",
+            "nameB": "Ponkhy"
+          },
+          {
+            "rank": 4,
+            "valueA": 3550,
+            "valueB": 3404,
+            "userIdA": 178901344,
+            "userIdB": 471803567,
+            "nameA": "Kaio",
+            "nameB": "Lilyenn"
+          },
+          {
+            "rank": 5,
+            "valueA": 2649,
+            "valueB": 2955,
+            "userIdA": 193289944,
+            "userIdB": 187700566,
+            "nameA": "Lambchop",
+            "nameB": "Nikolas"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 89,
+            "valueB": 85,
+            "userIdA": 607502937,
+            "userIdB": 341090261,
+            "nameA": "Astra",
+            "nameB": "Soul"
+          },
+          {
+            "rank": 2,
+            "valueA": 88,
+            "valueB": 81,
+            "userIdA": 186609308,
+            "userIdB": 632340931,
+            "nameA": "DioW",
+            "nameB": "WiiZone"
+          },
+          {
+            "rank": 3,
+            "valueA": 87,
+            "valueB": 80,
+            "userIdA": 530037340,
+            "userIdB": 745600467,
+            "nameA": "Dina",
+            "nameB": "Berenard"
+          },
+          {
+            "rank": 4,
+            "valueA": 84,
+            "valueB": 78,
+            "userIdA": 106160819,
+            "userIdB": 357615622,
+            "nameA": "GhostyBoi",
+            "nameB": "komeijikoi"
+          },
+          {
+            "rank": 5,
+            "valueA": 84,
+            "valueB": 77,
+            "userIdA": 480542285,
+            "userIdB": 762084624,
+            "nameA": "Midarin",
+            "nameB": "Hutti"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2198138,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 7,
+          "ultimateArtMethodMstId": 7,
+          "guildACount": 30,
+          "guildBCount": 27
+        },
+        {
+          "artMstId": 25,
+          "ultimateArtMethodMstId": 25,
+          "guildACount": 30,
+          "guildBCount": 16
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 203,
+    "gvgDataId": 2198138,
+    "guildDataIdA": 3607,
+    "guildDataIdB": 1035,
+    "guildDataNameA": "Mindless",
+    "guildDataNameB": "Germans",
+    "guildDataLevelA": 50,
+    "guildDataLevelB": 41,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 162850803,
+        "name": "Max",
+        "characterMstId": 102,
+        "level": 90,
+        "totalPower": 79083,
+        "maxHp": 13455
+      },
+      {
+        "userId": 530037340,
+        "name": "Dina",
+        "characterMstId": 6,
+        "level": 35,
+        "totalPower": 12790,
+        "maxHp": 4831
+      },
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 5,
+        "totalPower": 5556,
+        "maxHp": 1000
+      },
+      {
+        "userId": 298613804,
+        "name": "DarkAz",
+        "characterMstId": 38,
+        "level": 91,
+        "totalPower": 80610,
+        "maxHp": 14624
+      },
+      {
+        "userId": 480542285,
+        "name": "Midarin",
+        "characterMstId": 36,
+        "level": 72,
+        "totalPower": 52716,
+        "maxHp": 10904
+      },
+      {
+        "userId": 837992644,
+        "name": "Exleos",
+        "characterMstId": 159,
+        "level": 57,
+        "totalPower": 37042,
+        "maxHp": 8329
+      },
+      {
+        "userId": 424339726,
+        "name": "Siema",
+        "characterMstId": 36,
+        "level": 25,
+        "totalPower": 19679,
+        "maxHp": 3532
+      },
+      {
+        "userId": 628142319,
+        "name": "Kraine",
+        "characterMstId": 8,
+        "level": 54,
+        "totalPower": 46170,
+        "maxHp": 7833
+      },
+      {
+        "userId": 186609308,
+        "name": "DioW",
+        "characterMstId": 121,
+        "level": 52,
+        "totalPower": 28662,
+        "maxHp": 7154
+      },
+      {
+        "userId": 106160819,
+        "name": "GhostyBoi",
+        "characterMstId": 15,
+        "level": 57,
+        "totalPower": 47381,
+        "maxHp": 8229
+      },
+      {
+        "userId": 193289944,
+        "name": "Lambchop",
+        "characterMstId": 94,
+        "level": 18,
+        "totalPower": 11910,
+        "maxHp": 2336
+      },
+      {
+        "userId": 775526341,
+        "name": "N.E.R.D",
+        "characterMstId": 444,
+        "level": 81,
+        "totalPower": 50838,
+        "maxHp": 12698
+      },
+      {
+        "userId": 178901344,
+        "name": "Kaio",
+        "characterMstId": 32,
+        "level": 28,
+        "totalPower": 17286,
+        "maxHp": 4051
+      },
+      {
+        "userId": 188863573,
+        "name": "Guilty",
+        "characterMstId": 39,
+        "level": 36,
+        "totalPower": 26688,
+        "maxHp": 4942
+      },
+      {
+        "userId": 409563292,
+        "name": "Mantovas",
+        "characterMstId": 243,
+        "level": 27,
+        "totalPower": 23408,
+        "maxHp": 4465
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 879103184,
+        "name": "Valeria",
+        "characterMstId": 3,
+        "level": 42,
+        "totalPower": 42897,
+        "maxHp": 6025
+      },
+      {
+        "userId": 632340931,
+        "name": "WiiZone",
+        "characterMstId": 3,
+        "level": 24,
+        "totalPower": 20373,
+        "maxHp": 3763
+      },
+      {
+        "userId": 357615622,
+        "name": "komeijikoi",
+        "characterMstId": 5,
+        "level": 12,
+        "totalPower": 11522,
+        "maxHp": 1362
+      },
+      {
+        "userId": 745600467,
+        "name": "Berenard",
+        "characterMstId": 36,
+        "level": 75,
+        "totalPower": 59628,
+        "maxHp": 10923
+      },
+      {
+        "userId": 522433810,
+        "name": "Scarlett",
+        "characterMstId": 7,
+        "level": 64,
+        "totalPower": 34999,
+        "maxHp": 8990
+      },
+      {
+        "userId": 428003469,
+        "name": "Kitto",
+        "characterMstId": 36,
+        "level": 23,
+        "totalPower": 21799,
+        "maxHp": 3673
+      },
+      {
+        "userId": 762084624,
+        "name": "Hutti",
+        "characterMstId": 36,
+        "level": 30,
+        "totalPower": 20306,
+        "maxHp": 4356
+      },
+      {
+        "userId": 341090261,
+        "name": "Soul",
+        "characterMstId": 158,
+        "level": 54,
+        "totalPower": 47638,
+        "maxHp": 7483
+      },
+      {
+        "userId": 255337576,
+        "name": "Teaser",
+        "characterMstId": 107,
+        "level": 72,
+        "totalPower": 59162,
+        "maxHp": 10354
+      },
+      {
+        "userId": 777400578,
+        "name": "Ponkhy",
+        "characterMstId": 107,
+        "level": 15,
+        "totalPower": 23498,
+        "maxHp": 1651
+      },
+      {
+        "userId": 511214254,
+        "name": "Icarus",
+        "characterMstId": 20,
+        "level": 69,
+        "totalPower": 63716,
+        "maxHp": 9875
+      },
+      {
+        "userId": 839979686,
+        "name": "Pbasurto",
+        "characterMstId": 16,
+        "level": 16,
+        "totalPower": 10267,
+        "maxHp": 1637
+      },
+      {
+        "userId": 471803567,
+        "name": "Lilyenn",
+        "characterMstId": 10,
+        "level": 77,
+        "totalPower": 70719,
+        "maxHp": 11135
+      },
+      {
+        "userId": 187700566,
+        "name": "Nikolas",
+        "characterMstId": 24,
+        "level": 19,
+        "totalPower": 20803,
+        "maxHp": 2405
+      }
+    ]
+  }
+}

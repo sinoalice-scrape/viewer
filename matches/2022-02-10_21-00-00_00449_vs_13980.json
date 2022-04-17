@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 505,
+      "battleStartTime": 1644526800,
+      "battleEndTime": 1644527999,
+      "gvgDataId": 2672883,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 109154,
+      "selfComboCount": 936,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 13980,
+      "enemyGuildName": "Blank",
+      "enemyTotalGuildPoint": 5641010,
+      "enemyComboCount": 2024,
+      "enemySiegeWinCount": 21,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 269903,
+      "enemyRankUserId": 454706807,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Jack",
+      "enemyRankGuildPoint": 1419255,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 269903,
+            "valueB": 1419255,
+            "userIdA": 593439881,
+            "userIdB": 454706807,
+            "nameA": "Ludmila",
+            "nameB": "Jack"
+          },
+          {
+            "rank": 2,
+            "valueA": 214235,
+            "valueB": 1227553,
+            "userIdA": 934398383,
+            "userIdB": 881720067,
+            "nameA": "FrostBiTE",
+            "nameB": "Wawew"
+          },
+          {
+            "rank": 3,
+            "valueA": 156441,
+            "valueB": 762756,
+            "userIdA": 718599324,
+            "userIdB": 202601575,
+            "nameA": "RockとDevil",
+            "nameB": "Profetitai"
+          },
+          {
+            "rank": 4,
+            "valueA": 118693,
+            "valueB": 696503,
+            "userIdA": 161754158,
+            "userIdB": 428756060,
+            "nameA": "oeuf",
+            "nameB": "Alex"
+          },
+          {
+            "rank": 5,
+            "valueA": 90459,
+            "valueB": 691491,
+            "userIdA": 101832605,
+            "userIdB": 153675800,
+            "nameA": "ElBautista",
+            "nameB": "Saga’sSimp"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 7807190,
+            "valueB": 15989196,
+            "userIdA": 167791490,
+            "userIdB": 862082410,
+            "nameA": "Reisz",
+            "nameB": "Dexeron"
+          },
+          {
+            "rank": 2,
+            "valueA": 7562582,
+            "valueB": 15969068,
+            "userIdA": 801961098,
+            "userIdB": 808551739,
+            "nameA": "ShiroMoko",
+            "nameB": "Squiz"
+          },
+          {
+            "rank": 3,
+            "valueA": 6904098,
+            "valueB": 10045027,
+            "userIdA": 515568020,
+            "userIdB": 414593147,
+            "nameA": "Enigma",
+            "nameB": "Rei"
+          },
+          {
+            "rank": 4,
+            "valueA": 856558,
+            "valueB": 215537,
+            "userIdA": 424231290,
+            "userIdB": 202601575,
+            "nameA": "JOHNBOOKS",
+            "nameB": "Profetitai"
+          },
+          {
+            "rank": 5,
+            "valueA": 819740,
+            "valueB": 189348,
+            "userIdA": 718599324,
+            "userIdB": 153675800,
+            "nameA": "RockとDevil",
+            "nameB": "Saga’sSimp"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1942966,
+            "valueB": 1607394,
+            "userIdA": 991509328,
+            "userIdB": 317843860,
+            "nameA": "Drystar",
+            "nameB": "niski"
+          },
+          {
+            "rank": 2,
+            "valueA": 894788,
+            "valueB": 1020145,
+            "userIdA": 200071670,
+            "userIdB": 915098788,
+            "nameA": "᲼᲼᲼᲼᲼᲼",
+            "nameB": "Lilith"
+          },
+          {
+            "rank": 3,
+            "valueA": 542444,
+            "valueB": 936587,
+            "userIdA": 890964279,
+            "userIdB": 347519439,
+            "nameA": "S0J",
+            "nameB": "Bernkastel"
+          },
+          {
+            "rank": 4,
+            "valueA": 117846,
+            "valueB": 460466,
+            "userIdA": 801961098,
+            "userIdB": 840537040,
+            "nameA": "ShiroMoko",
+            "nameB": "Kyrin"
+          },
+          {
+            "rank": 5,
+            "valueA": 66557,
+            "valueB": 107531,
+            "userIdA": 934398383,
+            "userIdB": 808551739,
+            "nameA": "FrostBiTE",
+            "nameB": "Squiz"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 828306,
+            "valueB": 1350658,
+            "userIdA": 200071670,
+            "userIdB": 317843860,
+            "nameA": "᲼᲼᲼᲼᲼᲼",
+            "nameB": "niski"
+          },
+          {
+            "rank": 2,
+            "valueA": 724790,
+            "valueB": 1319087,
+            "userIdA": 991509328,
+            "userIdB": 915098788,
+            "nameA": "Drystar",
+            "nameB": "Lilith"
+          },
+          {
+            "rank": 3,
+            "valueA": 708226,
+            "valueB": 1198893,
+            "userIdA": 890964279,
+            "userIdB": 840537040,
+            "nameA": "S0J",
+            "nameB": "Kyrin"
+          },
+          {
+            "rank": 4,
+            "valueA": 214486,
+            "valueB": 718227,
+            "userIdA": 801961098,
+            "userIdB": 347519439,
+            "nameA": "ShiroMoko",
+            "nameB": "Bernkastel"
+          },
+          {
+            "rank": 5,
+            "valueA": 175091,
+            "valueB": 324246,
+            "userIdA": 167791490,
+            "userIdB": 808551739,
+            "nameA": "Reisz",
+            "nameB": "Squiz"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1233186,
+            "valueB": 1998652,
+            "userIdA": 946559622,
+            "userIdB": 103512876,
+            "nameA": "Thanatos",
+            "nameB": "Sea"
+          },
+          {
+            "rank": 2,
+            "valueA": 925156,
+            "valueB": 1890991,
+            "userIdA": 357058633,
+            "userIdB": 958286568,
+            "nameA": "Zoe",
+            "nameB": "schyzo"
+          },
+          {
+            "rank": 3,
+            "valueA": 733567,
+            "valueB": 1737636,
+            "userIdA": 424231290,
+            "userIdB": 976684107,
+            "nameA": "JOHNBOOKS",
+            "nameB": "PhantomX"
+          },
+          {
+            "rank": 4,
+            "valueA": 163989,
+            "valueB": 434700,
+            "userIdA": 200071670,
+            "userIdB": 347519439,
+            "nameA": "᲼᲼᲼᲼᲼᲼",
+            "nameB": "Bernkastel"
+          },
+          {
+            "rank": 5,
+            "valueA": 67535,
+            "valueB": 399366,
+            "userIdA": 101832605,
+            "userIdB": 840537040,
+            "nameA": "ElBautista",
+            "nameB": "Kyrin"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1801750,
+            "valueB": 2012015,
+            "userIdA": 357058633,
+            "userIdB": 958286568,
+            "nameA": "Zoe",
+            "nameB": "schyzo"
+          },
+          {
+            "rank": 2,
+            "valueA": 1684830,
+            "valueB": 1952471,
+            "userIdA": 424231290,
+            "userIdB": 976684107,
+            "nameA": "JOHNBOOKS",
+            "nameB": "PhantomX"
+          },
+          {
+            "rank": 3,
+            "valueA": 1319212,
+            "valueB": 1522527,
+            "userIdA": 946559622,
+            "userIdB": 103512876,
+            "nameA": "Thanatos",
+            "nameB": "Sea"
+          },
+          {
+            "rank": 4,
+            "valueA": 134310,
+            "valueB": 600497,
+            "userIdA": 593439881,
+            "userIdB": 840537040,
+            "nameA": "Ludmila",
+            "nameB": "Kyrin"
+          },
+          {
+            "rank": 5,
+            "valueA": 81184,
+            "valueB": 368620,
+            "userIdA": 934398383,
+            "userIdB": 347519439,
+            "nameA": "FrostBiTE",
+            "nameB": "Bernkastel"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 221,
+            "valueB": 351,
+            "userIdA": 593439881,
+            "userIdB": 202601575,
+            "nameA": "Ludmila",
+            "nameB": "Profetitai"
+          },
+          {
+            "rank": 2,
+            "valueA": 193,
+            "valueB": 323,
+            "userIdA": 680317627,
+            "userIdB": 881720067,
+            "nameA": "Milkgore",
+            "nameB": "Wawew"
+          },
+          {
+            "rank": 3,
+            "valueA": 171,
+            "valueB": 311,
+            "userIdA": 718599324,
+            "userIdB": 454706807,
+            "nameA": "RockとDevil",
+            "nameB": "Jack"
+          },
+          {
+            "rank": 4,
+            "valueA": 84,
+            "valueB": 302,
+            "userIdA": 101832605,
+            "userIdB": 153675800,
+            "nameA": "ElBautista",
+            "nameB": "Saga’sSimp"
+          },
+          {
+            "rank": 5,
+            "valueA": 82,
+            "valueB": 156,
+            "userIdA": 161754158,
+            "userIdB": 103512876,
+            "nameA": "oeuf",
+            "nameB": "Sea"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2672883,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 43,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 30,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 505,
+    "gvgDataId": 2672883,
+    "guildDataIdA": 449,
+    "guildDataIdB": 13980,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Blank",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 101832605,
+        "name": "ElBautista",
+        "characterMstId": 103,
+        "level": 200,
+        "totalPower": 286228,
+        "maxHp": 63805
+      },
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 204,
+        "totalPower": 278304,
+        "maxHp": 65882
+      },
+      {
+        "userId": 680317627,
+        "name": "Milkgore",
+        "characterMstId": 126,
+        "level": 191,
+        "totalPower": 225315,
+        "maxHp": 55203
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 323345,
+        "maxHp": 81283
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 48,
+        "level": 200,
+        "totalPower": 281549,
+        "maxHp": 70305
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 211,
+        "totalPower": 272558,
+        "maxHp": 71609
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 206,
+        "totalPower": 265766,
+        "maxHp": 63650
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 196,
+        "totalPower": 257856,
+        "maxHp": 68256
+      },
+      {
+        "userId": 200071670,
+        "name": "᲼᲼᲼᲼᲼᲼",
+        "characterMstId": 27,
+        "level": 162,
+        "totalPower": 192671,
+        "maxHp": 47466
+      },
+      {
+        "userId": 424231290,
+        "name": "JOHNBOOKS",
+        "characterMstId": 167,
+        "level": 202,
+        "totalPower": 313750,
+        "maxHp": 70272
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 200,
+        "totalPower": 299320,
+        "maxHp": 72205
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 93,
+        "level": 202,
+        "totalPower": 279105,
+        "maxHp": 64522
+      },
+      {
+        "userId": 801961098,
+        "name": "ShiroMoko",
+        "characterMstId": 85,
+        "level": 191,
+        "totalPower": 273918,
+        "maxHp": 60203
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 168,
+        "totalPower": 251205,
+        "maxHp": 57752
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 85,
+        "level": 186,
+        "totalPower": 199879,
+        "maxHp": 45008
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 202601575,
+        "name": "Profetitai",
+        "characterMstId": 103,
+        "level": 201,
+        "totalPower": 289903,
+        "maxHp": 67445
+      },
+      {
+        "userId": 428756060,
+        "name": "Alex",
+        "characterMstId": 103,
+        "level": 198,
+        "totalPower": 281255,
+        "maxHp": 61780
+      },
+      {
+        "userId": 153675800,
+        "name": "Saga’sSimp",
+        "characterMstId": 126,
+        "level": 210,
+        "totalPower": 291596,
+        "maxHp": 71810
+      },
+      {
+        "userId": 881720067,
+        "name": "Wawew",
+        "characterMstId": 126,
+        "level": 207,
+        "totalPower": 276551,
+        "maxHp": 71737
+      },
+      {
+        "userId": 454706807,
+        "name": "Jack",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 334020,
+        "maxHp": 83483
+      },
+      {
+        "userId": 840537040,
+        "name": "Kyrin",
+        "characterMstId": 63,
+        "level": 207,
+        "totalPower": 309651,
+        "maxHp": 71487
+      },
+      {
+        "userId": 347519439,
+        "name": "Bernkastel",
+        "characterMstId": 145,
+        "level": 210,
+        "totalPower": 306104,
+        "maxHp": 66060
+      },
+      {
+        "userId": 317843860,
+        "name": "niski",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 268334,
+        "maxHp": 59218
+      },
+      {
+        "userId": 915098788,
+        "name": "Lilith",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 267145,
+        "maxHp": 62318
+      },
+      {
+        "userId": 103512876,
+        "name": "Sea",
+        "characterMstId": 167,
+        "level": 220,
+        "totalPower": 331109,
+        "maxHp": 82783
+      },
+      {
+        "userId": 976684107,
+        "name": "PhantomX",
+        "characterMstId": 93,
+        "level": 212,
+        "totalPower": 302726,
+        "maxHp": 71615
+      },
+      {
+        "userId": 958286568,
+        "name": "schyzo",
+        "characterMstId": 93,
+        "level": 206,
+        "totalPower": 275939,
+        "maxHp": 62950
+      },
+      {
+        "userId": 808551739,
+        "name": "Squiz",
+        "characterMstId": 85,
+        "level": 205,
+        "totalPower": 309586,
+        "maxHp": 73565
+      },
+      {
+        "userId": 414593147,
+        "name": "Rei",
+        "characterMstId": 85,
+        "level": 208,
+        "totalPower": 307202,
+        "maxHp": 69576
+      },
+      {
+        "userId": 862082410,
+        "name": "Dexeron",
+        "characterMstId": 85,
+        "level": 217,
+        "totalPower": 301309,
+        "maxHp": 74506
+      }
+    ]
+  }
+}

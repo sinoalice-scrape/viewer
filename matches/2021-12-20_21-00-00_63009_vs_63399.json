@@ -1,0 +1,191 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 205,
+      "battleStartTime": 1640034000,
+      "battleEndTime": 1640035199,
+      "gvgDataId": 2552242,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 63009,
+      "selfGuildName": "Donbo",
+      "selfTotalGuildPoint": 11,
+      "selfComboCount": 1,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 63399,
+      "enemyGuildName": "SoloSino",
+      "enemyTotalGuildPoint": 33322,
+      "enemyComboCount": 1,
+      "enemySiegeWinCount": 5,
+      "selfRankUserId": 607502937,
+      "selfRankNum": 1,
+      "selfRankUserName": "Astra",
+      "selfRankGuildPoint": 19,
+      "enemyRankUserId": 317246214,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Torrenzio",
+      "enemyRankGuildPoint": 33314,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 380
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 19,
+            "valueB": 33314,
+            "userIdA": 607502937,
+            "userIdB": 317246214,
+            "nameA": "Astra",
+            "nameB": "Torrenzio"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 14000,
+            "valueB": 11240,
+            "userIdA": 607502937,
+            "userIdB": 317246214,
+            "nameA": "Astra",
+            "nameB": "Torrenzio"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 72,
+            "valueB": 1652,
+            "userIdA": 607502937,
+            "userIdB": 317246214,
+            "nameA": "Astra",
+            "nameB": "Torrenzio"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 3164,
+            "userIdA": 0,
+            "userIdB": 317246214,
+            "nameA": "",
+            "nameB": "Torrenzio"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1,
+            "valueB": 1,
+            "userIdA": 607502937,
+            "userIdB": 317246214,
+            "nameA": "Astra",
+            "nameB": "Torrenzio"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2552242,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 1,
+          "ultimateArtMethodMstId": 1,
+          "guildACount": 1,
+          "guildBCount": 0
+        },
+        {
+          "artMstId": 31,
+          "ultimateArtMethodMstId": 31,
+          "guildACount": 2,
+          "guildBCount": 6
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 205,
+    "gvgDataId": 2552242,
+    "guildDataIdA": 63009,
+    "guildDataIdB": 63399,
+    "guildDataNameA": "Donbo",
+    "guildDataNameB": "SoloSino",
+    "guildDataLevelA": 1,
+    "guildDataLevelB": 7,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 8,
+        "totalPower": 5556,
+        "maxHp": 1000
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 317246214,
+        "name": "Torrenzio",
+        "characterMstId": 257,
+        "level": 103,
+        "totalPower": 82519,
+        "maxHp": 17364
+      }
+    ]
+  }
+}

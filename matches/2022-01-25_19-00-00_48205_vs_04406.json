@@ -1,0 +1,659 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 303,
+      "battleStartTime": 1643137200,
+      "battleEndTime": 1643138399,
+      "gvgDataId": 2636624,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 3762241,
+      "selfComboCount": 1777,
+      "selfSiegeWinCount": 8,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 4406,
+      "enemyGuildName": "LoveLive",
+      "enemyTotalGuildPoint": 409009,
+      "enemyComboCount": 1188,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 1066876,
+      "enemyRankUserId": 769257127,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Tehrror",
+      "enemyRankGuildPoint": 228252,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1066876,
+            "valueB": 228252,
+            "userIdA": 489820080,
+            "userIdB": 769257127,
+            "nameA": "Poetic0",
+            "nameB": "Tehrror"
+          },
+          {
+            "rank": 2,
+            "valueA": 721356,
+            "valueB": 194218,
+            "userIdA": 311155260,
+            "userIdB": 632668661,
+            "nameA": "Tamuko",
+            "nameB": "Jelux"
+          },
+          {
+            "rank": 3,
+            "valueA": 705721,
+            "valueB": 192928,
+            "userIdA": 528967104,
+            "userIdB": 650936890,
+            "nameA": "Guider",
+            "nameB": "infss"
+          },
+          {
+            "rank": 4,
+            "valueA": 463073,
+            "valueB": 148659,
+            "userIdA": 658397897,
+            "userIdB": 105610015,
+            "nameA": "Juddy",
+            "nameB": "Waffle"
+          },
+          {
+            "rank": 5,
+            "valueA": 276607,
+            "valueB": 108784,
+            "userIdA": 897796188,
+            "userIdB": 281458968,
+            "nameA": "GiGi",
+            "nameB": "YasJo"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 16378126,
+            "valueB": 9501269,
+            "userIdA": 335076343,
+            "userIdB": 635251710,
+            "nameA": "Melesie",
+            "nameB": "Sefidea"
+          },
+          {
+            "rank": 2,
+            "valueA": 14991909,
+            "valueB": 7202600,
+            "userIdA": 563868701,
+            "userIdB": 403273601,
+            "nameA": "mekros",
+            "nameB": "zarke"
+          },
+          {
+            "rank": 3,
+            "valueA": 13797219,
+            "valueB": 2027041,
+            "userIdA": 237959838,
+            "userIdB": 881348089,
+            "nameA": "Nheksh",
+            "nameB": "Fallen"
+          },
+          {
+            "rank": 4,
+            "valueA": 243253,
+            "valueB": 512369,
+            "userIdA": 311155260,
+            "userIdB": 769257127,
+            "nameA": "Tamuko",
+            "nameB": "Tehrror"
+          },
+          {
+            "rank": 5,
+            "valueA": 115886,
+            "valueB": 469091,
+            "userIdA": 489820080,
+            "userIdB": 632668661,
+            "nameA": "Poetic0",
+            "nameB": "Jelux"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 833081,
+            "valueB": 1181593,
+            "userIdA": 252654652,
+            "userIdB": 417468291,
+            "nameA": "Xameria",
+            "nameB": "Sahara"
+          },
+          {
+            "rank": 2,
+            "valueA": 773375,
+            "valueB": 1075527,
+            "userIdA": 519350497,
+            "userIdB": 309775571,
+            "nameA": "Andy",
+            "nameB": "Calamanzy"
+          },
+          {
+            "rank": 3,
+            "valueA": 532225,
+            "valueB": 133842,
+            "userIdA": 484225354,
+            "userIdB": 635251710,
+            "nameA": "Snowboule",
+            "nameB": "Sefidea"
+          },
+          {
+            "rank": 4,
+            "valueA": 270177,
+            "valueB": 127806,
+            "userIdA": 594178109,
+            "userIdB": 403273601,
+            "nameA": "Jeanne",
+            "nameB": "zarke"
+          },
+          {
+            "rank": 5,
+            "valueA": 149358,
+            "valueB": 61676,
+            "userIdA": 563868701,
+            "userIdB": 650936890,
+            "nameA": "mekros",
+            "nameB": "infss"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 962899,
+            "valueB": 957487,
+            "userIdA": 252654652,
+            "userIdB": 309775571,
+            "nameA": "Xameria",
+            "nameB": "Calamanzy"
+          },
+          {
+            "rank": 2,
+            "valueA": 824799,
+            "valueB": 746503,
+            "userIdA": 519350497,
+            "userIdB": 417468291,
+            "nameA": "Andy",
+            "nameB": "Sahara"
+          },
+          {
+            "rank": 3,
+            "valueA": 650884,
+            "valueB": 276334,
+            "userIdA": 484225354,
+            "userIdB": 635251710,
+            "nameA": "Snowboule",
+            "nameB": "Sefidea"
+          },
+          {
+            "rank": 4,
+            "valueA": 454773,
+            "valueB": 107216,
+            "userIdA": 594178109,
+            "userIdB": 403273601,
+            "nameA": "Jeanne",
+            "nameB": "zarke"
+          },
+          {
+            "rank": 5,
+            "valueA": 328798,
+            "valueB": 69424,
+            "userIdA": 563868701,
+            "userIdB": 281458968,
+            "nameA": "mekros",
+            "nameB": "YasJo"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1301183,
+            "valueB": 1025660,
+            "userIdA": 580947666,
+            "userIdB": 774102794,
+            "nameA": "MeanRin",
+            "nameB": "Gospar"
+          },
+          {
+            "rank": 2,
+            "valueA": 1298344,
+            "valueB": 732747,
+            "userIdA": 590008353,
+            "userIdB": 950420221,
+            "nameA": "Fintz",
+            "nameB": "Erebe"
+          },
+          {
+            "rank": 3,
+            "valueA": 394677,
+            "valueB": 250372,
+            "userIdA": 594178109,
+            "userIdB": 388095299,
+            "nameA": "Jeanne",
+            "nameB": "Sqesla"
+          },
+          {
+            "rank": 4,
+            "valueA": 391835,
+            "valueB": 34053,
+            "userIdA": 557593123,
+            "userIdB": 632668661,
+            "nameA": "Derpy",
+            "nameB": "Jelux"
+          },
+          {
+            "rank": 5,
+            "valueA": 107488,
+            "valueB": 28947,
+            "userIdA": 484225354,
+            "userIdB": 650936890,
+            "nameA": "Snowboule",
+            "nameB": "infss"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2074928,
+            "valueB": 2320631,
+            "userIdA": 594178109,
+            "userIdB": 774102794,
+            "nameA": "Jeanne",
+            "nameB": "Gospar"
+          },
+          {
+            "rank": 2,
+            "valueA": 560731,
+            "valueB": 1105235,
+            "userIdA": 590008353,
+            "userIdB": 950420221,
+            "nameA": "Fintz",
+            "nameB": "Erebe"
+          },
+          {
+            "rank": 3,
+            "valueA": 541868,
+            "valueB": 710377,
+            "userIdA": 557593123,
+            "userIdB": 388095299,
+            "nameA": "Derpy",
+            "nameB": "Sqesla"
+          },
+          {
+            "rank": 4,
+            "valueA": 347361,
+            "valueB": 82215,
+            "userIdA": 252654652,
+            "userIdB": 281458968,
+            "nameA": "Xameria",
+            "nameB": "YasJo"
+          },
+          {
+            "rank": 5,
+            "valueA": 269625,
+            "valueB": 73005,
+            "userIdA": 484225354,
+            "userIdB": 769257127,
+            "nameA": "Snowboule",
+            "nameB": "Tehrror"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 293,
+            "valueB": 540,
+            "userIdA": 528967104,
+            "userIdB": 520924146,
+            "nameA": "Guider",
+            "nameB": "ChocoBar"
+          },
+          {
+            "rank": 2,
+            "valueA": 284,
+            "valueB": 160,
+            "userIdA": 311155260,
+            "userIdB": 632668661,
+            "nameA": "Tamuko",
+            "nameB": "Jelux"
+          },
+          {
+            "rank": 3,
+            "valueA": 274,
+            "valueB": 147,
+            "userIdA": 489820080,
+            "userIdB": 650936890,
+            "nameA": "Poetic0",
+            "nameB": "infss"
+          },
+          {
+            "rank": 4,
+            "valueA": 204,
+            "valueB": 111,
+            "userIdA": 563868701,
+            "userIdB": 769257127,
+            "nameA": "mekros",
+            "nameB": "Tehrror"
+          },
+          {
+            "rank": 5,
+            "valueA": 159,
+            "valueB": 93,
+            "userIdA": 590008353,
+            "userIdB": 281458968,
+            "nameA": "Fintz",
+            "nameB": "YasJo"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2636624,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 75,
+          "guildBCount": 46
+        },
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 75,
+          "guildBCount": 57
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 303,
+    "gvgDataId": 2636624,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 4406,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "LoveLive",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 126,
+        "level": 197,
+        "totalPower": 230912,
+        "maxHp": 62218
+      },
+      {
+        "userId": 897796188,
+        "name": "GiGi",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 277450,
+        "maxHp": 71400
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 48,
+        "level": 202,
+        "totalPower": 256807,
+        "maxHp": 68472
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 139,
+        "level": 211,
+        "totalPower": 276401,
+        "maxHp": 68809
+      },
+      {
+        "userId": 528967104,
+        "name": "Guider",
+        "characterMstId": 64,
+        "level": 196,
+        "totalPower": 222994,
+        "maxHp": 60806
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 233,
+        "level": 193,
+        "totalPower": 244527,
+        "maxHp": 58423
+      },
+      {
+        "userId": 484225354,
+        "name": "Snowboule",
+        "characterMstId": 94,
+        "level": 188,
+        "totalPower": 242804,
+        "maxHp": 54725
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 114,
+        "level": 196,
+        "totalPower": 241654,
+        "maxHp": 60656
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 561,
+        "level": 213,
+        "totalPower": 290083,
+        "maxHp": 67178
+      },
+      {
+        "userId": 590008353,
+        "name": "Fintz",
+        "characterMstId": 444,
+        "level": 203,
+        "totalPower": 247508,
+        "maxHp": 68551
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 254,
+        "level": 200,
+        "totalPower": 233298,
+        "maxHp": 63605
+      },
+      {
+        "userId": 557593123,
+        "name": "Derpy",
+        "characterMstId": 93,
+        "level": 154,
+        "totalPower": 225995,
+        "maxHp": 48345
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 85,
+        "level": 209,
+        "totalPower": 366458,
+        "maxHp": 91517
+      },
+      {
+        "userId": 563868701,
+        "name": "mekros",
+        "characterMstId": 85,
+        "level": 210,
+        "totalPower": 304689,
+        "maxHp": 74510
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 220,
+        "totalPower": 298186,
+        "maxHp": 76633
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 105610015,
+        "name": "Waffle",
+        "characterMstId": 103,
+        "level": 196,
+        "totalPower": 254076,
+        "maxHp": 57456
+      },
+      {
+        "userId": 769257127,
+        "name": "Tehrror",
+        "characterMstId": 390,
+        "level": 201,
+        "totalPower": 285226,
+        "maxHp": 65295
+      },
+      {
+        "userId": 632668661,
+        "name": "Jelux",
+        "characterMstId": 126,
+        "level": 205,
+        "totalPower": 259233,
+        "maxHp": 68465
+      },
+      {
+        "userId": 650936890,
+        "name": "infss",
+        "characterMstId": 126,
+        "level": 196,
+        "totalPower": 255191,
+        "maxHp": 57856
+      },
+      {
+        "userId": 281458968,
+        "name": "YasJo",
+        "characterMstId": 577,
+        "level": 194,
+        "totalPower": 265140,
+        "maxHp": 63084
+      },
+      {
+        "userId": 520924146,
+        "name": "ChocoBar",
+        "characterMstId": 568,
+        "level": 127,
+        "totalPower": 74930,
+        "maxHp": 30225
+      },
+      {
+        "userId": 309775571,
+        "name": "Calamanzy",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 223838,
+        "maxHp": 53805
+      },
+      {
+        "userId": 417468291,
+        "name": "Sahara",
+        "characterMstId": 114,
+        "level": 174,
+        "totalPower": 218974,
+        "maxHp": 54568
+      },
+      {
+        "userId": 774102794,
+        "name": "Gospar",
+        "characterMstId": 167,
+        "level": 195,
+        "totalPower": 291352,
+        "maxHp": 68745
+      },
+      {
+        "userId": 950420221,
+        "name": "Erebe",
+        "characterMstId": 93,
+        "level": 192,
+        "totalPower": 252721,
+        "maxHp": 62463
+      },
+      {
+        "userId": 388095299,
+        "name": "Sqesla",
+        "characterMstId": 93,
+        "level": 135,
+        "totalPower": 175467,
+        "maxHp": 37513
+      },
+      {
+        "userId": 635251710,
+        "name": "Sefidea",
+        "characterMstId": 85,
+        "level": 190,
+        "totalPower": 259180,
+        "maxHp": 63743
+      },
+      {
+        "userId": 403273601,
+        "name": "zarke",
+        "characterMstId": 85,
+        "level": 202,
+        "totalPower": 252066,
+        "maxHp": 64922
+      },
+      {
+        "userId": 881348089,
+        "name": "Fallen",
+        "characterMstId": 85,
+        "level": 99,
+        "totalPower": 116071,
+        "maxHp": 17161
+      }
+    ]
+  }
+}

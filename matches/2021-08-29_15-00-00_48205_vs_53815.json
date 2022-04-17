@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 101,
+      "battleStartTime": 1630249200,
+      "battleEndTime": 1630250399,
+      "gvgDataId": 2257580,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 1548416,
+      "selfComboCount": 1714,
+      "selfSiegeWinCount": 5,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 53815,
+      "enemyGuildName": "Омут",
+      "enemyTotalGuildPoint": 262855,
+      "enemyComboCount": 568,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 658397897,
+      "selfRankNum": 1,
+      "selfRankUserName": "Juddy",
+      "selfRankGuildPoint": 444513,
+      "enemyRankUserId": 827448661,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "GhoulRUS",
+      "enemyRankGuildPoint": 160975,
+      "scheduleNo": 0,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 112
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 444513,
+            "valueB": 160975,
+            "userIdA": 658397897,
+            "userIdB": 827448661,
+            "nameA": "Juddy",
+            "nameB": "GhoulRUS"
+          },
+          {
+            "rank": 2,
+            "valueA": 391620,
+            "valueB": 79469,
+            "userIdA": 725168146,
+            "userIdB": 605364377,
+            "nameA": "Hodzumi홑쑤미",
+            "nameB": "Saten"
+          },
+          {
+            "rank": 3,
+            "valueA": 197204,
+            "valueB": 68815,
+            "userIdA": 311155260,
+            "userIdB": 238723430,
+            "nameA": "Tamuko",
+            "nameB": "Лиас"
+          },
+          {
+            "rank": 4,
+            "valueA": 147508,
+            "valueB": 55657,
+            "userIdA": 557593123,
+            "userIdB": 317674461,
+            "nameA": "Derpy",
+            "nameB": "nahmnekeks"
+          },
+          {
+            "rank": 5,
+            "valueA": 118642,
+            "valueB": 49844,
+            "userIdA": 945805018,
+            "userIdB": 712633231,
+            "nameA": "Maximilian",
+            "nameB": "Odette"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 9207290,
+            "valueB": 5831494,
+            "userIdA": 335076343,
+            "userIdB": 153778356,
+            "nameA": "Melesie",
+            "nameB": "Qqro_"
+          },
+          {
+            "rank": 2,
+            "valueA": 6862038,
+            "valueB": 2208256,
+            "userIdA": 595872065,
+            "userIdB": 520411166,
+            "nameA": "Fuyune<3",
+            "nameB": "Akira"
+          },
+          {
+            "rank": 3,
+            "valueA": 6012528,
+            "valueB": 1954959,
+            "userIdA": 519357658,
+            "userIdB": 802089830,
+            "nameA": "NeoCrimson",
+            "nameB": "MAD"
+          },
+          {
+            "rank": 4,
+            "valueA": 141738,
+            "valueB": 1092870,
+            "userIdA": 557593123,
+            "userIdB": 275822953,
+            "nameA": "Derpy",
+            "nameB": "oyasumiiko"
+          },
+          {
+            "rank": 5,
+            "valueA": 77793,
+            "valueB": 887314,
+            "userIdA": 725168146,
+            "userIdB": 878293055,
+            "nameA": "Hodzumi홑쑤미",
+            "nameB": "Pill"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 565347,
+            "valueB": 686261,
+            "userIdA": 898672025,
+            "userIdB": 861070464,
+            "nameA": "colonel",
+            "nameB": "Mairu"
+          },
+          {
+            "rank": 2,
+            "valueA": 453411,
+            "valueB": 457129,
+            "userIdA": 252654652,
+            "userIdB": 291710801,
+            "nameA": "Xameria",
+            "nameB": "Procopiy"
+          },
+          {
+            "rank": 3,
+            "valueA": 319266,
+            "valueB": 379101,
+            "userIdA": 130144213,
+            "userIdB": 180949469,
+            "nameA": "Azami",
+            "nameB": "Magitele"
+          },
+          {
+            "rank": 4,
+            "valueA": 124588,
+            "valueB": 121946,
+            "userIdA": 594178109,
+            "userIdB": 153778356,
+            "nameA": "Jeanne",
+            "nameB": "Qqro_"
+          },
+          {
+            "rank": 5,
+            "valueA": 93112,
+            "valueB": 46004,
+            "userIdA": 595872065,
+            "userIdB": 827448661,
+            "nameA": "Fuyune<3",
+            "nameB": "GhoulRUS"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 845961,
+            "valueB": 879228,
+            "userIdA": 898672025,
+            "userIdB": 291710801,
+            "nameA": "colonel",
+            "nameB": "Procopiy"
+          },
+          {
+            "rank": 2,
+            "valueA": 477088,
+            "valueB": 334036,
+            "userIdA": 252654652,
+            "userIdB": 861070464,
+            "nameA": "Xameria",
+            "nameB": "Mairu"
+          },
+          {
+            "rank": 3,
+            "valueA": 261270,
+            "valueB": 332703,
+            "userIdA": 130144213,
+            "userIdB": 180949469,
+            "nameA": "Azami",
+            "nameB": "Magitele"
+          },
+          {
+            "rank": 4,
+            "valueA": 256504,
+            "valueB": 40365,
+            "userIdA": 594178109,
+            "userIdB": 827448661,
+            "nameA": "Jeanne",
+            "nameB": "GhoulRUS"
+          },
+          {
+            "rank": 5,
+            "valueA": 139848,
+            "valueB": 32770,
+            "userIdA": 595872065,
+            "userIdB": 520411166,
+            "nameA": "Fuyune<3",
+            "nameB": "Akira"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 847265,
+            "valueB": 479545,
+            "userIdA": 590008353,
+            "userIdB": 878293055,
+            "nameA": "Fintz",
+            "nameB": "Pill"
+          },
+          {
+            "rank": 2,
+            "valueA": 750346,
+            "valueB": 265432,
+            "userIdA": 594178109,
+            "userIdB": 255709658,
+            "nameA": "Jeanne",
+            "nameB": "Confessor"
+          },
+          {
+            "rank": 3,
+            "valueA": 722149,
+            "valueB": 188474,
+            "userIdA": 917156829,
+            "userIdB": 228679471,
+            "nameA": "Tesa",
+            "nameB": "SvejiyBobr"
+          },
+          {
+            "rank": 4,
+            "valueA": 240908,
+            "valueB": 38848,
+            "userIdA": 178311698,
+            "userIdB": 238723430,
+            "nameA": "Charioce",
+            "nameB": "Лиас"
+          },
+          {
+            "rank": 5,
+            "valueA": 162186,
+            "valueB": 33475,
+            "userIdA": 252654652,
+            "userIdB": 827448661,
+            "nameA": "Xameria",
+            "nameB": "GhoulRUS"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1121268,
+            "valueB": 1081105,
+            "userIdA": 590008353,
+            "userIdB": 878293055,
+            "nameA": "Fintz",
+            "nameB": "Pill"
+          },
+          {
+            "rank": 2,
+            "valueA": 796504,
+            "valueB": 599608,
+            "userIdA": 594178109,
+            "userIdB": 255709658,
+            "nameA": "Jeanne",
+            "nameB": "Confessor"
+          },
+          {
+            "rank": 3,
+            "valueA": 449279,
+            "valueB": 341580,
+            "userIdA": 917156829,
+            "userIdB": 228679471,
+            "nameA": "Tesa",
+            "nameB": "SvejiyBobr"
+          },
+          {
+            "rank": 4,
+            "valueA": 237687,
+            "valueB": 76788,
+            "userIdA": 178311698,
+            "userIdB": 827448661,
+            "nameA": "Charioce",
+            "nameB": "GhoulRUS"
+          },
+          {
+            "rank": 5,
+            "valueA": 126221,
+            "valueB": 58242,
+            "userIdA": 252654652,
+            "userIdB": 605364377,
+            "nameA": "Xameria",
+            "nameB": "Saten"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 299,
+            "valueB": 144,
+            "userIdA": 725168146,
+            "userIdB": 317674461,
+            "nameA": "Hodzumi홑쑤미",
+            "nameB": "nahmnekeks"
+          },
+          {
+            "rank": 2,
+            "valueA": 253,
+            "valueB": 114,
+            "userIdA": 945805018,
+            "userIdB": 238723430,
+            "nameA": "Maximilian",
+            "nameB": "Лиас"
+          },
+          {
+            "rank": 3,
+            "valueA": 182,
+            "valueB": 113,
+            "userIdA": 658397897,
+            "userIdB": 712633231,
+            "nameA": "Juddy",
+            "nameB": "Odette"
+          },
+          {
+            "rank": 4,
+            "valueA": 156,
+            "valueB": 100,
+            "userIdA": 557593123,
+            "userIdB": 827448661,
+            "nameA": "Derpy",
+            "nameB": "GhoulRUS"
+          },
+          {
+            "rank": 5,
+            "valueA": 142,
+            "valueB": 92,
+            "userIdA": 311155260,
+            "userIdB": 605364377,
+            "nameA": "Tamuko",
+            "nameB": "Saten"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2257580,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 4,
+          "ultimateArtMethodMstId": 4,
+          "guildACount": 75,
+          "guildBCount": 60
+        },
+        {
+          "artMstId": 34,
+          "ultimateArtMethodMstId": 34,
+          "guildACount": 75,
+          "guildBCount": 68
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 101,
+    "gvgDataId": 2257580,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 53815,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Омут",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 103,
+        "level": 183,
+        "totalPower": 224987,
+        "maxHp": 53635
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 304,
+        "level": 198,
+        "totalPower": 222546,
+        "maxHp": 53530
+      },
+      {
+        "userId": 725168146,
+        "name": "Hodzumi홑쑤미",
+        "characterMstId": 103,
+        "level": 167,
+        "totalPower": 190384,
+        "maxHp": 44486
+      },
+      {
+        "userId": 557593123,
+        "name": "Derpy",
+        "characterMstId": 126,
+        "level": 148,
+        "totalPower": 219665,
+        "maxHp": 44326
+      },
+      {
+        "userId": 945805018,
+        "name": "Maximilian",
+        "characterMstId": 48,
+        "level": 197,
+        "totalPower": 226578,
+        "maxHp": 54218
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 53,
+        "level": 176,
+        "totalPower": 209515,
+        "maxHp": 51713
+      },
+      {
+        "userId": 898672025,
+        "name": "colonel",
+        "characterMstId": 114,
+        "level": 189,
+        "totalPower": 207345,
+        "maxHp": 51034
+      },
+      {
+        "userId": 130144213,
+        "name": "Azami",
+        "characterMstId": 116,
+        "level": 122,
+        "totalPower": 172538,
+        "maxHp": 28140
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 389,
+        "level": 205,
+        "totalPower": 237024,
+        "maxHp": 56965
+      },
+      {
+        "userId": 590008353,
+        "name": "Fintz",
+        "characterMstId": 93,
+        "level": 201,
+        "totalPower": 227183,
+        "maxHp": 59995
+      },
+      {
+        "userId": 917156829,
+        "name": "Tesa",
+        "characterMstId": 93,
+        "level": 186,
+        "totalPower": 199725,
+        "maxHp": 51308
+      },
+      {
+        "userId": 178311698,
+        "name": "Charioce",
+        "characterMstId": 93,
+        "level": 128,
+        "totalPower": 129940,
+        "maxHp": 28785
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 216,
+        "totalPower": 245040,
+        "maxHp": 66013
+      },
+      {
+        "userId": 519357658,
+        "name": "NeoCrimson",
+        "characterMstId": 85,
+        "level": 189,
+        "totalPower": 226378,
+        "maxHp": 54834
+      },
+      {
+        "userId": 595872065,
+        "name": "Fuyune<3",
+        "characterMstId": 85,
+        "level": 193,
+        "totalPower": 220642,
+        "maxHp": 55823
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 827448661,
+        "name": "GhoulRUS",
+        "characterMstId": 103,
+        "level": 203,
+        "totalPower": 228915,
+        "maxHp": 61001
+      },
+      {
+        "userId": 317674461,
+        "name": "nahmnekeks",
+        "characterMstId": 2,
+        "level": 193,
+        "totalPower": 226234,
+        "maxHp": 51973
+      },
+      {
+        "userId": 238723430,
+        "name": "Лиас",
+        "characterMstId": 75,
+        "level": 157,
+        "totalPower": 211286,
+        "maxHp": 42766
+      },
+      {
+        "userId": 605364377,
+        "name": "Saten",
+        "characterMstId": 521,
+        "level": 198,
+        "totalPower": 225118,
+        "maxHp": 50730
+      },
+      {
+        "userId": 712633231,
+        "name": "Odette",
+        "characterMstId": 125,
+        "level": 134,
+        "totalPower": 161145,
+        "maxHp": 36679
+      },
+      {
+        "userId": 291710801,
+        "name": "Procopiy",
+        "characterMstId": 230,
+        "level": 187,
+        "totalPower": 208476,
+        "maxHp": 54766
+      },
+      {
+        "userId": 861070464,
+        "name": "Mairu",
+        "characterMstId": 114,
+        "level": 169,
+        "totalPower": 182396,
+        "maxHp": 43719
+      },
+      {
+        "userId": 180949469,
+        "name": "Magitele",
+        "characterMstId": 114,
+        "level": 136,
+        "totalPower": 147217,
+        "maxHp": 32347
+      },
+      {
+        "userId": 878293055,
+        "name": "Pill",
+        "characterMstId": 157,
+        "level": 205,
+        "totalPower": 218429,
+        "maxHp": 60565
+      },
+      {
+        "userId": 255709658,
+        "name": "Confessor",
+        "characterMstId": 93,
+        "level": 153,
+        "totalPower": 164756,
+        "maxHp": 42490
+      },
+      {
+        "userId": 228679471,
+        "name": "SvejiyBobr",
+        "characterMstId": 93,
+        "level": 114,
+        "totalPower": 141634,
+        "maxHp": 25698
+      },
+      {
+        "userId": 153778356,
+        "name": "Qqro_",
+        "characterMstId": 85,
+        "level": 184,
+        "totalPower": 209589,
+        "maxHp": 49642
+      },
+      {
+        "userId": 520411166,
+        "name": "Akira",
+        "characterMstId": 85,
+        "level": 123,
+        "totalPower": 162687,
+        "maxHp": 27479
+      },
+      {
+        "userId": 275822953,
+        "name": "oyasumiiko",
+        "characterMstId": 85,
+        "level": 115,
+        "totalPower": 111225,
+        "maxHp": 20579
+      },
+      {
+        "userId": 802089830,
+        "name": "MAD",
+        "characterMstId": 10,
+        "level": 117,
+        "totalPower": 88633,
+        "maxHp": 22305
+      }
+    ]
+  }
+}

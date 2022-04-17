@@ -1,0 +1,651 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 605,
+      "battleStartTime": 1637355600,
+      "battleEndTime": 1637356799,
+      "gvgDataId": 2480708,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 2881707,
+      "selfComboCount": 1569,
+      "selfSiegeWinCount": 10,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 4023,
+      "enemyGuildName": "Daijoubu",
+      "enemyTotalGuildPoint": 1529678,
+      "enemyComboCount": 1283,
+      "enemySiegeWinCount": 3,
+      "selfRankUserId": 409649796,
+      "selfRankNum": 1,
+      "selfRankUserName": "Mattsu",
+      "selfRankGuildPoint": 684714,
+      "enemyRankUserId": 566468121,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Naitsyr",
+      "enemyRankGuildPoint": 616699,
+      "scheduleNo": 0,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 684714,
+            "valueB": 616699,
+            "userIdA": 409649796,
+            "userIdB": 566468121,
+            "nameA": "Mattsu",
+            "nameB": "Naitsyr"
+          },
+          {
+            "rank": 2,
+            "valueA": 539215,
+            "valueB": 577172,
+            "userIdA": 934398383,
+            "userIdB": 448263946,
+            "nameA": "FrostBiTE",
+            "nameB": "Cura"
+          },
+          {
+            "rank": 3,
+            "valueA": 447826,
+            "valueB": 395907,
+            "userIdA": 713533881,
+            "userIdB": 398910812,
+            "nameA": "Mini_Nyan",
+            "nameB": "Jhuyy"
+          },
+          {
+            "rank": 4,
+            "valueA": 365449,
+            "valueB": 266355,
+            "userIdA": 593439881,
+            "userIdB": 479944032,
+            "nameA": "Ludmila",
+            "nameB": "Miyu"
+          },
+          {
+            "rank": 5,
+            "valueA": 180957,
+            "valueB": 223368,
+            "userIdA": 718599324,
+            "userIdB": 938921833,
+            "nameA": "RockとDevil",
+            "nameB": "Absio"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 11667179,
+            "valueB": 6836351,
+            "userIdA": 510800799,
+            "userIdB": 169864921,
+            "nameA": "Leev56",
+            "nameB": "Kushi"
+          },
+          {
+            "rank": 2,
+            "valueA": 5947235,
+            "valueB": 3887984,
+            "userIdA": 515568020,
+            "userIdB": 422948137,
+            "nameA": "Enigma",
+            "nameB": "JSekai"
+          },
+          {
+            "rank": 3,
+            "valueA": 5000500,
+            "valueB": 446726,
+            "userIdA": 801961098,
+            "userIdB": 938921833,
+            "nameA": "ShiroMoko",
+            "nameB": "Absio"
+          },
+          {
+            "rank": 4,
+            "valueA": 4277911,
+            "valueB": 445405,
+            "userIdA": 167791490,
+            "userIdB": 528056582,
+            "nameA": "Reisz",
+            "nameB": "CupCake"
+          },
+          {
+            "rank": 5,
+            "valueA": 161810,
+            "valueB": 403079,
+            "userIdA": 713533881,
+            "userIdB": 448263946,
+            "nameA": "Mini_Nyan",
+            "nameB": "Cura"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1025515,
+            "valueB": 666707,
+            "userIdA": 727928971,
+            "userIdB": 318043029,
+            "nameA": "Heikki",
+            "nameB": "Latte"
+          },
+          {
+            "rank": 2,
+            "valueA": 1022682,
+            "valueB": 600232,
+            "userIdA": 991509328,
+            "userIdB": 486893585,
+            "nameA": "Drystar",
+            "nameB": "Grim"
+          },
+          {
+            "rank": 3,
+            "valueA": 468398,
+            "valueB": 570282,
+            "userIdA": 890964279,
+            "userIdB": 199482915,
+            "nameA": "S0J",
+            "nameB": "Relty"
+          },
+          {
+            "rank": 4,
+            "valueA": 89092,
+            "valueB": 500707,
+            "userIdA": 510800799,
+            "userIdB": 528056582,
+            "nameA": "Leev56",
+            "nameB": "CupCake"
+          },
+          {
+            "rank": 5,
+            "valueA": 84903,
+            "valueB": 79147,
+            "userIdA": 801961098,
+            "userIdB": 169864921,
+            "nameA": "ShiroMoko",
+            "nameB": "Kushi"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1105141,
+            "valueB": 999181,
+            "userIdA": 991509328,
+            "userIdB": 199482915,
+            "nameA": "Drystar",
+            "nameB": "Relty"
+          },
+          {
+            "rank": 2,
+            "valueA": 739559,
+            "valueB": 669617,
+            "userIdA": 727928971,
+            "userIdB": 318043029,
+            "nameA": "Heikki",
+            "nameB": "Latte"
+          },
+          {
+            "rank": 3,
+            "valueA": 647643,
+            "valueB": 661295,
+            "userIdA": 890964279,
+            "userIdB": 486893585,
+            "nameA": "S0J",
+            "nameB": "Grim"
+          },
+          {
+            "rank": 4,
+            "valueA": 223185,
+            "valueB": 411613,
+            "userIdA": 510800799,
+            "userIdB": 528056582,
+            "nameA": "Leev56",
+            "nameB": "CupCake"
+          },
+          {
+            "rank": 5,
+            "valueA": 120191,
+            "valueB": 180782,
+            "userIdA": 801961098,
+            "userIdB": 328399449,
+            "nameA": "ShiroMoko",
+            "nameB": "Celes"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 929311,
+            "valueB": 1251957,
+            "userIdA": 946559622,
+            "userIdB": 580128441,
+            "nameA": "Thanatos",
+            "nameB": "Bruta"
+          },
+          {
+            "rank": 2,
+            "valueA": 836111,
+            "valueB": 788931,
+            "userIdA": 727928971,
+            "userIdB": 871066811,
+            "nameA": "Heikki",
+            "nameB": "Reona"
+          },
+          {
+            "rank": 3,
+            "valueA": 393172,
+            "valueB": 599332,
+            "userIdA": 357058633,
+            "userIdB": 328399449,
+            "nameA": "Zoe",
+            "nameB": "Celes"
+          },
+          {
+            "rank": 4,
+            "valueA": 63234,
+            "valueB": 78359,
+            "userIdA": 409649796,
+            "userIdB": 448263946,
+            "nameA": "Mattsu",
+            "nameB": "Cura"
+          },
+          {
+            "rank": 5,
+            "valueA": 39011,
+            "valueB": 44605,
+            "userIdA": 713533881,
+            "userIdB": 566468121,
+            "nameA": "Mini_Nyan",
+            "nameB": "Naitsyr"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1123630,
+            "valueB": 1467446,
+            "userIdA": 727928971,
+            "userIdB": 580128441,
+            "nameA": "Heikki",
+            "nameB": "Bruta"
+          },
+          {
+            "rank": 2,
+            "valueA": 1117049,
+            "valueB": 1318931,
+            "userIdA": 357058633,
+            "userIdB": 871066811,
+            "nameA": "Zoe",
+            "nameB": "Reona"
+          },
+          {
+            "rank": 3,
+            "valueA": 1027486,
+            "valueB": 745255,
+            "userIdA": 946559622,
+            "userIdB": 328399449,
+            "nameA": "Thanatos",
+            "nameB": "Celes"
+          },
+          {
+            "rank": 4,
+            "valueA": 147921,
+            "valueB": 58056,
+            "userIdA": 713533881,
+            "userIdB": 479944032,
+            "nameA": "Mini_Nyan",
+            "nameB": "Miyu"
+          },
+          {
+            "rank": 5,
+            "valueA": 123521,
+            "valueB": 47784,
+            "userIdA": 409649796,
+            "userIdB": 398910812,
+            "nameA": "Mattsu",
+            "nameB": "Jhuyy"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 301,
+            "valueB": 295,
+            "userIdA": 934398383,
+            "userIdB": 479944032,
+            "nameA": "FrostBiTE",
+            "nameB": "Miyu"
+          },
+          {
+            "rank": 2,
+            "valueA": 266,
+            "valueB": 265,
+            "userIdA": 593439881,
+            "userIdB": 398910812,
+            "nameA": "Ludmila",
+            "nameB": "Jhuyy"
+          },
+          {
+            "rank": 3,
+            "valueA": 260,
+            "valueB": 161,
+            "userIdA": 718599324,
+            "userIdB": 938921833,
+            "nameA": "RockとDevil",
+            "nameB": "Absio"
+          },
+          {
+            "rank": 4,
+            "valueA": 207,
+            "valueB": 151,
+            "userIdA": 946559622,
+            "userIdB": 448263946,
+            "nameA": "Thanatos",
+            "nameB": "Cura"
+          },
+          {
+            "rank": 5,
+            "valueA": 142,
+            "valueB": 146,
+            "userIdA": 727928971,
+            "userIdB": 566468121,
+            "nameA": "Heikki",
+            "nameB": "Naitsyr"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2480708,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 28,
+          "ultimateArtMethodMstId": 28,
+          "guildACount": 60,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 16,
+          "ultimateArtMethodMstId": 16,
+          "guildACount": 75,
+          "guildBCount": 36
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 605,
+    "gvgDataId": 2480708,
+    "guildDataIdA": 449,
+    "guildDataIdB": 4023,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Daijoubu",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 212,
+        "totalPower": 282565,
+        "maxHp": 67415
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 48,
+        "level": 195,
+        "totalPower": 251926,
+        "maxHp": 64495
+      },
+      {
+        "userId": 713533881,
+        "name": "Mini_Nyan",
+        "characterMstId": 48,
+        "level": 198,
+        "totalPower": 249303,
+        "maxHp": 62030
+      },
+      {
+        "userId": 409649796,
+        "name": "Mattsu",
+        "characterMstId": 48,
+        "level": 199,
+        "totalPower": 246028,
+        "maxHp": 56392
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 205,
+        "totalPower": 242451,
+        "maxHp": 63065
+      },
+      {
+        "userId": 727928971,
+        "name": "Heikki",
+        "characterMstId": 114,
+        "level": 214,
+        "totalPower": 352531,
+        "maxHp": 85399
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 245884,
+        "maxHp": 58722
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 189,
+        "totalPower": 234056,
+        "maxHp": 62134
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 194,
+        "totalPower": 267882,
+        "maxHp": 64584
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 167,
+        "level": 199,
+        "totalPower": 258011,
+        "maxHp": 57242
+      },
+      {
+        "userId": 510800799,
+        "name": "Leev56",
+        "characterMstId": 85,
+        "level": 195,
+        "totalPower": 249693,
+        "maxHp": 50795
+      },
+      {
+        "userId": 801961098,
+        "name": "ShiroMoko",
+        "characterMstId": 85,
+        "level": 168,
+        "totalPower": 232532,
+        "maxHp": 51102
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 141,
+        "totalPower": 223785,
+        "maxHp": 48506
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 85,
+        "level": 157,
+        "totalPower": 185970,
+        "maxHp": 39716
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 566468121,
+        "name": "Naitsyr",
+        "characterMstId": 103,
+        "level": 203,
+        "totalPower": 260227,
+        "maxHp": 57901
+      },
+      {
+        "userId": 448263946,
+        "name": "Cura",
+        "characterMstId": 103,
+        "level": 198,
+        "totalPower": 239029,
+        "maxHp": 55930
+      },
+      {
+        "userId": 398910812,
+        "name": "Jhuyy",
+        "characterMstId": 103,
+        "level": 189,
+        "totalPower": 228395,
+        "maxHp": 54084
+      },
+      {
+        "userId": 938921833,
+        "name": "Absio",
+        "characterMstId": 126,
+        "level": 186,
+        "totalPower": 237749,
+        "maxHp": 56908
+      },
+      {
+        "userId": 479944032,
+        "name": "Miyu",
+        "characterMstId": 48,
+        "level": 196,
+        "totalPower": 236079,
+        "maxHp": 55506
+      },
+      {
+        "userId": 486893585,
+        "name": "Grim",
+        "characterMstId": 114,
+        "level": 199,
+        "totalPower": 240945,
+        "maxHp": 58842
+      },
+      {
+        "userId": 199482915,
+        "name": "Relty",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 235642,
+        "maxHp": 54068
+      },
+      {
+        "userId": 318043029,
+        "name": "Latte",
+        "characterMstId": 114,
+        "level": 178,
+        "totalPower": 216037,
+        "maxHp": 51612
+      },
+      {
+        "userId": 528056582,
+        "name": "CupCake",
+        "characterMstId": 114,
+        "level": 195,
+        "totalPower": 212567,
+        "maxHp": 54445
+      },
+      {
+        "userId": 328399449,
+        "name": "Celes",
+        "characterMstId": 208,
+        "level": 198,
+        "totalPower": 280726,
+        "maxHp": 63430
+      },
+      {
+        "userId": 871066811,
+        "name": "Reona",
+        "characterMstId": 167,
+        "level": 196,
+        "totalPower": 246799,
+        "maxHp": 58156
+      },
+      {
+        "userId": 580128441,
+        "name": "Bruta",
+        "characterMstId": 93,
+        "level": 202,
+        "totalPower": 245388,
+        "maxHp": 61872
+      },
+      {
+        "userId": 169864921,
+        "name": "Kushi",
+        "characterMstId": 85,
+        "level": 194,
+        "totalPower": 256569,
+        "maxHp": 54534
+      },
+      {
+        "userId": 422948137,
+        "name": "JSekai",
+        "characterMstId": 85,
+        "level": 208,
+        "totalPower": 231697,
+        "maxHp": 59976
+      }
+    ]
+  }
+}

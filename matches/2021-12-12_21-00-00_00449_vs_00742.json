@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 105,
+      "battleStartTime": 1639342800,
+      "battleEndTime": 1639343999,
+      "gvgDataId": 2534136,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 2378222,
+      "selfComboCount": 1706,
+      "selfSiegeWinCount": 7,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 742,
+      "enemyGuildName": "Phantom",
+      "enemyTotalGuildPoint": 4026232,
+      "enemyComboCount": 1620,
+      "enemySiegeWinCount": 6,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 611735,
+      "enemyRankUserId": 130630173,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "LowKey",
+      "enemyRankGuildPoint": 933146,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 611735,
+            "valueB": 933146,
+            "userIdA": 593439881,
+            "userIdB": 130630173,
+            "nameA": "Ludmila",
+            "nameB": "LowKey"
+          },
+          {
+            "rank": 2,
+            "valueA": 604252,
+            "valueB": 922912,
+            "userIdA": 101832605,
+            "userIdB": 841478629,
+            "nameA": "ElBautista",
+            "nameB": "Diel"
+          },
+          {
+            "rank": 3,
+            "valueA": 498784,
+            "valueB": 638095,
+            "userIdA": 934398383,
+            "userIdB": 287912212,
+            "nameA": "FrostBiTE",
+            "nameB": "Endril"
+          },
+          {
+            "rank": 4,
+            "valueA": 496201,
+            "valueB": 624459,
+            "userIdA": 161754158,
+            "userIdB": 794058177,
+            "nameA": "oeuf",
+            "nameB": "Xai"
+          },
+          {
+            "rank": 5,
+            "valueA": 369013,
+            "valueB": 595235,
+            "userIdA": 718599324,
+            "userIdB": 361763021,
+            "nameA": "RockとDevil",
+            "nameB": "Lifill"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 10810826,
+            "valueB": 11352919,
+            "userIdA": 510800799,
+            "userIdB": 177443403,
+            "nameA": "Leev56",
+            "nameB": "Lanro"
+          },
+          {
+            "rank": 2,
+            "valueA": 8126532,
+            "valueB": 10660382,
+            "userIdA": 801961098,
+            "userIdB": 801099875,
+            "nameA": "ShiroMoko",
+            "nameB": "GZLP"
+          },
+          {
+            "rank": 3,
+            "valueA": 6839671,
+            "valueB": 7426284,
+            "userIdA": 167791490,
+            "userIdB": 462318543,
+            "nameA": "Reisz",
+            "nameB": "Kakuzuma"
+          },
+          {
+            "rank": 4,
+            "valueA": 5767585,
+            "valueB": 609519,
+            "userIdA": 515568020,
+            "userIdB": 846270750,
+            "nameA": "Enigma",
+            "nameB": "Mission"
+          },
+          {
+            "rank": 5,
+            "valueA": 572531,
+            "valueB": 183653,
+            "userIdA": 101832605,
+            "userIdB": 685413308,
+            "nameA": "ElBautista",
+            "nameB": "Vin"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2253459,
+            "valueB": 2213608,
+            "userIdA": 727928971,
+            "userIdB": 654660717,
+            "nameA": "Heikki",
+            "nameB": "Fin"
+          },
+          {
+            "rank": 2,
+            "valueA": 2018432,
+            "valueB": 1243561,
+            "userIdA": 991509328,
+            "userIdB": 846270750,
+            "nameA": "Drystar",
+            "nameB": "Mission"
+          },
+          {
+            "rank": 3,
+            "valueA": 410750,
+            "valueB": 796912,
+            "userIdA": 890964279,
+            "userIdB": 681392939,
+            "nameA": "S0J",
+            "nameB": "Xinao"
+          },
+          {
+            "rank": 4,
+            "valueA": 118079,
+            "valueB": 356269,
+            "userIdA": 801961098,
+            "userIdB": 959609763,
+            "nameA": "ShiroMoko",
+            "nameB": "Aneil"
+          },
+          {
+            "rank": 5,
+            "valueA": 97676,
+            "valueB": 172153,
+            "userIdA": 510800799,
+            "userIdB": 685413308,
+            "nameA": "Leev56",
+            "nameB": "Vin"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2408481,
+            "valueB": 2353071,
+            "userIdA": 727928971,
+            "userIdB": 654660717,
+            "nameA": "Heikki",
+            "nameB": "Fin"
+          },
+          {
+            "rank": 2,
+            "valueA": 2139906,
+            "valueB": 1079207,
+            "userIdA": 991509328,
+            "userIdB": 681392939,
+            "nameA": "Drystar",
+            "nameB": "Xinao"
+          },
+          {
+            "rank": 3,
+            "valueA": 788515,
+            "valueB": 974199,
+            "userIdA": 890964279,
+            "userIdB": 846270750,
+            "nameA": "S0J",
+            "nameB": "Mission"
+          },
+          {
+            "rank": 4,
+            "valueA": 212867,
+            "valueB": 233613,
+            "userIdA": 801961098,
+            "userIdB": 685413308,
+            "nameA": "ShiroMoko",
+            "nameB": "Vin"
+          },
+          {
+            "rank": 5,
+            "valueA": 178379,
+            "valueB": 141138,
+            "userIdA": 510800799,
+            "userIdB": 801099875,
+            "nameA": "Leev56",
+            "nameB": "GZLP"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2060479,
+            "valueB": 1740075,
+            "userIdA": 130589516,
+            "userIdB": 959609763,
+            "nameA": "Cyaine",
+            "nameB": "Aneil"
+          },
+          {
+            "rank": 2,
+            "valueA": 1477948,
+            "valueB": 1413371,
+            "userIdA": 946559622,
+            "userIdB": 468103749,
+            "nameA": "Thanatos",
+            "nameB": "Mura"
+          },
+          {
+            "rank": 3,
+            "valueA": 980347,
+            "valueB": 1333783,
+            "userIdA": 357058633,
+            "userIdB": 589085524,
+            "nameA": "Zoe",
+            "nameB": "yin"
+          },
+          {
+            "rank": 4,
+            "valueA": 72867,
+            "valueB": 105330,
+            "userIdA": 161754158,
+            "userIdB": 287912212,
+            "nameA": "oeuf",
+            "nameB": "Endril"
+          },
+          {
+            "rank": 5,
+            "valueA": 48668,
+            "valueB": 44792,
+            "userIdA": 101832605,
+            "userIdB": 130630173,
+            "nameA": "ElBautista",
+            "nameB": "LowKey"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2507231,
+            "valueB": 2598728,
+            "userIdA": 357058633,
+            "userIdB": 589085524,
+            "nameA": "Zoe",
+            "nameB": "yin"
+          },
+          {
+            "rank": 2,
+            "valueA": 1785921,
+            "valueB": 2135149,
+            "userIdA": 946559622,
+            "userIdB": 959609763,
+            "nameA": "Thanatos",
+            "nameB": "Aneil"
+          },
+          {
+            "rank": 3,
+            "valueA": 606222,
+            "valueB": 1665277,
+            "userIdA": 130589516,
+            "userIdB": 468103749,
+            "nameA": "Cyaine",
+            "nameB": "Mura"
+          },
+          {
+            "rank": 4,
+            "valueA": 175072,
+            "valueB": 137004,
+            "userIdA": 593439881,
+            "userIdB": 841478629,
+            "nameA": "Ludmila",
+            "nameB": "Diel"
+          },
+          {
+            "rank": 5,
+            "valueA": 123075,
+            "valueB": 88739,
+            "userIdA": 934398383,
+            "userIdB": 130630173,
+            "nameA": "FrostBiTE",
+            "nameB": "LowKey"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 277,
+            "valueB": 267,
+            "userIdA": 934398383,
+            "userIdB": 841478629,
+            "nameA": "FrostBiTE",
+            "nameB": "Diel"
+          },
+          {
+            "rank": 2,
+            "valueA": 247,
+            "valueB": 230,
+            "userIdA": 101832605,
+            "userIdB": 287912212,
+            "nameA": "ElBautista",
+            "nameB": "Endril"
+          },
+          {
+            "rank": 3,
+            "valueA": 241,
+            "valueB": 229,
+            "userIdA": 593439881,
+            "userIdB": 361763021,
+            "nameA": "Ludmila",
+            "nameB": "Lifill"
+          },
+          {
+            "rank": 4,
+            "valueA": 195,
+            "valueB": 223,
+            "userIdA": 718599324,
+            "userIdB": 794058177,
+            "nameA": "RockとDevil",
+            "nameB": "Xai"
+          },
+          {
+            "rank": 5,
+            "valueA": 168,
+            "valueB": 201,
+            "userIdA": 161754158,
+            "userIdB": 130630173,
+            "nameA": "oeuf",
+            "nameB": "LowKey"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2534136,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 70,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 75,
+          "guildBCount": 64
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 105,
+    "gvgDataId": 2534136,
+    "guildDataIdA": 449,
+    "guildDataIdB": 742,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Phantom",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 101832605,
+        "name": "ElBautista",
+        "characterMstId": 103,
+        "level": 198,
+        "totalPower": 263380,
+        "maxHp": 60980
+      },
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 201,
+        "totalPower": 254451,
+        "maxHp": 61045
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 295800,
+        "maxHp": 70878
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 48,
+        "level": 196,
+        "totalPower": 254429,
+        "maxHp": 66006
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 250295,
+        "maxHp": 64150
+      },
+      {
+        "userId": 727928971,
+        "name": "Heikki",
+        "characterMstId": 114,
+        "level": 216,
+        "totalPower": 368215,
+        "maxHp": 90163
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 203,
+        "totalPower": 249564,
+        "maxHp": 59801
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 190,
+        "totalPower": 240606,
+        "maxHp": 63243
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 195,
+        "totalPower": 274656,
+        "maxHp": 65795
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 167,
+        "level": 200,
+        "totalPower": 264978,
+        "maxHp": 58155
+      },
+      {
+        "userId": 130589516,
+        "name": "Cyaine",
+        "characterMstId": 167,
+        "level": 156,
+        "totalPower": 253306,
+        "maxHp": 58708
+      },
+      {
+        "userId": 510800799,
+        "name": "Leev56",
+        "characterMstId": 85,
+        "level": 195,
+        "totalPower": 253874,
+        "maxHp": 51195
+      },
+      {
+        "userId": 801961098,
+        "name": "ShiroMoko",
+        "characterMstId": 85,
+        "level": 168,
+        "totalPower": 234210,
+        "maxHp": 51602
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 144,
+        "totalPower": 228983,
+        "maxHp": 50655
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 85,
+        "level": 162,
+        "totalPower": 190893,
+        "maxHp": 41216
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 287912212,
+        "name": "Endril",
+        "characterMstId": 103,
+        "level": 197,
+        "totalPower": 261811,
+        "maxHp": 58168
+      },
+      {
+        "userId": 361763021,
+        "name": "Lifill",
+        "characterMstId": 103,
+        "level": 193,
+        "totalPower": 244148,
+        "maxHp": 58523
+      },
+      {
+        "userId": 841478629,
+        "name": "Diel",
+        "characterMstId": 48,
+        "level": 219,
+        "totalPower": 283758,
+        "maxHp": 75066
+      },
+      {
+        "userId": 130630173,
+        "name": "LowKey",
+        "characterMstId": 48,
+        "level": 205,
+        "totalPower": 276050,
+        "maxHp": 62565
+      },
+      {
+        "userId": 794058177,
+        "name": "Xai",
+        "characterMstId": 48,
+        "level": 198,
+        "totalPower": 267545,
+        "maxHp": 60730
+      },
+      {
+        "userId": 654660717,
+        "name": "Fin",
+        "characterMstId": 114,
+        "level": 216,
+        "totalPower": 311747,
+        "maxHp": 72463
+      },
+      {
+        "userId": 681392939,
+        "name": "Xinao",
+        "characterMstId": 114,
+        "level": 195,
+        "totalPower": 240407,
+        "maxHp": 60145
+      },
+      {
+        "userId": 846270750,
+        "name": "Mission",
+        "characterMstId": 114,
+        "level": 198,
+        "totalPower": 235325,
+        "maxHp": 57280
+      },
+      {
+        "userId": 685413308,
+        "name": "Vin",
+        "characterMstId": 114,
+        "level": 144,
+        "totalPower": 169352,
+        "maxHp": 36155
+      },
+      {
+        "userId": 959609763,
+        "name": "Aneil",
+        "characterMstId": 561,
+        "level": 192,
+        "totalPower": 303383,
+        "maxHp": 62913
+      },
+      {
+        "userId": 468103749,
+        "name": "Mura",
+        "characterMstId": 93,
+        "level": 210,
+        "totalPower": 279393,
+        "maxHp": 67560
+      },
+      {
+        "userId": 589085524,
+        "name": "yin",
+        "characterMstId": 93,
+        "level": 206,
+        "totalPower": 259419,
+        "maxHp": 68250
+      },
+      {
+        "userId": 462318543,
+        "name": "Kakuzuma",
+        "characterMstId": 85,
+        "level": 209,
+        "totalPower": 272535,
+        "maxHp": 67567
+      },
+      {
+        "userId": 801099875,
+        "name": "GZLP",
+        "characterMstId": 85,
+        "level": 191,
+        "totalPower": 255723,
+        "maxHp": 61853
+      },
+      {
+        "userId": 177443403,
+        "name": "Lanro",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 226147,
+        "maxHp": 51680
+      }
+    ]
+  }
+}

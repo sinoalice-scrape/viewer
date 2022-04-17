@@ -1,0 +1,659 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 703,
+      "battleStartTime": 1636225200,
+      "battleEndTime": 1636226399,
+      "gvgDataId": 2446949,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 2571535,
+      "selfComboCount": 1169,
+      "selfSiegeWinCount": 3,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 33504,
+      "enemyGuildName": "SINoFACE",
+      "enemyTotalGuildPoint": 1104030,
+      "enemyComboCount": 1317,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 725168146,
+      "selfRankNum": 1,
+      "selfRankUserName": "Hodzumi홑쑤미",
+      "selfRankGuildPoint": 553112,
+      "enemyRankUserId": 468152687,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Mina",
+      "enemyRankGuildPoint": 382314,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 553112,
+            "valueB": 382314,
+            "userIdA": 725168146,
+            "userIdB": 468152687,
+            "nameA": "Hodzumi홑쑤미",
+            "nameB": "Mina"
+          },
+          {
+            "rank": 2,
+            "valueA": 521755,
+            "valueB": 361878,
+            "userIdA": 311155260,
+            "userIdB": 650010045,
+            "nameA": "Tamuko",
+            "nameB": "Chiifu"
+          },
+          {
+            "rank": 3,
+            "valueA": 464604,
+            "valueB": 332287,
+            "userIdA": 945805018,
+            "userIdB": 329890564,
+            "nameA": "Maximilian",
+            "nameB": "despair"
+          },
+          {
+            "rank": 4,
+            "valueA": 321281,
+            "valueB": 214464,
+            "userIdA": 557593123,
+            "userIdB": 783173648,
+            "nameA": "Derpy",
+            "nameB": "Coy"
+          },
+          {
+            "rank": 5,
+            "valueA": 296848,
+            "valueB": 180890,
+            "userIdA": 658397897,
+            "userIdB": 945059707,
+            "nameA": "Juddy",
+            "nameB": "Moririn"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 15626761,
+            "valueB": 10392152,
+            "userIdA": 335076343,
+            "userIdB": 384037011,
+            "nameA": "Melesie",
+            "nameB": "Xenogelion"
+          },
+          {
+            "rank": 2,
+            "valueA": 9936726,
+            "valueB": 7914432,
+            "userIdA": 595872065,
+            "userIdB": 598115640,
+            "nameA": "Fuyune<3",
+            "nameB": "Tobiah"
+          },
+          {
+            "rank": 3,
+            "valueA": 6940675,
+            "valueB": 4539515,
+            "userIdA": 519357658,
+            "userIdB": 382540052,
+            "nameA": "NeoEralith",
+            "nameB": "Morgan"
+          },
+          {
+            "rank": 4,
+            "valueA": 108420,
+            "valueB": 496432,
+            "userIdA": 557593123,
+            "userIdB": 943435498,
+            "nameA": "Derpy",
+            "nameB": "Roxas"
+          },
+          {
+            "rank": 5,
+            "valueA": 50235,
+            "valueB": 427427,
+            "userIdA": 658397897,
+            "userIdB": 468152687,
+            "nameA": "Juddy",
+            "nameB": "Mina"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 817980,
+            "valueB": 1060121,
+            "userIdA": 898672025,
+            "userIdB": 788447361,
+            "nameA": "colonel",
+            "nameB": "UrsusOrcus"
+          },
+          {
+            "rank": 2,
+            "valueA": 673095,
+            "valueB": 738724,
+            "userIdA": 252654652,
+            "userIdB": 923840434,
+            "nameA": "Xameria",
+            "nameB": "Slippery"
+          },
+          {
+            "rank": 3,
+            "valueA": 265154,
+            "valueB": 659841,
+            "userIdA": 594178109,
+            "userIdB": 179677514,
+            "nameA": "Jeanne",
+            "nameB": "Jim"
+          },
+          {
+            "rank": 4,
+            "valueA": 161788,
+            "valueB": 531643,
+            "userIdA": 917156829,
+            "userIdB": 215973839,
+            "nameA": "Tesa",
+            "nameB": "Nasuth"
+          },
+          {
+            "rank": 5,
+            "valueA": 129337,
+            "valueB": 201219,
+            "userIdA": 595872065,
+            "userIdB": 598115640,
+            "nameA": "Fuyune<3",
+            "nameB": "Tobiah"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1211090,
+            "valueB": 2221332,
+            "userIdA": 898672025,
+            "userIdB": 179677514,
+            "nameA": "colonel",
+            "nameB": "Jim"
+          },
+          {
+            "rank": 2,
+            "valueA": 983104,
+            "valueB": 833647,
+            "userIdA": 252654652,
+            "userIdB": 923840434,
+            "nameA": "Xameria",
+            "nameB": "Slippery"
+          },
+          {
+            "rank": 3,
+            "valueA": 533690,
+            "valueB": 710753,
+            "userIdA": 594178109,
+            "userIdB": 788447361,
+            "nameA": "Jeanne",
+            "nameB": "UrsusOrcus"
+          },
+          {
+            "rank": 4,
+            "valueA": 296873,
+            "valueB": 489857,
+            "userIdA": 335076343,
+            "userIdB": 215973839,
+            "nameA": "Melesie",
+            "nameB": "Nasuth"
+          },
+          {
+            "rank": 5,
+            "valueA": 66129,
+            "valueB": 320534,
+            "userIdA": 519357658,
+            "userIdB": 384037011,
+            "nameA": "NeoEralith",
+            "nameB": "Xenogelion"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1455732,
+            "valueB": 690357,
+            "userIdA": 594178109,
+            "userIdB": 442878990,
+            "nameA": "Jeanne",
+            "nameB": "MDRLOz"
+          },
+          {
+            "rank": 2,
+            "valueA": 1114098,
+            "valueB": 625722,
+            "userIdA": 590008353,
+            "userIdB": 428729972,
+            "nameA": "Fintz",
+            "nameB": "Martinian"
+          },
+          {
+            "rank": 3,
+            "valueA": 857961,
+            "valueB": 74672,
+            "userIdA": 917156829,
+            "userIdB": 943435498,
+            "nameA": "Tesa",
+            "nameB": "Roxas"
+          },
+          {
+            "rank": 4,
+            "valueA": 654326,
+            "valueB": 60823,
+            "userIdA": 580947666,
+            "userIdB": 468152687,
+            "nameA": "MeanRin",
+            "nameB": "Mina"
+          },
+          {
+            "rank": 5,
+            "valueA": 173419,
+            "valueB": 44853,
+            "userIdA": 252654652,
+            "userIdB": 783173648,
+            "nameA": "Xameria",
+            "nameB": "Coy"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1938778,
+            "valueB": 1752990,
+            "userIdA": 590008353,
+            "userIdB": 428729972,
+            "nameA": "Fintz",
+            "nameB": "Martinian"
+          },
+          {
+            "rank": 2,
+            "valueA": 1800549,
+            "valueB": 1305652,
+            "userIdA": 580947666,
+            "userIdB": 442878990,
+            "nameA": "MeanRin",
+            "nameB": "MDRLOz"
+          },
+          {
+            "rank": 3,
+            "valueA": 1684550,
+            "valueB": 111347,
+            "userIdA": 594178109,
+            "userIdB": 650010045,
+            "nameA": "Jeanne",
+            "nameB": "Chiifu"
+          },
+          {
+            "rank": 4,
+            "valueA": 822085,
+            "valueB": 103389,
+            "userIdA": 917156829,
+            "userIdB": 329890564,
+            "nameA": "Tesa",
+            "nameB": "despair"
+          },
+          {
+            "rank": 5,
+            "valueA": 296174,
+            "valueB": 82702,
+            "userIdA": 252654652,
+            "userIdB": 783173648,
+            "nameA": "Xameria",
+            "nameB": "Coy"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 186,
+            "valueB": 216,
+            "userIdA": 557593123,
+            "userIdB": 923840434,
+            "nameA": "Derpy",
+            "nameB": "Slippery"
+          },
+          {
+            "rank": 2,
+            "valueA": 158,
+            "valueB": 212,
+            "userIdA": 590008353,
+            "userIdB": 468152687,
+            "nameA": "Fintz",
+            "nameB": "Mina"
+          },
+          {
+            "rank": 3,
+            "valueA": 145,
+            "valueB": 198,
+            "userIdA": 725168146,
+            "userIdB": 215973839,
+            "nameA": "Hodzumi홑쑤미",
+            "nameB": "Nasuth"
+          },
+          {
+            "rank": 4,
+            "valueA": 142,
+            "valueB": 191,
+            "userIdA": 311155260,
+            "userIdB": 650010045,
+            "nameA": "Tamuko",
+            "nameB": "Chiifu"
+          },
+          {
+            "rank": 5,
+            "valueA": 139,
+            "valueB": 145,
+            "userIdA": 658397897,
+            "userIdB": 329890564,
+            "nameA": "Juddy",
+            "nameB": "despair"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2446949,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 29,
+          "ultimateArtMethodMstId": 29,
+          "guildACount": 75,
+          "guildBCount": 56
+        },
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 72,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 703,
+    "gvgDataId": 2446949,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 33504,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "SINoFACE",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 103,
+        "level": 189,
+        "totalPower": 245479,
+        "maxHp": 58434
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 235,
+        "level": 199,
+        "totalPower": 244569,
+        "maxHp": 62392
+      },
+      {
+        "userId": 725168146,
+        "name": "Hodzumi홑쑤미",
+        "characterMstId": 103,
+        "level": 176,
+        "totalPower": 209623,
+        "maxHp": 49113
+      },
+      {
+        "userId": 557593123,
+        "name": "Derpy",
+        "characterMstId": 126,
+        "level": 153,
+        "totalPower": 231729,
+        "maxHp": 46790
+      },
+      {
+        "userId": 945805018,
+        "name": "Maximilian",
+        "characterMstId": 48,
+        "level": 198,
+        "totalPower": 230409,
+        "maxHp": 54630
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 59,
+        "level": 181,
+        "totalPower": 224503,
+        "maxHp": 54821
+      },
+      {
+        "userId": 898672025,
+        "name": "colonel",
+        "characterMstId": 114,
+        "level": 189,
+        "totalPower": 214111,
+        "maxHp": 51934
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 208,
+        "level": 207,
+        "totalPower": 252277,
+        "maxHp": 59337
+      },
+      {
+        "userId": 590008353,
+        "name": "Fintz",
+        "characterMstId": 93,
+        "level": 202,
+        "totalPower": 242458,
+        "maxHp": 63372
+      },
+      {
+        "userId": 917156829,
+        "name": "Tesa",
+        "characterMstId": 332,
+        "level": 192,
+        "totalPower": 224422,
+        "maxHp": 56663
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 93,
+        "level": 199,
+        "totalPower": 219298,
+        "maxHp": 56342
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 218,
+        "totalPower": 264457,
+        "maxHp": 70807
+      },
+      {
+        "userId": 519357658,
+        "name": "NeoEralith",
+        "characterMstId": 85,
+        "level": 191,
+        "totalPower": 236198,
+        "maxHp": 56553
+      },
+      {
+        "userId": 595872065,
+        "name": "Fuyune<3",
+        "characterMstId": 85,
+        "level": 195,
+        "totalPower": 231947,
+        "maxHp": 56645
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 945059707,
+        "name": "Moririn",
+        "characterMstId": 103,
+        "level": 158,
+        "totalPower": 199474,
+        "maxHp": 50124
+      },
+      {
+        "userId": 650010045,
+        "name": "Chiifu",
+        "characterMstId": 48,
+        "level": 192,
+        "totalPower": 264680,
+        "maxHp": 63713
+      },
+      {
+        "userId": 783173648,
+        "name": "Coy",
+        "characterMstId": 48,
+        "level": 189,
+        "totalPower": 232470,
+        "maxHp": 58334
+      },
+      {
+        "userId": 329890564,
+        "name": "despair",
+        "characterMstId": 48,
+        "level": 200,
+        "totalPower": 230464,
+        "maxHp": 60505
+      },
+      {
+        "userId": 468152687,
+        "name": "Mina",
+        "characterMstId": 64,
+        "level": 196,
+        "totalPower": 242372,
+        "maxHp": 61006
+      },
+      {
+        "userId": 179677514,
+        "name": "Jim",
+        "characterMstId": 114,
+        "level": 199,
+        "totalPower": 255449,
+        "maxHp": 59892
+      },
+      {
+        "userId": 788447361,
+        "name": "UrsusOrcus",
+        "characterMstId": 114,
+        "level": 203,
+        "totalPower": 248737,
+        "maxHp": 64001
+      },
+      {
+        "userId": 923840434,
+        "name": "Slippery",
+        "characterMstId": 114,
+        "level": 196,
+        "totalPower": 219897,
+        "maxHp": 49506
+      },
+      {
+        "userId": 215973839,
+        "name": "Nasuth",
+        "characterMstId": 114,
+        "level": 173,
+        "totalPower": 213139,
+        "maxHp": 51797
+      },
+      {
+        "userId": 442878990,
+        "name": "MDRLOz",
+        "characterMstId": 93,
+        "level": 203,
+        "totalPower": 236711,
+        "maxHp": 55501
+      },
+      {
+        "userId": 428729972,
+        "name": "Martinian",
+        "characterMstId": 93,
+        "level": 189,
+        "totalPower": 207247,
+        "maxHp": 46684
+      },
+      {
+        "userId": 384037011,
+        "name": "Xenogelion",
+        "characterMstId": 85,
+        "level": 200,
+        "totalPower": 241708,
+        "maxHp": 56505
+      },
+      {
+        "userId": 598115640,
+        "name": "Tobiah",
+        "characterMstId": 85,
+        "level": 199,
+        "totalPower": 215829,
+        "maxHp": 49592
+      },
+      {
+        "userId": 382540052,
+        "name": "Morgan",
+        "characterMstId": 85,
+        "level": 134,
+        "totalPower": 195456,
+        "maxHp": 40079
+      },
+      {
+        "userId": 943435498,
+        "name": "Roxas",
+        "characterMstId": 96,
+        "level": 112,
+        "totalPower": 109121,
+        "maxHp": 20248
+      }
+    ]
+  }
+}

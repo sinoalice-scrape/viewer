@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 505,
+      "battleStartTime": 1646341200,
+      "battleEndTime": 1646342399,
+      "gvgDataId": 2718992,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 1537733,
+      "selfComboCount": 838,
+      "selfSiegeWinCount": 1,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 10809,
+      "enemyGuildName": "Asterisk",
+      "enemyTotalGuildPoint": 3644447,
+      "enemyComboCount": 1849,
+      "enemySiegeWinCount": 11,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 756717,
+      "enemyRankUserId": 711943472,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Pixaria",
+      "enemyRankGuildPoint": 1124994,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 756717,
+            "valueB": 1124994,
+            "userIdA": 593439881,
+            "userIdB": 711943472,
+            "nameA": "Ludmila",
+            "nameB": "Pixaria"
+          },
+          {
+            "rank": 2,
+            "valueA": 626151,
+            "valueB": 675052,
+            "userIdA": 934398383,
+            "userIdB": 726376025,
+            "nameA": "FrostBiTE",
+            "nameB": "Chris"
+          },
+          {
+            "rank": 3,
+            "valueA": 271044,
+            "valueB": 521971,
+            "userIdA": 161754158,
+            "userIdB": 540545429,
+            "nameA": "oeuf",
+            "nameB": "JWB"
+          },
+          {
+            "rank": 4,
+            "valueA": 193435,
+            "valueB": 465868,
+            "userIdA": 718599324,
+            "userIdB": 982771913,
+            "nameA": "RockとDevil",
+            "nameB": "CurryNinja"
+          },
+          {
+            "rank": 5,
+            "valueA": 155574,
+            "valueB": 321184,
+            "userIdA": 680317627,
+            "userIdB": 359028650,
+            "nameA": "Milkgore",
+            "nameB": "Nemesis33"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 10814246,
+            "valueB": 15965634,
+            "userIdA": 801961098,
+            "userIdB": 771649473,
+            "nameA": "ShiroMoko",
+            "nameB": "Nerium"
+          },
+          {
+            "rank": 2,
+            "valueA": 7557462,
+            "valueB": 8646168,
+            "userIdA": 515568020,
+            "userIdB": 698807167,
+            "nameA": "Enigma",
+            "nameB": "Inely"
+          },
+          {
+            "rank": 3,
+            "valueA": 7167046,
+            "valueB": 5918733,
+            "userIdA": 167791490,
+            "userIdB": 407512626,
+            "nameA": "Reisz",
+            "nameB": "★"
+          },
+          {
+            "rank": 4,
+            "valueA": 572663,
+            "valueB": 177979,
+            "userIdA": 718599324,
+            "userIdB": 982771913,
+            "nameA": "RockとDevil",
+            "nameB": "CurryNinja"
+          },
+          {
+            "rank": 5,
+            "valueA": 413456,
+            "valueB": 118265,
+            "userIdA": 161754158,
+            "userIdB": 711943472,
+            "nameA": "oeuf",
+            "nameB": "Pixaria"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3519010,
+            "valueB": 2367845,
+            "userIdA": 991509328,
+            "userIdB": 674032379,
+            "nameA": "Drystar",
+            "nameB": "Agramin"
+          },
+          {
+            "rank": 2,
+            "valueA": 989106,
+            "valueB": 1223600,
+            "userIdA": 200071670,
+            "userIdB": 694155932,
+            "nameA": "᲼᲼᲼᲼᲼᲼",
+            "nameB": "LSpark"
+          },
+          {
+            "rank": 3,
+            "valueA": 683242,
+            "valueB": 810057,
+            "userIdA": 200491281,
+            "userIdB": 753890332,
+            "nameA": "Silverasha",
+            "nameB": "cookieguy"
+          },
+          {
+            "rank": 4,
+            "valueA": 665298,
+            "valueB": 373411,
+            "userIdA": 890964279,
+            "userIdB": 810288469,
+            "nameA": "S0J",
+            "nameB": "Varyll"
+          },
+          {
+            "rank": 5,
+            "valueA": 108876,
+            "valueB": 246061,
+            "userIdA": 801961098,
+            "userIdB": 771649473,
+            "nameA": "ShiroMoko",
+            "nameB": "Nerium"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1899759,
+            "valueB": 3211678,
+            "userIdA": 991509328,
+            "userIdB": 674032379,
+            "nameA": "Drystar",
+            "nameB": "Agramin"
+          },
+          {
+            "rank": 2,
+            "valueA": 1240434,
+            "valueB": 620807,
+            "userIdA": 200491281,
+            "userIdB": 810288469,
+            "nameA": "Silverasha",
+            "nameB": "Varyll"
+          },
+          {
+            "rank": 3,
+            "valueA": 1017430,
+            "valueB": 467843,
+            "userIdA": 200071670,
+            "userIdB": 753890332,
+            "nameA": "᲼᲼᲼᲼᲼᲼",
+            "nameB": "cookieguy"
+          },
+          {
+            "rank": 4,
+            "valueA": 895492,
+            "valueB": 306557,
+            "userIdA": 890964279,
+            "userIdB": 694155932,
+            "nameA": "S0J",
+            "nameB": "LSpark"
+          },
+          {
+            "rank": 5,
+            "valueA": 361838,
+            "valueB": 279097,
+            "userIdA": 801961098,
+            "userIdB": 771649473,
+            "nameA": "ShiroMoko",
+            "nameB": "Nerium"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2634802,
+            "valueB": 2103574,
+            "userIdA": 130589516,
+            "userIdB": 694155932,
+            "nameA": "Cyaine",
+            "nameB": "LSpark"
+          },
+          {
+            "rank": 2,
+            "valueA": 1268641,
+            "valueB": 1549581,
+            "userIdA": 946559622,
+            "userIdB": 799082994,
+            "nameA": "Thanatos",
+            "nameB": "Lancer"
+          },
+          {
+            "rank": 3,
+            "valueA": 1173613,
+            "valueB": 1431471,
+            "userIdA": 357058633,
+            "userIdB": 124231181,
+            "nameA": "Zoe",
+            "nameB": "lalo093"
+          },
+          {
+            "rank": 4,
+            "valueA": 221450,
+            "valueB": 1001680,
+            "userIdA": 200071670,
+            "userIdB": 236153508,
+            "nameA": "᲼᲼᲼᲼᲼᲼",
+            "nameB": "Loopy"
+          },
+          {
+            "rank": 5,
+            "valueA": 96430,
+            "valueB": 134957,
+            "userIdA": 718599324,
+            "userIdB": 810288469,
+            "nameA": "RockとDevil",
+            "nameB": "Varyll"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2603022,
+            "valueB": 2025054,
+            "userIdA": 357058633,
+            "userIdB": 124231181,
+            "nameA": "Zoe",
+            "nameB": "lalo093"
+          },
+          {
+            "rank": 2,
+            "valueA": 1275439,
+            "valueB": 1887013,
+            "userIdA": 946559622,
+            "userIdB": 799082994,
+            "nameA": "Thanatos",
+            "nameB": "Lancer"
+          },
+          {
+            "rank": 3,
+            "valueA": 1248123,
+            "valueB": 1286963,
+            "userIdA": 130589516,
+            "userIdB": 694155932,
+            "nameA": "Cyaine",
+            "nameB": "LSpark"
+          },
+          {
+            "rank": 4,
+            "valueA": 192149,
+            "valueB": 1274105,
+            "userIdA": 593439881,
+            "userIdB": 236153508,
+            "nameA": "Ludmila",
+            "nameB": "Loopy"
+          },
+          {
+            "rank": 5,
+            "valueA": 100823,
+            "valueB": 236153,
+            "userIdA": 934398383,
+            "userIdB": 711943472,
+            "nameA": "FrostBiTE",
+            "nameB": "Pixaria"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 275,
+            "valueB": 430,
+            "userIdA": 718599324,
+            "userIdB": 726376025,
+            "nameA": "RockとDevil",
+            "nameB": "Chris"
+          },
+          {
+            "rank": 2,
+            "valueA": 116,
+            "valueB": 375,
+            "userIdA": 680317627,
+            "userIdB": 359028650,
+            "nameA": "Milkgore",
+            "nameB": "Nemesis33"
+          },
+          {
+            "rank": 3,
+            "valueA": 114,
+            "valueB": 328,
+            "userIdA": 161754158,
+            "userIdB": 711943472,
+            "nameA": "oeuf",
+            "nameB": "Pixaria"
+          },
+          {
+            "rank": 4,
+            "valueA": 113,
+            "valueB": 177,
+            "userIdA": 593439881,
+            "userIdB": 694155932,
+            "nameA": "Ludmila",
+            "nameB": "LSpark"
+          },
+          {
+            "rank": 5,
+            "valueA": 108,
+            "valueB": 157,
+            "userIdA": 801961098,
+            "userIdB": 982771913,
+            "nameA": "ShiroMoko",
+            "nameB": "CurryNinja"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2718992,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 49,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 29,
+          "ultimateArtMethodMstId": 29,
+          "guildACount": 47,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 505,
+    "gvgDataId": 2718992,
+    "guildDataIdA": 449,
+    "guildDataIdB": 10809,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Asterisk",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 204,
+        "totalPower": 288073,
+        "maxHp": 66082
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 103,
+        "level": 200,
+        "totalPower": 278119,
+        "maxHp": 70305
+      },
+      {
+        "userId": 680317627,
+        "name": "Milkgore",
+        "characterMstId": 103,
+        "level": 192,
+        "totalPower": 240907,
+        "maxHp": 55563
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 324922,
+        "maxHp": 81283
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 212,
+        "totalPower": 274854,
+        "maxHp": 72215
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 274764,
+        "maxHp": 64387
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 262741,
+        "maxHp": 68368
+      },
+      {
+        "userId": 200491281,
+        "name": "Silverasha",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 261146,
+        "maxHp": 66368
+      },
+      {
+        "userId": 200071670,
+        "name": "᲼᲼᲼᲼᲼᲼",
+        "characterMstId": 27,
+        "level": 172,
+        "totalPower": 209665,
+        "maxHp": 49876
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 200,
+        "totalPower": 311112,
+        "maxHp": 71505
+      },
+      {
+        "userId": 130589516,
+        "name": "Cyaine",
+        "characterMstId": 167,
+        "level": 195,
+        "totalPower": 310340,
+        "maxHp": 68895
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 93,
+        "level": 203,
+        "totalPower": 283757,
+        "maxHp": 65201
+      },
+      {
+        "userId": 801961098,
+        "name": "ShiroMoko",
+        "characterMstId": 85,
+        "level": 192,
+        "totalPower": 277963,
+        "maxHp": 60763
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 173,
+        "totalPower": 254275,
+        "maxHp": 58797
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 85,
+        "level": 188,
+        "totalPower": 203666,
+        "maxHp": 45625
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 540545429,
+        "name": "JWB",
+        "characterMstId": 103,
+        "level": 215,
+        "totalPower": 350370,
+        "maxHp": 81877
+      },
+      {
+        "userId": 711943472,
+        "name": "Pixaria",
+        "characterMstId": 103,
+        "level": 216,
+        "totalPower": 348068,
+        "maxHp": 81563
+      },
+      {
+        "userId": 726376025,
+        "name": "Chris",
+        "characterMstId": 103,
+        "level": 213,
+        "totalPower": 275274,
+        "maxHp": 81578
+      },
+      {
+        "userId": 359028650,
+        "name": "Nemesis33",
+        "characterMstId": 103,
+        "level": 208,
+        "totalPower": 259411,
+        "maxHp": 57576
+      },
+      {
+        "userId": 982771913,
+        "name": "CurryNinja",
+        "characterMstId": 48,
+        "level": 201,
+        "totalPower": 298303,
+        "maxHp": 67445
+      },
+      {
+        "userId": 674032379,
+        "name": "Agramin",
+        "characterMstId": 114,
+        "level": 201,
+        "totalPower": 310364,
+        "maxHp": 67845
+      },
+      {
+        "userId": 753890332,
+        "name": "cookieguy",
+        "characterMstId": 114,
+        "level": 155,
+        "totalPower": 233765,
+        "maxHp": 50201
+      },
+      {
+        "userId": 810288469,
+        "name": "Varyll",
+        "characterMstId": 27,
+        "level": 198,
+        "totalPower": 225000,
+        "maxHp": 57180
+      },
+      {
+        "userId": 694155932,
+        "name": "LSpark",
+        "characterMstId": 86,
+        "level": 218,
+        "totalPower": 335706,
+        "maxHp": 83057
+      },
+      {
+        "userId": 799082994,
+        "name": "Lancer",
+        "characterMstId": 93,
+        "level": 200,
+        "totalPower": 260623,
+        "maxHp": 59405
+      },
+      {
+        "userId": 124231181,
+        "name": "lalo093",
+        "characterMstId": 93,
+        "level": 206,
+        "totalPower": 251134,
+        "maxHp": 59300
+      },
+      {
+        "userId": 236153508,
+        "name": "Loopy",
+        "characterMstId": 93,
+        "level": 146,
+        "totalPower": 234888,
+        "maxHp": 49785
+      },
+      {
+        "userId": 771649473,
+        "name": "Nerium",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 299106,
+        "maxHp": 69701
+      },
+      {
+        "userId": 698807167,
+        "name": "Inely",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 284415,
+        "maxHp": 64301
+      },
+      {
+        "userId": 407512626,
+        "name": "★",
+        "characterMstId": 85,
+        "level": 149,
+        "totalPower": 226526,
+        "maxHp": 54276
+      }
+    ]
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 501,
+      "battleStartTime": 1629990000,
+      "battleEndTime": 1629991199,
+      "gvgDataId": 2248833,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 3020466,
+      "selfComboCount": 1512,
+      "selfSiegeWinCount": 6,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 44853,
+      "enemyGuildName": "Memories",
+      "enemyTotalGuildPoint": 801071,
+      "enemyComboCount": 1723,
+      "enemySiegeWinCount": 1,
+      "selfRankUserId": 945805018,
+      "selfRankNum": 1,
+      "selfRankUserName": "Maximilian",
+      "selfRankGuildPoint": 835007,
+      "enemyRankUserId": 264879944,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Radzio",
+      "enemyRankGuildPoint": 510009,
+      "scheduleNo": 0,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 835007,
+            "valueB": 510009,
+            "userIdA": 945805018,
+            "userIdB": 264879944,
+            "nameA": "Maximilian",
+            "nameB": "Radzio"
+          },
+          {
+            "rank": 2,
+            "valueA": 513472,
+            "valueB": 365336,
+            "userIdA": 557593123,
+            "userIdB": 755027784,
+            "nameA": "Derpy",
+            "nameB": "Charlotte"
+          },
+          {
+            "rank": 3,
+            "valueA": 351310,
+            "valueB": 354531,
+            "userIdA": 311155260,
+            "userIdB": 418676056,
+            "nameA": "Tamuko",
+            "nameB": "Slumberell"
+          },
+          {
+            "rank": 4,
+            "valueA": 314226,
+            "valueB": 176754,
+            "userIdA": 725168146,
+            "userIdB": 884266976,
+            "nameA": "Hodzumi홑쑤미",
+            "nameB": "Kaede"
+          },
+          {
+            "rank": 5,
+            "valueA": 209913,
+            "valueB": 138706,
+            "userIdA": 658397897,
+            "userIdB": 402350657,
+            "nameA": "Juddy",
+            "nameB": "A71Sin"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 10680500,
+            "valueB": 8951733,
+            "userIdA": 335076343,
+            "userIdB": 784987958,
+            "nameA": "Melesie",
+            "nameB": "Rogie"
+          },
+          {
+            "rank": 2,
+            "valueA": 7287991,
+            "valueB": 8082922,
+            "userIdA": 595872065,
+            "userIdB": 122352468,
+            "nameA": "Fuyune<3",
+            "nameB": "Chieri"
+          },
+          {
+            "rank": 3,
+            "valueA": 6910341,
+            "valueB": 6397587,
+            "userIdA": 519357658,
+            "userIdB": 626455286,
+            "nameA": "NeoCrimson",
+            "nameB": "MooseT"
+          },
+          {
+            "rank": 4,
+            "valueA": 294268,
+            "valueB": 1066708,
+            "userIdA": 557593123,
+            "userIdB": 450320763,
+            "nameA": "Derpy",
+            "nameB": "N-Mare"
+          },
+          {
+            "rank": 5,
+            "valueA": 78382,
+            "valueB": 442056,
+            "userIdA": 658397897,
+            "userIdB": 448203740,
+            "nameA": "Juddy",
+            "nameB": "Mariyana"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 898163,
+            "valueB": 1409390,
+            "userIdA": 252654652,
+            "userIdB": 532832629,
+            "nameA": "Xameria",
+            "nameB": "Hatter"
+          },
+          {
+            "rank": 2,
+            "valueA": 736846,
+            "valueB": 786715,
+            "userIdA": 898672025,
+            "userIdB": 999026363,
+            "nameA": "colonel",
+            "nameB": "9ball"
+          },
+          {
+            "rank": 3,
+            "valueA": 639731,
+            "valueB": 324207,
+            "userIdA": 130144213,
+            "userIdB": 901999633,
+            "nameA": "Azami",
+            "nameB": "Kamen"
+          },
+          {
+            "rank": 4,
+            "valueA": 210547,
+            "valueB": 242764,
+            "userIdA": 594178109,
+            "userIdB": 450320763,
+            "nameA": "Jeanne",
+            "nameB": "N-Mare"
+          },
+          {
+            "rank": 5,
+            "valueA": 112667,
+            "valueB": 140063,
+            "userIdA": 335076343,
+            "userIdB": 626455286,
+            "nameA": "Melesie",
+            "nameB": "MooseT"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1004541,
+            "valueB": 1038947,
+            "userIdA": 898672025,
+            "userIdB": 532832629,
+            "nameA": "colonel",
+            "nameB": "Hatter"
+          },
+          {
+            "rank": 2,
+            "valueA": 858659,
+            "valueB": 638824,
+            "userIdA": 252654652,
+            "userIdB": 999026363,
+            "nameA": "Xameria",
+            "nameB": "9ball"
+          },
+          {
+            "rank": 3,
+            "valueA": 490234,
+            "valueB": 393384,
+            "userIdA": 594178109,
+            "userIdB": 901999633,
+            "nameA": "Jeanne",
+            "nameB": "Kamen"
+          },
+          {
+            "rank": 4,
+            "valueA": 360226,
+            "valueB": 222001,
+            "userIdA": 130144213,
+            "userIdB": 784987958,
+            "nameA": "Azami",
+            "nameB": "Rogie"
+          },
+          {
+            "rank": 5,
+            "valueA": 154769,
+            "valueB": 202342,
+            "userIdA": 335076343,
+            "userIdB": 450320763,
+            "nameA": "Melesie",
+            "nameB": "N-Mare"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1463316,
+            "valueB": 874385,
+            "userIdA": 594178109,
+            "userIdB": 391216091,
+            "nameA": "Jeanne",
+            "nameB": "Ega"
+          },
+          {
+            "rank": 2,
+            "valueA": 1217754,
+            "valueB": 584196,
+            "userIdA": 917156829,
+            "userIdB": 437019913,
+            "nameA": "Tesa",
+            "nameB": "Chonk"
+          },
+          {
+            "rank": 3,
+            "valueA": 459698,
+            "valueB": 417855,
+            "userIdA": 178311698,
+            "userIdB": 450320763,
+            "nameA": "Charioce",
+            "nameB": "N-Mare"
+          },
+          {
+            "rank": 4,
+            "valueA": 303707,
+            "valueB": 161071,
+            "userIdA": 252654652,
+            "userIdB": 532832629,
+            "nameA": "Xameria",
+            "nameB": "Hatter"
+          },
+          {
+            "rank": 5,
+            "valueA": 115410,
+            "valueB": 146350,
+            "userIdA": 130144213,
+            "userIdB": 264879944,
+            "nameA": "Azami",
+            "nameB": "Radzio"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1610266,
+            "valueB": 1739077,
+            "userIdA": 594178109,
+            "userIdB": 437019913,
+            "nameA": "Jeanne",
+            "nameB": "Chonk"
+          },
+          {
+            "rank": 2,
+            "valueA": 984940,
+            "valueB": 883840,
+            "userIdA": 917156829,
+            "userIdB": 450320763,
+            "nameA": "Tesa",
+            "nameB": "N-Mare"
+          },
+          {
+            "rank": 3,
+            "valueA": 478099,
+            "valueB": 415824,
+            "userIdA": 178311698,
+            "userIdB": 391216091,
+            "nameA": "Charioce",
+            "nameB": "Ega"
+          },
+          {
+            "rank": 4,
+            "valueA": 280973,
+            "valueB": 208512,
+            "userIdA": 252654652,
+            "userIdB": 532832629,
+            "nameA": "Xameria",
+            "nameB": "Hatter"
+          },
+          {
+            "rank": 5,
+            "valueA": 218502,
+            "valueB": 98489,
+            "userIdA": 130144213,
+            "userIdB": 418676056,
+            "nameA": "Azami",
+            "nameB": "Slumberell"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 298,
+            "valueB": 354,
+            "userIdA": 945805018,
+            "userIdB": 418676056,
+            "nameA": "Maximilian",
+            "nameB": "Slumberell"
+          },
+          {
+            "rank": 2,
+            "valueA": 214,
+            "valueB": 297,
+            "userIdA": 557593123,
+            "userIdB": 264879944,
+            "nameA": "Derpy",
+            "nameB": "Radzio"
+          },
+          {
+            "rank": 3,
+            "valueA": 169,
+            "valueB": 196,
+            "userIdA": 178311698,
+            "userIdB": 884266976,
+            "nameA": "Charioce",
+            "nameB": "Kaede"
+          },
+          {
+            "rank": 4,
+            "valueA": 148,
+            "valueB": 191,
+            "userIdA": 130144213,
+            "userIdB": 755027784,
+            "nameA": "Azami",
+            "nameB": "Charlotte"
+          },
+          {
+            "rank": 5,
+            "valueA": 134,
+            "valueB": 168,
+            "userIdA": 311155260,
+            "userIdB": 626455286,
+            "nameA": "Tamuko",
+            "nameB": "MooseT"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2248833,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 10,
+          "ultimateArtMethodMstId": 10,
+          "guildACount": 75,
+          "guildBCount": 58
+        },
+        {
+          "artMstId": 28,
+          "ultimateArtMethodMstId": 28,
+          "guildACount": 75,
+          "guildBCount": 65
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 501,
+    "gvgDataId": 2248833,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 44853,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Memories",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 103,
+        "level": 183,
+        "totalPower": 222869,
+        "maxHp": 53585
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 164,
+        "level": 198,
+        "totalPower": 221830,
+        "maxHp": 53430
+      },
+      {
+        "userId": 725168146,
+        "name": "Hodzumi홑쑤미",
+        "characterMstId": 103,
+        "level": 167,
+        "totalPower": 189300,
+        "maxHp": 44186
+      },
+      {
+        "userId": 557593123,
+        "name": "Derpy",
+        "characterMstId": 126,
+        "level": 146,
+        "totalPower": 215508,
+        "maxHp": 43235
+      },
+      {
+        "userId": 945805018,
+        "name": "Maximilian",
+        "characterMstId": 48,
+        "level": 197,
+        "totalPower": 225859,
+        "maxHp": 54118
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 53,
+        "level": 176,
+        "totalPower": 209515,
+        "maxHp": 51713
+      },
+      {
+        "userId": 898672025,
+        "name": "colonel",
+        "characterMstId": 114,
+        "level": 189,
+        "totalPower": 207345,
+        "maxHp": 51034
+      },
+      {
+        "userId": 130144213,
+        "name": "Azami",
+        "characterMstId": 116,
+        "level": 122,
+        "totalPower": 172538,
+        "maxHp": 28140
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 389,
+        "level": 205,
+        "totalPower": 237024,
+        "maxHp": 56965
+      },
+      {
+        "userId": 917156829,
+        "name": "Tesa",
+        "characterMstId": 93,
+        "level": 185,
+        "totalPower": 196685,
+        "maxHp": 50500
+      },
+      {
+        "userId": 178311698,
+        "name": "Charioce",
+        "characterMstId": 93,
+        "level": 128,
+        "totalPower": 128940,
+        "maxHp": 28585
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 216,
+        "totalPower": 238435,
+        "maxHp": 65013
+      },
+      {
+        "userId": 519357658,
+        "name": "NeoCrimson",
+        "characterMstId": 85,
+        "level": 189,
+        "totalPower": 226178,
+        "maxHp": 54734
+      },
+      {
+        "userId": 595872065,
+        "name": "Fuyune<3",
+        "characterMstId": 85,
+        "level": 193,
+        "totalPower": 221141,
+        "maxHp": 55723
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 264879944,
+        "name": "Radzio",
+        "characterMstId": 103,
+        "level": 199,
+        "totalPower": 231208,
+        "maxHp": 56892
+      },
+      {
+        "userId": 884266976,
+        "name": "Kaede",
+        "characterMstId": 103,
+        "level": 163,
+        "totalPower": 190547,
+        "maxHp": 44328
+      },
+      {
+        "userId": 402350657,
+        "name": "A71Sin",
+        "characterMstId": 1,
+        "level": 194,
+        "totalPower": 216132,
+        "maxHp": 51384
+      },
+      {
+        "userId": 418676056,
+        "name": "Slumberell",
+        "characterMstId": 48,
+        "level": 205,
+        "totalPower": 215968,
+        "maxHp": 54865
+      },
+      {
+        "userId": 755027784,
+        "name": "Charlotte",
+        "characterMstId": 490,
+        "level": 164,
+        "totalPower": 212440,
+        "maxHp": 47391
+      },
+      {
+        "userId": 532832629,
+        "name": "Hatter",
+        "characterMstId": 114,
+        "level": 183,
+        "totalPower": 215018,
+        "maxHp": 55085
+      },
+      {
+        "userId": 999026363,
+        "name": "9ball",
+        "characterMstId": 114,
+        "level": 129,
+        "totalPower": 180547,
+        "maxHp": 35760
+      },
+      {
+        "userId": 901999633,
+        "name": "Kamen",
+        "characterMstId": 150,
+        "level": 132,
+        "totalPower": 164247,
+        "maxHp": 34864
+      },
+      {
+        "userId": 450320763,
+        "name": "N-Mare",
+        "characterMstId": 242,
+        "level": 197,
+        "totalPower": 225691,
+        "maxHp": 55768
+      },
+      {
+        "userId": 437019913,
+        "name": "Chonk",
+        "characterMstId": 93,
+        "level": 179,
+        "totalPower": 224312,
+        "maxHp": 50788
+      },
+      {
+        "userId": 391216091,
+        "name": "Ega",
+        "characterMstId": 93,
+        "level": 154,
+        "totalPower": 189622,
+        "maxHp": 45645
+      },
+      {
+        "userId": 626455286,
+        "name": "MooseT",
+        "characterMstId": 85,
+        "level": 196,
+        "totalPower": 218944,
+        "maxHp": 56556
+      },
+      {
+        "userId": 122352468,
+        "name": "Chieri",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 217965,
+        "maxHp": 56280
+      },
+      {
+        "userId": 784987958,
+        "name": "Rogie",
+        "characterMstId": 85,
+        "level": 160,
+        "totalPower": 205551,
+        "maxHp": 43693
+      },
+      {
+        "userId": 448203740,
+        "name": "Mariyana",
+        "characterMstId": 10,
+        "level": 118,
+        "totalPower": 106928,
+        "maxHp": 21249
+      }
+    ]
+  }
+}

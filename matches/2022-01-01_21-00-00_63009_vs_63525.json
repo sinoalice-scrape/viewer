@@ -1,0 +1,191 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 705,
+      "battleStartTime": 1641070800,
+      "battleEndTime": 1641071999,
+      "gvgDataId": 2580117,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 63009,
+      "selfGuildName": "Donbo",
+      "selfTotalGuildPoint": 602,
+      "selfComboCount": 1,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 63525,
+      "enemyGuildName": "ForBarbatos✨",
+      "enemyTotalGuildPoint": 22507,
+      "enemyComboCount": 1,
+      "enemySiegeWinCount": 4,
+      "selfRankUserId": 607502937,
+      "selfRankNum": 1,
+      "selfRankUserName": "Astra",
+      "selfRankGuildPoint": 616,
+      "enemyRankUserId": 266584888,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Aleksei",
+      "enemyRankGuildPoint": 22493,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 484
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 616,
+            "valueB": 22493,
+            "userIdA": 607502937,
+            "userIdB": 266584888,
+            "nameA": "Astra",
+            "nameB": "Aleksei"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 12000,
+            "valueB": 24812,
+            "userIdA": 607502937,
+            "userIdB": 266584888,
+            "nameA": "Astra",
+            "nameB": "Aleksei"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 113,
+            "valueB": 8428,
+            "userIdA": 607502937,
+            "userIdB": 266584888,
+            "nameA": "Astra",
+            "nameB": "Aleksei"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 1609,
+            "userIdA": 0,
+            "userIdB": 266584888,
+            "nameA": "",
+            "nameB": "Aleksei"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 4291,
+            "userIdA": 0,
+            "userIdB": 266584888,
+            "nameA": "",
+            "nameB": "Aleksei"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 1577,
+            "userIdA": 0,
+            "userIdB": 266584888,
+            "nameA": "",
+            "nameB": "Aleksei"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1,
+            "valueB": 1,
+            "userIdA": 607502937,
+            "userIdB": 266584888,
+            "nameA": "Astra",
+            "nameB": "Aleksei"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2580117,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 19,
+          "ultimateArtMethodMstId": 19,
+          "guildACount": 4,
+          "guildBCount": 2
+        },
+        {
+          "artMstId": 1,
+          "ultimateArtMethodMstId": 1,
+          "guildACount": 2,
+          "guildBCount": 3
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 705,
+    "gvgDataId": 2580117,
+    "guildDataIdA": 63009,
+    "guildDataIdB": 63525,
+    "guildDataNameA": "Donbo",
+    "guildDataNameB": "ForBarbatos✨",
+    "guildDataLevelA": 2,
+    "guildDataLevelB": 5,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 8,
+        "totalPower": 5556,
+        "maxHp": 1000
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 266584888,
+        "name": "Aleksei",
+        "characterMstId": 567,
+        "level": 32,
+        "totalPower": 41001,
+        "maxHp": 4484
+      }
+    ]
+  }
+}

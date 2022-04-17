@@ -1,0 +1,659 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 305,
+      "battleStartTime": 1649192400,
+      "battleEndTime": 1649193599,
+      "gvgDataId": 2786054,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 229077,
+      "selfComboCount": 1083,
+      "selfSiegeWinCount": 1,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 62200,
+      "enemyGuildName": "ᗅᒪᗅᗷ⊙⊙ᗷᗅ",
+      "enemyTotalGuildPoint": 5982568,
+      "enemyComboCount": 1864,
+      "enemySiegeWinCount": 22,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 621010,
+      "enemyRankUserId": 618099947,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Divan",
+      "enemyRankGuildPoint": 1045075,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 621010,
+            "valueB": 1045075,
+            "userIdA": 593439881,
+            "userIdB": 618099947,
+            "nameA": "Ludmila",
+            "nameB": "Divan"
+          },
+          {
+            "rank": 2,
+            "valueA": 480887,
+            "valueB": 939953,
+            "userIdA": 934398383,
+            "userIdB": 246538882,
+            "nameA": "FrostBiTE",
+            "nameB": "★Ƥᴀɴᴅᴏʀᴀ★"
+          },
+          {
+            "rank": 3,
+            "valueA": 321792,
+            "valueB": 897097,
+            "userIdA": 161754158,
+            "userIdB": 551374475,
+            "nameA": "oeuf",
+            "nameB": "Renfri"
+          },
+          {
+            "rank": 4,
+            "valueA": 297874,
+            "valueB": 857184,
+            "userIdA": 718599324,
+            "userIdB": 587100331,
+            "nameA": "RockとDevil",
+            "nameB": "Engels"
+          },
+          {
+            "rank": 5,
+            "valueA": 172311,
+            "valueB": 487668,
+            "userIdA": 680317627,
+            "userIdB": 653643649,
+            "nameA": "Milkgore",
+            "nameB": "Bombacheat"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 15379402,
+            "valueB": 12133722,
+            "userIdA": 482452519,
+            "userIdB": 200468873,
+            "nameA": "☆Freddi",
+            "nameB": "Reiku"
+          },
+          {
+            "rank": 2,
+            "valueA": 11050009,
+            "valueB": 11748829,
+            "userIdA": 167791490,
+            "userIdB": 220999455,
+            "nameA": "Reisz",
+            "nameB": "Crank."
+          },
+          {
+            "rank": 3,
+            "valueA": 7230000,
+            "valueB": 125412,
+            "userIdA": 515568020,
+            "userIdB": 587100331,
+            "nameA": "Enigma",
+            "nameB": "Engels"
+          },
+          {
+            "rank": 4,
+            "valueA": 1271990,
+            "valueB": 115985,
+            "userIdA": 934398383,
+            "userIdB": 246538882,
+            "nameA": "FrostBiTE",
+            "nameB": "★Ƥᴀɴᴅᴏʀᴀ★"
+          },
+          {
+            "rank": 5,
+            "valueA": 1014385,
+            "valueB": 77728,
+            "userIdA": 161754158,
+            "userIdB": 653643649,
+            "nameA": "oeuf",
+            "nameB": "Bombacheat"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3538270,
+            "valueB": 2450698,
+            "userIdA": 991509328,
+            "userIdB": 930736875,
+            "nameA": "Drystar",
+            "nameB": "YoshiPls"
+          },
+          {
+            "rank": 2,
+            "valueA": 675625,
+            "valueB": 2208970,
+            "userIdA": 200491281,
+            "userIdB": 301041908,
+            "nameA": "Silverasha",
+            "nameB": "caldo420m"
+          },
+          {
+            "rank": 3,
+            "valueA": 580341,
+            "valueB": 1680071,
+            "userIdA": 890964279,
+            "userIdB": 544213233,
+            "nameA": "S0J",
+            "nameB": "Puppet"
+          },
+          {
+            "rank": 4,
+            "valueA": 424018,
+            "valueB": 424560,
+            "userIdA": 946559622,
+            "userIdB": 922847562,
+            "nameA": "Thanatos",
+            "nameB": "stinky"
+          },
+          {
+            "rank": 5,
+            "valueA": 145328,
+            "valueB": 126047,
+            "userIdA": 482452519,
+            "userIdB": 220999455,
+            "nameA": "☆Freddi",
+            "nameB": "Crank."
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1607864,
+            "valueB": 3269436,
+            "userIdA": 991509328,
+            "userIdB": 930736875,
+            "nameA": "Drystar",
+            "nameB": "YoshiPls"
+          },
+          {
+            "rank": 2,
+            "valueA": 1286318,
+            "valueB": 1723430,
+            "userIdA": 200491281,
+            "userIdB": 544213233,
+            "nameA": "Silverasha",
+            "nameB": "Puppet"
+          },
+          {
+            "rank": 3,
+            "valueA": 719241,
+            "valueB": 1241174,
+            "userIdA": 890964279,
+            "userIdB": 301041908,
+            "nameA": "S0J",
+            "nameB": "caldo420m"
+          },
+          {
+            "rank": 4,
+            "valueA": 343835,
+            "valueB": 284680,
+            "userIdA": 482452519,
+            "userIdB": 220999455,
+            "nameA": "☆Freddi",
+            "nameB": "Crank."
+          },
+          {
+            "rank": 5,
+            "valueA": 272365,
+            "valueB": 211817,
+            "userIdA": 946559622,
+            "userIdB": 200468873,
+            "nameA": "Thanatos",
+            "nameB": "Reiku"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1660732,
+            "valueB": 2161389,
+            "userIdA": 492044794,
+            "userIdB": 647705603,
+            "nameA": "Saltea",
+            "nameB": "ㅤㅤㅤㅤㅤㅤ"
+          },
+          {
+            "rank": 2,
+            "valueA": 1619187,
+            "valueB": 1704963,
+            "userIdA": 357058633,
+            "userIdB": 803725650,
+            "nameA": "Zoe",
+            "nameB": "Yaya"
+          },
+          {
+            "rank": 3,
+            "valueA": 1616027,
+            "valueB": 1388844,
+            "userIdA": 946559622,
+            "userIdB": 922847562,
+            "nameA": "Thanatos",
+            "nameB": "stinky"
+          },
+          {
+            "rank": 4,
+            "valueA": 916350,
+            "valueB": 1078932,
+            "userIdA": 742972387,
+            "userIdB": 874615959,
+            "nameA": "Jinx",
+            "nameB": "Restia"
+          },
+          {
+            "rank": 5,
+            "valueA": 97669,
+            "valueB": 88266,
+            "userIdA": 718599324,
+            "userIdB": 618099947,
+            "nameA": "RockとDevil",
+            "nameB": "Divan"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2676173,
+            "valueB": 1854340,
+            "userIdA": 357058633,
+            "userIdB": 647705603,
+            "nameA": "Zoe",
+            "nameB": "ㅤㅤㅤㅤㅤㅤ"
+          },
+          {
+            "rank": 2,
+            "valueA": 1399305,
+            "valueB": 1399344,
+            "userIdA": 742972387,
+            "userIdB": 803725650,
+            "nameA": "Jinx",
+            "nameB": "Yaya"
+          },
+          {
+            "rank": 3,
+            "valueA": 1313510,
+            "valueB": 1342701,
+            "userIdA": 492044794,
+            "userIdB": 874615959,
+            "nameA": "Saltea",
+            "nameB": "Restia"
+          },
+          {
+            "rank": 4,
+            "valueA": 1289377,
+            "valueB": 1294596,
+            "userIdA": 946559622,
+            "userIdB": 922847562,
+            "nameA": "Thanatos",
+            "nameB": "stinky"
+          },
+          {
+            "rank": 5,
+            "valueA": 95854,
+            "valueB": 139746,
+            "userIdA": 934398383,
+            "userIdB": 551374475,
+            "nameA": "FrostBiTE",
+            "nameB": "Renfri"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 306,
+            "valueB": 288,
+            "userIdA": 934398383,
+            "userIdB": 587100331,
+            "nameA": "FrostBiTE",
+            "nameB": "Engels"
+          },
+          {
+            "rank": 2,
+            "valueA": 224,
+            "valueB": 261,
+            "userIdA": 593439881,
+            "userIdB": 618099947,
+            "nameA": "Ludmila",
+            "nameB": "Divan"
+          },
+          {
+            "rank": 3,
+            "valueA": 199,
+            "valueB": 208,
+            "userIdA": 718599324,
+            "userIdB": 246538882,
+            "nameA": "RockとDevil",
+            "nameB": "★Ƥᴀɴᴅᴏʀᴀ★"
+          },
+          {
+            "rank": 4,
+            "valueA": 126,
+            "valueB": 191,
+            "userIdA": 946559622,
+            "userIdB": 551374475,
+            "nameA": "Thanatos",
+            "nameB": "Renfri"
+          },
+          {
+            "rank": 5,
+            "valueA": 106,
+            "valueB": 161,
+            "userIdA": 161754158,
+            "userIdB": 544213233,
+            "nameA": "oeuf",
+            "nameB": "Puppet"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2786054,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 29,
+          "ultimateArtMethodMstId": 29,
+          "guildACount": 75,
+          "guildBCount": 68
+        },
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 63,
+          "guildBCount": 41
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 305,
+    "gvgDataId": 2786054,
+    "guildDataIdA": 449,
+    "guildDataIdB": 62200,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "ᗅᒪᗅᗷ⊙⊙ᗷᗅ",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 205,
+        "totalPower": 302281,
+        "maxHp": 67265
+      },
+      {
+        "userId": 680317627,
+        "name": "Milkgore",
+        "characterMstId": 103,
+        "level": 193,
+        "totalPower": 250078,
+        "maxHp": 56573
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 331863,
+        "maxHp": 81383
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 201,
+        "totalPower": 293956,
+        "maxHp": 73345
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 286311,
+        "maxHp": 73278
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 280740,
+        "maxHp": 65387
+      },
+      {
+        "userId": 200491281,
+        "name": "Silverasha",
+        "characterMstId": 114,
+        "level": 198,
+        "totalPower": 273522,
+        "maxHp": 67530
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 270671,
+        "maxHp": 69968
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 201,
+        "totalPower": 317684,
+        "maxHp": 74295
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 587,
+        "level": 203,
+        "totalPower": 296526,
+        "maxHp": 65701
+      },
+      {
+        "userId": 742972387,
+        "name": "Jinx",
+        "characterMstId": 167,
+        "level": 197,
+        "totalPower": 280594,
+        "maxHp": 62868
+      },
+      {
+        "userId": 492044794,
+        "name": "Saltea",
+        "characterMstId": 167,
+        "level": 190,
+        "totalPower": 269146,
+        "maxHp": 56993
+      },
+      {
+        "userId": 482452519,
+        "name": "☆Freddi",
+        "characterMstId": 85,
+        "level": 200,
+        "totalPower": 282305,
+        "maxHp": 63405
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 182,
+        "totalPower": 268026,
+        "maxHp": 61828
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 85,
+        "level": 191,
+        "totalPower": 219048,
+        "maxHp": 52253
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 653643649,
+        "name": "Bombacheat",
+        "characterMstId": 103,
+        "level": 213,
+        "totalPower": 347602,
+        "maxHp": 77728
+      },
+      {
+        "userId": 618099947,
+        "name": "Divan",
+        "characterMstId": 103,
+        "level": 221,
+        "totalPower": 340338,
+        "maxHp": 83083
+      },
+      {
+        "userId": 587100331,
+        "name": "Engels",
+        "characterMstId": 103,
+        "level": 208,
+        "totalPower": 318048,
+        "maxHp": 70876
+      },
+      {
+        "userId": 246538882,
+        "name": "★Ƥᴀɴᴅᴏʀᴀ★",
+        "characterMstId": 231,
+        "level": 214,
+        "totalPower": 331373,
+        "maxHp": 82849
+      },
+      {
+        "userId": 551374475,
+        "name": "Renfri",
+        "characterMstId": 231,
+        "level": 210,
+        "totalPower": 315505,
+        "maxHp": 75810
+      },
+      {
+        "userId": 930736875,
+        "name": "YoshiPls",
+        "characterMstId": 114,
+        "level": 220,
+        "totalPower": 337386,
+        "maxHp": 85333
+      },
+      {
+        "userId": 544213233,
+        "name": "Puppet",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 316718,
+        "maxHp": 69222
+      },
+      {
+        "userId": 922847562,
+        "name": "stinky",
+        "characterMstId": 59,
+        "level": 203,
+        "totalPower": 289512,
+        "maxHp": 66401
+      },
+      {
+        "userId": 301041908,
+        "name": "caldo420m",
+        "characterMstId": 114,
+        "level": 205,
+        "totalPower": 285472,
+        "maxHp": 63565
+      },
+      {
+        "userId": 874615959,
+        "name": "Restia",
+        "characterMstId": 93,
+        "level": 207,
+        "totalPower": 303341,
+        "maxHp": 71237
+      },
+      {
+        "userId": 647705603,
+        "name": "ㅤㅤㅤㅤㅤㅤ",
+        "characterMstId": 167,
+        "level": 210,
+        "totalPower": 299917,
+        "maxHp": 69510
+      },
+      {
+        "userId": 803725650,
+        "name": "Yaya",
+        "characterMstId": 167,
+        "level": 206,
+        "totalPower": 298053,
+        "maxHp": 66400
+      },
+      {
+        "userId": 200468873,
+        "name": "Reiku",
+        "characterMstId": 85,
+        "level": 220,
+        "totalPower": 321485,
+        "maxHp": 81333
+      },
+      {
+        "userId": 220999455,
+        "name": "Crank.",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 290440,
+        "maxHp": 70787
+      }
+    ]
+  }
+}

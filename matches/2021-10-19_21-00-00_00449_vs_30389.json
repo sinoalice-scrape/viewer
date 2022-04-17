@@ -1,0 +1,611 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 305,
+      "battleStartTime": 1634677200,
+      "battleEndTime": 1634678399,
+      "gvgDataId": 2398807,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 1400534,
+      "selfComboCount": 3388,
+      "selfSiegeWinCount": 3,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 30389,
+      "enemyGuildName": "CatCafé",
+      "enemyTotalGuildPoint": 74461,
+      "enemyComboCount": 496,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 139478290,
+      "selfRankNum": 1,
+      "selfRankUserName": "Blazing",
+      "selfRankGuildPoint": 426296,
+      "enemyRankUserId": 643180952,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "SevenForce",
+      "enemyRankGuildPoint": 43358,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 426296,
+            "valueB": 43358,
+            "userIdA": 139478290,
+            "userIdB": 643180952,
+            "nameA": "Blazing",
+            "nameB": "SevenForce"
+          },
+          {
+            "rank": 2,
+            "valueA": 271980,
+            "valueB": 36764,
+            "userIdA": 718599324,
+            "userIdB": 114555283,
+            "nameA": "RockとDevil",
+            "nameB": "Aleister"
+          },
+          {
+            "rank": 3,
+            "valueA": 237187,
+            "valueB": 22307,
+            "userIdA": 934398383,
+            "userIdB": 942526131,
+            "nameA": "FrostBiTE",
+            "nameB": "Ubermorgen"
+          },
+          {
+            "rank": 4,
+            "valueA": 219997,
+            "valueB": 16382,
+            "userIdA": 593439881,
+            "userIdB": 812262330,
+            "nameA": "Ludmila",
+            "nameB": "Reizo"
+          },
+          {
+            "rank": 5,
+            "valueA": 150535,
+            "valueB": 2568,
+            "userIdA": 242923819,
+            "userIdB": 957367479,
+            "nameA": "Mini_Ashra",
+            "nameB": "Zevron"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 9110057,
+            "valueB": 7757040,
+            "userIdA": 895948571,
+            "userIdB": 900192410,
+            "nameA": "bajda",
+            "nameB": "Guts"
+          },
+          {
+            "rank": 2,
+            "valueA": 7113815,
+            "valueB": 3129547,
+            "userIdA": 167791490,
+            "userIdB": 313893230,
+            "nameA": "Reisz",
+            "nameB": "Sylvia"
+          },
+          {
+            "rank": 3,
+            "valueA": 6902068,
+            "valueB": 1328191,
+            "userIdA": 801961098,
+            "userIdB": 957367479,
+            "nameA": "ShiroMoko",
+            "nameB": "Zevron"
+          },
+          {
+            "rank": 4,
+            "valueA": 4412965,
+            "valueB": 386160,
+            "userIdA": 515568020,
+            "userIdB": 114555283,
+            "nameA": "Enigma",
+            "nameB": "Aleister"
+          },
+          {
+            "rank": 5,
+            "valueA": 230085,
+            "valueB": 223804,
+            "userIdA": 139478290,
+            "userIdB": 812262330,
+            "nameA": "Blazing",
+            "nameB": "Reizo"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 396208,
+            "valueB": 875054,
+            "userIdA": 991509328,
+            "userIdB": 206515583,
+            "nameA": "Drystar",
+            "nameB": "Nicole"
+          },
+          {
+            "rank": 2,
+            "valueA": 160775,
+            "valueB": 126976,
+            "userIdA": 890964279,
+            "userIdB": 900192410,
+            "nameA": "S0J",
+            "nameB": "Guts"
+          },
+          {
+            "rank": 3,
+            "valueA": 44717,
+            "valueB": 100819,
+            "userIdA": 801961098,
+            "userIdB": 957367479,
+            "nameA": "ShiroMoko",
+            "nameB": "Zevron"
+          },
+          {
+            "rank": 4,
+            "valueA": 44339,
+            "valueB": 79296,
+            "userIdA": 895948571,
+            "userIdB": 313893230,
+            "nameA": "bajda",
+            "nameB": "Sylvia"
+          },
+          {
+            "rank": 5,
+            "valueA": 17167,
+            "valueB": 57611,
+            "userIdA": 515568020,
+            "userIdB": 114555283,
+            "nameA": "Enigma",
+            "nameB": "Aleister"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 404251,
+            "valueB": 231087,
+            "userIdA": 991509328,
+            "userIdB": 206515583,
+            "nameA": "Drystar",
+            "nameB": "Nicole"
+          },
+          {
+            "rank": 2,
+            "valueA": 191371,
+            "valueB": 172101,
+            "userIdA": 890964279,
+            "userIdB": 957367479,
+            "nameA": "S0J",
+            "nameB": "Zevron"
+          },
+          {
+            "rank": 3,
+            "valueA": 45048,
+            "valueB": 157505,
+            "userIdA": 727928971,
+            "userIdB": 900192410,
+            "nameA": "Heikki",
+            "nameB": "Guts"
+          },
+          {
+            "rank": 4,
+            "valueA": 37636,
+            "valueB": 66432,
+            "userIdA": 895948571,
+            "userIdB": 812262330,
+            "nameA": "bajda",
+            "nameB": "Reizo"
+          },
+          {
+            "rank": 5,
+            "valueA": 36313,
+            "valueB": 66067,
+            "userIdA": 801961098,
+            "userIdB": 114555283,
+            "nameA": "ShiroMoko",
+            "nameB": "Aleister"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 833044,
+            "valueB": 115572,
+            "userIdA": 149802153,
+            "userIdB": 957367479,
+            "nameA": "Astronaut",
+            "nameB": "Zevron"
+          },
+          {
+            "rank": 2,
+            "valueA": 644862,
+            "valueB": 63345,
+            "userIdA": 946559622,
+            "userIdB": 942526131,
+            "nameA": "Thanatos",
+            "nameB": "Ubermorgen"
+          },
+          {
+            "rank": 3,
+            "valueA": 626652,
+            "valueB": 30285,
+            "userIdA": 727928971,
+            "userIdB": 812262330,
+            "nameA": "Heikki",
+            "nameB": "Reizo"
+          },
+          {
+            "rank": 4,
+            "valueA": 304253,
+            "valueB": 18348,
+            "userIdA": 357058633,
+            "userIdB": 114555283,
+            "nameA": "Zoe",
+            "nameB": "Aleister"
+          },
+          {
+            "rank": 5,
+            "valueA": 13906,
+            "valueB": 11441,
+            "userIdA": 139478290,
+            "userIdB": 643180952,
+            "nameA": "Blazing",
+            "nameB": "SevenForce"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 569893,
+            "valueB": 239046,
+            "userIdA": 149802153,
+            "userIdB": 957367479,
+            "nameA": "Astronaut",
+            "nameB": "Zevron"
+          },
+          {
+            "rank": 2,
+            "valueA": 513421,
+            "valueB": 33810,
+            "userIdA": 727928971,
+            "userIdB": 643180952,
+            "nameA": "Heikki",
+            "nameB": "SevenForce"
+          },
+          {
+            "rank": 3,
+            "valueA": 475056,
+            "valueB": 26364,
+            "userIdA": 357058633,
+            "userIdB": 812262330,
+            "nameA": "Zoe",
+            "nameB": "Reizo"
+          },
+          {
+            "rank": 4,
+            "valueA": 456145,
+            "valueB": 0,
+            "userIdA": 946559622,
+            "userIdB": 0,
+            "nameA": "Thanatos",
+            "nameB": ""
+          },
+          {
+            "rank": 5,
+            "valueA": 6654,
+            "valueB": 0,
+            "userIdA": 139478290,
+            "userIdB": 0,
+            "nameA": "Blazing",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 831,
+            "valueB": 137,
+            "userIdA": 593439881,
+            "userIdB": 812262330,
+            "nameA": "Ludmila",
+            "nameB": "Reizo"
+          },
+          {
+            "rank": 2,
+            "valueA": 707,
+            "valueB": 130,
+            "userIdA": 934398383,
+            "userIdB": 643180952,
+            "nameA": "FrostBiTE",
+            "nameB": "SevenForce"
+          },
+          {
+            "rank": 3,
+            "valueA": 627,
+            "valueB": 104,
+            "userIdA": 242923819,
+            "userIdB": 114555283,
+            "nameA": "Mini_Ashra",
+            "nameB": "Aleister"
+          },
+          {
+            "rank": 4,
+            "valueA": 366,
+            "valueB": 101,
+            "userIdA": 718599324,
+            "userIdB": 942526131,
+            "nameA": "RockとDevil",
+            "nameB": "Ubermorgen"
+          },
+          {
+            "rank": 5,
+            "valueA": 332,
+            "valueB": 24,
+            "userIdA": 139478290,
+            "userIdB": 957367479,
+            "nameA": "Blazing",
+            "nameB": "Zevron"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2398807,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 33,
+          "ultimateArtMethodMstId": 33,
+          "guildACount": 50,
+          "guildBCount": 14
+        },
+        {
+          "artMstId": 27,
+          "ultimateArtMethodMstId": 27,
+          "guildACount": 50,
+          "guildBCount": 2
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 305,
+    "gvgDataId": 2398807,
+    "guildDataIdA": 449,
+    "guildDataIdB": 30389,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "CatCafé",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 2,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 126,
+        "level": 194,
+        "totalPower": 145537,
+        "maxHp": 63384
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 57,
+        "level": 203,
+        "totalPower": 137964,
+        "maxHp": 61601
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 46,
+        "level": 209,
+        "totalPower": 156598,
+        "maxHp": 62967
+      },
+      {
+        "userId": 139478290,
+        "name": "Blazing",
+        "characterMstId": 139,
+        "level": 188,
+        "totalPower": 217601,
+        "maxHp": 54675
+      },
+      {
+        "userId": 242923819,
+        "name": "Mini_Ashra",
+        "characterMstId": 447,
+        "level": 200,
+        "totalPower": 133252,
+        "maxHp": 55405
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 201,
+        "totalPower": 240535,
+        "maxHp": 57645
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 187,
+        "totalPower": 226198,
+        "maxHp": 61416
+      },
+      {
+        "userId": 727928971,
+        "name": "Heikki",
+        "characterMstId": 93,
+        "level": 213,
+        "totalPower": 336475,
+        "maxHp": 80428
+      },
+      {
+        "userId": 149802153,
+        "name": "Astronaut",
+        "characterMstId": 167,
+        "level": 205,
+        "totalPower": 264143,
+        "maxHp": 65465
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 191,
+        "totalPower": 258890,
+        "maxHp": 62553
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 167,
+        "level": 198,
+        "totalPower": 250773,
+        "maxHp": 55380
+      },
+      {
+        "userId": 895948571,
+        "name": "bajda",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 237917,
+        "maxHp": 64301
+      },
+      {
+        "userId": 801961098,
+        "name": "ShiroMoko",
+        "characterMstId": 85,
+        "level": 165,
+        "totalPower": 222989,
+        "maxHp": 49355
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 139,
+        "totalPower": 214728,
+        "maxHp": 45554
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 165,
+        "level": 151,
+        "totalPower": 183298,
+        "maxHp": 37982
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 942526131,
+        "name": "Ubermorgen",
+        "characterMstId": 126,
+        "level": 193,
+        "totalPower": 214883,
+        "maxHp": 48373
+      },
+      {
+        "userId": 812262330,
+        "name": "Reizo",
+        "characterMstId": 126,
+        "level": 177,
+        "totalPower": 206164,
+        "maxHp": 48037
+      },
+      {
+        "userId": 114555283,
+        "name": "Aleister",
+        "characterMstId": 126,
+        "level": 193,
+        "totalPower": 202503,
+        "maxHp": 46273
+      },
+      {
+        "userId": 643180952,
+        "name": "SevenForce",
+        "characterMstId": 48,
+        "level": 189,
+        "totalPower": 189611,
+        "maxHp": 43984
+      },
+      {
+        "userId": 206515583,
+        "name": "Nicole",
+        "characterMstId": 114,
+        "level": 190,
+        "totalPower": 204297,
+        "maxHp": 50193
+      },
+      {
+        "userId": 957367479,
+        "name": "Zevron",
+        "characterMstId": 32,
+        "level": 201,
+        "totalPower": 234397,
+        "maxHp": 59395
+      },
+      {
+        "userId": 900192410,
+        "name": "Guts",
+        "characterMstId": 85,
+        "level": 200,
+        "totalPower": 222553,
+        "maxHp": 51505
+      },
+      {
+        "userId": 313893230,
+        "name": "Sylvia",
+        "characterMstId": 85,
+        "level": 123,
+        "totalPower": 170711,
+        "maxHp": 29829
+      }
+    ]
+  }
+}

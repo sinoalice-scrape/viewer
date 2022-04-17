@@ -1,0 +1,191 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 405,
+      "battleStartTime": 1640811600,
+      "battleEndTime": 1640812799,
+      "gvgDataId": 2572689,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 63009,
+      "selfGuildName": "Donbo",
+      "selfTotalGuildPoint": 0,
+      "selfComboCount": 0,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 36889,
+      "enemyGuildName": "CarpeDiem",
+      "enemyTotalGuildPoint": 0,
+      "enemyComboCount": 0,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 607502937,
+      "selfRankNum": 1,
+      "selfRankUserName": "Astra",
+      "selfRankGuildPoint": 0,
+      "enemyRankUserId": 191487597,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Whis",
+      "enemyRankGuildPoint": 0,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 607502937,
+            "userIdB": 191487597,
+            "nameA": "Astra",
+            "nameB": "Whis"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2572689,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 1,
+          "ultimateArtMethodMstId": 1,
+          "guildACount": 0,
+          "guildBCount": 0
+        },
+        {
+          "artMstId": 7,
+          "ultimateArtMethodMstId": 7,
+          "guildACount": 0,
+          "guildBCount": 0
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 405,
+    "gvgDataId": 2572689,
+    "guildDataIdA": 63009,
+    "guildDataIdB": 36889,
+    "guildDataNameA": "Donbo",
+    "guildDataNameB": "CarpeDiem",
+    "guildDataLevelA": 1,
+    "guildDataLevelB": 10,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 8,
+        "totalPower": 5556,
+        "maxHp": 1000
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 191487597,
+        "name": "Whis",
+        "characterMstId": 1,
+        "level": 10,
+        "totalPower": 7462,
+        "maxHp": 1264
+      }
+    ]
+  }
+}

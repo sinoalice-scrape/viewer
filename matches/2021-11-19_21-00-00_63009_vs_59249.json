@@ -1,0 +1,85 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 605,
+      "battleStartTime": 1637355600,
+      "battleEndTime": 1637356799,
+      "gvgDataId": 2481056,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 63009,
+      "selfGuildName": "Donbo",
+      "selfTotalGuildPoint": 0,
+      "selfComboCount": 0,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 59249,
+      "enemyGuildName": "APlaceToSleep",
+      "enemyTotalGuildPoint": 0,
+      "enemyComboCount": 0,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 0,
+      "selfRankNum": 0,
+      "selfRankUserName": "",
+      "selfRankGuildPoint": 0,
+      "enemyRankUserId": 0,
+      "enemyRankNum": 0,
+      "enemyRankUserName": "",
+      "enemyRankGuildPoint": 0,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": null,
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2481056,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 7,
+          "ultimateArtMethodMstId": 7,
+          "guildACount": 0,
+          "guildBCount": 0
+        },
+        {
+          "artMstId": 1,
+          "ultimateArtMethodMstId": 1,
+          "guildACount": 0,
+          "guildBCount": 0
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 605,
+    "gvgDataId": 2481056,
+    "guildDataIdA": 63009,
+    "guildDataIdB": 59249,
+    "guildDataNameA": "Donbo",
+    "guildDataNameB": "APlaceToSleep",
+    "guildDataLevelA": 1,
+    "guildDataLevelB": 2,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 8,
+        "totalPower": 5556,
+        "maxHp": 1000
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 694421472,
+        "name": "SHELLFISH",
+        "characterMstId": 539,
+        "level": 7,
+        "totalPower": 16254,
+        "maxHp": 1000
+      }
+    ]
+  }
+}

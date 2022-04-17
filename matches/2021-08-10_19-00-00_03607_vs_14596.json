@@ -1,0 +1,659 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 303,
+      "battleStartTime": 1628622000,
+      "battleEndTime": 1628623199,
+      "gvgDataId": 2201257,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 3607,
+      "selfGuildName": "Mindless",
+      "selfTotalGuildPoint": 44588,
+      "selfComboCount": 696,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 14596,
+      "enemyGuildName": "Felblade",
+      "enemyTotalGuildPoint": 151156,
+      "enemyComboCount": 833,
+      "enemySiegeWinCount": 3,
+      "selfRankUserId": 162850803,
+      "selfRankNum": 1,
+      "selfRankUserName": "Max",
+      "selfRankGuildPoint": 18051,
+      "enemyRankUserId": 784208863,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Lucina",
+      "enemyRankGuildPoint": 86977,
+      "scheduleNo": 0,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 18051,
+            "valueB": 86977,
+            "userIdA": 162850803,
+            "userIdB": 784208863,
+            "nameA": "Max",
+            "nameB": "Lucina"
+          },
+          {
+            "rank": 2,
+            "valueA": 12995,
+            "valueB": 17688,
+            "userIdA": 298613804,
+            "userIdB": 494031081,
+            "nameA": "DarkAz",
+            "nameB": "サニー"
+          },
+          {
+            "rank": 3,
+            "valueA": 11059,
+            "valueB": 4049,
+            "userIdA": 186609308,
+            "userIdB": 197730273,
+            "nameA": "DioW",
+            "nameB": "Nistia"
+          },
+          {
+            "rank": 4,
+            "valueA": 7410,
+            "valueB": 2367,
+            "userIdA": 628142319,
+            "userIdB": 626061698,
+            "nameA": "Kraine",
+            "nameB": "Ivy"
+          },
+          {
+            "rank": 5,
+            "valueA": 5334,
+            "valueB": 2219,
+            "userIdA": 424339726,
+            "userIdB": 407826030,
+            "nameA": "Siema",
+            "nameB": "junyunk"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 78157,
+            "valueB": 98754,
+            "userIdA": 775526341,
+            "userIdB": 335001732,
+            "nameA": "N.E.R.D",
+            "nameB": "ObiWan"
+          },
+          {
+            "rank": 2,
+            "valueA": 71951,
+            "valueB": 92161,
+            "userIdA": 607502937,
+            "userIdB": 784208863,
+            "nameA": "Astra",
+            "nameB": "Lucina"
+          },
+          {
+            "rank": 3,
+            "valueA": 67659,
+            "valueB": 75893,
+            "userIdA": 298613804,
+            "userIdB": 438425769,
+            "nameA": "DarkAz",
+            "nameB": "Natsume"
+          },
+          {
+            "rank": 4,
+            "valueA": 62260,
+            "valueB": 63323,
+            "userIdA": 188863573,
+            "userIdB": 294912542,
+            "nameA": "Guilty",
+            "nameB": "Keoda"
+          },
+          {
+            "rank": 5,
+            "valueA": 61274,
+            "valueB": 46040,
+            "userIdA": 162850803,
+            "userIdB": 494031081,
+            "nameA": "Max",
+            "nameB": "サニー"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 7487,
+            "valueB": 13677,
+            "userIdA": 409563292,
+            "userIdB": 784208863,
+            "nameA": "Mantovas",
+            "nameB": "Lucina"
+          },
+          {
+            "rank": 2,
+            "valueA": 5992,
+            "valueB": 2574,
+            "userIdA": 162850803,
+            "userIdB": 494031081,
+            "nameA": "Max",
+            "nameB": "サニー"
+          },
+          {
+            "rank": 3,
+            "valueA": 4759,
+            "valueB": 1567,
+            "userIdA": 178901344,
+            "userIdB": 335001732,
+            "nameA": "Kaio",
+            "nameB": "ObiWan"
+          },
+          {
+            "rank": 4,
+            "valueA": 4034,
+            "valueB": 1423,
+            "userIdA": 193289944,
+            "userIdB": 197730273,
+            "nameA": "Lambchop",
+            "nameB": "Nistia"
+          },
+          {
+            "rank": 5,
+            "valueA": 3006,
+            "valueB": 1356,
+            "userIdA": 188863573,
+            "userIdB": 947154157,
+            "nameA": "Guilty",
+            "nameB": "Gazragar"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 14761,
+            "valueB": 5920,
+            "userIdA": 775526341,
+            "userIdB": 438425769,
+            "nameA": "N.E.R.D",
+            "nameB": "Natsume"
+          },
+          {
+            "rank": 2,
+            "valueA": 7439,
+            "valueB": 2962,
+            "userIdA": 409563292,
+            "userIdB": 784208863,
+            "nameA": "Mantovas",
+            "nameB": "Lucina"
+          },
+          {
+            "rank": 3,
+            "valueA": 2366,
+            "valueB": 1226,
+            "userIdA": 480542285,
+            "userIdB": 494031081,
+            "nameA": "Midarin",
+            "nameB": "サニー"
+          },
+          {
+            "rank": 4,
+            "valueA": 2293,
+            "valueB": 1005,
+            "userIdA": 178901344,
+            "userIdB": 407826030,
+            "nameA": "Kaio",
+            "nameB": "junyunk"
+          },
+          {
+            "rank": 5,
+            "valueA": 1848,
+            "valueB": 966,
+            "userIdA": 298613804,
+            "userIdB": 294912542,
+            "nameA": "DarkAz",
+            "nameB": "Keoda"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3424,
+            "valueB": 4133,
+            "userIdA": 162850803,
+            "userIdB": 494031081,
+            "nameA": "Max",
+            "nameB": "サニー"
+          },
+          {
+            "rank": 2,
+            "valueA": 2066,
+            "valueB": 2839,
+            "userIdA": 409563292,
+            "userIdB": 492073775,
+            "nameA": "Mantovas",
+            "nameB": "Mikatra"
+          },
+          {
+            "rank": 3,
+            "valueA": 2049,
+            "valueB": 1644,
+            "userIdA": 775526341,
+            "userIdB": 335001732,
+            "nameA": "N.E.R.D",
+            "nameB": "ObiWan"
+          },
+          {
+            "rank": 4,
+            "valueA": 1178,
+            "valueB": 235,
+            "userIdA": 480542285,
+            "userIdB": 197730273,
+            "nameA": "Midarin",
+            "nameB": "Nistia"
+          },
+          {
+            "rank": 5,
+            "valueA": 1091,
+            "valueB": 0,
+            "userIdA": 193289944,
+            "userIdB": 0,
+            "nameA": "Lambchop",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5533,
+            "valueB": 5995,
+            "userIdA": 409563292,
+            "userIdB": 438425769,
+            "nameA": "Mantovas",
+            "nameB": "Natsume"
+          },
+          {
+            "rank": 2,
+            "valueA": 4655,
+            "valueB": 2409,
+            "userIdA": 775526341,
+            "userIdB": 492073775,
+            "nameA": "N.E.R.D",
+            "nameB": "Mikatra"
+          },
+          {
+            "rank": 3,
+            "valueA": 3100,
+            "valueB": 1771,
+            "userIdA": 188863573,
+            "userIdB": 494031081,
+            "nameA": "Guilty",
+            "nameB": "サニー"
+          },
+          {
+            "rank": 4,
+            "valueA": 2362,
+            "valueB": 0,
+            "userIdA": 178901344,
+            "userIdB": 0,
+            "nameA": "Kaio",
+            "nameB": ""
+          },
+          {
+            "rank": 5,
+            "valueA": 1822,
+            "valueB": 0,
+            "userIdA": 193289944,
+            "userIdB": 0,
+            "nameA": "Lambchop",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 65,
+            "valueB": 140,
+            "userIdA": 530037340,
+            "userIdB": 784208863,
+            "nameA": "Dina",
+            "nameB": "Lucina"
+          },
+          {
+            "rank": 2,
+            "valueA": 65,
+            "valueB": 74,
+            "userIdA": 186609308,
+            "userIdB": 494031081,
+            "nameA": "DioW",
+            "nameB": "サニー"
+          },
+          {
+            "rank": 3,
+            "valueA": 61,
+            "valueB": 71,
+            "userIdA": 607502937,
+            "userIdB": 294912542,
+            "nameA": "Astra",
+            "nameB": "Keoda"
+          },
+          {
+            "rank": 4,
+            "valueA": 60,
+            "valueB": 70,
+            "userIdA": 424339726,
+            "userIdB": 945514997,
+            "nameA": "Siema",
+            "nameB": "DVips"
+          },
+          {
+            "rank": 5,
+            "valueA": 59,
+            "valueB": 67,
+            "userIdA": 298613804,
+            "userIdB": 638105387,
+            "nameA": "DarkAz",
+            "nameB": "ZeRo"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2201257,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 1,
+          "ultimateArtMethodMstId": 1,
+          "guildACount": 30,
+          "guildBCount": 26
+        },
+        {
+          "artMstId": 31,
+          "ultimateArtMethodMstId": 31,
+          "guildACount": 30,
+          "guildBCount": 27
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 303,
+    "gvgDataId": 2201257,
+    "guildDataIdA": 3607,
+    "guildDataIdB": 14596,
+    "guildDataNameA": "Mindless",
+    "guildDataNameB": "Felblade",
+    "guildDataLevelA": 50,
+    "guildDataLevelB": 80,
+    "guildDataRankA": 0,
+    "guildDataRankB": 1,
+    "guildMemberA": [
+      {
+        "userId": 162850803,
+        "name": "Max",
+        "characterMstId": 102,
+        "level": 90,
+        "totalPower": 79083,
+        "maxHp": 13455
+      },
+      {
+        "userId": 530037340,
+        "name": "Dina",
+        "characterMstId": 6,
+        "level": 35,
+        "totalPower": 12790,
+        "maxHp": 4831
+      },
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 5,
+        "totalPower": 5556,
+        "maxHp": 1000
+      },
+      {
+        "userId": 298613804,
+        "name": "DarkAz",
+        "characterMstId": 38,
+        "level": 91,
+        "totalPower": 80610,
+        "maxHp": 14624
+      },
+      {
+        "userId": 480542285,
+        "name": "Midarin",
+        "characterMstId": 36,
+        "level": 72,
+        "totalPower": 52716,
+        "maxHp": 10904
+      },
+      {
+        "userId": 837992644,
+        "name": "Exleos",
+        "characterMstId": 159,
+        "level": 57,
+        "totalPower": 37042,
+        "maxHp": 8329
+      },
+      {
+        "userId": 424339726,
+        "name": "Siema",
+        "characterMstId": 36,
+        "level": 25,
+        "totalPower": 19679,
+        "maxHp": 3532
+      },
+      {
+        "userId": 628142319,
+        "name": "Kraine",
+        "characterMstId": 8,
+        "level": 54,
+        "totalPower": 46170,
+        "maxHp": 7833
+      },
+      {
+        "userId": 186609308,
+        "name": "DioW",
+        "characterMstId": 121,
+        "level": 52,
+        "totalPower": 28662,
+        "maxHp": 7154
+      },
+      {
+        "userId": 106160819,
+        "name": "GhostyBoi",
+        "characterMstId": 15,
+        "level": 57,
+        "totalPower": 47381,
+        "maxHp": 8229
+      },
+      {
+        "userId": 193289944,
+        "name": "Lambchop",
+        "characterMstId": 94,
+        "level": 18,
+        "totalPower": 11910,
+        "maxHp": 2336
+      },
+      {
+        "userId": 775526341,
+        "name": "N.E.R.D",
+        "characterMstId": 444,
+        "level": 81,
+        "totalPower": 50838,
+        "maxHp": 12698
+      },
+      {
+        "userId": 178901344,
+        "name": "Kaio",
+        "characterMstId": 32,
+        "level": 28,
+        "totalPower": 17286,
+        "maxHp": 4051
+      },
+      {
+        "userId": 188863573,
+        "name": "Guilty",
+        "characterMstId": 39,
+        "level": 36,
+        "totalPower": 26688,
+        "maxHp": 4942
+      },
+      {
+        "userId": 409563292,
+        "name": "Mantovas",
+        "characterMstId": 243,
+        "level": 27,
+        "totalPower": 23408,
+        "maxHp": 4465
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 407826030,
+        "name": "junyunk",
+        "characterMstId": 5,
+        "level": 45,
+        "totalPower": 40251,
+        "maxHp": 6424
+      },
+      {
+        "userId": 947154157,
+        "name": "Gazragar",
+        "characterMstId": 900002,
+        "level": 9,
+        "totalPower": 12624,
+        "maxHp": 1183
+      },
+      {
+        "userId": 784208863,
+        "name": "Lucina",
+        "characterMstId": 523,
+        "level": 191,
+        "totalPower": 145717,
+        "maxHp": 44153
+      },
+      {
+        "userId": 294912542,
+        "name": "Keoda",
+        "characterMstId": 36,
+        "level": 55,
+        "totalPower": 27107,
+        "maxHp": 7908
+      },
+      {
+        "userId": 945514997,
+        "name": "DVips",
+        "characterMstId": 2,
+        "level": 47,
+        "totalPower": 23671,
+        "maxHp": 6810
+      },
+      {
+        "userId": 178361946,
+        "name": "RoyalT",
+        "characterMstId": 21,
+        "level": 35,
+        "totalPower": 15301,
+        "maxHp": 4831
+      },
+      {
+        "userId": 626061698,
+        "name": "Ivy",
+        "characterMstId": 21,
+        "level": 4,
+        "totalPower": 14203,
+        "maxHp": 1150
+      },
+      {
+        "userId": 638105387,
+        "name": "ZeRo",
+        "characterMstId": 1,
+        "level": 4,
+        "totalPower": 13243,
+        "maxHp": 1000
+      },
+      {
+        "userId": 494031081,
+        "name": "サニー",
+        "characterMstId": 170,
+        "level": 85,
+        "totalPower": 81697,
+        "maxHp": 13788
+      },
+      {
+        "userId": 197730273,
+        "name": "Nistia",
+        "characterMstId": 46,
+        "level": 56,
+        "totalPower": 44107,
+        "maxHp": 8478
+      },
+      {
+        "userId": 558830931,
+        "name": "Siren",
+        "characterMstId": 13,
+        "level": 43,
+        "totalPower": 37427,
+        "maxHp": 6158
+      },
+      {
+        "userId": 438425769,
+        "name": "Natsume",
+        "characterMstId": 444,
+        "level": 10,
+        "totalPower": 18450,
+        "maxHp": 1264
+      },
+      {
+        "userId": 335001732,
+        "name": "ObiWan",
+        "characterMstId": 444,
+        "level": 8,
+        "totalPower": 12429,
+        "maxHp": 1000
+      },
+      {
+        "userId": 492073775,
+        "name": "Mikatra",
+        "characterMstId": 24,
+        "level": 17,
+        "totalPower": 15655,
+        "maxHp": 2567
+      }
+    ]
+  }
+}

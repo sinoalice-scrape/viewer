@@ -1,0 +1,659 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 101,
+      "battleStartTime": 1629644400,
+      "battleEndTime": 1629645599,
+      "gvgDataId": 2237182,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 1387477,
+      "selfComboCount": 1546,
+      "selfSiegeWinCount": 3,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 48389,
+      "enemyGuildName": "MuKaRyu",
+      "enemyTotalGuildPoint": 371438,
+      "enemyComboCount": 712,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 658397897,
+      "selfRankNum": 1,
+      "selfRankUserName": "Juddy",
+      "selfRankGuildPoint": 335819,
+      "enemyRankUserId": 809936182,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "碧-peki-",
+      "enemyRankGuildPoint": 234020,
+      "scheduleNo": 0,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 335819,
+            "valueB": 234020,
+            "userIdA": 658397897,
+            "userIdB": 809936182,
+            "nameA": "Juddy",
+            "nameB": "碧-peki-"
+          },
+          {
+            "rank": 2,
+            "valueA": 320446,
+            "valueB": 113216,
+            "userIdA": 886338464,
+            "userIdB": 996477125,
+            "nameA": "我是Bloob❀ぺこ",
+            "nameB": "virgofelin"
+          },
+          {
+            "rank": 3,
+            "valueA": 195627,
+            "valueB": 104391,
+            "userIdA": 945805018,
+            "userIdB": 311722927,
+            "nameA": "Maximilian",
+            "nameB": "Xilliana"
+          },
+          {
+            "rank": 4,
+            "valueA": 190929,
+            "valueB": 13292,
+            "userIdA": 801687852,
+            "userIdB": 488583651,
+            "nameA": "DaijobuGGs",
+            "nameB": "Phaleon"
+          },
+          {
+            "rank": 5,
+            "valueA": 186384,
+            "valueB": 12622,
+            "userIdA": 311155260,
+            "userIdB": 794000191,
+            "nameA": "Tamuko",
+            "nameB": "lendop"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 9781012,
+            "valueB": 7765223,
+            "userIdA": 335076343,
+            "userIdB": 278183960,
+            "nameA": "Melesie",
+            "nameB": "Midnight"
+          },
+          {
+            "rank": 2,
+            "valueA": 9059324,
+            "valueB": 2012821,
+            "userIdA": 595872065,
+            "userIdB": 642696354,
+            "nameA": "Fuyune<3",
+            "nameB": "Grayscale"
+          },
+          {
+            "rank": 3,
+            "valueA": 3703431,
+            "valueB": 1669188,
+            "userIdA": 519357658,
+            "userIdB": 523644273,
+            "nameA": "NeoCrimson",
+            "nameB": "Solita"
+          },
+          {
+            "rank": 4,
+            "valueA": 63280,
+            "valueB": 1020595,
+            "userIdA": 658397897,
+            "userIdB": 506066914,
+            "nameA": "Juddy",
+            "nameB": "Saiko"
+          },
+          {
+            "rank": 5,
+            "valueA": 11184,
+            "valueB": 735081,
+            "userIdA": 178311698,
+            "userIdB": 722541677,
+            "nameA": "Charioce",
+            "nameB": "Zero"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 770856,
+            "valueB": 299169,
+            "userIdA": 252654652,
+            "userIdB": 860002054,
+            "nameA": "Xameria",
+            "nameB": "Ditto"
+          },
+          {
+            "rank": 2,
+            "valueA": 470967,
+            "valueB": 213972,
+            "userIdA": 898672025,
+            "userIdB": 278183960,
+            "nameA": "colonel",
+            "nameB": "Midnight"
+          },
+          {
+            "rank": 3,
+            "valueA": 307049,
+            "valueB": 199192,
+            "userIdA": 130144213,
+            "userIdB": 782599653,
+            "nameA": "Azami",
+            "nameB": "Daylight"
+          },
+          {
+            "rank": 4,
+            "valueA": 99554,
+            "valueB": 145290,
+            "userIdA": 594178109,
+            "userIdB": 506066914,
+            "nameA": "Jeanne",
+            "nameB": "Saiko"
+          },
+          {
+            "rank": 5,
+            "valueA": 88854,
+            "valueB": 109658,
+            "userIdA": 917156829,
+            "userIdB": 642696354,
+            "nameA": "Tesa",
+            "nameB": "Grayscale"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 636249,
+            "valueB": 265843,
+            "userIdA": 252654652,
+            "userIdB": 860002054,
+            "nameA": "Xameria",
+            "nameB": "Ditto"
+          },
+          {
+            "rank": 2,
+            "valueA": 635777,
+            "valueB": 168226,
+            "userIdA": 898672025,
+            "userIdB": 523644273,
+            "nameA": "colonel",
+            "nameB": "Solita"
+          },
+          {
+            "rank": 3,
+            "valueA": 170405,
+            "valueB": 147958,
+            "userIdA": 130144213,
+            "userIdB": 278183960,
+            "nameA": "Azami",
+            "nameB": "Midnight"
+          },
+          {
+            "rank": 4,
+            "valueA": 96504,
+            "valueB": 139512,
+            "userIdA": 335076343,
+            "userIdB": 722541677,
+            "nameA": "Melesie",
+            "nameB": "Zero"
+          },
+          {
+            "rank": 5,
+            "valueA": 77253,
+            "valueB": 134830,
+            "userIdA": 594178109,
+            "userIdB": 782599653,
+            "nameA": "Jeanne",
+            "nameB": "Daylight"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 474148,
+            "valueB": 451656,
+            "userIdA": 178311698,
+            "userIdB": 998252058,
+            "nameA": "Charioce",
+            "nameB": "Caer"
+          },
+          {
+            "rank": 2,
+            "valueA": 381969,
+            "valueB": 253768,
+            "userIdA": 594178109,
+            "userIdB": 506066914,
+            "nameA": "Jeanne",
+            "nameB": "Saiko"
+          },
+          {
+            "rank": 3,
+            "valueA": 296728,
+            "valueB": 119952,
+            "userIdA": 252654652,
+            "userIdB": 782599653,
+            "nameA": "Xameria",
+            "nameB": "Daylight"
+          },
+          {
+            "rank": 4,
+            "valueA": 226293,
+            "valueB": 67248,
+            "userIdA": 557593123,
+            "userIdB": 722541677,
+            "nameA": "Derpy",
+            "nameB": "Zero"
+          },
+          {
+            "rank": 5,
+            "valueA": 167511,
+            "valueB": 58992,
+            "userIdA": 917156829,
+            "userIdB": 523644273,
+            "nameA": "Tesa",
+            "nameB": "Solita"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 622982,
+            "valueB": 741770,
+            "userIdA": 917156829,
+            "userIdB": 998252058,
+            "nameA": "Tesa",
+            "nameB": "Caer"
+          },
+          {
+            "rank": 2,
+            "valueA": 545229,
+            "valueB": 196923,
+            "userIdA": 594178109,
+            "userIdB": 506066914,
+            "nameA": "Jeanne",
+            "nameB": "Saiko"
+          },
+          {
+            "rank": 3,
+            "valueA": 337501,
+            "valueB": 146552,
+            "userIdA": 557593123,
+            "userIdB": 782599653,
+            "nameA": "Derpy",
+            "nameB": "Daylight"
+          },
+          {
+            "rank": 4,
+            "valueA": 217484,
+            "valueB": 75660,
+            "userIdA": 178311698,
+            "userIdB": 996477125,
+            "nameA": "Charioce",
+            "nameB": "virgofelin"
+          },
+          {
+            "rank": 5,
+            "valueA": 141210,
+            "valueB": 75407,
+            "userIdA": 252654652,
+            "userIdB": 794000191,
+            "nameA": "Xameria",
+            "nameB": "lendop"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 229,
+            "valueB": 212,
+            "userIdA": 945805018,
+            "userIdB": 311722927,
+            "nameA": "Maximilian",
+            "nameB": "Xilliana"
+          },
+          {
+            "rank": 2,
+            "valueA": 198,
+            "valueB": 168,
+            "userIdA": 311155260,
+            "userIdB": 809936182,
+            "nameA": "Tamuko",
+            "nameB": "碧-peki-"
+          },
+          {
+            "rank": 3,
+            "valueA": 172,
+            "valueB": 136,
+            "userIdA": 898672025,
+            "userIdB": 996477125,
+            "nameA": "colonel",
+            "nameB": "virgofelin"
+          },
+          {
+            "rank": 4,
+            "valueA": 139,
+            "valueB": 129,
+            "userIdA": 658397897,
+            "userIdB": 488583651,
+            "nameA": "Juddy",
+            "nameB": "Phaleon"
+          },
+          {
+            "rank": 5,
+            "valueA": 130,
+            "valueB": 39,
+            "userIdA": 178311698,
+            "userIdB": 794000191,
+            "nameA": "Charioce",
+            "nameB": "lendop"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2237182,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 75,
+          "guildBCount": 54
+        },
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 59,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 101,
+    "gvgDataId": 2237182,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 48389,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "MuKaRyu",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 97,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 103,
+        "level": 183,
+        "totalPower": 222869,
+        "maxHp": 53585
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 109,
+        "level": 198,
+        "totalPower": 218951,
+        "maxHp": 52730
+      },
+      {
+        "userId": 886338464,
+        "name": "我是Bloob❀ぺこ",
+        "characterMstId": 48,
+        "level": 201,
+        "totalPower": 293971,
+        "maxHp": 68645
+      },
+      {
+        "userId": 801687852,
+        "name": "DaijobuGGs",
+        "characterMstId": 48,
+        "level": 200,
+        "totalPower": 241164,
+        "maxHp": 59655
+      },
+      {
+        "userId": 945805018,
+        "name": "Maximilian",
+        "characterMstId": 48,
+        "level": 197,
+        "totalPower": 224849,
+        "maxHp": 54018
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 53,
+        "level": 176,
+        "totalPower": 209515,
+        "maxHp": 51713
+      },
+      {
+        "userId": 898672025,
+        "name": "colonel",
+        "characterMstId": 114,
+        "level": 189,
+        "totalPower": 207345,
+        "maxHp": 51034
+      },
+      {
+        "userId": 130144213,
+        "name": "Azami",
+        "characterMstId": 116,
+        "level": 122,
+        "totalPower": 172138,
+        "maxHp": 28040
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 389,
+        "level": 205,
+        "totalPower": 236861,
+        "maxHp": 56765
+      },
+      {
+        "userId": 917156829,
+        "name": "Tesa",
+        "characterMstId": 489,
+        "level": 185,
+        "totalPower": 196319,
+        "maxHp": 50400
+      },
+      {
+        "userId": 557593123,
+        "name": "Derpy",
+        "characterMstId": 520,
+        "level": 145,
+        "totalPower": 190498,
+        "maxHp": 42744
+      },
+      {
+        "userId": 178311698,
+        "name": "Charioce",
+        "characterMstId": 93,
+        "level": 127,
+        "totalPower": 126491,
+        "maxHp": 27975
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 215,
+        "totalPower": 234025,
+        "maxHp": 64327
+      },
+      {
+        "userId": 519357658,
+        "name": "NeoCrimson",
+        "characterMstId": 85,
+        "level": 189,
+        "totalPower": 225480,
+        "maxHp": 54734
+      },
+      {
+        "userId": 595872065,
+        "name": "Fuyune<3",
+        "characterMstId": 85,
+        "level": 192,
+        "totalPower": 221141,
+        "maxHp": 55613
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 809936182,
+        "name": "碧-peki-",
+        "characterMstId": 3,
+        "level": 203,
+        "totalPower": 238325,
+        "maxHp": 59901
+      },
+      {
+        "userId": 311722927,
+        "name": "Xilliana",
+        "characterMstId": 445,
+        "level": 196,
+        "totalPower": 220904,
+        "maxHp": 52906
+      },
+      {
+        "userId": 488583651,
+        "name": "Phaleon",
+        "characterMstId": 126,
+        "level": 106,
+        "totalPower": 132951,
+        "maxHp": 22292
+      },
+      {
+        "userId": 996477125,
+        "name": "virgofelin",
+        "characterMstId": 521,
+        "level": 197,
+        "totalPower": 208246,
+        "maxHp": 51118
+      },
+      {
+        "userId": 434737338,
+        "name": "Xylark",
+        "characterMstId": 900003,
+        "level": 144,
+        "totalPower": 184644,
+        "maxHp": 38255
+      },
+      {
+        "userId": 782599653,
+        "name": "Daylight",
+        "characterMstId": 63,
+        "level": 81,
+        "totalPower": 107206,
+        "maxHp": 12798
+      },
+      {
+        "userId": 860002054,
+        "name": "Ditto",
+        "characterMstId": 114,
+        "level": 82,
+        "totalPower": 94135,
+        "maxHp": 13406
+      },
+      {
+        "userId": 506066914,
+        "name": "Saiko",
+        "characterMstId": 489,
+        "level": 171,
+        "totalPower": 195732,
+        "maxHp": 47006
+      },
+      {
+        "userId": 998252058,
+        "name": "Caer",
+        "characterMstId": 93,
+        "level": 188,
+        "totalPower": 178545,
+        "maxHp": 45125
+      },
+      {
+        "userId": 278183960,
+        "name": "Midnight",
+        "characterMstId": 85,
+        "level": 184,
+        "totalPower": 205250,
+        "maxHp": 51192
+      },
+      {
+        "userId": 523644273,
+        "name": "Solita",
+        "characterMstId": 161,
+        "level": 111,
+        "totalPower": 151379,
+        "maxHp": 26429
+      },
+      {
+        "userId": 722541677,
+        "name": "Zero",
+        "characterMstId": 61,
+        "level": 99,
+        "totalPower": 129343,
+        "maxHp": 17561
+      },
+      {
+        "userId": 794000191,
+        "name": "lendop",
+        "characterMstId": 55,
+        "level": 112,
+        "totalPower": 112777,
+        "maxHp": 24348
+      },
+      {
+        "userId": 642696354,
+        "name": "Grayscale",
+        "characterMstId": 85,
+        "level": 109,
+        "totalPower": 111894,
+        "maxHp": 24003
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 305,
+      "battleStartTime": 1636491600,
+      "battleEndTime": 1636492799,
+      "gvgDataId": 2455734,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 63009,
+      "selfGuildName": "Donbo",
+      "selfTotalGuildPoint": 1,
+      "selfComboCount": 1,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 63174,
+      "enemyGuildName": "GamerZ-2",
+      "enemyTotalGuildPoint": 7506,
+      "enemyComboCount": 1,
+      "enemySiegeWinCount": 1,
+      "selfRankUserId": 607502937,
+      "selfRankNum": 1,
+      "selfRankUserName": "Astra",
+      "selfRankGuildPoint": 2,
+      "enemyRankUserId": 958999311,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Soretox",
+      "enemyRankGuildPoint": 7505,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 250
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2,
+            "valueB": 7505,
+            "userIdA": 607502937,
+            "userIdB": 958999311,
+            "nameA": "Astra",
+            "nameB": "Soretox"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1000,
+            "valueB": 0,
+            "userIdA": 607502937,
+            "userIdB": 0,
+            "nameA": "Astra",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 754,
+            "userIdA": 0,
+            "userIdB": 958999311,
+            "nameA": "",
+            "nameB": "Soretox"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1,
+            "valueB": 1,
+            "userIdA": 607502937,
+            "userIdB": 958999311,
+            "nameA": "Astra",
+            "nameB": "Soretox"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2455734,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 13,
+          "ultimateArtMethodMstId": 13,
+          "guildACount": 0,
+          "guildBCount": 0
+        },
+        {
+          "artMstId": 19,
+          "ultimateArtMethodMstId": 19,
+          "guildACount": 0,
+          "guildBCount": 0
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 305,
+    "gvgDataId": 2455734,
+    "guildDataIdA": 63009,
+    "guildDataIdB": 63174,
+    "guildDataNameA": "Donbo",
+    "guildDataNameB": "GamerZ-2",
+    "guildDataLevelA": 1,
+    "guildDataLevelB": 4,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 8,
+        "totalPower": 5556,
+        "maxHp": 1000
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 958999311,
+        "name": "Soretox",
+        "characterMstId": 48,
+        "level": 195,
+        "totalPower": 224353,
+        "maxHp": 56845
+      }
+    ]
+  }
+}

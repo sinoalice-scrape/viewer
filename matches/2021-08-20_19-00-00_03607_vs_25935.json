@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 603,
+      "battleStartTime": 1629486000,
+      "battleEndTime": 1629487199,
+      "gvgDataId": 2231523,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 3607,
+      "selfGuildName": "Mindless",
+      "selfTotalGuildPoint": 2342,
+      "selfComboCount": 37,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 25935,
+      "enemyGuildName": "Nani?!",
+      "enemyTotalGuildPoint": 1376,
+      "enemyComboCount": 44,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 162850803,
+      "selfRankNum": 1,
+      "selfRankUserName": "Max",
+      "selfRankGuildPoint": 991,
+      "enemyRankUserId": 778260959,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Gil",
+      "enemyRankGuildPoint": 624,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 276
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 991,
+            "valueB": 624,
+            "userIdA": 162850803,
+            "userIdB": 778260959,
+            "nameA": "Max",
+            "nameB": "Gil"
+          },
+          {
+            "rank": 2,
+            "valueA": 627,
+            "valueB": 368,
+            "userIdA": 298613804,
+            "userIdB": 970306963,
+            "nameA": "DarkAz",
+            "nameB": "VincentADK"
+          },
+          {
+            "rank": 3,
+            "valueA": 273,
+            "valueB": 149,
+            "userIdA": 480542285,
+            "userIdB": 257964914,
+            "nameA": "Midarin",
+            "nameB": "DeRuss"
+          },
+          {
+            "rank": 4,
+            "valueA": 168,
+            "valueB": 90,
+            "userIdA": 775526341,
+            "userIdB": 963183454,
+            "nameA": "N.E.R.D",
+            "nameB": "Link"
+          },
+          {
+            "rank": 5,
+            "valueA": 167,
+            "valueB": 46,
+            "userIdA": 628142319,
+            "userIdB": 908104212,
+            "nameA": "Kraine",
+            "nameB": "Papu"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5904,
+            "valueB": 11086,
+            "userIdA": 775526341,
+            "userIdB": 908104212,
+            "nameA": "N.E.R.D",
+            "nameB": "Papu"
+          },
+          {
+            "rank": 2,
+            "valueA": 2032,
+            "valueB": 2114,
+            "userIdA": 162850803,
+            "userIdB": 563311769,
+            "nameA": "Max",
+            "nameB": "BlutMondWo"
+          },
+          {
+            "rank": 3,
+            "valueA": 1764,
+            "valueB": 1861,
+            "userIdA": 178901344,
+            "userIdB": 343952849,
+            "nameA": "Kaio",
+            "nameB": "Maku"
+          },
+          {
+            "rank": 4,
+            "valueA": 1170,
+            "valueB": 1262,
+            "userIdA": 837992644,
+            "userIdB": 778260959,
+            "nameA": "Exleos",
+            "nameB": "Gil"
+          },
+          {
+            "rank": 5,
+            "valueA": 549,
+            "valueB": 1238,
+            "userIdA": 424339726,
+            "userIdB": 403528730,
+            "nameA": "Siema",
+            "nameB": "Nightmare"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 643,
+            "valueB": 760,
+            "userIdA": 178901344,
+            "userIdB": 823890323,
+            "nameA": "Kaio",
+            "nameB": "Vexe"
+          },
+          {
+            "rank": 2,
+            "valueA": 485,
+            "valueB": 668,
+            "userIdA": 193289944,
+            "userIdB": 778260959,
+            "nameA": "Lambchop",
+            "nameB": "Gil"
+          },
+          {
+            "rank": 3,
+            "valueA": 375,
+            "valueB": 196,
+            "userIdA": 162850803,
+            "userIdB": 592520747,
+            "nameA": "Max",
+            "nameB": "Mci"
+          },
+          {
+            "rank": 4,
+            "valueA": 326,
+            "valueB": 175,
+            "userIdA": 298613804,
+            "userIdB": 403528730,
+            "nameA": "DarkAz",
+            "nameB": "Nightmare"
+          },
+          {
+            "rank": 5,
+            "valueA": 276,
+            "valueB": 175,
+            "userIdA": 409563292,
+            "userIdB": 963183454,
+            "nameA": "Mantovas",
+            "nameB": "Link"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 929,
+            "valueB": 2350,
+            "userIdA": 409563292,
+            "userIdB": 823890323,
+            "nameA": "Mantovas",
+            "nameB": "Vexe"
+          },
+          {
+            "rank": 2,
+            "valueA": 493,
+            "valueB": 490,
+            "userIdA": 178901344,
+            "userIdB": 562799328,
+            "nameA": "Kaio",
+            "nameB": "Johnson"
+          },
+          {
+            "rank": 3,
+            "valueA": 280,
+            "valueB": 0,
+            "userIdA": 193289944,
+            "userIdB": 0,
+            "nameA": "Lambchop",
+            "nameB": ""
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1143,
+            "valueB": 555,
+            "userIdA": 162850803,
+            "userIdB": 823890323,
+            "nameA": "Max",
+            "nameB": "Vexe"
+          },
+          {
+            "rank": 2,
+            "valueA": 973,
+            "valueB": 412,
+            "userIdA": 775526341,
+            "userIdB": 963183454,
+            "nameA": "N.E.R.D",
+            "nameB": "Link"
+          },
+          {
+            "rank": 3,
+            "valueA": 122,
+            "valueB": 331,
+            "userIdA": 186609308,
+            "userIdB": 970306963,
+            "nameA": "DioW",
+            "nameB": "VincentADK"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 306,
+            "userIdA": 0,
+            "userIdB": 562799328,
+            "nameA": "",
+            "nameB": "Johnson"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 232,
+            "userIdA": 0,
+            "userIdB": 778260959,
+            "nameA": "",
+            "nameB": "Gil"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 630,
+            "userIdA": 0,
+            "userIdB": 823890323,
+            "nameA": "",
+            "nameB": "Vexe"
+          },
+          {
+            "rank": 2,
+            "valueA": 0,
+            "valueB": 615,
+            "userIdA": 0,
+            "userIdB": 592520747,
+            "nameA": "",
+            "nameB": "Mci"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 395,
+            "userIdA": 0,
+            "userIdB": 562799328,
+            "nameA": "",
+            "nameB": "Johnson"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4,
+            "valueB": 7,
+            "userIdA": 162850803,
+            "userIdB": 778260959,
+            "nameA": "Max",
+            "nameB": "Gil"
+          },
+          {
+            "rank": 2,
+            "valueA": 4,
+            "valueB": 4,
+            "userIdA": 186609308,
+            "userIdB": 257964914,
+            "nameA": "DioW",
+            "nameB": "DeRuss"
+          },
+          {
+            "rank": 3,
+            "valueA": 4,
+            "valueB": 4,
+            "userIdA": 424339726,
+            "userIdB": 320794249,
+            "nameA": "Siema",
+            "nameB": "Shuno"
+          },
+          {
+            "rank": 4,
+            "valueA": 4,
+            "valueB": 4,
+            "userIdA": 607502937,
+            "userIdB": 343952849,
+            "nameA": "Astra",
+            "nameB": "Maku"
+          },
+          {
+            "rank": 5,
+            "valueA": 3,
+            "valueB": 4,
+            "userIdA": 106160819,
+            "userIdB": 563311769,
+            "nameA": "GhostyBoi",
+            "nameB": "BlutMondWo"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2231523,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 10,
+          "guildBCount": 12
+        },
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 0,
+          "guildBCount": 0
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 603,
+    "gvgDataId": 2231523,
+    "guildDataIdA": 3607,
+    "guildDataIdB": 25935,
+    "guildDataNameA": "Mindless",
+    "guildDataNameB": "Nani?!",
+    "guildDataLevelA": 50,
+    "guildDataLevelB": 45,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 162850803,
+        "name": "Max",
+        "characterMstId": 102,
+        "level": 90,
+        "totalPower": 79083,
+        "maxHp": 13455
+      },
+      {
+        "userId": 530037340,
+        "name": "Dina",
+        "characterMstId": 6,
+        "level": 35,
+        "totalPower": 12790,
+        "maxHp": 4831
+      },
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 5,
+        "totalPower": 5556,
+        "maxHp": 1000
+      },
+      {
+        "userId": 298613804,
+        "name": "DarkAz",
+        "characterMstId": 38,
+        "level": 91,
+        "totalPower": 80610,
+        "maxHp": 14624
+      },
+      {
+        "userId": 480542285,
+        "name": "Midarin",
+        "characterMstId": 36,
+        "level": 72,
+        "totalPower": 52716,
+        "maxHp": 10904
+      },
+      {
+        "userId": 837992644,
+        "name": "Exleos",
+        "characterMstId": 159,
+        "level": 57,
+        "totalPower": 37042,
+        "maxHp": 8329
+      },
+      {
+        "userId": 424339726,
+        "name": "Siema",
+        "characterMstId": 36,
+        "level": 25,
+        "totalPower": 19679,
+        "maxHp": 3532
+      },
+      {
+        "userId": 628142319,
+        "name": "Kraine",
+        "characterMstId": 8,
+        "level": 54,
+        "totalPower": 46170,
+        "maxHp": 7833
+      },
+      {
+        "userId": 186609308,
+        "name": "DioW",
+        "characterMstId": 121,
+        "level": 52,
+        "totalPower": 28662,
+        "maxHp": 7154
+      },
+      {
+        "userId": 106160819,
+        "name": "GhostyBoi",
+        "characterMstId": 15,
+        "level": 57,
+        "totalPower": 47381,
+        "maxHp": 8229
+      },
+      {
+        "userId": 193289944,
+        "name": "Lambchop",
+        "characterMstId": 94,
+        "level": 18,
+        "totalPower": 11910,
+        "maxHp": 2336
+      },
+      {
+        "userId": 775526341,
+        "name": "N.E.R.D",
+        "characterMstId": 444,
+        "level": 81,
+        "totalPower": 50838,
+        "maxHp": 12698
+      },
+      {
+        "userId": 178901344,
+        "name": "Kaio",
+        "characterMstId": 32,
+        "level": 28,
+        "totalPower": 17286,
+        "maxHp": 4051
+      },
+      {
+        "userId": 188863573,
+        "name": "Guilty",
+        "characterMstId": 39,
+        "level": 36,
+        "totalPower": 26688,
+        "maxHp": 4942
+      },
+      {
+        "userId": 409563292,
+        "name": "Mantovas",
+        "characterMstId": 243,
+        "level": 27,
+        "totalPower": 23408,
+        "maxHp": 4465
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 970306963,
+        "name": "VincentADK",
+        "characterMstId": 28,
+        "level": 100,
+        "totalPower": 91374,
+        "maxHp": 17818
+      },
+      {
+        "userId": 778260959,
+        "name": "Gil",
+        "characterMstId": 56,
+        "level": 114,
+        "totalPower": 51605,
+        "maxHp": 19198
+      },
+      {
+        "userId": 257964914,
+        "name": "DeRuss",
+        "characterMstId": 445,
+        "level": 75,
+        "totalPower": 46495,
+        "maxHp": 11923
+      },
+      {
+        "userId": 963183454,
+        "name": "Link",
+        "characterMstId": 2,
+        "level": 33,
+        "totalPower": 41528,
+        "maxHp": 4538
+      },
+      {
+        "userId": 403528730,
+        "name": "Nightmare",
+        "characterMstId": 36,
+        "level": 42,
+        "totalPower": 40586,
+        "maxHp": 6175
+      },
+      {
+        "userId": 563311769,
+        "name": "BlutMondWo",
+        "characterMstId": 2,
+        "level": 52,
+        "totalPower": 35705,
+        "maxHp": 7204
+      },
+      {
+        "userId": 320794249,
+        "name": "Shuno",
+        "characterMstId": 21,
+        "level": 54,
+        "totalPower": 31112,
+        "maxHp": 7733
+      },
+      {
+        "userId": 343952849,
+        "name": "Maku",
+        "characterMstId": 38,
+        "level": 31,
+        "totalPower": 26926,
+        "maxHp": 4581
+      },
+      {
+        "userId": 142139545,
+        "name": "Go",
+        "characterMstId": 1,
+        "level": 10,
+        "totalPower": 10198,
+        "maxHp": 1414
+      },
+      {
+        "userId": 940187070,
+        "name": "Teddii",
+        "characterMstId": 1,
+        "level": 3,
+        "totalPower": 5771,
+        "maxHp": 1000
+      },
+      {
+        "userId": 774418699,
+        "name": "Kilarian",
+        "characterMstId": 8,
+        "level": 52,
+        "totalPower": 37552,
+        "maxHp": 8004
+      },
+      {
+        "userId": 592520747,
+        "name": "Mci",
+        "characterMstId": 160,
+        "level": 24,
+        "totalPower": 20480,
+        "maxHp": 3613
+      },
+      {
+        "userId": 562799328,
+        "name": "Johnson",
+        "characterMstId": 160,
+        "level": 12,
+        "totalPower": 14788,
+        "maxHp": 1362
+      },
+      {
+        "userId": 908104212,
+        "name": "Papu",
+        "characterMstId": 27,
+        "level": 66,
+        "totalPower": 42825,
+        "maxHp": 9152
+      },
+      {
+        "userId": 823890323,
+        "name": "Vexe",
+        "characterMstId": 19,
+        "level": 32,
+        "totalPower": 38585,
+        "maxHp": 4634
+      }
+    ]
+  }
+}

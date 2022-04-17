@@ -1,0 +1,659 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 703,
+      "battleStartTime": 1644692400,
+      "battleEndTime": 1644693599,
+      "gvgDataId": 2677056,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 5716581,
+      "selfComboCount": 1430,
+      "selfSiegeWinCount": 5,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 37112,
+      "enemyGuildName": "Coup-D'état",
+      "enemyTotalGuildPoint": 1619253,
+      "enemyComboCount": 1479,
+      "enemySiegeWinCount": 1,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 1191556,
+      "enemyRankUserId": 137902914,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Tsuru",
+      "enemyRankGuildPoint": 1081454,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1191556,
+            "valueB": 1081454,
+            "userIdA": 489820080,
+            "userIdB": 137902914,
+            "nameA": "Poetic0",
+            "nameB": "Tsuru"
+          },
+          {
+            "rank": 2,
+            "valueA": 888002,
+            "valueB": 802472,
+            "userIdA": 897796188,
+            "userIdB": 102688704,
+            "nameA": "GiGi",
+            "nameB": "Kayla"
+          },
+          {
+            "rank": 3,
+            "valueA": 735410,
+            "valueB": 731868,
+            "userIdA": 528967104,
+            "userIdB": 533539877,
+            "nameA": "Guider",
+            "nameB": "porkfist"
+          },
+          {
+            "rank": 4,
+            "valueA": 612574,
+            "valueB": 449466,
+            "userIdA": 311155260,
+            "userIdB": 921493081,
+            "nameA": "Tamuko",
+            "nameB": "Ptera"
+          },
+          {
+            "rank": 5,
+            "valueA": 374827,
+            "valueB": 220415,
+            "userIdA": 658397897,
+            "userIdB": 468152687,
+            "nameA": "Juddy",
+            "nameB": "Mina"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 24714174,
+            "valueB": 13652633,
+            "userIdA": 237959838,
+            "userIdB": 190590438,
+            "nameA": "Nheksh",
+            "nameB": "Krainzan"
+          },
+          {
+            "rank": 2,
+            "valueA": 21793499,
+            "valueB": 12742061,
+            "userIdA": 335076343,
+            "userIdB": 311441491,
+            "nameA": "Melesie",
+            "nameB": "Fahen"
+          },
+          {
+            "rank": 3,
+            "valueA": 17320178,
+            "valueB": 11792558,
+            "userIdA": 563868701,
+            "userIdB": 805924493,
+            "nameA": "mekros",
+            "nameB": "Slaanesh"
+          },
+          {
+            "rank": 4,
+            "valueA": 275545,
+            "valueB": 423682,
+            "userIdA": 489820080,
+            "userIdB": 468152687,
+            "nameA": "Poetic0",
+            "nameB": "Mina"
+          },
+          {
+            "rank": 5,
+            "valueA": 157769,
+            "valueB": 345284,
+            "userIdA": 311155260,
+            "userIdB": 314447283,
+            "nameA": "Tamuko",
+            "nameB": "Crystal"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1455710,
+            "valueB": 1791405,
+            "userIdA": 519350497,
+            "userIdB": 550542040,
+            "nameA": "Andy",
+            "nameB": "エイコ"
+          },
+          {
+            "rank": 2,
+            "valueA": 1132103,
+            "valueB": 1412092,
+            "userIdA": 252654652,
+            "userIdB": 968626306,
+            "nameA": "Xameria",
+            "nameB": "Flux"
+          },
+          {
+            "rank": 3,
+            "valueA": 372400,
+            "valueB": 1212044,
+            "userIdA": 594178109,
+            "userIdB": 544090636,
+            "nameA": "Jeanne",
+            "nameB": "Asako"
+          },
+          {
+            "rank": 4,
+            "valueA": 322914,
+            "valueB": 248277,
+            "userIdA": 237959838,
+            "userIdB": 624093294,
+            "nameA": "Nheksh",
+            "nameB": "Scarlett"
+          },
+          {
+            "rank": 5,
+            "valueA": 204138,
+            "valueB": 159431,
+            "userIdA": 563868701,
+            "userIdB": 805924493,
+            "nameA": "mekros",
+            "nameB": "Slaanesh"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1664247,
+            "valueB": 1549460,
+            "userIdA": 252654652,
+            "userIdB": 544090636,
+            "nameA": "Xameria",
+            "nameB": "Asako"
+          },
+          {
+            "rank": 2,
+            "valueA": 1039122,
+            "valueB": 739654,
+            "userIdA": 519350497,
+            "userIdB": 550542040,
+            "nameA": "Andy",
+            "nameB": "エイコ"
+          },
+          {
+            "rank": 3,
+            "valueA": 733312,
+            "valueB": 564543,
+            "userIdA": 594178109,
+            "userIdB": 968626306,
+            "nameA": "Jeanne",
+            "nameB": "Flux"
+          },
+          {
+            "rank": 4,
+            "valueA": 379867,
+            "valueB": 444783,
+            "userIdA": 237959838,
+            "userIdB": 311441491,
+            "nameA": "Nheksh",
+            "nameB": "Fahen"
+          },
+          {
+            "rank": 5,
+            "valueA": 366669,
+            "valueB": 274139,
+            "userIdA": 335076343,
+            "userIdB": 190590438,
+            "nameA": "Melesie",
+            "nameB": "Krainzan"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2116165,
+            "valueB": 997276,
+            "userIdA": 594178109,
+            "userIdB": 259368622,
+            "nameA": "Jeanne",
+            "nameB": "Ktsu"
+          },
+          {
+            "rank": 2,
+            "valueA": 1573048,
+            "valueB": 990766,
+            "userIdA": 580947666,
+            "userIdB": 624093294,
+            "nameA": "MeanRin",
+            "nameB": "Scarlett"
+          },
+          {
+            "rank": 3,
+            "valueA": 861278,
+            "valueB": 490900,
+            "userIdA": 590008353,
+            "userIdB": 314447283,
+            "nameA": "Fintz",
+            "nameB": "Crystal"
+          },
+          {
+            "rank": 4,
+            "valueA": 385724,
+            "valueB": 101073,
+            "userIdA": 557593123,
+            "userIdB": 137902914,
+            "nameA": "Derpy",
+            "nameB": "Tsuru"
+          },
+          {
+            "rank": 5,
+            "valueA": 230034,
+            "valueB": 88863,
+            "userIdA": 252654652,
+            "userIdB": 102688704,
+            "nameA": "Xameria",
+            "nameB": "Kayla"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2141384,
+            "valueB": 1969100,
+            "userIdA": 594178109,
+            "userIdB": 624093294,
+            "nameA": "Jeanne",
+            "nameB": "Scarlett"
+          },
+          {
+            "rank": 2,
+            "valueA": 1208163,
+            "valueB": 1374222,
+            "userIdA": 590008353,
+            "userIdB": 259368622,
+            "nameA": "Fintz",
+            "nameB": "Ktsu"
+          },
+          {
+            "rank": 3,
+            "valueA": 671325,
+            "valueB": 1145243,
+            "userIdA": 557593123,
+            "userIdB": 314447283,
+            "nameA": "Derpy",
+            "nameB": "Crystal"
+          },
+          {
+            "rank": 4,
+            "valueA": 519983,
+            "valueB": 155610,
+            "userIdA": 252654652,
+            "userIdB": 137902914,
+            "nameA": "Xameria",
+            "nameB": "Tsuru"
+          },
+          {
+            "rank": 5,
+            "valueA": 200331,
+            "valueB": 115083,
+            "userIdA": 580947666,
+            "userIdB": 102688704,
+            "nameA": "MeanRin",
+            "nameB": "Kayla"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 345,
+            "valueB": 270,
+            "userIdA": 489820080,
+            "userIdB": 137902914,
+            "nameA": "Poetic0",
+            "nameB": "Tsuru"
+          },
+          {
+            "rank": 2,
+            "valueA": 168,
+            "valueB": 187,
+            "userIdA": 252654652,
+            "userIdB": 921493081,
+            "nameA": "Xameria",
+            "nameB": "Ptera"
+          },
+          {
+            "rank": 3,
+            "valueA": 162,
+            "valueB": 182,
+            "userIdA": 563868701,
+            "userIdB": 102688704,
+            "nameA": "mekros",
+            "nameB": "Kayla"
+          },
+          {
+            "rank": 4,
+            "valueA": 142,
+            "valueB": 156,
+            "userIdA": 658397897,
+            "userIdB": 805924493,
+            "nameA": "Juddy",
+            "nameB": "Slaanesh"
+          },
+          {
+            "rank": 5,
+            "valueA": 140,
+            "valueB": 155,
+            "userIdA": 311155260,
+            "userIdB": 468152687,
+            "nameA": "Tamuko",
+            "nameB": "Mina"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2677056,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 34,
+          "ultimateArtMethodMstId": 34,
+          "guildACount": 75,
+          "guildBCount": 66
+        },
+        {
+          "artMstId": 22,
+          "ultimateArtMethodMstId": 22,
+          "guildACount": 75,
+          "guildBCount": 69
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 703,
+    "gvgDataId": 2677056,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 37112,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Coup-D'état",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 103,
+        "level": 198,
+        "totalPower": 284359,
+        "maxHp": 63630
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 235,
+        "level": 203,
+        "totalPower": 275142,
+        "maxHp": 69751
+      },
+      {
+        "userId": 897796188,
+        "name": "GiGi",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 282712,
+        "maxHp": 72650
+      },
+      {
+        "userId": 528967104,
+        "name": "Guider",
+        "characterMstId": 48,
+        "level": 196,
+        "totalPower": 260017,
+        "maxHp": 61406
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 139,
+        "level": 211,
+        "totalPower": 279928,
+        "maxHp": 70309
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 250732,
+        "maxHp": 61968
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 233,
+        "level": 193,
+        "totalPower": 245897,
+        "maxHp": 58623
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 137,
+        "level": 200,
+        "totalPower": 237838,
+        "maxHp": 64605
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 561,
+        "level": 214,
+        "totalPower": 290919,
+        "maxHp": 67749
+      },
+      {
+        "userId": 590008353,
+        "name": "Fintz",
+        "characterMstId": 93,
+        "level": 204,
+        "totalPower": 254174,
+        "maxHp": 68832
+      },
+      {
+        "userId": 557593123,
+        "name": "Derpy",
+        "characterMstId": 93,
+        "level": 154,
+        "totalPower": 228685,
+        "maxHp": 48945
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 85,
+        "level": 210,
+        "totalPower": 377840,
+        "maxHp": 93260
+      },
+      {
+        "userId": 563868701,
+        "name": "mekros",
+        "characterMstId": 85,
+        "level": 210,
+        "totalPower": 307806,
+        "maxHp": 75260
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 220,
+        "totalPower": 305246,
+        "maxHp": 78183
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 533539877,
+        "name": "porkfist",
+        "characterMstId": 103,
+        "level": 218,
+        "totalPower": 296058,
+        "maxHp": 80307
+      },
+      {
+        "userId": 102688704,
+        "name": "Kayla",
+        "characterMstId": 103,
+        "level": 201,
+        "totalPower": 248798,
+        "maxHp": 62595
+      },
+      {
+        "userId": 921493081,
+        "name": "Ptera",
+        "characterMstId": 126,
+        "level": 206,
+        "totalPower": 286146,
+        "maxHp": 70950
+      },
+      {
+        "userId": 606351716,
+        "name": "Siro",
+        "characterMstId": 48,
+        "level": 201,
+        "totalPower": 290949,
+        "maxHp": 70495
+      },
+      {
+        "userId": 137902914,
+        "name": "Tsuru",
+        "characterMstId": 48,
+        "level": 202,
+        "totalPower": 290164,
+        "maxHp": 69572
+      },
+      {
+        "userId": 468152687,
+        "name": "Mina",
+        "characterMstId": 64,
+        "level": 200,
+        "totalPower": 262042,
+        "maxHp": 66405
+      },
+      {
+        "userId": 624093294,
+        "name": "Scarlett",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 265807,
+        "maxHp": 66337
+      },
+      {
+        "userId": 544090636,
+        "name": "Asako",
+        "characterMstId": 114,
+        "level": 146,
+        "totalPower": 229352,
+        "maxHp": 50435
+      },
+      {
+        "userId": 968626306,
+        "name": "Flux",
+        "characterMstId": 114,
+        "level": 179,
+        "totalPower": 213620,
+        "maxHp": 46638
+      },
+      {
+        "userId": 550542040,
+        "name": "エイコ",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 188007,
+        "maxHp": 45918
+      },
+      {
+        "userId": 314447283,
+        "name": "Crystal",
+        "characterMstId": 93,
+        "level": 208,
+        "totalPower": 284562,
+        "maxHp": 77726
+      },
+      {
+        "userId": 259368622,
+        "name": "Ktsu",
+        "characterMstId": 93,
+        "level": 201,
+        "totalPower": 260163,
+        "maxHp": 65145
+      },
+      {
+        "userId": 311441491,
+        "name": "Fahen",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 300211,
+        "maxHp": 68501
+      },
+      {
+        "userId": 805924493,
+        "name": "Slaanesh",
+        "characterMstId": 85,
+        "level": 190,
+        "totalPower": 250394,
+        "maxHp": 51393
+      },
+      {
+        "userId": 190590438,
+        "name": "Krainzan",
+        "characterMstId": 85,
+        "level": 161,
+        "totalPower": 238735,
+        "maxHp": 55604
+      }
+    ]
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 703,
+      "battleStartTime": 1636830000,
+      "battleEndTime": 1636831199,
+      "gvgDataId": 2465176,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 3986790,
+      "selfComboCount": 1575,
+      "selfSiegeWinCount": 7,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 37176,
+      "enemyGuildName": "RedQueen",
+      "enemyTotalGuildPoint": 672945,
+      "enemyComboCount": 739,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 860089,
+      "enemyRankUserId": 156844619,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "CapTragg",
+      "enemyRankGuildPoint": 605171,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 643
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 860089,
+            "valueB": 605171,
+            "userIdA": 489820080,
+            "userIdB": 156844619,
+            "nameA": "Poetic0",
+            "nameB": "CapTragg"
+          },
+          {
+            "rank": 2,
+            "valueA": 730109,
+            "valueB": 517840,
+            "userIdA": 311155260,
+            "userIdB": 975840827,
+            "nameA": "Tamuko",
+            "nameB": "vechelina"
+          },
+          {
+            "rank": 3,
+            "valueA": 483351,
+            "valueB": 418305,
+            "userIdA": 725168146,
+            "userIdB": 868596683,
+            "nameA": "Hodzumi홑쑤미",
+            "nameB": "DedCat"
+          },
+          {
+            "rank": 4,
+            "valueA": 305334,
+            "valueB": 272763,
+            "userIdA": 658397897,
+            "userIdB": 253695611,
+            "nameA": "Juddy",
+            "nameB": "Shadow"
+          },
+          {
+            "rank": 5,
+            "valueA": 267062,
+            "valueB": 151982,
+            "userIdA": 557593123,
+            "userIdB": 799102050,
+            "nameA": "Derpy",
+            "nameB": "andegorus"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 15355663,
+            "valueB": 9239097,
+            "userIdA": 335076343,
+            "userIdB": 506227633,
+            "nameA": "Melesie",
+            "nameB": "iNikolai"
+          },
+          {
+            "rank": 2,
+            "valueA": 9950165,
+            "valueB": 5857873,
+            "userIdA": 237959838,
+            "userIdB": 740010172,
+            "nameA": "Nheksh",
+            "nameB": "Islin"
+          },
+          {
+            "rank": 3,
+            "valueA": 6469410,
+            "valueB": 528253,
+            "userIdA": 519357658,
+            "userIdB": 253695611,
+            "nameA": "NeoEralith",
+            "nameB": "Shadow"
+          },
+          {
+            "rank": 4,
+            "valueA": 6368428,
+            "valueB": 507792,
+            "userIdA": 595872065,
+            "userIdB": 788104497,
+            "nameA": "Fuyune<3",
+            "nameB": "Inai"
+          },
+          {
+            "rank": 5,
+            "valueA": 376900,
+            "valueB": 382311,
+            "userIdA": 489820080,
+            "userIdB": 975840827,
+            "nameA": "Poetic0",
+            "nameB": "vechelina"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1223247,
+            "valueB": 1082310,
+            "userIdA": 252654652,
+            "userIdB": 170375999,
+            "nameA": "Xameria",
+            "nameB": "Loverlost"
+          },
+          {
+            "rank": 2,
+            "valueA": 923360,
+            "valueB": 1034170,
+            "userIdA": 898672025,
+            "userIdB": 967741694,
+            "nameA": "colonel",
+            "nameB": "MyRegret"
+          },
+          {
+            "rank": 3,
+            "valueA": 300215,
+            "valueB": 573629,
+            "userIdA": 594178109,
+            "userIdB": 788104497,
+            "nameA": "Jeanne",
+            "nameB": "Inai"
+          },
+          {
+            "rank": 4,
+            "valueA": 100935,
+            "valueB": 369710,
+            "userIdA": 335076343,
+            "userIdB": 319928107,
+            "nameA": "Melesie",
+            "nameB": "Tizo"
+          },
+          {
+            "rank": 5,
+            "valueA": 79667,
+            "valueB": 124515,
+            "userIdA": 595872065,
+            "userIdB": 506227633,
+            "nameA": "Fuyune<3",
+            "nameB": "iNikolai"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1275276,
+            "valueB": 1185925,
+            "userIdA": 252654652,
+            "userIdB": 967741694,
+            "nameA": "Xameria",
+            "nameB": "MyRegret"
+          },
+          {
+            "rank": 2,
+            "valueA": 1166735,
+            "valueB": 879138,
+            "userIdA": 898672025,
+            "userIdB": 319928107,
+            "nameA": "colonel",
+            "nameB": "Tizo"
+          },
+          {
+            "rank": 3,
+            "valueA": 329789,
+            "valueB": 832660,
+            "userIdA": 594178109,
+            "userIdB": 170375999,
+            "nameA": "Jeanne",
+            "nameB": "Loverlost"
+          },
+          {
+            "rank": 4,
+            "valueA": 240908,
+            "valueB": 598629,
+            "userIdA": 335076343,
+            "userIdB": 788104497,
+            "nameA": "Melesie",
+            "nameB": "Inai"
+          },
+          {
+            "rank": 5,
+            "valueA": 183971,
+            "valueB": 146831,
+            "userIdA": 237959838,
+            "userIdB": 506227633,
+            "nameA": "Nheksh",
+            "nameB": "iNikolai"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1799274,
+            "valueB": 600307,
+            "userIdA": 594178109,
+            "userIdB": 168575057,
+            "nameA": "Jeanne",
+            "nameB": "ГОРОхSKULL"
+          },
+          {
+            "rank": 2,
+            "valueA": 1370042,
+            "valueB": 587431,
+            "userIdA": 590008353,
+            "userIdB": 211450622,
+            "nameA": "Fintz",
+            "nameB": "Cupeas"
+          },
+          {
+            "rank": 3,
+            "valueA": 770531,
+            "valueB": 439923,
+            "userIdA": 580947666,
+            "userIdB": 176260953,
+            "nameA": "MeanRin",
+            "nameB": "BadWolf"
+          },
+          {
+            "rank": 4,
+            "valueA": 218988,
+            "valueB": 314983,
+            "userIdA": 252654652,
+            "userIdB": 884532039,
+            "nameA": "Xameria",
+            "nameB": "Velx"
+          },
+          {
+            "rank": 5,
+            "valueA": 74154,
+            "valueB": 144300,
+            "userIdA": 311155260,
+            "userIdB": 975840827,
+            "nameA": "Tamuko",
+            "nameB": "vechelina"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1854732,
+            "valueB": 942940,
+            "userIdA": 590008353,
+            "userIdB": 168575057,
+            "nameA": "Fintz",
+            "nameB": "ГОРОхSKULL"
+          },
+          {
+            "rank": 2,
+            "valueA": 1615756,
+            "valueB": 806303,
+            "userIdA": 594178109,
+            "userIdB": 176260953,
+            "nameA": "Jeanne",
+            "nameB": "BadWolf"
+          },
+          {
+            "rank": 3,
+            "valueA": 1566834,
+            "valueB": 642787,
+            "userIdA": 580947666,
+            "userIdB": 884532039,
+            "nameA": "MeanRin",
+            "nameB": "Velx"
+          },
+          {
+            "rank": 4,
+            "valueA": 430920,
+            "valueB": 523286,
+            "userIdA": 252654652,
+            "userIdB": 211450622,
+            "nameA": "Xameria",
+            "nameB": "Cupeas"
+          },
+          {
+            "rank": 5,
+            "valueA": 94309,
+            "valueB": 126252,
+            "userIdA": 658397897,
+            "userIdB": 156844619,
+            "nameA": "Juddy",
+            "nameB": "CapTragg"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 310,
+            "valueB": 203,
+            "userIdA": 489820080,
+            "userIdB": 975840827,
+            "nameA": "Poetic0",
+            "nameB": "vechelina"
+          },
+          {
+            "rank": 2,
+            "valueA": 275,
+            "valueB": 145,
+            "userIdA": 311155260,
+            "userIdB": 253695611,
+            "nameA": "Tamuko",
+            "nameB": "Shadow"
+          },
+          {
+            "rank": 3,
+            "valueA": 178,
+            "valueB": 139,
+            "userIdA": 557593123,
+            "userIdB": 868596683,
+            "nameA": "Derpy",
+            "nameB": "DedCat"
+          },
+          {
+            "rank": 4,
+            "valueA": 167,
+            "valueB": 125,
+            "userIdA": 590008353,
+            "userIdB": 156844619,
+            "nameA": "Fintz",
+            "nameB": "CapTragg"
+          },
+          {
+            "rank": 5,
+            "valueA": 158,
+            "valueB": 118,
+            "userIdA": 658397897,
+            "userIdB": 799102050,
+            "nameA": "Juddy",
+            "nameB": "andegorus"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2465176,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 22,
+          "ultimateArtMethodMstId": 22,
+          "guildACount": 75,
+          "guildBCount": 66
+        },
+        {
+          "artMstId": 28,
+          "ultimateArtMethodMstId": 28,
+          "guildACount": 75,
+          "guildBCount": 54
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 703,
+    "gvgDataId": 2465176,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 37176,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "RedQueen",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 103,
+        "level": 189,
+        "totalPower": 246715,
+        "maxHp": 58434
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 235,
+        "level": 200,
+        "totalPower": 246698,
+        "maxHp": 62505
+      },
+      {
+        "userId": 725168146,
+        "name": "Hodzumi홑쑤미",
+        "characterMstId": 103,
+        "level": 177,
+        "totalPower": 210011,
+        "maxHp": 49287
+      },
+      {
+        "userId": 557593123,
+        "name": "Derpy",
+        "characterMstId": 126,
+        "level": 153,
+        "totalPower": 232379,
+        "maxHp": 46790
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 139,
+        "level": 207,
+        "totalPower": 245728,
+        "maxHp": 61787
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 59,
+        "level": 183,
+        "totalPower": 224503,
+        "maxHp": 55035
+      },
+      {
+        "userId": 898672025,
+        "name": "colonel",
+        "characterMstId": 114,
+        "level": 189,
+        "totalPower": 214111,
+        "maxHp": 51934
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 208,
+        "level": 207,
+        "totalPower": 252890,
+        "maxHp": 59337
+      },
+      {
+        "userId": 590008353,
+        "name": "Fintz",
+        "characterMstId": 93,
+        "level": 202,
+        "totalPower": 243558,
+        "maxHp": 63372
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 93,
+        "level": 199,
+        "totalPower": 219298,
+        "maxHp": 56342
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 85,
+        "level": 202,
+        "totalPower": 300586,
+        "maxHp": 78322
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 218,
+        "totalPower": 266279,
+        "maxHp": 70807
+      },
+      {
+        "userId": 519357658,
+        "name": "NeoEralith",
+        "characterMstId": 85,
+        "level": 191,
+        "totalPower": 236698,
+        "maxHp": 56753
+      },
+      {
+        "userId": 595872065,
+        "name": "Fuyune<3",
+        "characterMstId": 85,
+        "level": 195,
+        "totalPower": 232847,
+        "maxHp": 57045
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 156844619,
+        "name": "CapTragg",
+        "characterMstId": 103,
+        "level": 206,
+        "totalPower": 262102,
+        "maxHp": 64550
+      },
+      {
+        "userId": 975840827,
+        "name": "vechelina",
+        "characterMstId": 103,
+        "level": 204,
+        "totalPower": 249949,
+        "maxHp": 68032
+      },
+      {
+        "userId": 868596683,
+        "name": "DedCat",
+        "characterMstId": 103,
+        "level": 197,
+        "totalPower": 239835,
+        "maxHp": 58668
+      },
+      {
+        "userId": 799102050,
+        "name": "andegorus",
+        "characterMstId": 103,
+        "level": 163,
+        "totalPower": 193402,
+        "maxHp": 51378
+      },
+      {
+        "userId": 253695611,
+        "name": "Shadow",
+        "characterMstId": 126,
+        "level": 199,
+        "totalPower": 223183,
+        "maxHp": 55792
+      },
+      {
+        "userId": 967741694,
+        "name": "MyRegret",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 250052,
+        "maxHp": 61622
+      },
+      {
+        "userId": 788104497,
+        "name": "Inai",
+        "characterMstId": 114,
+        "level": 195,
+        "totalPower": 202912,
+        "maxHp": 51445
+      },
+      {
+        "userId": 170375999,
+        "name": "Loverlost",
+        "characterMstId": 114,
+        "level": 183,
+        "totalPower": 197528,
+        "maxHp": 46985
+      },
+      {
+        "userId": 319928107,
+        "name": "Tizo",
+        "characterMstId": 114,
+        "level": 143,
+        "totalPower": 184928,
+        "maxHp": 39119
+      },
+      {
+        "userId": 176260953,
+        "name": "BadWolf",
+        "characterMstId": 167,
+        "level": 151,
+        "totalPower": 208679,
+        "maxHp": 46182
+      },
+      {
+        "userId": 168575057,
+        "name": "ГОРОхSKULL",
+        "characterMstId": 93,
+        "level": 173,
+        "totalPower": 206852,
+        "maxHp": 50697
+      },
+      {
+        "userId": 211450622,
+        "name": "Cupeas",
+        "characterMstId": 167,
+        "level": 153,
+        "totalPower": 195182,
+        "maxHp": 44040
+      },
+      {
+        "userId": 884532039,
+        "name": "Velx",
+        "characterMstId": 93,
+        "level": 157,
+        "totalPower": 164665,
+        "maxHp": 38616
+      },
+      {
+        "userId": 506227633,
+        "name": "iNikolai",
+        "characterMstId": 85,
+        "level": 200,
+        "totalPower": 255668,
+        "maxHp": 63605
+      },
+      {
+        "userId": 740010172,
+        "name": "Islin",
+        "characterMstId": 10,
+        "level": 194,
+        "totalPower": 219709,
+        "maxHp": 59334
+      }
+    ]
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 305,
+      "battleStartTime": 1632258000,
+      "battleEndTime": 1632259199,
+      "gvgDataId": 2321228,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 623687,
+      "selfComboCount": 1361,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 12524,
+      "enemyGuildName": "RentADILF",
+      "enemyTotalGuildPoint": 4407867,
+      "enemyComboCount": 2305,
+      "enemySiegeWinCount": 12,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 451626,
+      "enemyRankUserId": 614322846,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "EVA",
+      "enemyRankGuildPoint": 1017725,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 451626,
+            "valueB": 1017725,
+            "userIdA": 593439881,
+            "userIdB": 614322846,
+            "nameA": "Ludmila",
+            "nameB": "EVA"
+          },
+          {
+            "rank": 2,
+            "valueA": 344815,
+            "valueB": 742760,
+            "userIdA": 934398383,
+            "userIdB": 266684139,
+            "nameA": "FrostBiTE",
+            "nameB": "Reine"
+          },
+          {
+            "rank": 3,
+            "valueA": 297999,
+            "valueB": 728815,
+            "userIdA": 718599324,
+            "userIdB": 890514871,
+            "nameA": "RockとDevil",
+            "nameB": "FlameKaze"
+          },
+          {
+            "rank": 4,
+            "valueA": 170804,
+            "valueB": 565203,
+            "userIdA": 771642888,
+            "userIdB": 362942678,
+            "nameA": "EggWaffles",
+            "nameB": "LayHon"
+          },
+          {
+            "rank": 5,
+            "valueA": 96280,
+            "valueB": 525377,
+            "userIdA": 139478290,
+            "userIdB": 143002683,
+            "nameA": "Blazing",
+            "nameB": "Jet"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 10641598,
+            "valueB": 14022304,
+            "userIdA": 895948571,
+            "userIdB": 994822007,
+            "nameA": "bajda",
+            "nameB": "ラか色"
+          },
+          {
+            "rank": 2,
+            "valueA": 8154484,
+            "valueB": 7172066,
+            "userIdA": 801961098,
+            "userIdB": 778348220,
+            "nameA": "ShiroMoko",
+            "nameB": "Despair"
+          },
+          {
+            "rank": 3,
+            "valueA": 7506705,
+            "valueB": 5912568,
+            "userIdA": 167791490,
+            "userIdB": 671179936,
+            "nameA": "Reisz",
+            "nameB": "Skittles"
+          },
+          {
+            "rank": 4,
+            "valueA": 4562919,
+            "valueB": 111718,
+            "userIdA": 515568020,
+            "userIdB": 890514871,
+            "nameA": "Enigma",
+            "nameB": "FlameKaze"
+          },
+          {
+            "rank": 5,
+            "valueA": 532443,
+            "valueB": 96525,
+            "userIdA": 139478290,
+            "userIdB": 266684139,
+            "nameA": "Blazing",
+            "nameB": "Reine"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2298942,
+            "valueB": 1700003,
+            "userIdA": 727928971,
+            "userIdB": 803699371,
+            "nameA": "Heikki",
+            "nameB": "Yue"
+          },
+          {
+            "rank": 2,
+            "valueA": 1232818,
+            "valueB": 1004858,
+            "userIdA": 991509328,
+            "userIdB": 107608038,
+            "nameA": "Drystar",
+            "nameB": "Asu"
+          },
+          {
+            "rank": 3,
+            "valueA": 463502,
+            "valueB": 168023,
+            "userIdA": 890964279,
+            "userIdB": 994822007,
+            "nameA": "S0J",
+            "nameB": "ラか色"
+          },
+          {
+            "rank": 4,
+            "valueA": 241956,
+            "valueB": 95696,
+            "userIdA": 895948571,
+            "userIdB": 778348220,
+            "nameA": "bajda",
+            "nameB": "Despair"
+          },
+          {
+            "rank": 5,
+            "valueA": 164867,
+            "valueB": 65434,
+            "userIdA": 801961098,
+            "userIdB": 614322846,
+            "nameA": "ShiroMoko",
+            "nameB": "EVA"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1657361,
+            "valueB": 1885763,
+            "userIdA": 727928971,
+            "userIdB": 803699371,
+            "nameA": "Heikki",
+            "nameB": "Yue"
+          },
+          {
+            "rank": 2,
+            "valueA": 1048130,
+            "valueB": 451689,
+            "userIdA": 991509328,
+            "userIdB": 107608038,
+            "nameA": "Drystar",
+            "nameB": "Asu"
+          },
+          {
+            "rank": 3,
+            "valueA": 668767,
+            "valueB": 261345,
+            "userIdA": 890964279,
+            "userIdB": 994822007,
+            "nameA": "S0J",
+            "nameB": "ラか色"
+          },
+          {
+            "rank": 4,
+            "valueA": 154059,
+            "valueB": 138252,
+            "userIdA": 895948571,
+            "userIdB": 671179936,
+            "nameA": "bajda",
+            "nameB": "Skittles"
+          },
+          {
+            "rank": 5,
+            "valueA": 127494,
+            "valueB": 135959,
+            "userIdA": 801961098,
+            "userIdB": 778348220,
+            "nameA": "ShiroMoko",
+            "nameB": "Despair"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1537753,
+            "valueB": 2095928,
+            "userIdA": 149802153,
+            "userIdB": 258103062,
+            "nameA": "Astronaut",
+            "nameB": "Tama"
+          },
+          {
+            "rank": 2,
+            "valueA": 765692,
+            "valueB": 1440781,
+            "userIdA": 946559622,
+            "userIdB": 899644083,
+            "nameA": "Thanatos",
+            "nameB": "Kamina"
+          },
+          {
+            "rank": 3,
+            "valueA": 501478,
+            "valueB": 1124585,
+            "userIdA": 357058633,
+            "userIdB": 190680049,
+            "nameA": "Zoe",
+            "nameB": "Yurataco"
+          },
+          {
+            "rank": 4,
+            "valueA": 78162,
+            "valueB": 602796,
+            "userIdA": 718599324,
+            "userIdB": 171925297,
+            "nameA": "RockとDevil",
+            "nameB": "Akechi"
+          },
+          {
+            "rank": 5,
+            "valueA": 21084,
+            "valueB": 94701,
+            "userIdA": 593439881,
+            "userIdB": 614322846,
+            "nameA": "Ludmila",
+            "nameB": "EVA"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1547324,
+            "valueB": 1916460,
+            "userIdA": 149802153,
+            "userIdB": 171925297,
+            "nameA": "Astronaut",
+            "nameB": "Akechi"
+          },
+          {
+            "rank": 2,
+            "valueA": 1196081,
+            "valueB": 1738795,
+            "userIdA": 357058633,
+            "userIdB": 899644083,
+            "nameA": "Zoe",
+            "nameB": "Kamina"
+          },
+          {
+            "rank": 3,
+            "valueA": 992320,
+            "valueB": 801432,
+            "userIdA": 946559622,
+            "userIdB": 258103062,
+            "nameA": "Thanatos",
+            "nameB": "Tama"
+          },
+          {
+            "rank": 4,
+            "valueA": 42793,
+            "valueB": 660684,
+            "userIdA": 593439881,
+            "userIdB": 190680049,
+            "nameA": "Ludmila",
+            "nameB": "Yurataco"
+          },
+          {
+            "rank": 5,
+            "valueA": 39702,
+            "valueB": 173361,
+            "userIdA": 718599324,
+            "userIdB": 890514871,
+            "nameA": "RockとDevil",
+            "nameB": "FlameKaze"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 259,
+            "valueB": 511,
+            "userIdA": 593439881,
+            "userIdB": 471927850,
+            "nameA": "Ludmila",
+            "nameB": "诗怀雅"
+          },
+          {
+            "rank": 2,
+            "valueA": 257,
+            "valueB": 373,
+            "userIdA": 934398383,
+            "userIdB": 614322846,
+            "nameA": "FrostBiTE",
+            "nameB": "EVA"
+          },
+          {
+            "rank": 3,
+            "valueA": 160,
+            "valueB": 269,
+            "userIdA": 771642888,
+            "userIdB": 266684139,
+            "nameA": "EggWaffles",
+            "nameB": "Reine"
+          },
+          {
+            "rank": 4,
+            "valueA": 141,
+            "valueB": 241,
+            "userIdA": 139478290,
+            "userIdB": 362942678,
+            "nameA": "Blazing",
+            "nameB": "LayHon"
+          },
+          {
+            "rank": 5,
+            "valueA": 126,
+            "valueB": 188,
+            "userIdA": 801961098,
+            "userIdB": 143002683,
+            "nameA": "ShiroMoko",
+            "nameB": "Jet"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2321228,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 28,
+          "ultimateArtMethodMstId": 28,
+          "guildACount": 49,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 34,
+          "ultimateArtMethodMstId": 34,
+          "guildACount": 75,
+          "guildBCount": 54
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 305,
+    "gvgDataId": 2321228,
+    "guildDataIdA": 449,
+    "guildDataIdB": 12524,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "RentADILF",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 48,
+        "level": 193,
+        "totalPower": 232582,
+        "maxHp": 59573
+      },
+      {
+        "userId": 771642888,
+        "name": "EggWaffles",
+        "characterMstId": 50,
+        "level": 182,
+        "totalPower": 229453,
+        "maxHp": 51378
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 202,
+        "totalPower": 228345,
+        "maxHp": 59622
+      },
+      {
+        "userId": 139478290,
+        "name": "Blazing",
+        "characterMstId": 185,
+        "level": 187,
+        "totalPower": 213001,
+        "maxHp": 52316
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 64,
+        "level": 208,
+        "totalPower": 248789,
+        "maxHp": 61076
+      },
+      {
+        "userId": 727928971,
+        "name": "Heikki",
+        "characterMstId": 114,
+        "level": 212,
+        "totalPower": 305381,
+        "maxHp": 74365
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 227931,
+        "maxHp": 54355
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 181,
+        "totalPower": 196008,
+        "maxHp": 59171
+      },
+      {
+        "userId": 149802153,
+        "name": "Astronaut",
+        "characterMstId": 93,
+        "level": 204,
+        "totalPower": 246148,
+        "maxHp": 61682
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 93,
+        "level": 196,
+        "totalPower": 240064,
+        "maxHp": 53756
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 188,
+        "totalPower": 237507,
+        "maxHp": 60075
+      },
+      {
+        "userId": 895948571,
+        "name": "bajda",
+        "characterMstId": 85,
+        "level": 202,
+        "totalPower": 228114,
+        "maxHp": 63022
+      },
+      {
+        "userId": 801961098,
+        "name": "ShiroMoko",
+        "characterMstId": 85,
+        "level": 163,
+        "totalPower": 216899,
+        "maxHp": 48128
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 135,
+        "totalPower": 210943,
+        "maxHp": 44713
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 119,
+        "level": 140,
+        "totalPower": 174306,
+        "maxHp": 34429
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 614322846,
+        "name": "EVA",
+        "characterMstId": 103,
+        "level": 219,
+        "totalPower": 332764,
+        "maxHp": 78966
+      },
+      {
+        "userId": 143002683,
+        "name": "Jet",
+        "characterMstId": 103,
+        "level": 201,
+        "totalPower": 273850,
+        "maxHp": 61445
+      },
+      {
+        "userId": 266684139,
+        "name": "Reine",
+        "characterMstId": 103,
+        "level": 204,
+        "totalPower": 272525,
+        "maxHp": 61982
+      },
+      {
+        "userId": 362942678,
+        "name": "LayHon",
+        "characterMstId": 103,
+        "level": 201,
+        "totalPower": 265506,
+        "maxHp": 61495
+      },
+      {
+        "userId": 471927850,
+        "name": "诗怀雅",
+        "characterMstId": 302,
+        "level": 173,
+        "totalPower": 161567,
+        "maxHp": 56347
+      },
+      {
+        "userId": 890514871,
+        "name": "FlameKaze",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 261793,
+        "maxHp": 66400
+      },
+      {
+        "userId": 803699371,
+        "name": "Yue",
+        "characterMstId": 114,
+        "level": 205,
+        "totalPower": 270428,
+        "maxHp": 61165
+      },
+      {
+        "userId": 107608038,
+        "name": "Asu",
+        "characterMstId": 114,
+        "level": 203,
+        "totalPower": 259993,
+        "maxHp": 64901
+      },
+      {
+        "userId": 171925297,
+        "name": "Akechi",
+        "characterMstId": 93,
+        "level": 197,
+        "totalPower": 276675,
+        "maxHp": 62468
+      },
+      {
+        "userId": 899644083,
+        "name": "Kamina",
+        "characterMstId": 93,
+        "level": 201,
+        "totalPower": 273043,
+        "maxHp": 63945
+      },
+      {
+        "userId": 190680049,
+        "name": "Yurataco",
+        "characterMstId": 93,
+        "level": 204,
+        "totalPower": 263267,
+        "maxHp": 63032
+      },
+      {
+        "userId": 258103062,
+        "name": "Tama",
+        "characterMstId": 93,
+        "level": 196,
+        "totalPower": 251699,
+        "maxHp": 53906
+      },
+      {
+        "userId": 994822007,
+        "name": "ラか色",
+        "characterMstId": 85,
+        "level": 205,
+        "totalPower": 293295,
+        "maxHp": 68415
+      },
+      {
+        "userId": 778348220,
+        "name": "Despair",
+        "characterMstId": 85,
+        "level": 205,
+        "totalPower": 263704,
+        "maxHp": 58665
+      },
+      {
+        "userId": 671179936,
+        "name": "Skittles",
+        "characterMstId": 85,
+        "level": 199,
+        "totalPower": 260671,
+        "maxHp": 60592
+      }
+    ]
+  }
+}

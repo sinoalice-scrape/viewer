@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 605,
+      "battleStartTime": 1636750800,
+      "battleEndTime": 1636751999,
+      "gvgDataId": 2463114,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 91228,
+      "selfComboCount": 1183,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 5070,
+      "enemyGuildName": "Kyogen",
+      "enemyTotalGuildPoint": 4969449,
+      "enemyComboCount": 2096,
+      "enemySiegeWinCount": 23,
+      "selfRankUserId": 409649796,
+      "selfRankNum": 1,
+      "selfRankUserName": "Mattsu",
+      "selfRankGuildPoint": 440404,
+      "enemyRankUserId": 473899914,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Etalia",
+      "enemyRankGuildPoint": 1056167,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 440404,
+            "valueB": 1056167,
+            "userIdA": 409649796,
+            "userIdB": 473899914,
+            "nameA": "Mattsu",
+            "nameB": "Etalia"
+          },
+          {
+            "rank": 2,
+            "valueA": 311275,
+            "valueB": 971603,
+            "userIdA": 593439881,
+            "userIdB": 410308234,
+            "nameA": "Ludmila",
+            "nameB": "Fumandra"
+          },
+          {
+            "rank": 3,
+            "valueA": 247802,
+            "valueB": 733643,
+            "userIdA": 718599324,
+            "userIdB": 932293988,
+            "nameA": "RockとDevil",
+            "nameB": "RinAkanae"
+          },
+          {
+            "rank": 4,
+            "valueA": 47380,
+            "valueB": 568887,
+            "userIdA": 380978392,
+            "userIdB": 384186016,
+            "nameA": "Windjigo",
+            "nameB": "Pepe"
+          },
+          {
+            "rank": 5,
+            "valueA": 46240,
+            "valueB": 534225,
+            "userIdA": 934398383,
+            "userIdB": 556487083,
+            "nameA": "FrostBiTE",
+            "nameB": "Balthial"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5615368,
+            "valueB": 12753145,
+            "userIdA": 167791490,
+            "userIdB": 224679895,
+            "nameA": "Reisz",
+            "nameB": "2DIRis"
+          },
+          {
+            "rank": 2,
+            "valueA": 4686300,
+            "valueB": 9033723,
+            "userIdA": 801961098,
+            "userIdB": 786161822,
+            "nameA": "ShiroMoko",
+            "nameB": "Kanari"
+          },
+          {
+            "rank": 3,
+            "valueA": 4318638,
+            "valueB": 5257926,
+            "userIdA": 515568020,
+            "userIdB": 846478455,
+            "nameA": "Enigma",
+            "nameB": "Chrome"
+          },
+          {
+            "rank": 4,
+            "valueA": 2821151,
+            "valueB": 4881392,
+            "userIdA": 510800799,
+            "userIdB": 339906788,
+            "nameA": "Leev56",
+            "nameB": "Ǥamez༒"
+          },
+          {
+            "rank": 5,
+            "valueA": 839722,
+            "valueB": 236473,
+            "userIdA": 934398383,
+            "userIdB": 473899914,
+            "nameA": "FrostBiTE",
+            "nameB": "Etalia"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1512338,
+            "valueB": 952710,
+            "userIdA": 991509328,
+            "userIdB": 968382562,
+            "nameA": "Drystar",
+            "nameB": "Nirey"
+          },
+          {
+            "rank": 2,
+            "valueA": 984087,
+            "valueB": 534232,
+            "userIdA": 727928971,
+            "userIdB": 270029786,
+            "nameA": "Heikki",
+            "nameB": "Shilia"
+          },
+          {
+            "rank": 3,
+            "valueA": 615569,
+            "valueB": 296420,
+            "userIdA": 306859090,
+            "userIdB": 948415720,
+            "nameA": "Eliater",
+            "nameB": "Vanille"
+          },
+          {
+            "rank": 4,
+            "valueA": 493376,
+            "valueB": 115970,
+            "userIdA": 890964279,
+            "userIdB": 224679895,
+            "nameA": "S0J",
+            "nameB": "2DIRis"
+          },
+          {
+            "rank": 5,
+            "valueA": 269183,
+            "valueB": 68186,
+            "userIdA": 510800799,
+            "userIdB": 786161822,
+            "nameA": "Leev56",
+            "nameB": "Kanari"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1496174,
+            "valueB": 1971424,
+            "userIdA": 991509328,
+            "userIdB": 270029786,
+            "nameA": "Drystar",
+            "nameB": "Shilia"
+          },
+          {
+            "rank": 2,
+            "valueA": 916624,
+            "valueB": 868866,
+            "userIdA": 510800799,
+            "userIdB": 948415720,
+            "nameA": "Leev56",
+            "nameB": "Vanille"
+          },
+          {
+            "rank": 3,
+            "valueA": 626092,
+            "valueB": 544515,
+            "userIdA": 727928971,
+            "userIdB": 968382562,
+            "nameA": "Heikki",
+            "nameB": "Nirey"
+          },
+          {
+            "rank": 4,
+            "valueA": 569573,
+            "valueB": 255421,
+            "userIdA": 890964279,
+            "userIdB": 224679895,
+            "nameA": "S0J",
+            "nameB": "2DIRis"
+          },
+          {
+            "rank": 5,
+            "valueA": 329499,
+            "valueB": 98667,
+            "userIdA": 306859090,
+            "userIdB": 339906788,
+            "nameA": "Eliater",
+            "nameB": "Ǥamez༒"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 729497,
+            "valueB": 1663200,
+            "userIdA": 946559622,
+            "userIdB": 311068608,
+            "nameA": "Thanatos",
+            "nameB": "Shinobu"
+          },
+          {
+            "rank": 2,
+            "valueA": 611640,
+            "valueB": 1453882,
+            "userIdA": 357058633,
+            "userIdB": 235986703,
+            "nameA": "Zoe",
+            "nameB": "Pink_Pina"
+          },
+          {
+            "rank": 3,
+            "valueA": 303131,
+            "valueB": 820452,
+            "userIdA": 727928971,
+            "userIdB": 881907072,
+            "nameA": "Heikki",
+            "nameB": "Airi"
+          },
+          {
+            "rank": 4,
+            "valueA": 53471,
+            "valueB": 110596,
+            "userIdA": 409649796,
+            "userIdB": 410308234,
+            "nameA": "Mattsu",
+            "nameB": "Fumandra"
+          },
+          {
+            "rank": 5,
+            "valueA": 30413,
+            "valueB": 49817,
+            "userIdA": 380978392,
+            "userIdB": 384186016,
+            "nameA": "Windjigo",
+            "nameB": "Pepe"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2031569,
+            "valueB": 1710216,
+            "userIdA": 357058633,
+            "userIdB": 235986703,
+            "nameA": "Zoe",
+            "nameB": "Pink_Pina"
+          },
+          {
+            "rank": 2,
+            "valueA": 1210937,
+            "valueB": 1687750,
+            "userIdA": 946559622,
+            "userIdB": 311068608,
+            "nameA": "Thanatos",
+            "nameB": "Shinobu"
+          },
+          {
+            "rank": 3,
+            "valueA": 584624,
+            "valueB": 925553,
+            "userIdA": 727928971,
+            "userIdB": 881907072,
+            "nameA": "Heikki",
+            "nameB": "Airi"
+          },
+          {
+            "rank": 4,
+            "valueA": 127982,
+            "valueB": 77827,
+            "userIdA": 409649796,
+            "userIdB": 932293988,
+            "nameA": "Mattsu",
+            "nameB": "RinAkanae"
+          },
+          {
+            "rank": 5,
+            "valueA": 94091,
+            "valueB": 75965,
+            "userIdA": 593439881,
+            "userIdB": 473899914,
+            "nameA": "Ludmila",
+            "nameB": "Etalia"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 330,
+            "valueB": 311,
+            "userIdA": 934398383,
+            "userIdB": 410308234,
+            "nameA": "FrostBiTE",
+            "nameB": "Fumandra"
+          },
+          {
+            "rank": 2,
+            "valueA": 189,
+            "valueB": 305,
+            "userIdA": 593439881,
+            "userIdB": 556487083,
+            "nameA": "Ludmila",
+            "nameB": "Balthial"
+          },
+          {
+            "rank": 3,
+            "valueA": 157,
+            "valueB": 281,
+            "userIdA": 718599324,
+            "userIdB": 932293988,
+            "nameA": "RockとDevil",
+            "nameB": "RinAkanae"
+          },
+          {
+            "rank": 4,
+            "valueA": 144,
+            "valueB": 277,
+            "userIdA": 801961098,
+            "userIdB": 473899914,
+            "nameA": "ShiroMoko",
+            "nameB": "Etalia"
+          },
+          {
+            "rank": 5,
+            "valueA": 108,
+            "valueB": 275,
+            "userIdA": 727928971,
+            "userIdB": 384186016,
+            "nameA": "Heikki",
+            "nameB": "Pepe"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2463114,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 55,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 32,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 605,
+    "gvgDataId": 2463114,
+    "guildDataIdA": 449,
+    "guildDataIdB": 5070,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Kyogen",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 380978392,
+        "name": "Windjigo",
+        "characterMstId": 47,
+        "level": 145,
+        "totalPower": 174680,
+        "maxHp": 35394
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 48,
+        "level": 195,
+        "totalPower": 251926,
+        "maxHp": 64495
+      },
+      {
+        "userId": 409649796,
+        "name": "Mattsu",
+        "characterMstId": 48,
+        "level": 199,
+        "totalPower": 246028,
+        "maxHp": 56392
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 205,
+        "totalPower": 241282,
+        "maxHp": 63065
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 46,
+        "level": 212,
+        "totalPower": 161167,
+        "maxHp": 65615
+      },
+      {
+        "userId": 727928971,
+        "name": "Heikki",
+        "characterMstId": 114,
+        "level": 214,
+        "totalPower": 343538,
+        "maxHp": 83299
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 245163,
+        "maxHp": 58722
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 188,
+        "totalPower": 232514,
+        "maxHp": 62025
+      },
+      {
+        "userId": 306859090,
+        "name": "Eliater",
+        "characterMstId": 114,
+        "level": 150,
+        "totalPower": 207737,
+        "maxHp": 50929
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 193,
+        "totalPower": 266318,
+        "maxHp": 63973
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 167,
+        "level": 199,
+        "totalPower": 256955,
+        "maxHp": 56742
+      },
+      {
+        "userId": 510800799,
+        "name": "Leev56",
+        "characterMstId": 85,
+        "level": 195,
+        "totalPower": 249233,
+        "maxHp": 50295
+      },
+      {
+        "userId": 801961098,
+        "name": "ShiroMoko",
+        "characterMstId": 85,
+        "level": 168,
+        "totalPower": 232532,
+        "maxHp": 51102
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 141,
+        "totalPower": 221285,
+        "maxHp": 47506
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 85,
+        "level": 157,
+        "totalPower": 185970,
+        "maxHp": 39716
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 410308234,
+        "name": "Fumandra",
+        "characterMstId": 103,
+        "level": 207,
+        "totalPower": 312434,
+        "maxHp": 75287
+      },
+      {
+        "userId": 473899914,
+        "name": "Etalia",
+        "characterMstId": 103,
+        "level": 203,
+        "totalPower": 299872,
+        "maxHp": 74651
+      },
+      {
+        "userId": 932293988,
+        "name": "RinAkanae",
+        "characterMstId": 103,
+        "level": 207,
+        "totalPower": 258411,
+        "maxHp": 63437
+      },
+      {
+        "userId": 384186016,
+        "name": "Pepe",
+        "characterMstId": 103,
+        "level": 202,
+        "totalPower": 257260,
+        "maxHp": 61172
+      },
+      {
+        "userId": 556487083,
+        "name": "Balthial",
+        "characterMstId": 103,
+        "level": 194,
+        "totalPower": 248310,
+        "maxHp": 57684
+      },
+      {
+        "userId": 270029786,
+        "name": "Shilia",
+        "characterMstId": 114,
+        "level": 198,
+        "totalPower": 286620,
+        "maxHp": 69230
+      },
+      {
+        "userId": 968382562,
+        "name": "Nirey",
+        "characterMstId": 114,
+        "level": 216,
+        "totalPower": 277109,
+        "maxHp": 71813
+      },
+      {
+        "userId": 948415720,
+        "name": "Vanille",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 253886,
+        "maxHp": 62672
+      },
+      {
+        "userId": 235986703,
+        "name": "Pink_Pina",
+        "characterMstId": 93,
+        "level": 206,
+        "totalPower": 283057,
+        "maxHp": 71400
+      },
+      {
+        "userId": 881907072,
+        "name": "Airi",
+        "characterMstId": 93,
+        "level": 197,
+        "totalPower": 253843,
+        "maxHp": 61668
+      },
+      {
+        "userId": 311068608,
+        "name": "Shinobu",
+        "characterMstId": 93,
+        "level": 203,
+        "totalPower": 246909,
+        "maxHp": 59451
+      },
+      {
+        "userId": 224679895,
+        "name": "2DIRis",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 279863,
+        "maxHp": 64237
+      },
+      {
+        "userId": 786161822,
+        "name": "Kanari",
+        "characterMstId": 85,
+        "level": 206,
+        "totalPower": 268243,
+        "maxHp": 66800
+      },
+      {
+        "userId": 339906788,
+        "name": "Ǥamez༒",
+        "characterMstId": 85,
+        "level": 197,
+        "totalPower": 237512,
+        "maxHp": 56068
+      },
+      {
+        "userId": 846478455,
+        "name": "Chrome",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 224166,
+        "maxHp": 58580
+      }
+    ]
+  }
+}

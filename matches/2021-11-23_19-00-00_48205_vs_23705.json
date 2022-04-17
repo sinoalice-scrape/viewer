@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 303,
+      "battleStartTime": 1637694000,
+      "battleEndTime": 1637695199,
+      "gvgDataId": 2489790,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 2233340,
+      "selfComboCount": 1594,
+      "selfSiegeWinCount": 13,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 23705,
+      "enemyGuildName": "Divinus",
+      "enemyTotalGuildPoint": 28487,
+      "enemyComboCount": 590,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 687969,
+      "enemyRankUserId": 271861893,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Shahid2004",
+      "enemyRankGuildPoint": 47329,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 687969,
+            "valueB": 47329,
+            "userIdA": 489820080,
+            "userIdB": 271861893,
+            "nameA": "Poetic0",
+            "nameB": "Shahid2004"
+          },
+          {
+            "rank": 2,
+            "valueA": 474063,
+            "valueB": 31925,
+            "userIdA": 311155260,
+            "userIdB": 433907681,
+            "nameA": "Tamuko",
+            "nameB": "Wildo"
+          },
+          {
+            "rank": 3,
+            "valueA": 393567,
+            "valueB": 23703,
+            "userIdA": 725168146,
+            "userIdB": 350904465,
+            "nameA": "Hodzumi홑쑤미",
+            "nameB": "GVF97"
+          },
+          {
+            "rank": 4,
+            "valueA": 272591,
+            "valueB": 16076,
+            "userIdA": 897796188,
+            "userIdB": 695718924,
+            "nameA": "GiGi",
+            "nameB": "Kier"
+          },
+          {
+            "rank": 5,
+            "valueA": 193789,
+            "valueB": 10689,
+            "userIdA": 658397897,
+            "userIdB": 529846971,
+            "nameA": "Juddy",
+            "nameB": "patiskun"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 8125681,
+            "valueB": 1608817,
+            "userIdA": 595872065,
+            "userIdB": 812640848,
+            "nameA": "Fuyune<3",
+            "nameB": "Geese"
+          },
+          {
+            "rank": 2,
+            "valueA": 5275329,
+            "valueB": 908234,
+            "userIdA": 519357658,
+            "userIdB": 145463644,
+            "nameA": "NeoEralith",
+            "nameB": "Rimi"
+          },
+          {
+            "rank": 3,
+            "valueA": 3510668,
+            "valueB": 571596,
+            "userIdA": 335076343,
+            "userIdB": 898245268,
+            "nameA": "Melesie",
+            "nameB": "Misuuki"
+          },
+          {
+            "rank": 4,
+            "valueA": 189930,
+            "valueB": 522678,
+            "userIdA": 489820080,
+            "userIdB": 271861893,
+            "nameA": "Poetic0",
+            "nameB": "Shahid2004"
+          },
+          {
+            "rank": 5,
+            "valueA": 146588,
+            "valueB": 402412,
+            "userIdA": 725168146,
+            "userIdB": 967068257,
+            "nameA": "Hodzumi홑쑤미",
+            "nameB": "Pawello"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 353048,
+            "valueB": 114327,
+            "userIdA": 898672025,
+            "userIdB": 898245268,
+            "nameA": "colonel",
+            "nameB": "Misuuki"
+          },
+          {
+            "rank": 2,
+            "valueA": 332069,
+            "valueB": 76413,
+            "userIdA": 252654652,
+            "userIdB": 967068257,
+            "nameA": "Xameria",
+            "nameB": "Pawello"
+          },
+          {
+            "rank": 3,
+            "valueA": 331509,
+            "valueB": 65431,
+            "userIdA": 237959838,
+            "userIdB": 648254158,
+            "nameA": "Nheksh",
+            "nameB": "Crow"
+          },
+          {
+            "rank": 4,
+            "valueA": 110760,
+            "valueB": 44095,
+            "userIdA": 594178109,
+            "userIdB": 271861893,
+            "nameA": "Jeanne",
+            "nameB": "Shahid2004"
+          },
+          {
+            "rank": 5,
+            "valueA": 96656,
+            "valueB": 42680,
+            "userIdA": 335076343,
+            "userIdB": 769436675,
+            "nameA": "Melesie",
+            "nameB": "Comfy"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 513058,
+            "valueB": 195165,
+            "userIdA": 898672025,
+            "userIdB": 898245268,
+            "nameA": "colonel",
+            "nameB": "Misuuki"
+          },
+          {
+            "rank": 2,
+            "valueA": 466447,
+            "valueB": 77015,
+            "userIdA": 237959838,
+            "userIdB": 769436675,
+            "nameA": "Nheksh",
+            "nameB": "Comfy"
+          },
+          {
+            "rank": 3,
+            "valueA": 232727,
+            "valueB": 56165,
+            "userIdA": 252654652,
+            "userIdB": 648254158,
+            "nameA": "Xameria",
+            "nameB": "Crow"
+          },
+          {
+            "rank": 4,
+            "valueA": 138965,
+            "valueB": 46602,
+            "userIdA": 594178109,
+            "userIdB": 433907681,
+            "nameA": "Jeanne",
+            "nameB": "Wildo"
+          },
+          {
+            "rank": 5,
+            "valueA": 62775,
+            "valueB": 34523,
+            "userIdA": 335076343,
+            "userIdB": 967068257,
+            "nameA": "Melesie",
+            "nameB": "Pawello"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 687212,
+            "valueB": 157141,
+            "userIdA": 590008353,
+            "userIdB": 346948597,
+            "nameA": "Fintz",
+            "nameB": "Palatiy"
+          },
+          {
+            "rank": 2,
+            "valueA": 363529,
+            "valueB": 48377,
+            "userIdA": 580947666,
+            "userIdB": 433907681,
+            "nameA": "MeanRin",
+            "nameB": "Wildo"
+          },
+          {
+            "rank": 3,
+            "valueA": 318635,
+            "valueB": 47125,
+            "userIdA": 594178109,
+            "userIdB": 967068257,
+            "nameA": "Jeanne",
+            "nameB": "Pawello"
+          },
+          {
+            "rank": 4,
+            "valueA": 151974,
+            "valueB": 36856,
+            "userIdA": 237959838,
+            "userIdB": 550375136,
+            "nameA": "Nheksh",
+            "nameB": "Thea"
+          },
+          {
+            "rank": 5,
+            "valueA": 144562,
+            "valueB": 30730,
+            "userIdA": 557593123,
+            "userIdB": 898245268,
+            "nameA": "Derpy",
+            "nameB": "Misuuki"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 904410,
+            "valueB": 460195,
+            "userIdA": 594178109,
+            "userIdB": 346948597,
+            "nameA": "Jeanne",
+            "nameB": "Palatiy"
+          },
+          {
+            "rank": 2,
+            "valueA": 714625,
+            "valueB": 66045,
+            "userIdA": 590008353,
+            "userIdB": 898245268,
+            "nameA": "Fintz",
+            "nameB": "Misuuki"
+          },
+          {
+            "rank": 3,
+            "valueA": 583380,
+            "valueB": 65382,
+            "userIdA": 580947666,
+            "userIdB": 967068257,
+            "nameA": "MeanRin",
+            "nameB": "Pawello"
+          },
+          {
+            "rank": 4,
+            "valueA": 565096,
+            "valueB": 47767,
+            "userIdA": 335076343,
+            "userIdB": 271861893,
+            "nameA": "Melesie",
+            "nameB": "Shahid2004"
+          },
+          {
+            "rank": 5,
+            "valueA": 235518,
+            "valueB": 40926,
+            "userIdA": 557593123,
+            "userIdB": 648254158,
+            "nameA": "Derpy",
+            "nameB": "Crow"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 319,
+            "valueB": 117,
+            "userIdA": 489820080,
+            "userIdB": 695718924,
+            "nameA": "Poetic0",
+            "nameB": "Kier"
+          },
+          {
+            "rank": 2,
+            "valueA": 284,
+            "valueB": 110,
+            "userIdA": 311155260,
+            "userIdB": 350904465,
+            "nameA": "Tamuko",
+            "nameB": "GVF97"
+          },
+          {
+            "rank": 3,
+            "valueA": 263,
+            "valueB": 97,
+            "userIdA": 725168146,
+            "userIdB": 271861893,
+            "nameA": "Hodzumi홑쑤미",
+            "nameB": "Shahid2004"
+          },
+          {
+            "rank": 4,
+            "valueA": 177,
+            "valueB": 84,
+            "userIdA": 252654652,
+            "userIdB": 433907681,
+            "nameA": "Xameria",
+            "nameB": "Wildo"
+          },
+          {
+            "rank": 5,
+            "valueA": 132,
+            "valueB": 63,
+            "userIdA": 897796188,
+            "userIdB": 529846971,
+            "nameA": "GiGi",
+            "nameB": "patiskun"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2489790,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 75,
+          "guildBCount": 26
+        },
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 75,
+          "guildBCount": 37
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 303,
+    "gvgDataId": 2489790,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 23705,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Divinus",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 1,
+    "guildMemberA": [
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 126,
+        "level": 190,
+        "totalPower": 247958,
+        "maxHp": 58993
+      },
+      {
+        "userId": 725168146,
+        "name": "Hodzumi홑쑤미",
+        "characterMstId": 126,
+        "level": 178,
+        "totalPower": 208805,
+        "maxHp": 49462
+      },
+      {
+        "userId": 897796188,
+        "name": "GiGi",
+        "characterMstId": 48,
+        "level": 204,
+        "totalPower": 266856,
+        "maxHp": 66832
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 48,
+        "level": 200,
+        "totalPower": 241089,
+        "maxHp": 62505
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 139,
+        "level": 207,
+        "totalPower": 248296,
+        "maxHp": 63587
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 130,
+        "level": 203,
+        "totalPower": 301369,
+        "maxHp": 80201
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 94,
+        "level": 219,
+        "totalPower": 239107,
+        "maxHp": 71416
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 130,
+        "level": 187,
+        "totalPower": 227501,
+        "maxHp": 56066
+      },
+      {
+        "userId": 898672025,
+        "name": "colonel",
+        "characterMstId": 114,
+        "level": 189,
+        "totalPower": 214111,
+        "maxHp": 51934
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 561,
+        "level": 208,
+        "totalPower": 256603,
+        "maxHp": 60226
+      },
+      {
+        "userId": 590008353,
+        "name": "Fintz",
+        "characterMstId": 93,
+        "level": 202,
+        "totalPower": 244658,
+        "maxHp": 63972
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 93,
+        "level": 199,
+        "totalPower": 224010,
+        "maxHp": 57742
+      },
+      {
+        "userId": 557593123,
+        "name": "Derpy",
+        "characterMstId": 520,
+        "level": 153,
+        "totalPower": 217102,
+        "maxHp": 47090
+      },
+      {
+        "userId": 519357658,
+        "name": "NeoEralith",
+        "characterMstId": 85,
+        "level": 191,
+        "totalPower": 236698,
+        "maxHp": 56753
+      },
+      {
+        "userId": 595872065,
+        "name": "Fuyune<3",
+        "characterMstId": 85,
+        "level": 195,
+        "totalPower": 236023,
+        "maxHp": 57445
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 695718924,
+        "name": "Kier",
+        "characterMstId": 491,
+        "level": 195,
+        "totalPower": 237545,
+        "maxHp": 56045
+      },
+      {
+        "userId": 271861893,
+        "name": "Shahid2004",
+        "characterMstId": 21,
+        "level": 194,
+        "totalPower": 254649,
+        "maxHp": 62234
+      },
+      {
+        "userId": 433907681,
+        "name": "Wildo",
+        "characterMstId": 246,
+        "level": 202,
+        "totalPower": 249799,
+        "maxHp": 60522
+      },
+      {
+        "userId": 350904465,
+        "name": "GVF97",
+        "characterMstId": 224,
+        "level": 188,
+        "totalPower": 185184,
+        "maxHp": 57625
+      },
+      {
+        "userId": 529846971,
+        "name": "patiskun",
+        "characterMstId": 48,
+        "level": 124,
+        "totalPower": 167686,
+        "maxHp": 30682
+      },
+      {
+        "userId": 898245268,
+        "name": "Misuuki",
+        "characterMstId": 116,
+        "level": 150,
+        "totalPower": 150808,
+        "maxHp": 38279
+      },
+      {
+        "userId": 720019215,
+        "name": "BDSMQueen",
+        "characterMstId": 27,
+        "level": 79,
+        "totalPower": 71661,
+        "maxHp": 12463
+      },
+      {
+        "userId": 769436675,
+        "name": "Comfy",
+        "characterMstId": 27,
+        "level": 61,
+        "totalPower": 65817,
+        "maxHp": 9315
+      },
+      {
+        "userId": 988837090,
+        "name": "Belladonna",
+        "characterMstId": 33,
+        "level": 85,
+        "totalPower": 54961,
+        "maxHp": 13288
+      },
+      {
+        "userId": 346948597,
+        "name": "Palatiy",
+        "characterMstId": 113,
+        "level": 115,
+        "totalPower": 151029,
+        "maxHp": 26079
+      },
+      {
+        "userId": 648254158,
+        "name": "Crow",
+        "characterMstId": 32,
+        "level": 102,
+        "totalPower": 76989,
+        "maxHp": 16079
+      },
+      {
+        "userId": 967068257,
+        "name": "Pawello",
+        "characterMstId": 161,
+        "level": 140,
+        "totalPower": 140118,
+        "maxHp": 29929
+      },
+      {
+        "userId": 145463644,
+        "name": "Rimi",
+        "characterMstId": 22,
+        "level": 108,
+        "totalPower": 112483,
+        "maxHp": 19146
+      },
+      {
+        "userId": 812640848,
+        "name": "Geese",
+        "characterMstId": 85,
+        "level": 78,
+        "totalPower": 102081,
+        "maxHp": 12223
+      },
+      {
+        "userId": 550375136,
+        "name": "Thea",
+        "characterMstId": 243,
+        "level": 64,
+        "totalPower": 73107,
+        "maxHp": 10590
+      }
+    ]
+  }
+}

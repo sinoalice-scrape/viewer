@@ -1,0 +1,191 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 605,
+      "battleStartTime": 1638565200,
+      "battleEndTime": 1638566399,
+      "gvgDataId": 2513762,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 63009,
+      "selfGuildName": "Donbo",
+      "selfTotalGuildPoint": 16,
+      "selfComboCount": 1,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 63310,
+      "enemyGuildName": "Falsa_alianza_2",
+      "enemyTotalGuildPoint": 53087,
+      "enemyComboCount": 1,
+      "enemySiegeWinCount": 9,
+      "selfRankUserId": 607502937,
+      "selfRankNum": 1,
+      "selfRankUserName": "Astra",
+      "selfRankGuildPoint": 55,
+      "enemyRankUserId": 909495834,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Ryu-kouhai",
+      "enemyRankGuildPoint": 53048,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 55,
+            "valueB": 53048,
+            "userIdA": 607502937,
+            "userIdB": 909495834,
+            "nameA": "Astra",
+            "nameB": "Ryu-kouhai"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 12000,
+            "valueB": 63791,
+            "userIdA": 607502937,
+            "userIdB": 909495834,
+            "nameA": "Astra",
+            "nameB": "Ryu-kouhai"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 188,
+            "valueB": 17592,
+            "userIdA": 607502937,
+            "userIdB": 909495834,
+            "nameA": "Astra",
+            "nameB": "Ryu-kouhai"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 8146,
+            "userIdA": 0,
+            "userIdB": 909495834,
+            "nameA": "",
+            "nameB": "Ryu-kouhai"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 3540,
+            "userIdA": 0,
+            "userIdB": 909495834,
+            "nameA": "",
+            "nameB": "Ryu-kouhai"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 0,
+            "valueB": 2636,
+            "userIdA": 0,
+            "userIdB": 909495834,
+            "nameA": "",
+            "nameB": "Ryu-kouhai"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1,
+            "valueB": 1,
+            "userIdA": 607502937,
+            "userIdB": 909495834,
+            "nameA": "Astra",
+            "nameB": "Ryu-kouhai"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2513762,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 7,
+          "ultimateArtMethodMstId": 7,
+          "guildACount": 3,
+          "guildBCount": 1
+        },
+        {
+          "artMstId": 31,
+          "ultimateArtMethodMstId": 31,
+          "guildACount": 5,
+          "guildBCount": 3
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 605,
+    "gvgDataId": 2513762,
+    "guildDataIdA": 63009,
+    "guildDataIdB": 63310,
+    "guildDataNameA": "Donbo",
+    "guildDataNameB": "Falsa_alianza_2",
+    "guildDataLevelA": 1,
+    "guildDataLevelB": 8,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 8,
+        "totalPower": 5556,
+        "maxHp": 1000
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 909495834,
+        "name": "Ryu-kouhai",
+        "characterMstId": 10,
+        "level": 110,
+        "totalPower": 91899,
+        "maxHp": 18914
+      }
+    ]
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 205,
+      "battleStartTime": 1648501200,
+      "battleEndTime": 1648502399,
+      "gvgDataId": 2769906,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 3128824,
+      "selfComboCount": 1537,
+      "selfSiegeWinCount": 1,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 2886,
+      "enemyGuildName": "Lycoris",
+      "enemyTotalGuildPoint": 3480130,
+      "enemyComboCount": 1142,
+      "enemySiegeWinCount": 2,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 1381022,
+      "enemyRankUserId": 419898152,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Tigrou",
+      "enemyRankGuildPoint": 749145,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 250
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1381022,
+            "valueB": 749145,
+            "userIdA": 593439881,
+            "userIdB": 419898152,
+            "nameA": "Ludmila",
+            "nameB": "Tigrou"
+          },
+          {
+            "rank": 2,
+            "valueA": 1081524,
+            "valueB": 702338,
+            "userIdA": 718599324,
+            "userIdB": 460772555,
+            "nameA": "RockとDevil",
+            "nameB": "Ixion"
+          },
+          {
+            "rank": 3,
+            "valueA": 802299,
+            "valueB": 510309,
+            "userIdA": 934398383,
+            "userIdB": 891482407,
+            "nameA": "FrostBiTE",
+            "nameB": "Kimiyoo"
+          },
+          {
+            "rank": 4,
+            "valueA": 361833,
+            "valueB": 356172,
+            "userIdA": 161754158,
+            "userIdB": 425654854,
+            "nameA": "oeuf",
+            "nameB": "Otaqween"
+          },
+          {
+            "rank": 5,
+            "valueA": 313453,
+            "valueB": 305242,
+            "userIdA": 680317627,
+            "userIdB": 621304035,
+            "nameA": "Milkgore",
+            "nameB": "hullabaloo"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 29652586,
+            "valueB": 17788832,
+            "userIdA": 482452519,
+            "userIdB": 962244565,
+            "nameA": "☆Freddi",
+            "nameB": "Kurukame"
+          },
+          {
+            "rank": 2,
+            "valueA": 21373548,
+            "valueB": 16899114,
+            "userIdA": 167791490,
+            "userIdB": 355357909,
+            "nameA": "Reisz",
+            "nameB": "Kuri"
+          },
+          {
+            "rank": 3,
+            "valueA": 10388846,
+            "valueB": 14258377,
+            "userIdA": 515568020,
+            "userIdB": 658609344,
+            "nameA": "Enigma",
+            "nameB": "Dredik"
+          },
+          {
+            "rank": 4,
+            "valueA": 246100,
+            "valueB": 143661,
+            "userIdA": 680317627,
+            "userIdB": 425654854,
+            "nameA": "Milkgore",
+            "nameB": "Otaqween"
+          },
+          {
+            "rank": 5,
+            "valueA": 213438,
+            "valueB": 100060,
+            "userIdA": 890964279,
+            "userIdB": 891482407,
+            "nameA": "S0J",
+            "nameB": "Kimiyoo"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5292554,
+            "valueB": 2035924,
+            "userIdA": 991509328,
+            "userIdB": 178625596,
+            "nameA": "Drystar",
+            "nameB": "Sokaradian"
+          },
+          {
+            "rank": 2,
+            "valueA": 1024519,
+            "valueB": 1380952,
+            "userIdA": 200491281,
+            "userIdB": 118072680,
+            "nameA": "Silverasha",
+            "nameB": "Eydis"
+          },
+          {
+            "rank": 3,
+            "valueA": 960680,
+            "valueB": 924494,
+            "userIdA": 890964279,
+            "userIdB": 490420083,
+            "nameA": "S0J",
+            "nameB": "Z'aanta"
+          },
+          {
+            "rank": 4,
+            "valueA": 510771,
+            "valueB": 186293,
+            "userIdA": 946559622,
+            "userIdB": 658609344,
+            "nameA": "Thanatos",
+            "nameB": "Dredik"
+          },
+          {
+            "rank": 5,
+            "valueA": 283858,
+            "valueB": 184652,
+            "userIdA": 482452519,
+            "userIdB": 355357909,
+            "nameA": "☆Freddi",
+            "nameB": "Kuri"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2282072,
+            "valueB": 2075499,
+            "userIdA": 991509328,
+            "userIdB": 490420083,
+            "nameA": "Drystar",
+            "nameB": "Z'aanta"
+          },
+          {
+            "rank": 2,
+            "valueA": 1815649,
+            "valueB": 1863672,
+            "userIdA": 200491281,
+            "userIdB": 178625596,
+            "nameA": "Silverasha",
+            "nameB": "Sokaradian"
+          },
+          {
+            "rank": 3,
+            "valueA": 1235638,
+            "valueB": 1700677,
+            "userIdA": 890964279,
+            "userIdB": 118072680,
+            "nameA": "S0J",
+            "nameB": "Eydis"
+          },
+          {
+            "rank": 4,
+            "valueA": 561629,
+            "valueB": 341768,
+            "userIdA": 482452519,
+            "userIdB": 962244565,
+            "nameA": "☆Freddi",
+            "nameB": "Kurukame"
+          },
+          {
+            "rank": 5,
+            "valueA": 235501,
+            "valueB": 176607,
+            "userIdA": 167791490,
+            "userIdB": 355357909,
+            "nameA": "Reisz",
+            "nameB": "Kuri"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2294837,
+            "valueB": 3896552,
+            "userIdA": 492044794,
+            "userIdB": 216598468,
+            "nameA": "Saltea",
+            "nameB": "Kurii"
+          },
+          {
+            "rank": 2,
+            "valueA": 1706113,
+            "valueB": 3061107,
+            "userIdA": 946559622,
+            "userIdB": 423897038,
+            "nameA": "Thanatos",
+            "nameB": "Kyhra"
+          },
+          {
+            "rank": 3,
+            "valueA": 1327072,
+            "valueB": 1612989,
+            "userIdA": 357058633,
+            "userIdB": 701034628,
+            "nameA": "Zoe",
+            "nameB": "dylan76"
+          },
+          {
+            "rank": 4,
+            "valueA": 114899,
+            "valueB": 271199,
+            "userIdA": 718599324,
+            "userIdB": 460772555,
+            "nameA": "RockとDevil",
+            "nameB": "Ixion"
+          },
+          {
+            "rank": 5,
+            "valueA": 79832,
+            "valueB": 107232,
+            "userIdA": 161754158,
+            "userIdB": 425654854,
+            "nameA": "oeuf",
+            "nameB": "Otaqween"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2667156,
+            "valueB": 3055498,
+            "userIdA": 357058633,
+            "userIdB": 423897038,
+            "nameA": "Zoe",
+            "nameB": "Kyhra"
+          },
+          {
+            "rank": 2,
+            "valueA": 2517168,
+            "valueB": 2266426,
+            "userIdA": 492044794,
+            "userIdB": 216598468,
+            "nameA": "Saltea",
+            "nameB": "Kurii"
+          },
+          {
+            "rank": 3,
+            "valueA": 1422168,
+            "valueB": 1597967,
+            "userIdA": 946559622,
+            "userIdB": 701034628,
+            "nameA": "Thanatos",
+            "nameB": "dylan76"
+          },
+          {
+            "rank": 4,
+            "valueA": 171994,
+            "valueB": 171698,
+            "userIdA": 593439881,
+            "userIdB": 460772555,
+            "nameA": "Ludmila",
+            "nameB": "Ixion"
+          },
+          {
+            "rank": 5,
+            "valueA": 124534,
+            "valueB": 117748,
+            "userIdA": 718599324,
+            "userIdB": 419898152,
+            "nameA": "RockとDevil",
+            "nameB": "Tigrou"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 323,
+            "valueB": 324,
+            "userIdA": 593439881,
+            "userIdB": 425654854,
+            "nameA": "Ludmila",
+            "nameB": "Otaqween"
+          },
+          {
+            "rank": 2,
+            "valueA": 315,
+            "valueB": 282,
+            "userIdA": 718599324,
+            "userIdB": 460772555,
+            "nameA": "RockとDevil",
+            "nameB": "Ixion"
+          },
+          {
+            "rank": 3,
+            "valueA": 309,
+            "valueB": 128,
+            "userIdA": 680317627,
+            "userIdB": 216598468,
+            "nameA": "Milkgore",
+            "nameB": "Kurii"
+          },
+          {
+            "rank": 4,
+            "valueA": 289,
+            "valueB": 118,
+            "userIdA": 161754158,
+            "userIdB": 891482407,
+            "nameA": "oeuf",
+            "nameB": "Kimiyoo"
+          },
+          {
+            "rank": 5,
+            "valueA": 278,
+            "valueB": 115,
+            "userIdA": 934398383,
+            "userIdB": 419898152,
+            "nameA": "FrostBiTE",
+            "nameB": "Tigrou"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2769906,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 75,
+          "guildBCount": 41
+        },
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 75,
+          "guildBCount": 64
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 205,
+    "gvgDataId": 2769906,
+    "guildDataIdA": 449,
+    "guildDataIdB": 2886,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Lycoris",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 205,
+        "totalPower": 296170,
+        "maxHp": 66965
+      },
+      {
+        "userId": 680317627,
+        "name": "Milkgore",
+        "characterMstId": 126,
+        "level": 193,
+        "totalPower": 235609,
+        "maxHp": 56573
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 326522,
+        "maxHp": 81283
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 201,
+        "totalPower": 291656,
+        "maxHp": 73195
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 286311,
+        "maxHp": 73278
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 277517,
+        "maxHp": 64887
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 269428,
+        "maxHp": 69968
+      },
+      {
+        "userId": 200491281,
+        "name": "Silverasha",
+        "characterMstId": 114,
+        "level": 198,
+        "totalPower": 269341,
+        "maxHp": 67080
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 201,
+        "totalPower": 316123,
+        "maxHp": 73995
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 587,
+        "level": 203,
+        "totalPower": 295448,
+        "maxHp": 65651
+      },
+      {
+        "userId": 492044794,
+        "name": "Saltea",
+        "characterMstId": 167,
+        "level": 190,
+        "totalPower": 267246,
+        "maxHp": 56843
+      },
+      {
+        "userId": 482452519,
+        "name": "☆Freddi",
+        "characterMstId": 85,
+        "level": 200,
+        "totalPower": 279866,
+        "maxHp": 63405
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 180,
+        "totalPower": 263226,
+        "maxHp": 60815
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 85,
+        "level": 191,
+        "totalPower": 215488,
+        "maxHp": 51953
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 425654854,
+        "name": "Otaqween",
+        "characterMstId": 103,
+        "level": 203,
+        "totalPower": 306893,
+        "maxHp": 75151
+      },
+      {
+        "userId": 621304035,
+        "name": "hullabaloo",
+        "characterMstId": 103,
+        "level": 207,
+        "totalPower": 290672,
+        "maxHp": 72687
+      },
+      {
+        "userId": 460772555,
+        "name": "Ixion",
+        "characterMstId": 48,
+        "level": 214,
+        "totalPower": 345562,
+        "maxHp": 83549
+      },
+      {
+        "userId": 891482407,
+        "name": "Kimiyoo",
+        "characterMstId": 231,
+        "level": 203,
+        "totalPower": 288800,
+        "maxHp": 69201
+      },
+      {
+        "userId": 419898152,
+        "name": "Tigrou",
+        "characterMstId": 48,
+        "level": 204,
+        "totalPower": 287035,
+        "maxHp": 67632
+      },
+      {
+        "userId": 178625596,
+        "name": "Sokaradian",
+        "characterMstId": 114,
+        "level": 199,
+        "totalPower": 273455,
+        "maxHp": 60042
+      },
+      {
+        "userId": 118072680,
+        "name": "Eydis",
+        "characterMstId": 114,
+        "level": 190,
+        "totalPower": 270955,
+        "maxHp": 63643
+      },
+      {
+        "userId": 490420083,
+        "name": "Z'aanta",
+        "characterMstId": 114,
+        "level": 201,
+        "totalPower": 226233,
+        "maxHp": 53095
+      },
+      {
+        "userId": 423897038,
+        "name": "Kyhra",
+        "characterMstId": 167,
+        "level": 201,
+        "totalPower": 291977,
+        "maxHp": 73145
+      },
+      {
+        "userId": 701034628,
+        "name": "dylan76",
+        "characterMstId": 444,
+        "level": 202,
+        "totalPower": 290846,
+        "maxHp": 72072
+      },
+      {
+        "userId": 216598468,
+        "name": "Kurii",
+        "characterMstId": 167,
+        "level": 190,
+        "totalPower": 262259,
+        "maxHp": 63193
+      },
+      {
+        "userId": 355357909,
+        "name": "Kuri",
+        "characterMstId": 85,
+        "level": 202,
+        "totalPower": 294625,
+        "maxHp": 70722
+      },
+      {
+        "userId": 962244565,
+        "name": "Kurukame",
+        "characterMstId": 85,
+        "level": 192,
+        "totalPower": 269558,
+        "maxHp": 65413
+      },
+      {
+        "userId": 658609344,
+        "name": "Dredik",
+        "characterMstId": 85,
+        "level": 199,
+        "totalPower": 246346,
+        "maxHp": 56992
+      }
+    ]
+  }
+}

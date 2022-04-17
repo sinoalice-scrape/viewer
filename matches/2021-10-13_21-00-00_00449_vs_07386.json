@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 405,
+      "battleStartTime": 1634158800,
+      "battleEndTime": 1634159999,
+      "gvgDataId": 2383287,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 3006555,
+      "selfComboCount": 1686,
+      "selfSiegeWinCount": 7,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 7386,
+      "enemyGuildName": "Daylight",
+      "enemyTotalGuildPoint": 2601064,
+      "enemyComboCount": 1445,
+      "enemySiegeWinCount": 7,
+      "selfRankUserId": 934398383,
+      "selfRankNum": 1,
+      "selfRankUserName": "FrostBiTE",
+      "selfRankGuildPoint": 716113,
+      "enemyRankUserId": 162854273,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Aveline",
+      "enemyRankGuildPoint": 1179910,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 840
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 716113,
+            "valueB": 1179910,
+            "userIdA": 934398383,
+            "userIdB": 162854273,
+            "nameA": "FrostBiTE",
+            "nameB": "Aveline"
+          },
+          {
+            "rank": 2,
+            "valueA": 521581,
+            "valueB": 635855,
+            "userIdA": 593439881,
+            "userIdB": 821710377,
+            "nameA": "Ludmila",
+            "nameB": "Chaotix"
+          },
+          {
+            "rank": 3,
+            "valueA": 462327,
+            "valueB": 559276,
+            "userIdA": 718599324,
+            "userIdB": 876816294,
+            "nameA": "RockとDevil",
+            "nameB": "Kindacasul"
+          },
+          {
+            "rank": 4,
+            "valueA": 329722,
+            "valueB": 536885,
+            "userIdA": 242923819,
+            "userIdB": 492752166,
+            "nameA": "Mini_Ashra",
+            "nameB": "Kano"
+          },
+          {
+            "rank": 5,
+            "valueA": 259283,
+            "valueB": 314681,
+            "userIdA": 139478290,
+            "userIdB": 991357271,
+            "nameA": "Blazing",
+            "nameB": "Sin"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 7673573,
+            "valueB": 10951409,
+            "userIdA": 895948571,
+            "userIdB": 585921499,
+            "nameA": "bajda",
+            "nameB": "Owlcookie"
+          },
+          {
+            "rank": 2,
+            "valueA": 5431711,
+            "valueB": 8856280,
+            "userIdA": 801961098,
+            "userIdB": 909416078,
+            "nameA": "ShiroMoko",
+            "nameB": "Nynsore"
+          },
+          {
+            "rank": 3,
+            "valueA": 4874349,
+            "valueB": 8120619,
+            "userIdA": 515568020,
+            "userIdB": 477911368,
+            "nameA": "Enigma",
+            "nameB": "Wispe"
+          },
+          {
+            "rank": 4,
+            "valueA": 4246176,
+            "valueB": 924302,
+            "userIdA": 167791490,
+            "userIdB": 801651823,
+            "nameA": "Reisz",
+            "nameB": "SaveStommi"
+          },
+          {
+            "rank": 5,
+            "valueA": 521601,
+            "valueB": 308910,
+            "userIdA": 718599324,
+            "userIdB": 728668602,
+            "nameA": "RockとDevil",
+            "nameB": "JayLi*Rin"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1169182,
+            "valueB": 1658934,
+            "userIdA": 991509328,
+            "userIdB": 728668602,
+            "nameA": "Drystar",
+            "nameB": "JayLi*Rin"
+          },
+          {
+            "rank": 2,
+            "valueA": 1010769,
+            "valueB": 878011,
+            "userIdA": 727928971,
+            "userIdB": 260927148,
+            "nameA": "Heikki",
+            "nameB": "Hokori"
+          },
+          {
+            "rank": 3,
+            "valueA": 323780,
+            "valueB": 855959,
+            "userIdA": 890964279,
+            "userIdB": 688647610,
+            "nameA": "S0J",
+            "nameB": "Fallen"
+          },
+          {
+            "rank": 4,
+            "valueA": 119339,
+            "valueB": 399230,
+            "userIdA": 895948571,
+            "userIdB": 176403274,
+            "nameA": "bajda",
+            "nameB": "Harry"
+          },
+          {
+            "rank": 5,
+            "valueA": 76681,
+            "valueB": 123683,
+            "userIdA": 801961098,
+            "userIdB": 230454328,
+            "nameA": "ShiroMoko",
+            "nameB": "Linkfan7"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1832632,
+            "valueB": 1690572,
+            "userIdA": 991509328,
+            "userIdB": 728668602,
+            "nameA": "Drystar",
+            "nameB": "JayLi*Rin"
+          },
+          {
+            "rank": 2,
+            "valueA": 1213053,
+            "valueB": 1029061,
+            "userIdA": 727928971,
+            "userIdB": 260927148,
+            "nameA": "Heikki",
+            "nameB": "Hokori"
+          },
+          {
+            "rank": 3,
+            "valueA": 531004,
+            "valueB": 797181,
+            "userIdA": 890964279,
+            "userIdB": 688647610,
+            "nameA": "S0J",
+            "nameB": "Fallen"
+          },
+          {
+            "rank": 4,
+            "valueA": 114340,
+            "valueB": 767095,
+            "userIdA": 895948571,
+            "userIdB": 176403274,
+            "nameA": "bajda",
+            "nameB": "Harry"
+          },
+          {
+            "rank": 5,
+            "valueA": 86593,
+            "valueB": 230129,
+            "userIdA": 801961098,
+            "userIdB": 230454328,
+            "nameA": "ShiroMoko",
+            "nameB": "Linkfan7"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1828178,
+            "valueB": 969608,
+            "userIdA": 149802153,
+            "userIdB": 801651823,
+            "nameA": "Astronaut",
+            "nameB": "SaveStommi"
+          },
+          {
+            "rank": 2,
+            "valueA": 1095993,
+            "valueB": 830444,
+            "userIdA": 946559622,
+            "userIdB": 230454328,
+            "nameA": "Thanatos",
+            "nameB": "Linkfan7"
+          },
+          {
+            "rank": 3,
+            "valueA": 838295,
+            "valueB": 262482,
+            "userIdA": 357058633,
+            "userIdB": 469490172,
+            "nameA": "Zoe",
+            "nameB": "Herbst"
+          },
+          {
+            "rank": 4,
+            "valueA": 479714,
+            "valueB": 106271,
+            "userIdA": 727928971,
+            "userIdB": 162854273,
+            "nameA": "Heikki",
+            "nameB": "Aveline"
+          },
+          {
+            "rank": 5,
+            "valueA": 54116,
+            "valueB": 91717,
+            "userIdA": 718599324,
+            "userIdB": 876816294,
+            "nameA": "RockとDevil",
+            "nameB": "Kindacasul"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1827381,
+            "valueB": 1843295,
+            "userIdA": 357058633,
+            "userIdB": 230454328,
+            "nameA": "Zoe",
+            "nameB": "Linkfan7"
+          },
+          {
+            "rank": 2,
+            "valueA": 1651067,
+            "valueB": 1218817,
+            "userIdA": 149802153,
+            "userIdB": 801651823,
+            "nameA": "Astronaut",
+            "nameB": "SaveStommi"
+          },
+          {
+            "rank": 3,
+            "valueA": 1347827,
+            "valueB": 823941,
+            "userIdA": 946559622,
+            "userIdB": 469490172,
+            "nameA": "Thanatos",
+            "nameB": "Herbst"
+          },
+          {
+            "rank": 4,
+            "valueA": 231436,
+            "valueB": 181567,
+            "userIdA": 727928971,
+            "userIdB": 162854273,
+            "nameA": "Heikki",
+            "nameB": "Aveline"
+          },
+          {
+            "rank": 5,
+            "valueA": 104417,
+            "valueB": 119620,
+            "userIdA": 934398383,
+            "userIdB": 821710377,
+            "nameA": "FrostBiTE",
+            "nameB": "Chaotix"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 292,
+            "valueB": 250,
+            "userIdA": 934398383,
+            "userIdB": 876816294,
+            "nameA": "FrostBiTE",
+            "nameB": "Kindacasul"
+          },
+          {
+            "rank": 2,
+            "valueA": 282,
+            "valueB": 244,
+            "userIdA": 242923819,
+            "userIdB": 162854273,
+            "nameA": "Mini_Ashra",
+            "nameB": "Aveline"
+          },
+          {
+            "rank": 3,
+            "valueA": 274,
+            "valueB": 243,
+            "userIdA": 593439881,
+            "userIdB": 991357271,
+            "nameA": "Ludmila",
+            "nameB": "Sin"
+          },
+          {
+            "rank": 4,
+            "valueA": 156,
+            "valueB": 155,
+            "userIdA": 946559622,
+            "userIdB": 176403274,
+            "nameA": "Thanatos",
+            "nameB": "Harry"
+          },
+          {
+            "rank": 5,
+            "valueA": 155,
+            "valueB": 143,
+            "userIdA": 801961098,
+            "userIdB": 821710377,
+            "nameA": "ShiroMoko",
+            "nameB": "Chaotix"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2383287,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 65,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 75,
+          "guildBCount": 47
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 405,
+    "gvgDataId": 2383287,
+    "guildDataIdA": 449,
+    "guildDataIdB": 7386,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Daylight",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 2,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 242923819,
+        "name": "Mini_Ashra",
+        "characterMstId": 103,
+        "level": 200,
+        "totalPower": 218010,
+        "maxHp": 55405
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 209,
+        "totalPower": 266649,
+        "maxHp": 62967
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 48,
+        "level": 194,
+        "totalPower": 240402,
+        "maxHp": 61684
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 203,
+        "totalPower": 234738,
+        "maxHp": 61501
+      },
+      {
+        "userId": 139478290,
+        "name": "Blazing",
+        "characterMstId": 48,
+        "level": 188,
+        "totalPower": 216933,
+        "maxHp": 54375
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 201,
+        "totalPower": 238418,
+        "maxHp": 57245
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 187,
+        "totalPower": 220855,
+        "maxHp": 61416
+      },
+      {
+        "userId": 727928971,
+        "name": "Heikki",
+        "characterMstId": 16,
+        "level": 212,
+        "totalPower": 334701,
+        "maxHp": 78265
+      },
+      {
+        "userId": 149802153,
+        "name": "Astronaut",
+        "characterMstId": 167,
+        "level": 205,
+        "totalPower": 263023,
+        "maxHp": 65465
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 191,
+        "totalPower": 255466,
+        "maxHp": 62153
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 167,
+        "level": 198,
+        "totalPower": 245975,
+        "maxHp": 54980
+      },
+      {
+        "userId": 895948571,
+        "name": "bajda",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 236940,
+        "maxHp": 64301
+      },
+      {
+        "userId": 801961098,
+        "name": "ShiroMoko",
+        "characterMstId": 85,
+        "level": 165,
+        "totalPower": 222289,
+        "maxHp": 49355
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 139,
+        "totalPower": 213728,
+        "maxHp": 45554
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 85,
+        "level": 149,
+        "totalPower": 180903,
+        "maxHp": 37526
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 162854273,
+        "name": "Aveline",
+        "characterMstId": 103,
+        "level": 213,
+        "totalPower": 289580,
+        "maxHp": 71778
+      },
+      {
+        "userId": 876816294,
+        "name": "Kindacasul",
+        "characterMstId": 103,
+        "level": 202,
+        "totalPower": 266080,
+        "maxHp": 62872
+      },
+      {
+        "userId": 991357271,
+        "name": "Sin",
+        "characterMstId": 103,
+        "level": 184,
+        "totalPower": 245591,
+        "maxHp": 54942
+      },
+      {
+        "userId": 492752166,
+        "name": "Kano",
+        "characterMstId": 48,
+        "level": 208,
+        "totalPower": 254501,
+        "maxHp": 65276
+      },
+      {
+        "userId": 821710377,
+        "name": "Chaotix",
+        "characterMstId": 48,
+        "level": 201,
+        "totalPower": 253885,
+        "maxHp": 61245
+      },
+      {
+        "userId": 728668602,
+        "name": "JayLi*Rin",
+        "characterMstId": 114,
+        "level": 210,
+        "totalPower": 266650,
+        "maxHp": 66610
+      },
+      {
+        "userId": 688647610,
+        "name": "Fallen",
+        "characterMstId": 114,
+        "level": 183,
+        "totalPower": 237052,
+        "maxHp": 55335
+      },
+      {
+        "userId": 260927148,
+        "name": "Hokori",
+        "characterMstId": 114,
+        "level": 178,
+        "totalPower": 228788,
+        "maxHp": 53162
+      },
+      {
+        "userId": 176403274,
+        "name": "Harry",
+        "characterMstId": 114,
+        "level": 161,
+        "totalPower": 192801,
+        "maxHp": 44704
+      },
+      {
+        "userId": 230454328,
+        "name": "Linkfan7",
+        "characterMstId": 93,
+        "level": 202,
+        "totalPower": 264461,
+        "maxHp": 63672
+      },
+      {
+        "userId": 801651823,
+        "name": "SaveStommi",
+        "characterMstId": 93,
+        "level": 199,
+        "totalPower": 236067,
+        "maxHp": 61342
+      },
+      {
+        "userId": 469490172,
+        "name": "Herbst",
+        "characterMstId": 93,
+        "level": 136,
+        "totalPower": 178979,
+        "maxHp": 39547
+      },
+      {
+        "userId": 585921499,
+        "name": "Owlcookie",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 265468,
+        "maxHp": 64951
+      },
+      {
+        "userId": 909416078,
+        "name": "Nynsore",
+        "characterMstId": 85,
+        "level": 199,
+        "totalPower": 255394,
+        "maxHp": 58592
+      },
+      {
+        "userId": 477911368,
+        "name": "Wispe",
+        "characterMstId": 85,
+        "level": 197,
+        "totalPower": 249752,
+        "maxHp": 55318
+      }
+    ]
+  }
+}

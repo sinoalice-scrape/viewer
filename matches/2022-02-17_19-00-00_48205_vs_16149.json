@@ -1,0 +1,643 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 503,
+      "battleStartTime": 1645124400,
+      "battleEndTime": 1645125599,
+      "gvgDataId": 2688342,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 296134,
+      "selfComboCount": 1310,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 16149,
+      "enemyGuildName": "Moonlight",
+      "enemyTotalGuildPoint": 674558,
+      "enemyComboCount": 813,
+      "enemySiegeWinCount": 3,
+      "selfRankUserId": 528967104,
+      "selfRankNum": 1,
+      "selfRankUserName": "Guider",
+      "selfRankGuildPoint": 120958,
+      "enemyRankUserId": 336376359,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Rojovolas",
+      "enemyRankGuildPoint": 189649,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 120958,
+            "valueB": 189649,
+            "userIdA": 528967104,
+            "userIdB": 336376359,
+            "nameA": "Guider",
+            "nameB": "Rojovolas"
+          },
+          {
+            "rank": 2,
+            "valueA": 96006,
+            "valueB": 165692,
+            "userIdA": 311155260,
+            "userIdB": 621066427,
+            "nameA": "Tamuko",
+            "nameB": "xT"
+          },
+          {
+            "rank": 3,
+            "valueA": 87959,
+            "valueB": 83545,
+            "userIdA": 897796188,
+            "userIdB": 430029950,
+            "nameA": "GiGi",
+            "nameB": "Darkstorm"
+          },
+          {
+            "rank": 4,
+            "valueA": 77391,
+            "valueB": 73141,
+            "userIdA": 658397897,
+            "userIdB": 374701889,
+            "nameA": "Juddy",
+            "nameB": "Quentcat"
+          },
+          {
+            "rank": 5,
+            "valueA": 29589,
+            "valueB": 5012,
+            "userIdA": 489820080,
+            "userIdB": 290335465,
+            "nameA": "Poetic0",
+            "nameB": "Kuphyde"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 592920,
+            "valueB": 5369836,
+            "userIdA": 252654652,
+            "userIdB": 619206230,
+            "nameA": "Xameria",
+            "nameB": "HybridDesu"
+          },
+          {
+            "rank": 2,
+            "valueA": 429473,
+            "valueB": 2880966,
+            "userIdA": 563868701,
+            "userIdB": 958546191,
+            "nameA": "mekros",
+            "nameB": "Lily"
+          },
+          {
+            "rank": 3,
+            "valueA": 353981,
+            "valueB": 2654119,
+            "userIdA": 897796188,
+            "userIdB": 762359001,
+            "nameA": "GiGi",
+            "nameB": "Urtag"
+          },
+          {
+            "rank": 4,
+            "valueA": 344919,
+            "valueB": 46116,
+            "userIdA": 311155260,
+            "userIdB": 621066427,
+            "nameA": "Tamuko",
+            "nameB": "xT"
+          },
+          {
+            "rank": 5,
+            "valueA": 340820,
+            "valueB": 36897,
+            "userIdA": 519350497,
+            "userIdB": 430029950,
+            "nameA": "Andy",
+            "nameB": "Darkstorm"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 381636,
+            "valueB": 657015,
+            "userIdA": 519350497,
+            "userIdB": 290335465,
+            "nameA": "Andy",
+            "nameB": "Kuphyde"
+          },
+          {
+            "rank": 2,
+            "valueA": 379251,
+            "valueB": 233413,
+            "userIdA": 252654652,
+            "userIdB": 265767227,
+            "nameA": "Xameria",
+            "nameB": "RYLˣᶦᶦᶦLEO"
+          },
+          {
+            "rank": 3,
+            "valueA": 165165,
+            "valueB": 77455,
+            "userIdA": 563868701,
+            "userIdB": 619206230,
+            "nameA": "mekros",
+            "nameB": "HybridDesu"
+          },
+          {
+            "rank": 4,
+            "valueA": 149298,
+            "valueB": 69901,
+            "userIdA": 815672353,
+            "userIdB": 958546191,
+            "nameA": "Shotato",
+            "nameB": "Lily"
+          },
+          {
+            "rank": 5,
+            "valueA": 67622,
+            "valueB": 54806,
+            "userIdA": 580947666,
+            "userIdB": 762359001,
+            "nameA": "MeanRin",
+            "nameB": "Urtag"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 535323,
+            "valueB": 443279,
+            "userIdA": 252654652,
+            "userIdB": 290335465,
+            "nameA": "Xameria",
+            "nameB": "Kuphyde"
+          },
+          {
+            "rank": 2,
+            "valueA": 405048,
+            "valueB": 432145,
+            "userIdA": 519350497,
+            "userIdB": 265767227,
+            "nameA": "Andy",
+            "nameB": "RYLˣᶦᶦᶦLEO"
+          },
+          {
+            "rank": 3,
+            "valueA": 139627,
+            "valueB": 153138,
+            "userIdA": 580947666,
+            "userIdB": 619206230,
+            "nameA": "MeanRin",
+            "nameB": "HybridDesu"
+          },
+          {
+            "rank": 4,
+            "valueA": 100204,
+            "valueB": 74463,
+            "userIdA": 815672353,
+            "userIdB": 762359001,
+            "nameA": "Shotato",
+            "nameB": "Urtag"
+          },
+          {
+            "rank": 5,
+            "valueA": 55357,
+            "valueB": 61109,
+            "userIdA": 897796188,
+            "userIdB": 621066427,
+            "nameA": "GiGi",
+            "nameB": "xT"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 687732,
+            "valueB": 313756,
+            "userIdA": 590008353,
+            "userIdB": 408716521,
+            "nameA": "Fintz",
+            "nameB": "CurlyFri"
+          },
+          {
+            "rank": 2,
+            "valueA": 501900,
+            "valueB": 104076,
+            "userIdA": 580947666,
+            "userIdB": 609772775,
+            "nameA": "MeanRin",
+            "nameB": "Rose"
+          },
+          {
+            "rank": 3,
+            "valueA": 112009,
+            "valueB": 54171,
+            "userIdA": 557593123,
+            "userIdB": 374701889,
+            "nameA": "Derpy",
+            "nameB": "Quentcat"
+          },
+          {
+            "rank": 4,
+            "valueA": 73540,
+            "valueB": 48881,
+            "userIdA": 252654652,
+            "userIdB": 557837557,
+            "nameA": "Xameria",
+            "nameB": "Ryan"
+          },
+          {
+            "rank": 5,
+            "valueA": 52679,
+            "valueB": 43873,
+            "userIdA": 563868701,
+            "userIdB": 621066427,
+            "nameA": "mekros",
+            "nameB": "xT"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 349784,
+            "valueB": 516927,
+            "userIdA": 590008353,
+            "userIdB": 408716521,
+            "nameA": "Fintz",
+            "nameB": "CurlyFri"
+          },
+          {
+            "rank": 2,
+            "valueA": 324643,
+            "valueB": 224828,
+            "userIdA": 557593123,
+            "userIdB": 609772775,
+            "nameA": "Derpy",
+            "nameB": "Rose"
+          },
+          {
+            "rank": 3,
+            "valueA": 275053,
+            "valueB": 127647,
+            "userIdA": 252654652,
+            "userIdB": 336376359,
+            "nameA": "Xameria",
+            "nameB": "Rojovolas"
+          },
+          {
+            "rank": 4,
+            "valueA": 113455,
+            "valueB": 126202,
+            "userIdA": 897796188,
+            "userIdB": 557837557,
+            "nameA": "GiGi",
+            "nameB": "Ryan"
+          },
+          {
+            "rank": 5,
+            "valueA": 102123,
+            "valueB": 72958,
+            "userIdA": 528967104,
+            "userIdB": 621066427,
+            "nameA": "Guider",
+            "nameB": "xT"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 588,
+            "valueB": 129,
+            "userIdA": 489820080,
+            "userIdB": 336376359,
+            "nameA": "Poetic0",
+            "nameB": "Rojovolas"
+          },
+          {
+            "rank": 2,
+            "valueA": 174,
+            "valueB": 122,
+            "userIdA": 563868701,
+            "userIdB": 374701889,
+            "nameA": "mekros",
+            "nameB": "Quentcat"
+          },
+          {
+            "rank": 3,
+            "valueA": 144,
+            "valueB": 112,
+            "userIdA": 237959838,
+            "userIdB": 430029950,
+            "nameA": "Nheksh",
+            "nameB": "Darkstorm"
+          },
+          {
+            "rank": 4,
+            "valueA": 85,
+            "valueB": 107,
+            "userIdA": 658397897,
+            "userIdB": 621066427,
+            "nameA": "Juddy",
+            "nameB": "xT"
+          },
+          {
+            "rank": 5,
+            "valueA": 82,
+            "valueB": 46,
+            "userIdA": 311155260,
+            "userIdB": 265767227,
+            "nameA": "Tamuko",
+            "nameB": "RYLˣᶦᶦᶦLEO"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2688342,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 22,
+          "ultimateArtMethodMstId": 22,
+          "guildACount": 34,
+          "guildBCount": 22
+        },
+        {
+          "artMstId": 34,
+          "ultimateArtMethodMstId": 34,
+          "guildACount": 30,
+          "guildBCount": 39
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 503,
+    "gvgDataId": 2688342,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 16149,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Moonlight",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 103,
+        "level": 198,
+        "totalPower": 284359,
+        "maxHp": 63630
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 235,
+        "level": 203,
+        "totalPower": 275152,
+        "maxHp": 69751
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 103,
+        "level": 220,
+        "totalPower": 123640,
+        "maxHp": 78183
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 570,
+        "level": 214,
+        "totalPower": 187197,
+        "maxHp": 67749
+      },
+      {
+        "userId": 897796188,
+        "name": "GiGi",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 282751,
+        "maxHp": 72650
+      },
+      {
+        "userId": 528967104,
+        "name": "Guider",
+        "characterMstId": 48,
+        "level": 196,
+        "totalPower": 261683,
+        "maxHp": 61406
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 90,
+        "level": 210,
+        "totalPower": 271583,
+        "maxHp": 93460
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 171,
+        "level": 212,
+        "totalPower": 206277,
+        "maxHp": 69665
+      },
+      {
+        "userId": 563868701,
+        "name": "mekros",
+        "characterMstId": 112,
+        "level": 210,
+        "totalPower": 276890,
+        "maxHp": 75310
+      },
+      {
+        "userId": 815672353,
+        "name": "Shotato",
+        "characterMstId": 114,
+        "level": 196,
+        "totalPower": 262285,
+        "maxHp": 59056
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 209,
+        "level": 197,
+        "totalPower": 253287,
+        "maxHp": 61968
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 137,
+        "level": 193,
+        "totalPower": 246431,
+        "maxHp": 58623
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 137,
+        "level": 201,
+        "totalPower": 240338,
+        "maxHp": 66795
+      },
+      {
+        "userId": 590008353,
+        "name": "Fintz",
+        "characterMstId": 444,
+        "level": 204,
+        "totalPower": 247508,
+        "maxHp": 68832
+      },
+      {
+        "userId": 557593123,
+        "name": "Derpy",
+        "characterMstId": 93,
+        "level": 154,
+        "totalPower": 228985,
+        "maxHp": 48945
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 374701889,
+        "name": "Quentcat",
+        "characterMstId": 103,
+        "level": 152,
+        "totalPower": 218199,
+        "maxHp": 46186
+      },
+      {
+        "userId": 430029950,
+        "name": "Darkstorm",
+        "characterMstId": 48,
+        "level": 197,
+        "totalPower": 295372,
+        "maxHp": 75068
+      },
+      {
+        "userId": 336376359,
+        "name": "Rojovolas",
+        "characterMstId": 48,
+        "level": 203,
+        "totalPower": 282914,
+        "maxHp": 69301
+      },
+      {
+        "userId": 621066427,
+        "name": "xT",
+        "characterMstId": 48,
+        "level": 200,
+        "totalPower": 278219,
+        "maxHp": 64755
+      },
+      {
+        "userId": 290335465,
+        "name": "Kuphyde",
+        "characterMstId": 114,
+        "level": 182,
+        "totalPower": 245363,
+        "maxHp": 57378
+      },
+      {
+        "userId": 265767227,
+        "name": "RYLˣᶦᶦᶦLEO",
+        "characterMstId": 114,
+        "level": 144,
+        "totalPower": 210033,
+        "maxHp": 46655
+      },
+      {
+        "userId": 408716521,
+        "name": "CurlyFri",
+        "characterMstId": 93,
+        "level": 191,
+        "totalPower": 222987,
+        "maxHp": 48203
+      },
+      {
+        "userId": 609772775,
+        "name": "Rose",
+        "characterMstId": 93,
+        "level": 93,
+        "totalPower": 117485,
+        "maxHp": 16118
+      },
+      {
+        "userId": 557837557,
+        "name": "Ryan",
+        "characterMstId": 93,
+        "level": 112,
+        "totalPower": 94647,
+        "maxHp": 22748
+      },
+      {
+        "userId": 619206230,
+        "name": "HybridDesu",
+        "characterMstId": 85,
+        "level": 202,
+        "totalPower": 264089,
+        "maxHp": 63372
+      },
+      {
+        "userId": 958546191,
+        "name": "Lily",
+        "characterMstId": 85,
+        "level": 168,
+        "totalPower": 227317,
+        "maxHp": 54152
+      },
+      {
+        "userId": 762359001,
+        "name": "Urtag",
+        "characterMstId": 85,
+        "level": 143,
+        "totalPower": 210038,
+        "maxHp": 45369
+      }
+    ]
+  }
+}

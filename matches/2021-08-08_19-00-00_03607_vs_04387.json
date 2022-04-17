@@ -1,0 +1,643 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 103,
+      "battleStartTime": 1628449200,
+      "battleEndTime": 1628450399,
+      "gvgDataId": 2195176,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 3607,
+      "selfGuildName": "Mindless",
+      "selfTotalGuildPoint": 66946,
+      "selfComboCount": 846,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 4387,
+      "enemyGuildName": "Ditadura",
+      "enemyTotalGuildPoint": 47823,
+      "enemyComboCount": 579,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 162850803,
+      "selfRankNum": 1,
+      "selfRankUserName": "Max",
+      "selfRankGuildPoint": 24957,
+      "enemyRankUserId": 107373549,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "kkom",
+      "enemyRankGuildPoint": 21651,
+      "scheduleNo": 0,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 76
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 24957,
+            "valueB": 21651,
+            "userIdA": 162850803,
+            "userIdB": 107373549,
+            "nameA": "Max",
+            "nameB": "kkom"
+          },
+          {
+            "rank": 2,
+            "valueA": 14390,
+            "valueB": 6293,
+            "userIdA": 298613804,
+            "userIdB": 270737159,
+            "nameA": "DarkAz",
+            "nameB": "Ray"
+          },
+          {
+            "rank": 3,
+            "valueA": 6502,
+            "valueB": 5381,
+            "userIdA": 480542285,
+            "userIdB": 186244332,
+            "nameA": "Midarin",
+            "nameB": "Shaltcer"
+          },
+          {
+            "rank": 4,
+            "valueA": 6353,
+            "valueB": 4503,
+            "userIdA": 628142319,
+            "userIdB": 712342976,
+            "nameA": "Kraine",
+            "nameB": "Koller"
+          },
+          {
+            "rank": 5,
+            "valueA": 3444,
+            "valueB": 3116,
+            "userIdA": 106160819,
+            "userIdB": 592550658,
+            "nameA": "GhostyBoi",
+            "nameB": "Angel"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 75117,
+            "valueB": 132843,
+            "userIdA": 188863573,
+            "userIdB": 374492597,
+            "nameA": "Guilty",
+            "nameB": "Miriasuu"
+          },
+          {
+            "rank": 2,
+            "valueA": 49109,
+            "valueB": 64142,
+            "userIdA": 298613804,
+            "userIdB": 370349729,
+            "nameA": "DarkAz",
+            "nameB": "Mootsu"
+          },
+          {
+            "rank": 3,
+            "valueA": 44690,
+            "valueB": 52073,
+            "userIdA": 162850803,
+            "userIdB": 712342976,
+            "nameA": "Max",
+            "nameB": "Koller"
+          },
+          {
+            "rank": 4,
+            "valueA": 42991,
+            "valueB": 51841,
+            "userIdA": 628142319,
+            "userIdB": 107373549,
+            "nameA": "Kraine",
+            "nameB": "kkom"
+          },
+          {
+            "rank": 5,
+            "valueA": 42681,
+            "valueB": 33898,
+            "userIdA": 775526341,
+            "userIdB": 985147253,
+            "nameA": "N.E.R.D",
+            "nameB": "JustJess"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 8010,
+            "valueB": 7574,
+            "userIdA": 162850803,
+            "userIdB": 374492597,
+            "nameA": "Max",
+            "nameB": "Miriasuu"
+          },
+          {
+            "rank": 2,
+            "valueA": 7757,
+            "valueB": 5844,
+            "userIdA": 409563292,
+            "userIdB": 107373549,
+            "nameA": "Mantovas",
+            "nameB": "kkom"
+          },
+          {
+            "rank": 3,
+            "valueA": 6694,
+            "valueB": 5731,
+            "userIdA": 178901344,
+            "userIdB": 712342976,
+            "nameA": "Kaio",
+            "nameB": "Koller"
+          },
+          {
+            "rank": 4,
+            "valueA": 5241,
+            "valueB": 5688,
+            "userIdA": 188863573,
+            "userIdB": 370349729,
+            "nameA": "Guilty",
+            "nameB": "Mootsu"
+          },
+          {
+            "rank": 5,
+            "valueA": 3760,
+            "valueB": 3169,
+            "userIdA": 193289944,
+            "userIdB": 580898934,
+            "nameA": "Lambchop",
+            "nameB": "Triste"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 22808,
+            "valueB": 18814,
+            "userIdA": 775526341,
+            "userIdB": 374492597,
+            "nameA": "N.E.R.D",
+            "nameB": "Miriasuu"
+          },
+          {
+            "rank": 2,
+            "valueA": 7831,
+            "valueB": 9345,
+            "userIdA": 409563292,
+            "userIdB": 370349729,
+            "nameA": "Mantovas",
+            "nameB": "Mootsu"
+          },
+          {
+            "rank": 3,
+            "valueA": 3110,
+            "valueB": 8805,
+            "userIdA": 178901344,
+            "userIdB": 985147253,
+            "nameA": "Kaio",
+            "nameB": "JustJess"
+          },
+          {
+            "rank": 4,
+            "valueA": 2823,
+            "valueB": 6590,
+            "userIdA": 298613804,
+            "userIdB": 712342976,
+            "nameA": "DarkAz",
+            "nameB": "Koller"
+          },
+          {
+            "rank": 5,
+            "valueA": 2413,
+            "valueB": 3003,
+            "userIdA": 480542285,
+            "userIdB": 186244332,
+            "nameA": "Midarin",
+            "nameB": "Shaltcer"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5610,
+            "valueB": 10784,
+            "userIdA": 162850803,
+            "userIdB": 374492597,
+            "nameA": "Max",
+            "nameB": "Miriasuu"
+          },
+          {
+            "rank": 2,
+            "valueA": 2428,
+            "valueB": 6809,
+            "userIdA": 409563292,
+            "userIdB": 712342976,
+            "nameA": "Mantovas",
+            "nameB": "Koller"
+          },
+          {
+            "rank": 3,
+            "valueA": 2274,
+            "valueB": 5270,
+            "userIdA": 480542285,
+            "userIdB": 370349729,
+            "nameA": "Midarin",
+            "nameB": "Mootsu"
+          },
+          {
+            "rank": 4,
+            "valueA": 1767,
+            "valueB": 3048,
+            "userIdA": 775526341,
+            "userIdB": 751092888,
+            "nameA": "N.E.R.D",
+            "nameB": "Nosferatu"
+          },
+          {
+            "rank": 5,
+            "valueA": 1486,
+            "valueB": 2613,
+            "userIdA": 193289944,
+            "userIdB": 985147253,
+            "nameA": "Lambchop",
+            "nameB": "JustJess"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 7085,
+            "valueB": 15885,
+            "userIdA": 409563292,
+            "userIdB": 751092888,
+            "nameA": "Mantovas",
+            "nameB": "Nosferatu"
+          },
+          {
+            "rank": 2,
+            "valueA": 5628,
+            "valueB": 9104,
+            "userIdA": 775526341,
+            "userIdB": 712342976,
+            "nameA": "N.E.R.D",
+            "nameB": "Koller"
+          },
+          {
+            "rank": 3,
+            "valueA": 3888,
+            "valueB": 4765,
+            "userIdA": 188863573,
+            "userIdB": 370349729,
+            "nameA": "Guilty",
+            "nameB": "Mootsu"
+          },
+          {
+            "rank": 4,
+            "valueA": 2452,
+            "valueB": 4321,
+            "userIdA": 193289944,
+            "userIdB": 985147253,
+            "nameA": "Lambchop",
+            "nameB": "JustJess"
+          },
+          {
+            "rank": 5,
+            "valueA": 2436,
+            "valueB": 0,
+            "userIdA": 178901344,
+            "userIdB": 0,
+            "nameA": "Kaio",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 79,
+            "valueB": 73,
+            "userIdA": 837992644,
+            "userIdB": 234728297,
+            "nameA": "Exleos",
+            "nameB": "StepOnMe"
+          },
+          {
+            "rank": 2,
+            "valueA": 74,
+            "valueB": 71,
+            "userIdA": 607502937,
+            "userIdB": 625343880,
+            "nameA": "Astra",
+            "nameB": "Smash"
+          },
+          {
+            "rank": 3,
+            "valueA": 72,
+            "valueB": 70,
+            "userIdA": 186609308,
+            "userIdB": 592550658,
+            "nameA": "DioW",
+            "nameB": "Angel"
+          },
+          {
+            "rank": 4,
+            "valueA": 71,
+            "valueB": 69,
+            "userIdA": 298613804,
+            "userIdB": 580898934,
+            "nameA": "DarkAz",
+            "nameB": "Triste"
+          },
+          {
+            "rank": 5,
+            "valueA": 70,
+            "valueB": 67,
+            "userIdA": 106160819,
+            "userIdB": 107373549,
+            "nameA": "GhostyBoi",
+            "nameB": "kkom"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2195176,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 1,
+          "ultimateArtMethodMstId": 1,
+          "guildACount": 30,
+          "guildBCount": 29
+        },
+        {
+          "artMstId": 25,
+          "ultimateArtMethodMstId": 25,
+          "guildACount": 30,
+          "guildBCount": 26
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 103,
+    "gvgDataId": 2195176,
+    "guildDataIdA": 3607,
+    "guildDataIdB": 4387,
+    "guildDataNameA": "Mindless",
+    "guildDataNameB": "Ditadura",
+    "guildDataLevelA": 50,
+    "guildDataLevelB": 46,
+    "guildDataRankA": 0,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 162850803,
+        "name": "Max",
+        "characterMstId": 102,
+        "level": 90,
+        "totalPower": 79083,
+        "maxHp": 13455
+      },
+      {
+        "userId": 530037340,
+        "name": "Dina",
+        "characterMstId": 6,
+        "level": 35,
+        "totalPower": 12790,
+        "maxHp": 4831
+      },
+      {
+        "userId": 607502937,
+        "name": "Astra",
+        "characterMstId": 3,
+        "level": 5,
+        "totalPower": 5556,
+        "maxHp": 1000
+      },
+      {
+        "userId": 298613804,
+        "name": "DarkAz",
+        "characterMstId": 38,
+        "level": 91,
+        "totalPower": 80610,
+        "maxHp": 14624
+      },
+      {
+        "userId": 480542285,
+        "name": "Midarin",
+        "characterMstId": 36,
+        "level": 72,
+        "totalPower": 52716,
+        "maxHp": 10904
+      },
+      {
+        "userId": 837992644,
+        "name": "Exleos",
+        "characterMstId": 159,
+        "level": 57,
+        "totalPower": 37042,
+        "maxHp": 8329
+      },
+      {
+        "userId": 424339726,
+        "name": "Siema",
+        "characterMstId": 36,
+        "level": 25,
+        "totalPower": 19679,
+        "maxHp": 3532
+      },
+      {
+        "userId": 628142319,
+        "name": "Kraine",
+        "characterMstId": 8,
+        "level": 54,
+        "totalPower": 46170,
+        "maxHp": 7833
+      },
+      {
+        "userId": 186609308,
+        "name": "DioW",
+        "characterMstId": 121,
+        "level": 52,
+        "totalPower": 28662,
+        "maxHp": 7154
+      },
+      {
+        "userId": 106160819,
+        "name": "GhostyBoi",
+        "characterMstId": 15,
+        "level": 57,
+        "totalPower": 47381,
+        "maxHp": 8229
+      },
+      {
+        "userId": 193289944,
+        "name": "Lambchop",
+        "characterMstId": 94,
+        "level": 18,
+        "totalPower": 11910,
+        "maxHp": 2336
+      },
+      {
+        "userId": 775526341,
+        "name": "N.E.R.D",
+        "characterMstId": 444,
+        "level": 81,
+        "totalPower": 50838,
+        "maxHp": 12698
+      },
+      {
+        "userId": 178901344,
+        "name": "Kaio",
+        "characterMstId": 32,
+        "level": 28,
+        "totalPower": 17286,
+        "maxHp": 4051
+      },
+      {
+        "userId": 188863573,
+        "name": "Guilty",
+        "characterMstId": 39,
+        "level": 36,
+        "totalPower": 26688,
+        "maxHp": 4942
+      },
+      {
+        "userId": 409563292,
+        "name": "Mantovas",
+        "characterMstId": 243,
+        "level": 27,
+        "totalPower": 23408,
+        "maxHp": 4465
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 107373549,
+        "name": "kkom",
+        "characterMstId": 68,
+        "level": 87,
+        "totalPower": 82689,
+        "maxHp": 13277
+      },
+      {
+        "userId": 580898934,
+        "name": "Triste",
+        "characterMstId": 5,
+        "level": 52,
+        "totalPower": 48558,
+        "maxHp": 7904
+      },
+      {
+        "userId": 625343880,
+        "name": "Smash",
+        "characterMstId": 3,
+        "level": 17,
+        "totalPower": 22469,
+        "maxHp": 2267
+      },
+      {
+        "userId": 234728297,
+        "name": "StepOnMe",
+        "characterMstId": 17,
+        "level": 9,
+        "totalPower": 17808,
+        "maxHp": 1183
+      },
+      {
+        "userId": 592550658,
+        "name": "Angel",
+        "characterMstId": 38,
+        "level": 41,
+        "totalPower": 37581,
+        "maxHp": 6020
+      },
+      {
+        "userId": 270737159,
+        "name": "Ray",
+        "characterMstId": 158,
+        "level": 52,
+        "totalPower": 56273,
+        "maxHp": 7454
+      },
+      {
+        "userId": 186244332,
+        "name": "Shaltcer",
+        "characterMstId": 158,
+        "level": 44,
+        "totalPower": 52753,
+        "maxHp": 6620
+      },
+      {
+        "userId": 712342976,
+        "name": "Koller",
+        "characterMstId": 107,
+        "level": 73,
+        "totalPower": 58933,
+        "maxHp": 10342
+      },
+      {
+        "userId": 985147253,
+        "name": "JustJess",
+        "characterMstId": 27,
+        "level": 13,
+        "totalPower": 14597,
+        "maxHp": 1414
+      },
+      {
+        "userId": 751092888,
+        "name": "Nosferatu",
+        "characterMstId": 12,
+        "level": 9,
+        "totalPower": 18016,
+        "maxHp": 1183
+      },
+      {
+        "userId": 374492597,
+        "name": "Miriasuu",
+        "characterMstId": 22,
+        "level": 65,
+        "totalPower": 66157,
+        "maxHp": 10015
+      },
+      {
+        "userId": 370349729,
+        "name": "Mootsu",
+        "characterMstId": 39,
+        "level": 45,
+        "totalPower": 56955,
+        "maxHp": 7074
+      }
+    ]
+  }
+}
