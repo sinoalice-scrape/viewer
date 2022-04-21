@@ -104,6 +104,7 @@ function viewGuildHistory(historyUrl) {
 
 	let content = document.getElementById("content");
 	content.innerHTML = html;
+	return `Scrape Viewer: ${guildA} match history`;
 }
 
 function viewMatch(dt, matchUrl) {
@@ -146,6 +147,7 @@ function viewMatch(dt, matchUrl) {
 	const match = db.json.get(matchUrl);
 	const shinmaSkills = db.index.shinmaSkills;
 
+	let pageTitle;
 	let html = '<div class="container">';
 	{
 		const res = match.get_result.gvgResult;
@@ -154,12 +156,13 @@ function viewMatch(dt, matchUrl) {
 		const date = `${pad(4,dt.getFullYear())}/${pad(2,dt.getMonth()+1)}/${pad(2,dt.getDate())}`;
 		const time = `${dt.getHours()}:${pad(2,dt.getMinutes())}:${pad(2,dt.getSeconds())}`;
 
+		pageTitle = `Scrape Viewer: ${date} ${guildA} vs. ${guildB}`;
 		html += '<div class="row" justify-content-center>';
 		{
 			html += '<div class="col">';
 			html += `<h1>${guildA} vs. ${guildB}</h1>`;
 			html += `<p>${date} ${time}</p>`;
-			html += '</div>'
+			html += '</div>';
 		}
 		html += '</div>';
 
@@ -259,15 +262,17 @@ function viewMatch(dt, matchUrl) {
 
 	let content = document.getElementById("content");
 	content.innerHTML = html;
+	return pageTitle;
 }
 
-async function updateView() {
-	let params = new URLSearchParams(document.location.search);
+async function showView(searchText, pushState) {
+	const params = new URLSearchParams(searchText);
 
 	let view = params.get("view");
 	if (!view)
-		return;
+		view = '';
 
+	let pageTitle;
 	switch(view.toLowerCase())
 	{
 		case "history":
@@ -292,7 +297,7 @@ async function updateView() {
 				cacheShinmaSkills()
 			]);
 
-			viewGuildHistory(historyUrl);
+			pageTitle = viewGuildHistory(historyUrl);
 		break;
 
 		case "match":
@@ -324,9 +329,54 @@ async function updateView() {
 				cacheCharacters(),
 			]);
 
-			viewMatch(dt, match_url);
+			pageTitle = viewMatch(dt, match_url);
+		break;
+
+		default:
+			document.getElementById("content").innerHTML = "";
+			pageTitle = 'Scrape Viewer';
 		break;
 	}
+
+	{
+		const content = document.getElementById('content');
+		const links = content.querySelectorAll('a');
+		for (let i = 0; i < links.length; i++) {
+			const link = links[i];
+			if (link.getAttribute('href').startsWith('?'))
+				link.addEventListener('click', onLinkClick);
+		}
+	}
+
+	if (pushState) {
+		history.pushState({}, '', searchText);
+		document.title = pageTitle;
+	}
+}
+
+function onLinkClick(event) {
+	event.preventDefault();
+	showView(event.target.getAttribute('href'), true);
+}
+
+function onDocumentLoad(event) {
+	{
+		const navs = document.getElementsByTagName('nav');
+		for (let i = 0; i < navs.length; i++) {
+			const links = navs[i].querySelectorAll('a');
+			for (let j = 0; j < links.length; j++) {
+				const link = links[j];
+				if (link.getAttribute('href').startsWith('?'))
+					link.addEventListener('click', onLinkClick);
+			}
+		}
+	}
+
+	showView(document.location.search, false);
+}
+
+function onPopState(event) {
+	showView(document.location.search, false);
 }
 
 function asyncRequest(method, url) {
@@ -401,4 +451,5 @@ function pad(p, val) {
 	return val.toString().padStart(p, '0');
 }
 
-window.addEventListener('load', updateView);
+window.addEventListener('load', onDocumentLoad);
+window.addEventListener('popstate', onPopState);
