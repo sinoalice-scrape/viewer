@@ -1,0 +1,667 @@
+{
+  "get_result": {
+    "gvgResult": {
+      "battleNum": 505,
+      "battleStartTime": 1650574800,
+      "battleEndTime": 1650575999,
+      "gvgDataId": 2817616,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 791451,
+      "selfComboCount": 1627,
+      "selfSiegeWinCount": 3,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 7332,
+      "enemyGuildName": "LunaNova",
+      "enemyTotalGuildPoint": 6189571,
+      "enemyComboCount": 2038,
+      "enemySiegeWinCount": 10,
+      "selfRankUserId": 934398383,
+      "selfRankNum": 1,
+      "selfRankUserName": "FrostBiTE",
+      "selfRankGuildPoint": 1085923,
+      "enemyRankUserId": 174883422,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "GiraffeT",
+      "enemyRankGuildPoint": 1220892,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1085923,
+            "valueB": 1220892,
+            "userIdA": 934398383,
+            "userIdB": 174883422,
+            "nameA": "FrostBiTE",
+            "nameB": "GiraffeT"
+          },
+          {
+            "rank": 2,
+            "valueA": 898783,
+            "valueB": 790573,
+            "userIdA": 593439881,
+            "userIdB": 470070935,
+            "nameA": "Ludmila",
+            "nameB": "Vale"
+          },
+          {
+            "rank": 3,
+            "valueA": 461228,
+            "valueB": 742839,
+            "userIdA": 718599324,
+            "userIdB": 290889839,
+            "nameA": "RockとDevil",
+            "nameB": "Susphira"
+          },
+          {
+            "rank": 4,
+            "valueA": 337678,
+            "valueB": 631081,
+            "userIdA": 161754158,
+            "userIdB": 160563662,
+            "nameA": "oeuf",
+            "nameB": "Ewendlina"
+          },
+          {
+            "rank": 5,
+            "valueA": 136920,
+            "valueB": 568200,
+            "userIdA": 680317627,
+            "userIdB": 645343709,
+            "nameA": "Milkgore",
+            "nameB": "Spica"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 16540361,
+            "valueB": 19603342,
+            "userIdA": 482452519,
+            "userIdB": 378778030,
+            "nameA": "☆Freddi",
+            "nameB": "Mabashi"
+          },
+          {
+            "rank": 2,
+            "valueA": 12561355,
+            "valueB": 13978026,
+            "userIdA": 167791490,
+            "userIdB": 726533937,
+            "nameA": "Reisz",
+            "nameB": "Hael"
+          },
+          {
+            "rank": 3,
+            "valueA": 6604473,
+            "valueB": 4707813,
+            "userIdA": 515568020,
+            "userIdB": 678279370,
+            "nameA": "Enigma",
+            "nameB": "uraalice"
+          },
+          {
+            "rank": 4,
+            "valueA": 694054,
+            "valueB": 325693,
+            "userIdA": 934398383,
+            "userIdB": 174883422,
+            "nameA": "FrostBiTE",
+            "nameB": "GiraffeT"
+          },
+          {
+            "rank": 5,
+            "valueA": 407353,
+            "valueB": 140017,
+            "userIdA": 161754158,
+            "userIdB": 290889839,
+            "nameA": "oeuf",
+            "nameB": "Susphira"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3296004,
+            "valueB": 3470489,
+            "userIdA": 991509328,
+            "userIdB": 390628087,
+            "nameA": "Drystar",
+            "nameB": "Pawtatoe"
+          },
+          {
+            "rank": 2,
+            "valueA": 848143,
+            "valueB": 2253349,
+            "userIdA": 200491281,
+            "userIdB": 340372139,
+            "nameA": "Silverasha",
+            "nameB": "Richter"
+          },
+          {
+            "rank": 3,
+            "valueA": 630290,
+            "valueB": 941396,
+            "userIdA": 890964279,
+            "userIdB": 302454475,
+            "nameA": "S0J",
+            "nameB": "Inuyasha"
+          },
+          {
+            "rank": 4,
+            "valueA": 383179,
+            "valueB": 194068,
+            "userIdA": 946559622,
+            "userIdB": 378778030,
+            "nameA": "Thanatos",
+            "nameB": "Mabashi"
+          },
+          {
+            "rank": 5,
+            "valueA": 147809,
+            "valueB": 137405,
+            "userIdA": 482452519,
+            "userIdB": 726533937,
+            "nameA": "☆Freddi",
+            "nameB": "Hael"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2002270,
+            "valueB": 3714351,
+            "userIdA": 991509328,
+            "userIdB": 390628087,
+            "nameA": "Drystar",
+            "nameB": "Pawtatoe"
+          },
+          {
+            "rank": 2,
+            "valueA": 1635723,
+            "valueB": 2115618,
+            "userIdA": 200491281,
+            "userIdB": 340372139,
+            "nameA": "Silverasha",
+            "nameB": "Richter"
+          },
+          {
+            "rank": 3,
+            "valueA": 984357,
+            "valueB": 1374852,
+            "userIdA": 890964279,
+            "userIdB": 302454475,
+            "nameA": "S0J",
+            "nameB": "Inuyasha"
+          },
+          {
+            "rank": 4,
+            "valueA": 367807,
+            "valueB": 309083,
+            "userIdA": 482452519,
+            "userIdB": 378778030,
+            "nameA": "☆Freddi",
+            "nameB": "Mabashi"
+          },
+          {
+            "rank": 5,
+            "valueA": 186349,
+            "valueB": 173146,
+            "userIdA": 167791490,
+            "userIdB": 726533937,
+            "nameA": "Reisz",
+            "nameB": "Hael"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1981973,
+            "valueB": 2545356,
+            "userIdA": 946559622,
+            "userIdB": 449200078,
+            "nameA": "Thanatos",
+            "nameB": "PokeNYC"
+          },
+          {
+            "rank": 2,
+            "valueA": 1736100,
+            "valueB": 1449656,
+            "userIdA": 742972387,
+            "userIdB": 560478078,
+            "nameA": "Jinx",
+            "nameB": "Aureal"
+          },
+          {
+            "rank": 3,
+            "valueA": 1570350,
+            "valueB": 1227922,
+            "userIdA": 357058633,
+            "userIdB": 867093026,
+            "nameA": "Zoe",
+            "nameB": "Jyeusu"
+          },
+          {
+            "rank": 4,
+            "valueA": 1368744,
+            "valueB": 309221,
+            "userIdA": 492044794,
+            "userIdB": 531750967,
+            "nameA": "Saltea",
+            "nameB": "Mirai"
+          },
+          {
+            "rank": 5,
+            "valueA": 73201,
+            "valueB": 135960,
+            "userIdA": 161754158,
+            "userIdB": 174883422,
+            "nameA": "oeuf",
+            "nameB": "GiraffeT"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2747018,
+            "valueB": 2962773,
+            "userIdA": 357058633,
+            "userIdB": 867093026,
+            "nameA": "Zoe",
+            "nameB": "Jyeusu"
+          },
+          {
+            "rank": 2,
+            "valueA": 2490528,
+            "valueB": 2318859,
+            "userIdA": 742972387,
+            "userIdB": 449200078,
+            "nameA": "Jinx",
+            "nameB": "PokeNYC"
+          },
+          {
+            "rank": 3,
+            "valueA": 1375270,
+            "valueB": 773603,
+            "userIdA": 946559622,
+            "userIdB": 560478078,
+            "nameA": "Thanatos",
+            "nameB": "Aureal"
+          },
+          {
+            "rank": 4,
+            "valueA": 1149475,
+            "valueB": 458370,
+            "userIdA": 492044794,
+            "userIdB": 531750967,
+            "nameA": "Saltea",
+            "nameB": "Mirai"
+          },
+          {
+            "rank": 5,
+            "valueA": 177547,
+            "valueB": 130258,
+            "userIdA": 934398383,
+            "userIdB": 470070935,
+            "nameA": "FrostBiTE",
+            "nameB": "Vale"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 278,
+            "valueB": 358,
+            "userIdA": 934398383,
+            "userIdB": 531750967,
+            "nameA": "FrostBiTE",
+            "nameB": "Mirai"
+          },
+          {
+            "rank": 2,
+            "valueA": 269,
+            "valueB": 280,
+            "userIdA": 161754158,
+            "userIdB": 174883422,
+            "nameA": "oeuf",
+            "nameB": "GiraffeT"
+          },
+          {
+            "rank": 3,
+            "valueA": 250,
+            "valueB": 240,
+            "userIdA": 718599324,
+            "userIdB": 470070935,
+            "nameA": "RockとDevil",
+            "nameB": "Vale"
+          },
+          {
+            "rank": 4,
+            "valueA": 245,
+            "valueB": 239,
+            "userIdA": 593439881,
+            "userIdB": 160563662,
+            "nameA": "Ludmila",
+            "nameB": "Ewendlina"
+          },
+          {
+            "rank": 5,
+            "valueA": 157,
+            "valueB": 200,
+            "userIdA": 742972387,
+            "userIdB": 449200078,
+            "nameA": "Jinx",
+            "nameB": "PokeNYC"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2817616,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 10,
+          "ultimateArtMethodMstId": 10,
+          "guildACount": 75,
+          "guildBCount": 52
+        },
+        {
+          "artMstId": 22,
+          "ultimateArtMethodMstId": 22,
+          "guildACount": 57,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "get_battle_user_list": {
+    "battleNum": 505,
+    "gvgDataId": 2817616,
+    "guildDataIdA": 449,
+    "guildDataIdB": 7332,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "LunaNova",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 205,
+        "totalPower": 305761,
+        "maxHp": 68515
+      },
+      {
+        "userId": 680317627,
+        "name": "Milkgore",
+        "characterMstId": 103,
+        "level": 193,
+        "totalPower": 250978,
+        "maxHp": 56723
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 221,
+        "totalPower": 332321,
+        "maxHp": 82283
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 214,
+        "totalPower": 299954,
+        "maxHp": 76199
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 202,
+        "totalPower": 293956,
+        "maxHp": 73622
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 208,
+        "totalPower": 282105,
+        "maxHp": 65826
+      },
+      {
+        "userId": 200491281,
+        "name": "Silverasha",
+        "characterMstId": 114,
+        "level": 198,
+        "totalPower": 274432,
+        "maxHp": 67530
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 270971,
+        "maxHp": 69968
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 201,
+        "totalPower": 318916,
+        "maxHp": 74295
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 587,
+        "level": 204,
+        "totalPower": 299789,
+        "maxHp": 66032
+      },
+      {
+        "userId": 742972387,
+        "name": "Jinx",
+        "characterMstId": 167,
+        "level": 198,
+        "totalPower": 285833,
+        "maxHp": 63580
+      },
+      {
+        "userId": 492044794,
+        "name": "Saltea",
+        "characterMstId": 167,
+        "level": 190,
+        "totalPower": 274706,
+        "maxHp": 58193
+      },
+      {
+        "userId": 482452519,
+        "name": "☆Freddi",
+        "characterMstId": 85,
+        "level": 201,
+        "totalPower": 287109,
+        "maxHp": 65745
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 186,
+        "totalPower": 268586,
+        "maxHp": 62258
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 85,
+        "level": 193,
+        "totalPower": 220408,
+        "maxHp": 52473
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 174883422,
+        "name": "GiraffeT",
+        "characterMstId": 103,
+        "level": 215,
+        "totalPower": 358844,
+        "maxHp": 88327
+      },
+      {
+        "userId": 645343709,
+        "name": "Spica",
+        "characterMstId": 103,
+        "level": 209,
+        "totalPower": 303224,
+        "maxHp": 73417
+      },
+      {
+        "userId": 470070935,
+        "name": "Vale",
+        "characterMstId": 48,
+        "level": 207,
+        "totalPower": 306397,
+        "maxHp": 70387
+      },
+      {
+        "userId": 290889839,
+        "name": "Susphira",
+        "characterMstId": 48,
+        "level": 202,
+        "totalPower": 303097,
+        "maxHp": 71822
+      },
+      {
+        "userId": 160563662,
+        "name": "Ewendlina",
+        "characterMstId": 231,
+        "level": 195,
+        "totalPower": 283557,
+        "maxHp": 68195
+      },
+      {
+        "userId": 390628087,
+        "name": "Pawtatoe",
+        "characterMstId": 114,
+        "level": 212,
+        "totalPower": 328142,
+        "maxHp": 70315
+      },
+      {
+        "userId": 302454475,
+        "name": "Inuyasha",
+        "characterMstId": 114,
+        "level": 210,
+        "totalPower": 298373,
+        "maxHp": 74460
+      },
+      {
+        "userId": 340372139,
+        "name": "Richter",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 277592,
+        "maxHp": 65387
+      },
+      {
+        "userId": 449200078,
+        "name": "PokeNYC",
+        "characterMstId": 93,
+        "level": 206,
+        "totalPower": 310675,
+        "maxHp": 67800
+      },
+      {
+        "userId": 867093026,
+        "name": "Jyeusu",
+        "characterMstId": 93,
+        "level": 203,
+        "totalPower": 300399,
+        "maxHp": 69551
+      },
+      {
+        "userId": 531750967,
+        "name": "Mirai",
+        "characterMstId": 93,
+        "level": 188,
+        "totalPower": 292727,
+        "maxHp": 65275
+      },
+      {
+        "userId": 560478078,
+        "name": "Aureal",
+        "characterMstId": 167,
+        "level": 203,
+        "totalPower": 275622,
+        "maxHp": 65151
+      },
+      {
+        "userId": 378778030,
+        "name": "Mabashi",
+        "characterMstId": 85,
+        "level": 204,
+        "totalPower": 383494,
+        "maxHp": 86482
+      },
+      {
+        "userId": 726533937,
+        "name": "Hael",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 320628,
+        "maxHp": 73637
+      },
+      {
+        "userId": 678279370,
+        "name": "uraalice",
+        "characterMstId": 85,
+        "level": 135,
+        "totalPower": 225475,
+        "maxHp": 46913
+      }
+    ]
+  }
+}
