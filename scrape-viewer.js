@@ -29,7 +29,7 @@ const weaponMapLong = [
 	'Blade', 'Heavy', 'Projectile', 'Polearm',
 ];
 
-function viewGuildHistory(historyUrl) {
+function viewGuildHistory(matchHistory, shinmaSkills) {
 	function generateShinmaCells(shinma, shinmaSkills) {
 		if (!shinma) {
 			return '<td align="center"></td><td align="center"></td>';
@@ -45,9 +45,6 @@ function viewGuildHistory(historyUrl) {
 		return `<td align="center">${shinmaWeapons}</td>` +
 			`<td align="center">${shinma.guild_a_count}/${shinma.guild_b_count}</td>`;
 	}
-
-	const matchHistory = db.json.get(historyUrl);
-	const shinmaSkills = db.index.shinmaSkills;
 
 	const guildA = matchHistory.items[0].guild_a_name;
 
@@ -107,7 +104,7 @@ function viewGuildHistory(historyUrl) {
 	return `Scrape Viewer: ${guildA} match history`;
 }
 
-function viewMatch(dt, matchUrl) {
+function viewMatch(dt, match, shinmaSkills, characters) {
 	function generateShinmaRow(shinma, shinmaSkills) {
 		if (!shinma) {
 			return '<tr><th scope="row"></th><td></td><td></td></tr>';
@@ -143,9 +140,6 @@ function viewMatch(dt, matchUrl) {
 		html += '</tbody></table>';
 		return html;
 	}
-
-	const match = db.json.get(matchUrl);
-	const shinmaSkills = db.index.shinmaSkills;
 
 	let guildStatsA = 0;
 	let guildStatsB = 0;
@@ -268,10 +262,10 @@ function viewMatch(dt, matchUrl) {
 		const l = match.get_battle_user_list;
 		html += '<div class="row">';
 		html += '<div class="col">';
-		html += generateMemberList(l.guildDataNameA, l.guildMemberA, db.index.characters);
+		html += generateMemberList(l.guildDataNameA, l.guildMemberA, characters);
 		html += '</div>';
 		html += '<div class="col">';
-		html += generateMemberList(l.guildDataNameB, l.guildMemberB, db.index.characters);
+		html += generateMemberList(l.guildDataNameB, l.guildMemberB, characters);
 		html += '</div>';
 		html += '</div>';
 	}
@@ -293,6 +287,7 @@ async function showView(searchText, pushState) {
 	switch(view.toLowerCase())
 	{
 		case "history":
+		{
 			const guild = params.get("guild");
 			if (!guild)
 				return;
@@ -309,15 +304,17 @@ async function showView(searchText, pushState) {
 					return;
 			}
 
-			await Promise.allSettled([
-				cacheJson(historyUrl),
-				cacheShinmaSkills()
+			const [history, shinmaSkills] = await Promise.allSettled([
+				loadJson(historyUrl),
+				loadShinmaSkills()
 			]);
 
-			pageTitle = viewGuildHistory(historyUrl);
+			pageTitle = viewGuildHistory(history.value, shinmaSkills.value);
+		}
 		break;
 
 		case "match":
+		{
 			const startTime = parseInt(params.get('time'));
 			const guildA = parseInt(params.get('a'));
 			const guildB = parseInt(params.get('b'));
@@ -326,32 +323,35 @@ async function showView(searchText, pushState) {
 
 			const dt = new Date(startTime * 1000);
 
-			let match_url = 'matches/';
-			match_url += pad(4, dt.getUTCFullYear());
-			match_url += '-';
-			match_url += pad(2, dt.getUTCMonth() + 1);
-			match_url += '-';
-			match_url += pad(2, dt.getUTCDate());
-			match_url += '_';
-			match_url += pad(2, dt.getUTCHours());
-			match_url += '-';
-			match_url += pad(2, dt.getUTCMinutes());
-			match_url += '-';
-			match_url += pad(2, dt.getUTCSeconds());
-			match_url += `_${pad(5, guildA)}_vs_${pad(5, guildB)}.json`;
+			let matchUrl = 'matches/';
+			matchUrl += pad(4, dt.getUTCFullYear());
+			matchUrl += '-';
+			matchUrl += pad(2, dt.getUTCMonth() + 1);
+			matchUrl += '-';
+			matchUrl += pad(2, dt.getUTCDate());
+			matchUrl += '_';
+			matchUrl += pad(2, dt.getUTCHours());
+			matchUrl += '-';
+			matchUrl += pad(2, dt.getUTCMinutes());
+			matchUrl += '-';
+			matchUrl += pad(2, dt.getUTCSeconds());
+			matchUrl += `_${pad(5, guildA)}_vs_${pad(5, guildB)}.json`;
 
-			await Promise.allSettled([
-				cacheJson(match_url, match_url),
-				cacheShinmaSkills(),
-				cacheCharacters(),
+			const [match, shinmaSkills, characters] = await Promise.allSettled([
+				loadJson(matchUrl),
+				loadShinmaSkills(),
+				loadCharacters(),
 			]);
 
-			pageTitle = viewMatch(dt, match_url);
+			pageTitle = viewMatch(dt, match.value, shinmaSkills.value, characters.value);
+		}
 		break;
 
 		default:
+		{
 			document.getElementById("content").innerHTML = "";
 			pageTitle = 'Scrape Viewer';
+		}
 		break;
 	}
 
@@ -420,48 +420,51 @@ function asyncRequest(method, url) {
 	});
 }
 
-async function cacheJson(url) {
-	if (db.json.has(url)) {
-		return;
+async function loadJson(url) {
+	let json = db.json.get(url);
+	if (json) {
+		return json;
 	}
 
 	let response = await asyncRequest("GET", url);
-	db.json.set(url, JSON.parse(response));
+	json = JSON.parse(response);
+	db.json.set(url, json);
+	return json;
 }
 
-async function cacheShinmaSkills() {
-	if (db.index.shinmaSkills) {
-		return;
+async function loadShinmaSkills() {
+	let shinmaSkills = db.index.shinmaSkills;
+	if (shinmaSkills) {
+		return shinmaSkills;
 	}
 
-	await cacheJson(en_ultimate_art_method_mst_list);
+	const shinmaTable = await loadJson(en_ultimate_art_method_mst_list);
 
-	const shinmaTable = db.json.get(en_ultimate_art_method_mst_list);
-
-	let shinmaSkills = new Map();
+	shinmaSkills = new Map();
 	for (let i = 0; i < shinmaTable.length; i++) {
 		let shinmaMst = shinmaTable[i];
 		shinmaSkills.set(shinmaMst.ultimateArtMethodMstId, shinmaMst);
 	}
 
 	db.index.shinmaSkills = shinmaSkills;
+	return shinmaSkills;
 }
 
-async function cacheCharacters() {
-	if (db.index.characters) {
-		return;
+async function loadCharacters() {
+	let characters = db.index.characters;
+	if (characters) {
+		return characters;
 	}
 
-	await cacheJson(en_character_mst_list);
-
-	const character_mst_list = db.json.get(en_character_mst_list);
-	let characters = new Map();
-	for (let i = 0; i < character_mst_list.length; i++) {
-		let mst = character_mst_list[i];
+	const characterMstList = await loadJson(en_character_mst_list);
+	characters = new Map();
+	for (let i = 0; i < characterMstList.length; i++) {
+		const mst = characterMstList[i];
 		characters.set(mst.characterMstId, mst);
 	}
 
 	db.index.characters = characters;
+	return characters;
 }
 
 function pad(p, val) {
