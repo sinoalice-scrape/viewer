@@ -147,6 +147,19 @@ function viewMatch(dt, matchUrl) {
 	const match = db.json.get(matchUrl);
 	const shinmaSkills = db.index.shinmaSkills;
 
+	let guildStatsA = 0;
+	let guildStatsB = 0;
+	{
+		const guildMemberA = match.get_battle_user_list.guildMemberA;
+		const guildMemberB = match.get_battle_user_list.guildMemberB;
+		for (let i = 0; i < guildMemberA.length; i++) {
+			guildStatsA += guildMemberA[i].totalPower;
+		}
+		for (let i = 0; i < guildMemberB.length; i++) {
+			guildStatsB += guildMemberB[i].totalPower;
+		}
+	}
+
 	let pageTitle;
 	let html = '<div class="container">';
 	{
@@ -187,6 +200,11 @@ function viewMatch(dt, matchUrl) {
 			const shipsA = nf.format(res.selfSiegeWinCount);
 			const shipsB = nf.format(res.enemySiegeWinCount);
 			html += `<tr><th scope="row">Downed ships</th><td>${shipsA}</td><td>${shipsB}</td></tr>`;
+
+			const gsA = nf.format(guildStatsA);
+			const gsB = nf.format(guildStatsB);
+			html += `<tr><th scope="row">Guild stats</th><td>${gsA}</td><td>${gsB}</td></tr>`;
+
 			html += '</tbody></table>';
 			html += '</div>'
 		}
@@ -219,8 +237,7 @@ function viewMatch(dt, matchUrl) {
 		const mvpRanks = match.get_result.gvgMvpRank;
 		html += '<div class="row">';
 		html += '<h2>Contribution Rank</h2>';
-		for (let i = 0; i < mvpRanks.length; i++)
-		{
+		for (let i = 0; i < mvpRanks.length; i++) {
 			const mvpRank = mvpRanks[i];
 			html += '<div class="col-md-4">';
 			html += '<div class="card">';
