@@ -35,7 +35,7 @@ function viewGuildHistory(matchHistory, shinmaSkills) {
 			return '<td align="center"></td><td align="center"></td>';
 		}
 
-		const shinmaMst = shinmaSkills.get(shinma.art_mst_id);
+		const shinmaMst = shinmaSkills.get(shinma.artMstId);
 		const shinmaWeapons =
 			weaponMapShort[shinmaMst.element1] +
 			weaponMapShort[shinmaMst.element2] +
@@ -43,10 +43,10 @@ function viewGuildHistory(matchHistory, shinmaSkills) {
 			weaponMapShort[shinmaMst.element4];
 
 		return `<td align="center">${shinmaWeapons}</td>` +
-			`<td align="center">${shinma.guild_a_count}/${shinma.guild_b_count}</td>`;
+			`<td align="center">${shinma.guildACount}/${shinma.guildBCount}</td>`;
 	}
 
-	const guildA = matchHistory.items[0].guild_a_name;
+	const guildA = matchHistory.items[0].guildAName;
 
 	let html = `<h1>${guildA}</h1>`;
 	html += '<table class="table table-striped table-bordered table-sm"><thead><tr>';
@@ -71,28 +71,28 @@ function viewGuildHistory(matchHistory, shinmaSkills) {
 	const matchCount = matchHistory.items.length;
 	for (let i = matchCount-1; i >= 0; i--) {
 		const m = matchHistory.items[i];
-		const dt = new Date(m.start_time * 1000);
+		const dt = new Date(m.startTime * 1000);
 
 		let result = "Tie";
-		if (m.guild_a_points > m.guild_b_points)
+		if (m.guildAPoints > m.guildBPoints)
 			result = "Victory";
-		else if (m.guild_a_points < m.guild_b_points)
+		else if (m.guildAPoints < m.guildBPoints)
 			result = "Defeat";
 
-		const matchUrl = `?view=match&time=${m.start_time}&a=${m.guild_a_id}&b=${m.guild_b_id}`;
+		const matchUrl = `?view=match&time=${m.startTime}&a=${m.guildAId}&b=${m.guildBId}`;
 
 		html += '<tr>';
 		html += `<td><a href="${matchUrl}">${dt.getUTCFullYear()}/${dt.getUTCMonth()+1}/${dt.getUTCDate()}</a></td>`;
 		html += `<td>${m.rank}</td>`;
 		html += `<td>${result}</td>`;
-		html += `<td>${m.guild_b_name}</td>`;
-		html += `<td align="right">${m.guild_b_id}</td>`;
-		html += `<td align="right">${nf.format(m.guild_a_points)}</td>`;
-		html += `<td align="right">${nf.format(m.guild_b_points)}</td>`;
-		html += `<td align="right">${m.guild_a_combo}</td>`;
-		html += `<td align="right">${m.guild_b_combo}</td>`;
-		html += `<td align="right">${m.guild_a_ship_win}</td>`;
-		html += `<td align="right">${m.guild_b_ship_win}</td>`;
+		html += `<td>${m.guildBName}</td>`;
+		html += `<td align="right">${m.guildBId}</td>`;
+		html += `<td align="right">${nf.format(m.guildAPoints)}</td>`;
+		html += `<td align="right">${nf.format(m.guildBPoints)}</td>`;
+		html += `<td align="right">${m.guildACombo}</td>`;
+		html += `<td align="right">${m.guildBCombo}</td>`;
+		html += `<td align="right">${m.guildAShipWin}</td>`;
+		html += `<td align="right">${m.guildBShipWin}</td>`;
 		html += generateShinmaCells(m.shinma[0], shinmaSkills);
 		html += generateShinmaCells(m.shinma[1], shinmaSkills);
 		html += '</tr>';
@@ -144,8 +144,8 @@ function viewMatch(dt, match, shinmaSkills, characters) {
 	let guildStatsA = 0;
 	let guildStatsB = 0;
 	{
-		const guildMemberA = match.get_battle_user_list.guildMemberA;
-		const guildMemberB = match.get_battle_user_list.guildMemberB;
+		const guildMemberA = match.getBattleUserList.guildMemberA;
+		const guildMemberB = match.getBattleUserList.guildMemberB;
 		for (let i = 0; i < guildMemberA.length; i++) {
 			guildStatsA += guildMemberA[i].totalPower;
 		}
@@ -157,7 +157,7 @@ function viewMatch(dt, match, shinmaSkills, characters) {
 	let pageTitle;
 	let html = '<div class="container">';
 	{
-		const res = match.get_result.gvgResult;
+		const res = match.getResult.gvgResult;
 		const guildA = res.selfGuildName;
 		const guildB = res.enemyGuildName;
 		const date = `${pad(4,dt.getFullYear())}/${pad(2,dt.getMonth()+1)}/${pad(2,dt.getDate())}`;
@@ -203,9 +203,9 @@ function viewMatch(dt, match, shinmaSkills, characters) {
 			html += '</div>'
 		}
 
-		if (match.get_result.gvgUltimateArtInfo)
+		if (match.getResult.gvgUltimateArtInfo)
 		{
-			const shinma = match.get_result.gvgUltimateArtInfo.gvgUltimateArtDataList;
+			const shinma = match.getResult.gvgUltimateArtInfo.gvgUltimateArtDataList;
 			html += '<div class="col">';
 			html += '<table class="table table-striped table-bordered table-sm"><thead><tr>';
 			html += '<th>Shinma</th>';
@@ -229,7 +229,7 @@ function viewMatch(dt, match, shinmaSkills, characters) {
 			"Enemy ATK Debuff", "Enemy DEF Debuff",
 			"Combo"
 		];
-		const mvpRanks = match.get_result.gvgMvpRank;
+		const mvpRanks = match.getResult.gvgMvpRank;
 		html += '<div class="row">';
 		html += '<h2>Contribution Rank</h2>';
 		for (let i = 0; i < mvpRanks.length; i++) {
@@ -260,7 +260,7 @@ function viewMatch(dt, match, shinmaSkills, characters) {
 	}
 
 	{
-		const l = match.get_battle_user_list;
+		const l = match.getBattleUserList;
 		html += '<div class="row">';
 		html += '<div class="col">';
 		html += generateMemberList(l.guildDataNameA, l.guildMemberA, characters);
