@@ -368,8 +368,8 @@ async function showView(searchText, pushState) {
 
 	if (pushState) {
 		history.pushState({}, '', searchText);
-		document.title = pageTitle;
 	}
+	document.title = pageTitle;
 }
 
 function onLinkClick(event) {
