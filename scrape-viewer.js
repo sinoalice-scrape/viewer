@@ -203,6 +203,7 @@ function viewMatch(dt, match, shinmaSkills, characters) {
 			html += '</div>'
 		}
 
+		if (match.get_result.gvgUltimateArtInfo)
 		{
 			const shinma = match.get_result.gvgUltimateArtInfo.gvgUltimateArtDataList;
 			html += '<div class="col">';
