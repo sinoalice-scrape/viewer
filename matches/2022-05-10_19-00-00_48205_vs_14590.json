@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 303,
+      "battleStartTime": 1652209200,
+      "battleEndTime": 1652210399,
+      "gvgDataId": 2857750,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 4253798,
+      "selfComboCount": 1336,
+      "selfSiegeWinCount": 4,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 14590,
+      "enemyGuildName": "Ozelot",
+      "enemyTotalGuildPoint": 4365479,
+      "enemyComboCount": 1859,
+      "enemySiegeWinCount": 6,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 1557260,
+      "enemyRankUserId": 928059586,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Fuchs",
+      "enemyRankGuildPoint": 1240458,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1557260,
+            "valueB": 1240458,
+            "userIdA": 489820080,
+            "userIdB": 928059586,
+            "nameA": "Poetic0",
+            "nameB": "Fuchs"
+          },
+          {
+            "rank": 2,
+            "valueA": 703803,
+            "valueB": 1090513,
+            "userIdA": 897796188,
+            "userIdB": 461760650,
+            "nameA": "GiGi",
+            "nameB": "Erebos"
+          },
+          {
+            "rank": 3,
+            "valueA": 670117,
+            "valueB": 1028482,
+            "userIdA": 528967104,
+            "userIdB": 633821705,
+            "nameA": "Guider",
+            "nameB": "DarkVogel"
+          },
+          {
+            "rank": 4,
+            "valueA": 520102,
+            "valueB": 664053,
+            "userIdA": 658397897,
+            "userIdB": 710471684,
+            "nameA": "Juddy",
+            "nameB": "Azuranna"
+          },
+          {
+            "rank": 5,
+            "valueA": 519179,
+            "valueB": 551445,
+            "userIdA": 311155260,
+            "userIdB": 992902583,
+            "nameA": "Tamuko",
+            "nameB": "ディエゴ"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 31295188,
+            "valueB": 22905557,
+            "userIdA": 237959838,
+            "userIdB": 253695791,
+            "nameA": "Nheksh",
+            "nameB": "Zraika"
+          },
+          {
+            "rank": 2,
+            "valueA": 25792941,
+            "valueB": 13545552,
+            "userIdA": 335076343,
+            "userIdB": 774461784,
+            "nameA": "Melesie",
+            "nameB": "Scythe"
+          },
+          {
+            "rank": 3,
+            "valueA": 18748399,
+            "valueB": 536527,
+            "userIdA": 112665300,
+            "userIdB": 286283582,
+            "nameA": "ilyas",
+            "nameB": "HUNTER"
+          },
+          {
+            "rank": 4,
+            "valueA": 578769,
+            "valueB": 407986,
+            "userIdA": 519350497,
+            "userIdB": 633821705,
+            "nameA": "Andy",
+            "nameB": "DarkVogel"
+          },
+          {
+            "rank": 5,
+            "valueA": 460272,
+            "valueB": 312530,
+            "userIdA": 252654652,
+            "userIdB": 341470341,
+            "nameA": "Xameria",
+            "nameB": "Crystanna"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3021731,
+            "valueB": 3768632,
+            "userIdA": 519350497,
+            "userIdB": 755805868,
+            "nameA": "Andy",
+            "nameB": "Einon"
+          },
+          {
+            "rank": 2,
+            "valueA": 2153878,
+            "valueB": 2604413,
+            "userIdA": 884034009,
+            "userIdB": 885502659,
+            "nameA": "Cheshipuss",
+            "nameB": "Kuriowo"
+          },
+          {
+            "rank": 3,
+            "valueA": 1602795,
+            "valueB": 2047938,
+            "userIdA": 252654652,
+            "userIdB": 341470341,
+            "nameA": "Xameria",
+            "nameB": "Crystanna"
+          },
+          {
+            "rank": 4,
+            "valueA": 327146,
+            "valueB": 1410575,
+            "userIdA": 237959838,
+            "userIdB": 351074036,
+            "nameA": "Nheksh",
+            "nameB": "Gareth"
+          },
+          {
+            "rank": 5,
+            "valueA": 203814,
+            "valueB": 696187,
+            "userIdA": 335076343,
+            "userIdB": 656311618,
+            "nameA": "Melesie",
+            "nameB": "Kurio"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2824879,
+            "valueB": 3004856,
+            "userIdA": 884034009,
+            "userIdB": 351074036,
+            "nameA": "Cheshipuss",
+            "nameB": "Gareth"
+          },
+          {
+            "rank": 2,
+            "valueA": 2466639,
+            "valueB": 2122948,
+            "userIdA": 519350497,
+            "userIdB": 885502659,
+            "nameA": "Andy",
+            "nameB": "Kuriowo"
+          },
+          {
+            "rank": 3,
+            "valueA": 1941041,
+            "valueB": 1855446,
+            "userIdA": 252654652,
+            "userIdB": 755805868,
+            "nameA": "Xameria",
+            "nameB": "Einon"
+          },
+          {
+            "rank": 4,
+            "valueA": 376644,
+            "valueB": 952708,
+            "userIdA": 335076343,
+            "userIdB": 656311618,
+            "nameA": "Melesie",
+            "nameB": "Kurio"
+          },
+          {
+            "rank": 5,
+            "valueA": 322297,
+            "valueB": 943202,
+            "userIdA": 112665300,
+            "userIdB": 341470341,
+            "nameA": "ilyas",
+            "nameB": "Crystanna"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3910650,
+            "valueB": 3474999,
+            "userIdA": 904133218,
+            "userIdB": 321911225,
+            "nameA": "ヌードル",
+            "nameB": "esiXas"
+          },
+          {
+            "rank": 2,
+            "valueA": 2819401,
+            "valueB": 1961502,
+            "userIdA": 594178109,
+            "userIdB": 286283582,
+            "nameA": "Jeanne",
+            "nameB": "HUNTER"
+          },
+          {
+            "rank": 3,
+            "valueA": 2701247,
+            "valueB": 1321746,
+            "userIdA": 662352178,
+            "userIdB": 201022141,
+            "nameA": "9Days",
+            "nameB": "Casketnail"
+          },
+          {
+            "rank": 4,
+            "valueA": 1559597,
+            "valueB": 176259,
+            "userIdA": 580947666,
+            "userIdB": 461760650,
+            "nameA": "MeanRin",
+            "nameB": "Erebos"
+          },
+          {
+            "rank": 5,
+            "valueA": 237566,
+            "valueB": 101386,
+            "userIdA": 252654652,
+            "userIdB": 710471684,
+            "nameA": "Xameria",
+            "nameB": "Azuranna"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4308976,
+            "valueB": 4048853,
+            "userIdA": 904133218,
+            "userIdB": 321911225,
+            "nameA": "ヌードル",
+            "nameB": "esiXas"
+          },
+          {
+            "rank": 2,
+            "valueA": 2764720,
+            "valueB": 3310252,
+            "userIdA": 594178109,
+            "userIdB": 286283582,
+            "nameA": "Jeanne",
+            "nameB": "HUNTER"
+          },
+          {
+            "rank": 3,
+            "valueA": 1732097,
+            "valueB": 1461108,
+            "userIdA": 662352178,
+            "userIdB": 201022141,
+            "nameA": "9Days",
+            "nameB": "Casketnail"
+          },
+          {
+            "rank": 4,
+            "valueA": 531716,
+            "valueB": 204257,
+            "userIdA": 252654652,
+            "userIdB": 633821705,
+            "nameA": "Xameria",
+            "nameB": "DarkVogel"
+          },
+          {
+            "rank": 5,
+            "valueA": 339109,
+            "valueB": 199739,
+            "userIdA": 580947666,
+            "userIdB": 710471684,
+            "nameA": "MeanRin",
+            "nameB": "Azuranna"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 316,
+            "valueB": 373,
+            "userIdA": 489820080,
+            "userIdB": 633821705,
+            "nameA": "Poetic0",
+            "nameB": "DarkVogel"
+          },
+          {
+            "rank": 2,
+            "valueA": 157,
+            "valueB": 343,
+            "userIdA": 658397897,
+            "userIdB": 928059586,
+            "nameA": "Juddy",
+            "nameB": "Fuchs"
+          },
+          {
+            "rank": 3,
+            "valueA": 153,
+            "valueB": 313,
+            "userIdA": 237959838,
+            "userIdB": 992902583,
+            "nameA": "Nheksh",
+            "nameB": "ディエゴ"
+          },
+          {
+            "rank": 4,
+            "valueA": 133,
+            "valueB": 257,
+            "userIdA": 594178109,
+            "userIdB": 461760650,
+            "nameA": "Jeanne",
+            "nameB": "Erebos"
+          },
+          {
+            "rank": 5,
+            "valueA": 124,
+            "valueB": 206,
+            "userIdA": 252654652,
+            "userIdB": 710471684,
+            "nameA": "Xameria",
+            "nameB": "Azuranna"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2857750,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 75,
+          "guildBCount": 69
+        },
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 60,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 303,
+    "gvgDataId": 2857750,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 14590,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Ozelot",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 103,
+        "level": 204,
+        "totalPower": 304913,
+        "maxHp": 75732
+      },
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 103,
+        "level": 198,
+        "totalPower": 297192,
+        "maxHp": 67580
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 231,
+        "level": 216,
+        "totalPower": 310958,
+        "maxHp": 79763
+      },
+      {
+        "userId": 897796188,
+        "name": "GiGi",
+        "characterMstId": 48,
+        "level": 209,
+        "totalPower": 294967,
+        "maxHp": 79917
+      },
+      {
+        "userId": 528967104,
+        "name": "Guider",
+        "characterMstId": 48,
+        "level": 197,
+        "totalPower": 273931,
+        "maxHp": 63818
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 293166,
+        "maxHp": 69455
+      },
+      {
+        "userId": 884034009,
+        "name": "Cheshipuss",
+        "characterMstId": 114,
+        "level": 201,
+        "totalPower": 262292,
+        "maxHp": 53745
+      },
+      {
+        "userId": 252654652,
+        "name": "Xameria",
+        "characterMstId": 114,
+        "level": 196,
+        "totalPower": 260131,
+        "maxHp": 62456
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 167,
+        "level": 217,
+        "totalPower": 304837,
+        "maxHp": 74006
+      },
+      {
+        "userId": 662352178,
+        "name": "9Days",
+        "characterMstId": 167,
+        "level": 207,
+        "totalPower": 298788,
+        "maxHp": 71337
+      },
+      {
+        "userId": 904133218,
+        "name": "ヌードル",
+        "characterMstId": 93,
+        "level": 209,
+        "totalPower": 284997,
+        "maxHp": 65367
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 254,
+        "level": 203,
+        "totalPower": 262645,
+        "maxHp": 68701
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 85,
+        "level": 216,
+        "totalPower": 413489,
+        "maxHp": 107463
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 223,
+        "totalPower": 325651,
+        "maxHp": 84433
+      },
+      {
+        "userId": 112665300,
+        "name": "ilyas",
+        "characterMstId": 85,
+        "level": 205,
+        "totalPower": 319963,
+        "maxHp": 76665
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 928059586,
+        "name": "Fuchs",
+        "characterMstId": 103,
+        "level": 214,
+        "totalPower": 367950,
+        "maxHp": 94199
+      },
+      {
+        "userId": 633821705,
+        "name": "DarkVogel",
+        "characterMstId": 103,
+        "level": 210,
+        "totalPower": 308338,
+        "maxHp": 74110
+      },
+      {
+        "userId": 992902583,
+        "name": "ディエゴ",
+        "characterMstId": 103,
+        "level": 203,
+        "totalPower": 283738,
+        "maxHp": 70801
+      },
+      {
+        "userId": 461760650,
+        "name": "Erebos",
+        "characterMstId": 231,
+        "level": 202,
+        "totalPower": 312947,
+        "maxHp": 72522
+      },
+      {
+        "userId": 710471684,
+        "name": "Azuranna",
+        "characterMstId": 48,
+        "level": 195,
+        "totalPower": 303513,
+        "maxHp": 67695
+      },
+      {
+        "userId": 885502659,
+        "name": "Kuriowo",
+        "characterMstId": 114,
+        "level": 203,
+        "totalPower": 310540,
+        "maxHp": 76651
+      },
+      {
+        "userId": 351074036,
+        "name": "Gareth",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 289822,
+        "maxHp": 64655
+      },
+      {
+        "userId": 755805868,
+        "name": "Einon",
+        "characterMstId": 114,
+        "level": 196,
+        "totalPower": 244366,
+        "maxHp": 50956
+      },
+      {
+        "userId": 656311618,
+        "name": "Kurio",
+        "characterMstId": 114,
+        "level": 175,
+        "totalPower": 196726,
+        "maxHp": 44090
+      },
+      {
+        "userId": 286283582,
+        "name": "HUNTER",
+        "characterMstId": 93,
+        "level": 206,
+        "totalPower": 310367,
+        "maxHp": 76550
+      },
+      {
+        "userId": 321911225,
+        "name": "esiXas",
+        "characterMstId": 93,
+        "level": 204,
+        "totalPower": 294434,
+        "maxHp": 66882
+      },
+      {
+        "userId": 201022141,
+        "name": "Casketnail",
+        "characterMstId": 93,
+        "level": 188,
+        "totalPower": 231175,
+        "maxHp": 57625
+      },
+      {
+        "userId": 253695791,
+        "name": "Zraika",
+        "characterMstId": 85,
+        "level": 221,
+        "totalPower": 323678,
+        "maxHp": 82283
+      },
+      {
+        "userId": 774461784,
+        "name": "Scythe",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 314444,
+        "maxHp": 70001
+      },
+      {
+        "userId": 341470341,
+        "name": "Crystanna",
+        "characterMstId": 85,
+        "level": 187,
+        "totalPower": 251305,
+        "maxHp": 63866
+      }
+    ]
+  }
+}
