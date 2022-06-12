@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 105,
+      "battleStartTime": 1655067600,
+      "battleEndTime": 1655068799,
+      "gvgDataId": 2923667,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 7690355,
+      "selfComboCount": 1991,
+      "selfSiegeWinCount": 9,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 27171,
+      "enemyGuildName": "Ryker'sTGPD",
+      "enemyTotalGuildPoint": 974286,
+      "enemyComboCount": 1297,
+      "enemySiegeWinCount": 2,
+      "selfRankUserId": 715799433,
+      "selfRankNum": 1,
+      "selfRankUserName": "Saphruna",
+      "selfRankGuildPoint": 1919955,
+      "enemyRankUserId": 130813708,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Hei",
+      "enemyRankGuildPoint": 693793,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 840
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1919955,
+            "valueB": 693793,
+            "userIdA": 715799433,
+            "userIdB": 130813708,
+            "nameA": "Saphruna",
+            "nameB": "Hei"
+          },
+          {
+            "rank": 2,
+            "valueA": 1406213,
+            "valueB": 647063,
+            "userIdA": 934398383,
+            "userIdB": 269514625,
+            "nameA": "FrostBiTE",
+            "nameB": "Mojo"
+          },
+          {
+            "rank": 3,
+            "valueA": 1129676,
+            "valueB": 642270,
+            "userIdA": 593439881,
+            "userIdB": 484412097,
+            "nameA": "Ludmila",
+            "nameB": "Dakota"
+          },
+          {
+            "rank": 4,
+            "valueA": 771156,
+            "valueB": 479965,
+            "userIdA": 718599324,
+            "userIdB": 823707031,
+            "nameA": "RockとDevil",
+            "nameB": "sephirette"
+          },
+          {
+            "rank": 5,
+            "valueA": 701677,
+            "valueB": 190155,
+            "userIdA": 161754158,
+            "userIdB": 655314822,
+            "nameA": "oeuf",
+            "nameB": "Søren"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 19636610,
+            "valueB": 20160260,
+            "userIdA": 482452519,
+            "userIdB": 846289596,
+            "nameA": "☆Freddi",
+            "nameB": "CaseyRae"
+          },
+          {
+            "rank": 2,
+            "valueA": 15086834,
+            "valueB": 19970030,
+            "userIdA": 167791490,
+            "userIdB": 830193321,
+            "nameA": "Reisz",
+            "nameB": "Keroppi"
+          },
+          {
+            "rank": 3,
+            "valueA": 12888110,
+            "valueB": 17099038,
+            "userIdA": 515568020,
+            "userIdB": 818203537,
+            "nameA": "Enigma",
+            "nameB": "KamiKaze"
+          },
+          {
+            "rank": 4,
+            "valueA": 341639,
+            "valueB": 975317,
+            "userIdA": 593439881,
+            "userIdB": 655314822,
+            "nameA": "Ludmila",
+            "nameB": "Søren"
+          },
+          {
+            "rank": 5,
+            "valueA": 276439,
+            "valueB": 505124,
+            "userIdA": 718599324,
+            "userIdB": 349934121,
+            "nameA": "RockとDevil",
+            "nameB": "Adesina"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3320464,
+            "valueB": 2670411,
+            "userIdA": 991509328,
+            "userIdB": 662437066,
+            "nameA": "Drystar",
+            "nameB": "October31"
+          },
+          {
+            "rank": 2,
+            "valueA": 1908086,
+            "valueB": 1918980,
+            "userIdA": 616104189,
+            "userIdB": 958768278,
+            "nameA": "Saphira",
+            "nameB": "NotDakota"
+          },
+          {
+            "rank": 3,
+            "valueA": 698927,
+            "valueB": 1263654,
+            "userIdA": 200491281,
+            "userIdB": 681005754,
+            "nameA": "Silverasha",
+            "nameB": "Kiwi"
+          },
+          {
+            "rank": 4,
+            "valueA": 638590,
+            "valueB": 300191,
+            "userIdA": 890964279,
+            "userIdB": 309958205,
+            "nameA": "S0J",
+            "nameB": "Biscuit"
+          },
+          {
+            "rank": 5,
+            "valueA": 368006,
+            "valueB": 238208,
+            "userIdA": 946559622,
+            "userIdB": 830193321,
+            "nameA": "Thanatos",
+            "nameB": "Keroppi"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2267225,
+            "valueB": 2044692,
+            "userIdA": 200491281,
+            "userIdB": 958768278,
+            "nameA": "Silverasha",
+            "nameB": "NotDakota"
+          },
+          {
+            "rank": 2,
+            "valueA": 1734346,
+            "valueB": 2042638,
+            "userIdA": 991509328,
+            "userIdB": 662437066,
+            "nameA": "Drystar",
+            "nameB": "October31"
+          },
+          {
+            "rank": 3,
+            "valueA": 988068,
+            "valueB": 741159,
+            "userIdA": 616104189,
+            "userIdB": 681005754,
+            "nameA": "Saphira",
+            "nameB": "Kiwi"
+          },
+          {
+            "rank": 4,
+            "valueA": 906048,
+            "valueB": 448219,
+            "userIdA": 890964279,
+            "userIdB": 830193321,
+            "nameA": "S0J",
+            "nameB": "Keroppi"
+          },
+          {
+            "rank": 5,
+            "valueA": 404653,
+            "valueB": 394428,
+            "userIdA": 482452519,
+            "userIdB": 846289596,
+            "nameA": "☆Freddi",
+            "nameB": "CaseyRae"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2606784,
+            "valueB": 2972937,
+            "userIdA": 742972387,
+            "userIdB": 785421377,
+            "nameA": "Jinx",
+            "nameB": "November11"
+          },
+          {
+            "rank": 2,
+            "valueA": 2340346,
+            "valueB": 1544664,
+            "userIdA": 946559622,
+            "userIdB": 731157535,
+            "nameA": "Thanatos",
+            "nameB": "Merida"
+          },
+          {
+            "rank": 3,
+            "valueA": 1385260,
+            "valueB": 820430,
+            "userIdA": 357058633,
+            "userIdB": 681005754,
+            "nameA": "Zoe",
+            "nameB": "Kiwi"
+          },
+          {
+            "rank": 4,
+            "valueA": 298295,
+            "valueB": 738290,
+            "userIdA": 890964279,
+            "userIdB": 309958205,
+            "nameA": "S0J",
+            "nameB": "Biscuit"
+          },
+          {
+            "rank": 5,
+            "valueA": 88640,
+            "valueB": 228225,
+            "userIdA": 715799433,
+            "userIdB": 349934121,
+            "nameA": "Saphruna",
+            "nameB": "Adesina"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2728972,
+            "valueB": 3761282,
+            "userIdA": 742972387,
+            "userIdB": 785421377,
+            "nameA": "Jinx",
+            "nameB": "November11"
+          },
+          {
+            "rank": 2,
+            "valueA": 2079615,
+            "valueB": 1900497,
+            "userIdA": 946559622,
+            "userIdB": 731157535,
+            "nameA": "Thanatos",
+            "nameB": "Merida"
+          },
+          {
+            "rank": 3,
+            "valueA": 2066470,
+            "valueB": 1170762,
+            "userIdA": 357058633,
+            "userIdB": 309958205,
+            "nameA": "Zoe",
+            "nameB": "Biscuit"
+          },
+          {
+            "rank": 4,
+            "valueA": 243031,
+            "valueB": 570276,
+            "userIdA": 890964279,
+            "userIdB": 681005754,
+            "nameA": "S0J",
+            "nameB": "Kiwi"
+          },
+          {
+            "rank": 5,
+            "valueA": 167599,
+            "valueB": 238841,
+            "userIdA": 934398383,
+            "userIdB": 349934121,
+            "nameA": "FrostBiTE",
+            "nameB": "Adesina"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 358,
+            "valueB": 277,
+            "userIdA": 718599324,
+            "userIdB": 484412097,
+            "nameA": "RockとDevil",
+            "nameB": "Dakota"
+          },
+          {
+            "rank": 2,
+            "valueA": 345,
+            "valueB": 206,
+            "userIdA": 715799433,
+            "userIdB": 823707031,
+            "nameA": "Saphruna",
+            "nameB": "sephirette"
+          },
+          {
+            "rank": 3,
+            "valueA": 331,
+            "valueB": 185,
+            "userIdA": 593439881,
+            "userIdB": 785421377,
+            "nameA": "Ludmila",
+            "nameB": "November11"
+          },
+          {
+            "rank": 4,
+            "valueA": 188,
+            "valueB": 170,
+            "userIdA": 161754158,
+            "userIdB": 662437066,
+            "nameA": "oeuf",
+            "nameB": "October31"
+          },
+          {
+            "rank": 5,
+            "valueA": 154,
+            "valueB": 165,
+            "userIdA": 890964279,
+            "userIdB": 655314822,
+            "nameA": "S0J",
+            "nameB": "Søren"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2923667,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 29,
+          "ultimateArtMethodMstId": 29,
+          "guildACount": 61,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 71,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 105,
+    "gvgDataId": 2923667,
+    "guildDataIdA": 449,
+    "guildDataIdB": 27171,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Ryker'sTGPD",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 206,
+        "totalPower": 319942,
+        "maxHp": 72900
+      },
+      {
+        "userId": 715799433,
+        "name": "Saphruna",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 375086,
+        "maxHp": 84000
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 225,
+        "totalPower": 341726,
+        "maxHp": 88983
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 216,
+        "totalPower": 308566,
+        "maxHp": 83263
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 205,
+        "totalPower": 303322,
+        "maxHp": 79115
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 210,
+        "totalPower": 299056,
+        "maxHp": 68610
+      },
+      {
+        "userId": 200491281,
+        "name": "Silverasha",
+        "characterMstId": 114,
+        "level": 199,
+        "totalPower": 282422,
+        "maxHp": 72892
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 578,
+        "level": 200,
+        "totalPower": 273379,
+        "maxHp": 75805
+      },
+      {
+        "userId": 616104189,
+        "name": "Saphira",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 268196,
+        "maxHp": 60568
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 93,
+        "level": 203,
+        "totalPower": 334048,
+        "maxHp": 83001
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 587,
+        "level": 206,
+        "totalPower": 320662,
+        "maxHp": 70350
+      },
+      {
+        "userId": 742972387,
+        "name": "Jinx",
+        "characterMstId": 167,
+        "level": 199,
+        "totalPower": 307200,
+        "maxHp": 71792
+      },
+      {
+        "userId": 482452519,
+        "name": "☆Freddi",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 302226,
+        "maxHp": 70701
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 194,
+        "totalPower": 282238,
+        "maxHp": 67234
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 196,
+        "totalPower": 241884,
+        "maxHp": 57006
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 655314822,
+        "name": "Søren",
+        "characterMstId": 126,
+        "level": 196,
+        "totalPower": 238389,
+        "maxHp": 70606
+      },
+      {
+        "userId": 484412097,
+        "name": "Dakota",
+        "characterMstId": 231,
+        "level": 214,
+        "totalPower": 327216,
+        "maxHp": 88149
+      },
+      {
+        "userId": 130813708,
+        "name": "Hei",
+        "characterMstId": 231,
+        "level": 209,
+        "totalPower": 323496,
+        "maxHp": 73117
+      },
+      {
+        "userId": 269514625,
+        "name": "Mojo",
+        "characterMstId": 48,
+        "level": 204,
+        "totalPower": 313438,
+        "maxHp": 75432
+      },
+      {
+        "userId": 823707031,
+        "name": "sephirette",
+        "characterMstId": 64,
+        "level": 193,
+        "totalPower": 265066,
+        "maxHp": 60123
+      },
+      {
+        "userId": 958768278,
+        "name": "NotDakota",
+        "characterMstId": 114,
+        "level": 204,
+        "totalPower": 296614,
+        "maxHp": 75082
+      },
+      {
+        "userId": 662437066,
+        "name": "October31",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 292585,
+        "maxHp": 68968
+      },
+      {
+        "userId": 681005754,
+        "name": "Kiwi",
+        "characterMstId": 94,
+        "level": 192,
+        "totalPower": 208185,
+        "maxHp": 52313
+      },
+      {
+        "userId": 785421377,
+        "name": "November11",
+        "characterMstId": 93,
+        "level": 212,
+        "totalPower": 328010,
+        "maxHp": 81615
+      },
+      {
+        "userId": 731157535,
+        "name": "Merida",
+        "characterMstId": 93,
+        "level": 179,
+        "totalPower": 264951,
+        "maxHp": 63888
+      },
+      {
+        "userId": 309958205,
+        "name": "Biscuit",
+        "characterMstId": 167,
+        "level": 136,
+        "totalPower": 215042,
+        "maxHp": 42147
+      },
+      {
+        "userId": 349934121,
+        "name": "Adesina",
+        "characterMstId": 520,
+        "level": 174,
+        "totalPower": 200671,
+        "maxHp": 54168
+      },
+      {
+        "userId": 846289596,
+        "name": "CaseyRae",
+        "characterMstId": 85,
+        "level": 204,
+        "totalPower": 316968,
+        "maxHp": 73332
+      },
+      {
+        "userId": 818203537,
+        "name": "KamiKaze",
+        "characterMstId": 85,
+        "level": 208,
+        "totalPower": 297679,
+        "maxHp": 76726
+      },
+      {
+        "userId": 830193321,
+        "name": "Keroppi",
+        "characterMstId": 85,
+        "level": 201,
+        "totalPower": 279415,
+        "maxHp": 70095
+      }
+    ]
+  }
+}
