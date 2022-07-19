@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 105,
+      "battleStartTime": 1658091600,
+      "battleEndTime": 1658092799,
+      "gvgDataId": 2987296,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 5565573,
+      "selfComboCount": 1313,
+      "selfSiegeWinCount": 14,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 7189,
+      "enemyGuildName": "Punny",
+      "enemyTotalGuildPoint": 932378,
+      "enemyComboCount": 983,
+      "enemySiegeWinCount": 2,
+      "selfRankUserId": 934398383,
+      "selfRankNum": 1,
+      "selfRankUserName": "FrostBiTE",
+      "selfRankGuildPoint": 975769,
+      "enemyRankUserId": 457275575,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "WATER",
+      "enemyRankGuildPoint": 1311350,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 752
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 975769,
+            "valueB": 1311350,
+            "userIdA": 934398383,
+            "userIdB": 457275575,
+            "nameA": "FrostBiTE",
+            "nameB": "WATER"
+          },
+          {
+            "rank": 2,
+            "valueA": 851634,
+            "valueB": 639363,
+            "userIdA": 161754158,
+            "userIdB": 858320058,
+            "nameA": "oeuf",
+            "nameB": "Kuristwo"
+          },
+          {
+            "rank": 3,
+            "valueA": 797538,
+            "valueB": 461451,
+            "userIdA": 715799433,
+            "userIdB": 947187407,
+            "nameA": "Saphruna",
+            "nameB": "Mutesashi"
+          },
+          {
+            "rank": 4,
+            "valueA": 528127,
+            "valueB": 343225,
+            "userIdA": 593439881,
+            "userIdB": 927381570,
+            "nameA": "Ludmila",
+            "nameB": "Jujube"
+          },
+          {
+            "rank": 5,
+            "valueA": 327753,
+            "valueB": 185017,
+            "userIdA": 718599324,
+            "userIdB": 422651267,
+            "nameA": "RockとDevil",
+            "nameB": "Luma"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 17087533,
+            "valueB": 11226786,
+            "userIdA": 482452519,
+            "userIdB": 471475922,
+            "nameA": "☆Freddi",
+            "nameB": "Pinkmii"
+          },
+          {
+            "rank": 2,
+            "valueA": 13823688,
+            "valueB": 9238935,
+            "userIdA": 167791490,
+            "userIdB": 596302834,
+            "nameA": "Reisz",
+            "nameB": "Brevity"
+          },
+          {
+            "rank": 3,
+            "valueA": 11639126,
+            "valueB": 8102676,
+            "userIdA": 515568020,
+            "userIdB": 487985124,
+            "nameA": "Enigma",
+            "nameB": "Cato"
+          },
+          {
+            "rank": 4,
+            "valueA": 256166,
+            "valueB": 2256615,
+            "userIdA": 718599324,
+            "userIdB": 457275575,
+            "nameA": "RockとDevil",
+            "nameB": "WATER"
+          },
+          {
+            "rank": 5,
+            "valueA": 195299,
+            "valueB": 780867,
+            "userIdA": 593439881,
+            "userIdB": 422651267,
+            "nameA": "Ludmila",
+            "nameB": "Luma"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1404515,
+            "valueB": 2074382,
+            "userIdA": 991509328,
+            "userIdB": 893158546,
+            "nameA": "Drystar",
+            "nameB": "Tyene"
+          },
+          {
+            "rank": 2,
+            "valueA": 1246714,
+            "valueB": 1728454,
+            "userIdA": 616104189,
+            "userIdB": 541612293,
+            "nameA": "Saphira",
+            "nameB": "Guren"
+          },
+          {
+            "rank": 3,
+            "valueA": 1224344,
+            "valueB": 1297342,
+            "userIdA": 890964279,
+            "userIdB": 283928972,
+            "nameA": "S0J",
+            "nameB": "Shiune"
+          },
+          {
+            "rank": 4,
+            "valueA": 514684,
+            "valueB": 132822,
+            "userIdA": 200491281,
+            "userIdB": 596302834,
+            "nameA": "Silverasha",
+            "nameB": "Brevity"
+          },
+          {
+            "rank": 5,
+            "valueA": 188948,
+            "valueB": 122826,
+            "userIdA": 946559622,
+            "userIdB": 471475922,
+            "nameA": "Thanatos",
+            "nameB": "Pinkmii"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1322445,
+            "valueB": 1337708,
+            "userIdA": 200491281,
+            "userIdB": 893158546,
+            "nameA": "Silverasha",
+            "nameB": "Tyene"
+          },
+          {
+            "rank": 2,
+            "valueA": 1133299,
+            "valueB": 1248563,
+            "userIdA": 890964279,
+            "userIdB": 541612293,
+            "nameA": "S0J",
+            "nameB": "Guren"
+          },
+          {
+            "rank": 3,
+            "valueA": 1028740,
+            "valueB": 846053,
+            "userIdA": 991509328,
+            "userIdB": 283928972,
+            "nameA": "Drystar",
+            "nameB": "Shiune"
+          },
+          {
+            "rank": 4,
+            "valueA": 480653,
+            "valueB": 183714,
+            "userIdA": 616104189,
+            "userIdB": 487985124,
+            "nameA": "Saphira",
+            "nameB": "Cato"
+          },
+          {
+            "rank": 5,
+            "valueA": 253801,
+            "valueB": 169784,
+            "userIdA": 482452519,
+            "userIdB": 471475922,
+            "nameA": "☆Freddi",
+            "nameB": "Pinkmii"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1588506,
+            "valueB": 1833518,
+            "userIdA": 357058633,
+            "userIdB": 190680049,
+            "nameA": "Zoe",
+            "nameB": "Prophetchu"
+          },
+          {
+            "rank": 2,
+            "valueA": 1564875,
+            "valueB": 1702494,
+            "userIdA": 946559622,
+            "userIdB": 450555046,
+            "nameA": "Thanatos",
+            "nameB": "Lowen"
+          },
+          {
+            "rank": 3,
+            "valueA": 1554802,
+            "valueB": 1224300,
+            "userIdA": 742972387,
+            "userIdB": 669054379,
+            "nameA": "Jinx",
+            "nameB": "Sabine"
+          },
+          {
+            "rank": 4,
+            "valueA": 95889,
+            "valueB": 133727,
+            "userIdA": 161754158,
+            "userIdB": 457275575,
+            "nameA": "oeuf",
+            "nameB": "WATER"
+          },
+          {
+            "rank": 5,
+            "valueA": 59303,
+            "valueB": 58715,
+            "userIdA": 715799433,
+            "userIdB": 947187407,
+            "nameA": "Saphruna",
+            "nameB": "Mutesashi"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1789544,
+            "valueB": 1960680,
+            "userIdA": 357058633,
+            "userIdB": 669054379,
+            "nameA": "Zoe",
+            "nameB": "Sabine"
+          },
+          {
+            "rank": 2,
+            "valueA": 1363612,
+            "valueB": 1537631,
+            "userIdA": 742972387,
+            "userIdB": 190680049,
+            "nameA": "Jinx",
+            "nameB": "Prophetchu"
+          },
+          {
+            "rank": 3,
+            "valueA": 1197687,
+            "valueB": 1043475,
+            "userIdA": 946559622,
+            "userIdB": 450555046,
+            "nameA": "Thanatos",
+            "nameB": "Lowen"
+          },
+          {
+            "rank": 4,
+            "valueA": 164065,
+            "valueB": 152732,
+            "userIdA": 934398383,
+            "userIdB": 858320058,
+            "nameA": "FrostBiTE",
+            "nameB": "Kuristwo"
+          },
+          {
+            "rank": 5,
+            "valueA": 132292,
+            "valueB": 106152,
+            "userIdA": 715799433,
+            "userIdB": 457275575,
+            "nameA": "Saphruna",
+            "nameB": "WATER"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 308,
+            "valueB": 406,
+            "userIdA": 718599324,
+            "userIdB": 212261163,
+            "nameA": "RockとDevil",
+            "nameB": "Littlechu"
+          },
+          {
+            "rank": 2,
+            "valueA": 280,
+            "valueB": 259,
+            "userIdA": 593439881,
+            "userIdB": 457275575,
+            "nameA": "Ludmila",
+            "nameB": "WATER"
+          },
+          {
+            "rank": 3,
+            "valueA": 162,
+            "valueB": 90,
+            "userIdA": 161754158,
+            "userIdB": 947187407,
+            "nameA": "oeuf",
+            "nameB": "Mutesashi"
+          },
+          {
+            "rank": 4,
+            "valueA": 134,
+            "valueB": 71,
+            "userIdA": 934398383,
+            "userIdB": 858320058,
+            "nameA": "FrostBiTE",
+            "nameB": "Kuristwo"
+          },
+          {
+            "rank": 5,
+            "valueA": 114,
+            "valueB": 63,
+            "userIdA": 991509328,
+            "userIdB": 927381570,
+            "nameA": "Drystar",
+            "nameB": "Jujube"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 2987296,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 22,
+          "ultimateArtMethodMstId": 22,
+          "guildACount": 47,
+          "guildBCount": 25
+        },
+        {
+          "artMstId": 10,
+          "ultimateArtMethodMstId": 10,
+          "guildACount": 38,
+          "guildBCount": 35
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 105,
+    "gvgDataId": 2987296,
+    "guildDataIdA": 449,
+    "guildDataIdB": 7189,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Punny",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 207,
+        "totalPower": 340534,
+        "maxHp": 75937
+      },
+      {
+        "userId": 715799433,
+        "name": "Saphruna",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 378662,
+        "maxHp": 84700
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 226,
+        "totalPower": 365993,
+        "maxHp": 93283
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 206,
+        "totalPower": 326920,
+        "maxHp": 81900
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 217,
+        "totalPower": 316766,
+        "maxHp": 84756
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 210,
+        "totalPower": 308839,
+        "maxHp": 69710
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 308339,
+        "maxHp": 78205
+      },
+      {
+        "userId": 200491281,
+        "name": "Silverasha",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 294958,
+        "maxHp": 77105
+      },
+      {
+        "userId": 616104189,
+        "name": "Saphira",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 271459,
+        "maxHp": 62468
+      },
+      {
+        "userId": 357058633,
+        "name": "Zoe",
+        "characterMstId": 167,
+        "level": 203,
+        "totalPower": 356471,
+        "maxHp": 84501
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 12,
+        "level": 207,
+        "totalPower": 338650,
+        "maxHp": 72287
+      },
+      {
+        "userId": 742972387,
+        "name": "Jinx",
+        "characterMstId": 167,
+        "level": 201,
+        "totalPower": 329175,
+        "maxHp": 76195
+      },
+      {
+        "userId": 482452519,
+        "name": "☆Freddi",
+        "characterMstId": 85,
+        "level": 204,
+        "totalPower": 315017,
+        "maxHp": 71582
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 196,
+        "totalPower": 304287,
+        "maxHp": 68706
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 197,
+        "totalPower": 246419,
+        "maxHp": 57118
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 947187407,
+        "name": "Mutesashi",
+        "characterMstId": 103,
+        "level": 215,
+        "totalPower": 346957,
+        "maxHp": 86027
+      },
+      {
+        "userId": 212261163,
+        "name": "Littlechu",
+        "characterMstId": 25,
+        "level": 198,
+        "totalPower": 200487,
+        "maxHp": 72330
+      },
+      {
+        "userId": 457275575,
+        "name": "WATER",
+        "characterMstId": 48,
+        "level": 225,
+        "totalPower": 379566,
+        "maxHp": 101283
+      },
+      {
+        "userId": 858320058,
+        "name": "Kuristwo",
+        "characterMstId": 48,
+        "level": 215,
+        "totalPower": 349893,
+        "maxHp": 86577
+      },
+      {
+        "userId": 927381570,
+        "name": "Jujube",
+        "characterMstId": 48,
+        "level": 212,
+        "totalPower": 328286,
+        "maxHp": 79715
+      },
+      {
+        "userId": 422651267,
+        "name": "Luma",
+        "characterMstId": 48,
+        "level": 216,
+        "totalPower": 316280,
+        "maxHp": 86763
+      },
+      {
+        "userId": 893158546,
+        "name": "Tyene",
+        "characterMstId": 114,
+        "level": 224,
+        "totalPower": 360592,
+        "maxHp": 93583
+      },
+      {
+        "userId": 541612293,
+        "name": "Guren",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 357904,
+        "maxHp": 79859
+      },
+      {
+        "userId": 283928972,
+        "name": "Shiune",
+        "characterMstId": 114,
+        "level": 203,
+        "totalPower": 318880,
+        "maxHp": 78001
+      },
+      {
+        "userId": 190680049,
+        "name": "Prophetchu",
+        "characterMstId": 93,
+        "level": 217,
+        "totalPower": 363964,
+        "maxHp": 90056
+      },
+      {
+        "userId": 669054379,
+        "name": "Sabine",
+        "characterMstId": 93,
+        "level": 205,
+        "totalPower": 337895,
+        "maxHp": 82065
+      },
+      {
+        "userId": 450555046,
+        "name": "Lowen",
+        "characterMstId": 93,
+        "level": 207,
+        "totalPower": 327682,
+        "maxHp": 77837
+      },
+      {
+        "userId": 471475922,
+        "name": "Pinkmii",
+        "characterMstId": 85,
+        "level": 208,
+        "totalPower": 356572,
+        "maxHp": 78526
+      },
+      {
+        "userId": 487985124,
+        "name": "Cato",
+        "characterMstId": 85,
+        "level": 213,
+        "totalPower": 337161,
+        "maxHp": 80378
+      },
+      {
+        "userId": 596302834,
+        "name": "Brevity",
+        "characterMstId": 85,
+        "level": 209,
+        "totalPower": 330663,
+        "maxHp": 80417
+      }
+    ]
+  }
+}
