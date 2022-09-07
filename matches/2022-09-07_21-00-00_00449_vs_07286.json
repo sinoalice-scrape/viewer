@@ -1,0 +1,587 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 405,
+      "battleStartTime": 1662584400,
+      "battleEndTime": 1662585599,
+      "gvgDataId": 3079539,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 1720358,
+      "selfComboCount": 244,
+      "selfSiegeWinCount": 1,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 7286,
+      "enemyGuildName": "Sigma",
+      "enemyTotalGuildPoint": 1848260,
+      "enemyComboCount": 842,
+      "enemySiegeWinCount": 1,
+      "selfRankUserId": 934398383,
+      "selfRankNum": 1,
+      "selfRankUserName": "FrostBiTE",
+      "selfRankGuildPoint": 1359042,
+      "enemyRankUserId": 823399108,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "René",
+      "enemyRankGuildPoint": 559847,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 484
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1359042,
+            "valueB": 559847,
+            "userIdA": 934398383,
+            "userIdB": 823399108,
+            "nameA": "FrostBiTE",
+            "nameB": "René"
+          },
+          {
+            "rank": 2,
+            "valueA": 855089,
+            "valueB": 328024,
+            "userIdA": 718599324,
+            "userIdB": 977880548,
+            "nameA": "RockとDevil",
+            "nameB": "qwerty"
+          },
+          {
+            "rank": 3,
+            "valueA": 3582,
+            "valueB": 228163,
+            "userIdA": 167791490,
+            "userIdB": 757982852,
+            "nameA": "Reisz",
+            "nameB": "igataro"
+          },
+          {
+            "rank": 4,
+            "valueA": 1291,
+            "valueB": 153533,
+            "userIdA": 991509328,
+            "userIdB": 630837273,
+            "nameA": "Drystar",
+            "nameB": "Hikigane"
+          },
+          {
+            "rank": 5,
+            "valueA": 153,
+            "valueB": 64737,
+            "userIdA": 616104189,
+            "userIdB": 699852823,
+            "nameA": "Saphira",
+            "nameB": "Maia"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 15200810,
+            "valueB": 8431434,
+            "userIdA": 167791490,
+            "userIdB": 532560875,
+            "nameA": "Reisz",
+            "nameB": "realcito"
+          },
+          {
+            "rank": 2,
+            "valueA": 14179253,
+            "valueB": 5440357,
+            "userIdA": 515568020,
+            "userIdB": 674561045,
+            "nameA": "Enigma",
+            "nameB": "riki"
+          },
+          {
+            "rank": 3,
+            "valueA": 238859,
+            "valueB": 3417768,
+            "userIdA": 934398383,
+            "userIdB": 384388264,
+            "nameA": "FrostBiTE",
+            "nameB": "Jinnie"
+          },
+          {
+            "rank": 4,
+            "valueA": 100777,
+            "valueB": 2040952,
+            "userIdA": 718599324,
+            "userIdB": 990919029,
+            "nameA": "RockとDevil",
+            "nameB": "M❤️chi."
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 1700011,
+            "userIdA": 0,
+            "userIdB": 486079731,
+            "nameA": "",
+            "nameB": "Miawmura"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1890251,
+            "valueB": 305131,
+            "userIdA": 991509328,
+            "userIdB": 107855867,
+            "nameA": "Drystar",
+            "nameB": "LadyEliza"
+          },
+          {
+            "rank": 2,
+            "valueA": 1139474,
+            "valueB": 68302,
+            "userIdA": 616104189,
+            "userIdB": 532560875,
+            "nameA": "Saphira",
+            "nameB": "realcito"
+          },
+          {
+            "rank": 3,
+            "valueA": 82694,
+            "valueB": 54889,
+            "userIdA": 167791490,
+            "userIdB": 674561045,
+            "nameA": "Reisz",
+            "nameB": "riki"
+          },
+          {
+            "rank": 4,
+            "valueA": 62043,
+            "valueB": 44690,
+            "userIdA": 515568020,
+            "userIdB": 610519380,
+            "nameA": "Enigma",
+            "nameB": "CatTree"
+          },
+          {
+            "rank": 5,
+            "valueA": 56154,
+            "valueB": 43580,
+            "userIdA": 934398383,
+            "userIdB": 919044129,
+            "nameA": "FrostBiTE",
+            "nameB": "Diego"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1564844,
+            "valueB": 251378,
+            "userIdA": 991509328,
+            "userIdB": 107855867,
+            "nameA": "Drystar",
+            "nameB": "LadyEliza"
+          },
+          {
+            "rank": 2,
+            "valueA": 678747,
+            "valueB": 63714,
+            "userIdA": 616104189,
+            "userIdB": 532560875,
+            "nameA": "Saphira",
+            "nameB": "realcito"
+          },
+          {
+            "rank": 3,
+            "valueA": 341561,
+            "valueB": 37858,
+            "userIdA": 515568020,
+            "userIdB": 919044129,
+            "nameA": "Enigma",
+            "nameB": "Diego"
+          },
+          {
+            "rank": 4,
+            "valueA": 197881,
+            "valueB": 27086,
+            "userIdA": 167791490,
+            "userIdB": 977880548,
+            "nameA": "Reisz",
+            "nameB": "qwerty"
+          },
+          {
+            "rank": 5,
+            "valueA": 111469,
+            "valueB": 25835,
+            "userIdA": 718599324,
+            "userIdB": 674561045,
+            "nameA": "RockとDevil",
+            "nameB": "riki"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 128646,
+            "valueB": 1275585,
+            "userIdA": 934398383,
+            "userIdB": 107855867,
+            "nameA": "FrostBiTE",
+            "nameB": "LadyEliza"
+          },
+          {
+            "rank": 2,
+            "valueA": 128028,
+            "valueB": 751058,
+            "userIdA": 718599324,
+            "userIdB": 961219968,
+            "nameA": "RockとDevil",
+            "nameB": "NoxChaos"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 261331,
+            "userIdA": 0,
+            "userIdB": 486079731,
+            "nameA": "",
+            "nameB": "Miawmura"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 89773,
+            "userIdA": 0,
+            "userIdB": 919044129,
+            "nameA": "",
+            "nameB": "Diego"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 71439,
+            "userIdA": 0,
+            "userIdB": 610519380,
+            "nameA": "",
+            "nameB": "CatTree"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 151728,
+            "valueB": 1483812,
+            "userIdA": 934398383,
+            "userIdB": 961219968,
+            "nameA": "FrostBiTE",
+            "nameB": "NoxChaos"
+          },
+          {
+            "rank": 2,
+            "valueA": 106806,
+            "valueB": 964076,
+            "userIdA": 718599324,
+            "userIdB": 107855867,
+            "nameA": "RockとDevil",
+            "nameB": "LadyEliza"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 252997,
+            "userIdA": 0,
+            "userIdB": 486079731,
+            "nameA": "",
+            "nameB": "Miawmura"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 98874,
+            "userIdA": 0,
+            "userIdB": 919044129,
+            "nameA": "",
+            "nameB": "Diego"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 78340,
+            "userIdA": 0,
+            "userIdB": 823399108,
+            "nameA": "",
+            "nameB": "René"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 153,
+            "valueB": 202,
+            "userIdA": 718599324,
+            "userIdB": 757982852,
+            "nameA": "RockとDevil",
+            "nameB": "igataro"
+          },
+          {
+            "rank": 2,
+            "valueA": 86,
+            "valueB": 167,
+            "userIdA": 934398383,
+            "userIdB": 630837273,
+            "nameA": "FrostBiTE",
+            "nameB": "Hikigane"
+          },
+          {
+            "rank": 3,
+            "valueA": 3,
+            "valueB": 144,
+            "userIdA": 167791490,
+            "userIdB": 977880548,
+            "nameA": "Reisz",
+            "nameB": "qwerty"
+          },
+          {
+            "rank": 4,
+            "valueA": 1,
+            "valueB": 141,
+            "userIdA": 616104189,
+            "userIdB": 823399108,
+            "nameA": "Saphira",
+            "nameB": "René"
+          },
+          {
+            "rank": 5,
+            "valueA": 1,
+            "valueB": 117,
+            "userIdA": 991509328,
+            "userIdB": 699852823,
+            "nameA": "Drystar",
+            "nameB": "Maia"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3079539,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 34,
+          "guildBCount": 74
+        },
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 19,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 405,
+    "gvgDataId": 3079539,
+    "guildDataIdA": 449,
+    "guildDataIdB": 7286,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Sigma",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 2,
+    "guildMemberA": [
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 227,
+        "totalPower": 380914,
+        "maxHp": 94733
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 207,
+        "totalPower": 332079,
+        "maxHp": 82837
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 325326,
+        "maxHp": 73559
+      },
+      {
+        "userId": 616104189,
+        "name": "Saphira",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 272034,
+        "maxHp": 62468
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 318522,
+        "maxHp": 70130
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 197,
+        "totalPower": 258737,
+        "maxHp": 58868
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 823399108,
+        "name": "René",
+        "characterMstId": 103,
+        "level": 172,
+        "totalPower": 219052,
+        "maxHp": 50126
+      },
+      {
+        "userId": 977880548,
+        "name": "qwerty",
+        "characterMstId": 103,
+        "level": 155,
+        "totalPower": 189549,
+        "maxHp": 44501
+      },
+      {
+        "userId": 699852823,
+        "name": "Maia",
+        "characterMstId": 333,
+        "level": 130,
+        "totalPower": 121025,
+        "maxHp": 30301
+      },
+      {
+        "userId": 630837273,
+        "name": "Hikigane",
+        "characterMstId": 490,
+        "level": 130,
+        "totalPower": 188656,
+        "maxHp": 36151
+      },
+      {
+        "userId": 757982852,
+        "name": "igataro",
+        "characterMstId": 139,
+        "level": 182,
+        "totalPower": 197941,
+        "maxHp": 46928
+      },
+      {
+        "userId": 107855867,
+        "name": "LadyEliza",
+        "characterMstId": 167,
+        "level": 202,
+        "totalPower": 257705,
+        "maxHp": 76722
+      },
+      {
+        "userId": 961219968,
+        "name": "NoxChaos",
+        "characterMstId": 167,
+        "level": 129,
+        "totalPower": 177056,
+        "maxHp": 33160
+      },
+      {
+        "userId": 919044129,
+        "name": "Diego",
+        "characterMstId": 32,
+        "level": 119,
+        "totalPower": 136681,
+        "maxHp": 26898
+      },
+      {
+        "userId": 532560875,
+        "name": "realcito",
+        "characterMstId": 85,
+        "level": 182,
+        "totalPower": 221802,
+        "maxHp": 53128
+      },
+      {
+        "userId": 486079731,
+        "name": "Miawmura",
+        "characterMstId": 22,
+        "level": 155,
+        "totalPower": 176437,
+        "maxHp": 40451
+      },
+      {
+        "userId": 674561045,
+        "name": "riki",
+        "characterMstId": 251,
+        "level": 129,
+        "totalPower": 165975,
+        "maxHp": 34610
+      },
+      {
+        "userId": 610519380,
+        "name": "CatTree",
+        "characterMstId": 22,
+        "level": 144,
+        "totalPower": 158317,
+        "maxHp": 36305
+      },
+      {
+        "userId": 990919029,
+        "name": "M❤️chi.",
+        "characterMstId": 85,
+        "level": 125,
+        "totalPower": 140538,
+        "maxHp": 25549
+      },
+      {
+        "userId": 384388264,
+        "name": "Jinnie",
+        "characterMstId": 85,
+        "level": 111,
+        "totalPower": 118846,
+        "maxHp": 23329
+      }
+    ]
+  }
+}
