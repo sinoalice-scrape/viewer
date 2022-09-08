@@ -1,0 +1,595 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 505,
+      "battleStartTime": 1662670800,
+      "battleEndTime": 1662671999,
+      "gvgDataId": 3081231,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 1314063,
+      "selfComboCount": 325,
+      "selfSiegeWinCount": 22,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 25547,
+      "enemyGuildName": "Nekogami",
+      "enemyTotalGuildPoint": 8052,
+      "enemyComboCount": 683,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 718599324,
+      "selfRankNum": 1,
+      "selfRankUserName": "RockとDevil",
+      "selfRankGuildPoint": 578736,
+      "enemyRankUserId": 959225629,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Jorsh",
+      "enemyRankGuildPoint": 16880,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 392
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 578736,
+            "valueB": 16880,
+            "userIdA": 718599324,
+            "userIdB": 959225629,
+            "nameA": "RockとDevil",
+            "nameB": "Jorsh"
+          },
+          {
+            "rank": 2,
+            "valueA": 498563,
+            "valueB": 13289,
+            "userIdA": 934398383,
+            "userIdB": 483821233,
+            "nameA": "FrostBiTE",
+            "nameB": "Takosusuta"
+          },
+          {
+            "rank": 3,
+            "valueA": 65344,
+            "valueB": 9523,
+            "userIdA": 991509328,
+            "userIdB": 439377107,
+            "nameA": "Drystar",
+            "nameB": "mbyjatrvlr"
+          },
+          {
+            "rank": 4,
+            "valueA": 58187,
+            "valueB": 9521,
+            "userIdA": 167791490,
+            "userIdB": 385613906,
+            "nameA": "Reisz",
+            "nameB": "FlareUltra"
+          },
+          {
+            "rank": 5,
+            "valueA": 33126,
+            "valueB": 8477,
+            "userIdA": 515568020,
+            "userIdB": 699150420,
+            "nameA": "Enigma",
+            "nameB": "Giacomo"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 6674219,
+            "valueB": 357199,
+            "userIdA": 167791490,
+            "userIdB": 158178790,
+            "nameA": "Reisz",
+            "nameB": "Xeles"
+          },
+          {
+            "rank": 2,
+            "valueA": 4882603,
+            "valueB": 310888,
+            "userIdA": 515568020,
+            "userIdB": 699150420,
+            "nameA": "Enigma",
+            "nameB": "Giacomo"
+          },
+          {
+            "rank": 3,
+            "valueA": 64685,
+            "valueB": 301351,
+            "userIdA": 718599324,
+            "userIdB": 884273347,
+            "nameA": "RockとDevil",
+            "nameB": "Fen"
+          },
+          {
+            "rank": 4,
+            "valueA": 48042,
+            "valueB": 256590,
+            "userIdA": 934398383,
+            "userIdB": 253987701,
+            "nameA": "FrostBiTE",
+            "nameB": "zzarf"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 215275,
+            "userIdA": 0,
+            "userIdB": 707677144,
+            "nameA": "",
+            "nameB": "Jaasielx2"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 441141,
+            "valueB": 14061,
+            "userIdA": 991509328,
+            "userIdB": 158178790,
+            "nameA": "Drystar",
+            "nameB": "Xeles"
+          },
+          {
+            "rank": 2,
+            "valueA": 350778,
+            "valueB": 6310,
+            "userIdA": 616104189,
+            "userIdB": 884273347,
+            "nameA": "Saphira",
+            "nameB": "Fen"
+          },
+          {
+            "rank": 3,
+            "valueA": 23692,
+            "valueB": 4852,
+            "userIdA": 167791490,
+            "userIdB": 253987701,
+            "nameA": "Reisz",
+            "nameB": "zzarf"
+          },
+          {
+            "rank": 4,
+            "valueA": 18491,
+            "valueB": 3347,
+            "userIdA": 515568020,
+            "userIdB": 385613906,
+            "nameA": "Enigma",
+            "nameB": "FlareUltra"
+          },
+          {
+            "rank": 5,
+            "valueA": 17157,
+            "valueB": 2183,
+            "userIdA": 934398383,
+            "userIdB": 772867358,
+            "nameA": "FrostBiTE",
+            "nameB": "Zeykiz"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 427086,
+            "valueB": 12223,
+            "userIdA": 991509328,
+            "userIdB": 158178790,
+            "nameA": "Drystar",
+            "nameB": "Xeles"
+          },
+          {
+            "rank": 2,
+            "valueA": 169366,
+            "valueB": 4596,
+            "userIdA": 616104189,
+            "userIdB": 697585206,
+            "nameA": "Saphira",
+            "nameB": "JSKA"
+          },
+          {
+            "rank": 3,
+            "valueA": 81880,
+            "valueB": 1873,
+            "userIdA": 515568020,
+            "userIdB": 772867358,
+            "nameA": "Enigma",
+            "nameB": "Zeykiz"
+          },
+          {
+            "rank": 4,
+            "valueA": 62576,
+            "valueB": 1827,
+            "userIdA": 167791490,
+            "userIdB": 465572688,
+            "nameA": "Reisz",
+            "nameB": "Dex"
+          },
+          {
+            "rank": 5,
+            "valueA": 24928,
+            "valueB": 1639,
+            "userIdA": 718599324,
+            "userIdB": 385613906,
+            "nameA": "RockとDevil",
+            "nameB": "FlareUltra"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 76476,
+            "valueB": 7071,
+            "userIdA": 718599324,
+            "userIdB": 158178790,
+            "nameA": "RockとDevil",
+            "nameB": "Xeles"
+          },
+          {
+            "rank": 2,
+            "valueA": 46755,
+            "valueB": 6064,
+            "userIdA": 934398383,
+            "userIdB": 697585206,
+            "nameA": "FrostBiTE",
+            "nameB": "JSKA"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 4672,
+            "userIdA": 0,
+            "userIdB": 884273347,
+            "nameA": "",
+            "nameB": "Fen"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 2179,
+            "userIdA": 0,
+            "userIdB": 772867358,
+            "nameA": "",
+            "nameB": "Zeykiz"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 1978,
+            "userIdA": 0,
+            "userIdB": 385613906,
+            "nameA": "",
+            "nameB": "FlareUltra"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 82229,
+            "valueB": 3961,
+            "userIdA": 718599324,
+            "userIdB": 884273347,
+            "nameA": "RockとDevil",
+            "nameB": "Fen"
+          },
+          {
+            "rank": 2,
+            "valueA": 50097,
+            "valueB": 1299,
+            "userIdA": 934398383,
+            "userIdB": 385613906,
+            "nameA": "FrostBiTE",
+            "nameB": "FlareUltra"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 1099,
+            "userIdA": 0,
+            "userIdB": 158178790,
+            "nameA": "",
+            "nameB": "Xeles"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 0,
+            "userIdA": 0,
+            "userIdB": 0,
+            "nameA": "",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 87,
+            "valueB": 75,
+            "userIdA": 718599324,
+            "userIdB": 439377107,
+            "nameA": "RockとDevil",
+            "nameB": "mbyjatrvlr"
+          },
+          {
+            "rank": 2,
+            "valueA": 82,
+            "valueB": 53,
+            "userIdA": 934398383,
+            "userIdB": 543090228,
+            "nameA": "FrostBiTE",
+            "nameB": "Kuro"
+          },
+          {
+            "rank": 3,
+            "valueA": 45,
+            "valueB": 53,
+            "userIdA": 167791490,
+            "userIdB": 572495654,
+            "nameA": "Reisz",
+            "nameB": "Jona"
+          },
+          {
+            "rank": 4,
+            "valueA": 42,
+            "valueB": 52,
+            "userIdA": 991509328,
+            "userIdB": 959225629,
+            "nameA": "Drystar",
+            "nameB": "Jorsh"
+          },
+          {
+            "rank": 5,
+            "valueA": 40,
+            "valueB": 51,
+            "userIdA": 616104189,
+            "userIdB": 772867358,
+            "nameA": "Saphira",
+            "nameB": "Zeykiz"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3081231,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 16,
+          "guildBCount": 39
+        },
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 16,
+          "guildBCount": 49
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 505,
+    "gvgDataId": 3081231,
+    "guildDataIdA": 449,
+    "guildDataIdB": 25547,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Nekogami",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 78,
+    "guildDataRankA": 4,
+    "guildDataRankB": 2,
+    "guildMemberA": [
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 227,
+        "totalPower": 380914,
+        "maxHp": 94733
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 207,
+        "totalPower": 338754,
+        "maxHp": 84487
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 325326,
+        "maxHp": 73559
+      },
+      {
+        "userId": 616104189,
+        "name": "Saphira",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 272034,
+        "maxHp": 62468
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 318522,
+        "maxHp": 70130
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 197,
+        "totalPower": 258737,
+        "maxHp": 58868
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 884273347,
+        "name": "Fen",
+        "characterMstId": 60,
+        "level": 117,
+        "totalPower": 123804,
+        "maxHp": 21605
+      },
+      {
+        "userId": 439377107,
+        "name": "mbyjatrvlr",
+        "characterMstId": 5,
+        "level": 36,
+        "totalPower": 20519,
+        "maxHp": 4942
+      },
+      {
+        "userId": 894831620,
+        "name": "Shagakusha",
+        "characterMstId": 17,
+        "level": 11,
+        "totalPower": 18452,
+        "maxHp": 1315
+      },
+      {
+        "userId": 158178790,
+        "name": "Xeles",
+        "characterMstId": 193,
+        "level": 169,
+        "totalPower": 189849,
+        "maxHp": 42019
+      },
+      {
+        "userId": 253987701,
+        "name": "zzarf",
+        "characterMstId": 193,
+        "level": 115,
+        "totalPower": 135712,
+        "maxHp": 21229
+      },
+      {
+        "userId": 697585206,
+        "name": "JSKA",
+        "characterMstId": 143,
+        "level": 102,
+        "totalPower": 119077,
+        "maxHp": 17879
+      },
+      {
+        "userId": 699150420,
+        "name": "Giacomo",
+        "characterMstId": 539,
+        "level": 102,
+        "totalPower": 80930,
+        "maxHp": 16279
+      },
+      {
+        "userId": 385613906,
+        "name": "FlareUltra",
+        "characterMstId": 1,
+        "level": 77,
+        "totalPower": 74257,
+        "maxHp": 12435
+      },
+      {
+        "userId": 465572688,
+        "name": "Dex",
+        "characterMstId": 38,
+        "level": 80,
+        "totalPower": 62968,
+        "maxHp": 12142
+      },
+      {
+        "userId": 772867358,
+        "name": "Zeykiz",
+        "characterMstId": 2,
+        "level": 38,
+        "totalPower": 42927,
+        "maxHp": 5591
+      },
+      {
+        "userId": 707677144,
+        "name": "Jaasielx2",
+        "characterMstId": 38,
+        "level": 49,
+        "totalPower": 33533,
+        "maxHp": 7011
+      },
+      {
+        "userId": 543090228,
+        "name": "Kuro",
+        "characterMstId": 38,
+        "level": 40,
+        "totalPower": 26865,
+        "maxHp": 5614
+      },
+      {
+        "userId": 483821233,
+        "name": "Takosusuta",
+        "characterMstId": 159,
+        "level": 26,
+        "totalPower": 23774,
+        "maxHp": 3719
+      },
+      {
+        "userId": 572495654,
+        "name": "Jona",
+        "characterMstId": 36,
+        "level": 20,
+        "totalPower": 22876,
+        "maxHp": 2620
+      },
+      {
+        "userId": 959225629,
+        "name": "Jorsh",
+        "characterMstId": 1,
+        "level": 28,
+        "totalPower": 16257,
+        "maxHp": 4051
+      }
+    ]
+  }
+}
