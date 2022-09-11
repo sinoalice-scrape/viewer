@@ -1,0 +1,595 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 105,
+      "battleStartTime": 1662930000,
+      "battleEndTime": 1662931199,
+      "gvgDataId": 3086385,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 824800,
+      "selfComboCount": 140,
+      "selfSiegeWinCount": 1,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 7712,
+      "enemyGuildName": "RetirementHome",
+      "enemyTotalGuildPoint": 2131775,
+      "enemyComboCount": 894,
+      "enemySiegeWinCount": 10,
+      "selfRankUserId": 934398383,
+      "selfRankNum": 1,
+      "selfRankUserName": "FrostBiTE",
+      "selfRankGuildPoint": 551153,
+      "enemyRankUserId": 237412879,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "d.thrower",
+      "enemyRankGuildPoint": 567637,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 551153,
+            "valueB": 567637,
+            "userIdA": 934398383,
+            "userIdB": 237412879,
+            "nameA": "FrostBiTE",
+            "nameB": "d.thrower"
+          },
+          {
+            "rank": 2,
+            "valueA": 520523,
+            "valueB": 505448,
+            "userIdA": 718599324,
+            "userIdB": 664002344,
+            "nameA": "RockとDevil",
+            "nameB": "PayWall"
+          },
+          {
+            "rank": 3,
+            "valueA": 3684,
+            "valueB": 334604,
+            "userIdA": 167791490,
+            "userIdB": 563866944,
+            "nameA": "Reisz",
+            "nameB": "Freya"
+          },
+          {
+            "rank": 4,
+            "valueA": 2491,
+            "valueB": 323284,
+            "userIdA": 991509328,
+            "userIdB": 116126800,
+            "nameA": "Drystar",
+            "nameB": "jashinist"
+          },
+          {
+            "rank": 5,
+            "valueA": 1687,
+            "valueB": 87156,
+            "userIdA": 515568020,
+            "userIdB": 435540086,
+            "nameA": "Enigma",
+            "nameB": "Hasuki"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 13886314,
+            "valueB": 12337679,
+            "userIdA": 167791490,
+            "userIdB": 252139182,
+            "nameA": "Reisz",
+            "nameB": "Yin"
+          },
+          {
+            "rank": 2,
+            "valueA": 9580234,
+            "valueB": 5651047,
+            "userIdA": 515568020,
+            "userIdB": 430305676,
+            "nameA": "Enigma",
+            "nameB": "Penguin"
+          },
+          {
+            "rank": 3,
+            "valueA": 1164814,
+            "valueB": 2422531,
+            "userIdA": 934398383,
+            "userIdB": 578632919,
+            "nameA": "FrostBiTE",
+            "nameB": "kat"
+          },
+          {
+            "rank": 4,
+            "valueA": 700257,
+            "valueB": 840698,
+            "userIdA": 616104189,
+            "userIdB": 122399458,
+            "nameA": "Saphira",
+            "nameB": "Galadyer"
+          },
+          {
+            "rank": 5,
+            "valueA": 662031,
+            "valueB": 111392,
+            "userIdA": 991509328,
+            "userIdB": 116126800,
+            "nameA": "Drystar",
+            "nameB": "jashinist"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2106039,
+            "valueB": 431131,
+            "userIdA": 991509328,
+            "userIdB": 653637844,
+            "nameA": "Drystar",
+            "nameB": "Avis"
+          },
+          {
+            "rank": 2,
+            "valueA": 1430141,
+            "valueB": 178337,
+            "userIdA": 616104189,
+            "userIdB": 198842893,
+            "nameA": "Saphira",
+            "nameB": "Zilai"
+          },
+          {
+            "rank": 3,
+            "valueA": 90186,
+            "valueB": 91596,
+            "userIdA": 167791490,
+            "userIdB": 997240045,
+            "nameA": "Reisz",
+            "nameB": "九泉"
+          },
+          {
+            "rank": 4,
+            "valueA": 71254,
+            "valueB": 62054,
+            "userIdA": 515568020,
+            "userIdB": 252139182,
+            "nameA": "Enigma",
+            "nameB": "Yin"
+          },
+          {
+            "rank": 5,
+            "valueA": 41154,
+            "valueB": 24369,
+            "userIdA": 934398383,
+            "userIdB": 435540086,
+            "nameA": "FrostBiTE",
+            "nameB": "Hasuki"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1548089,
+            "valueB": 296697,
+            "userIdA": 991509328,
+            "userIdB": 653637844,
+            "nameA": "Drystar",
+            "nameB": "Avis"
+          },
+          {
+            "rank": 2,
+            "valueA": 513940,
+            "valueB": 199795,
+            "userIdA": 616104189,
+            "userIdB": 198842893,
+            "nameA": "Saphira",
+            "nameB": "Zilai"
+          },
+          {
+            "rank": 3,
+            "valueA": 253315,
+            "valueB": 104667,
+            "userIdA": 515568020,
+            "userIdB": 997240045,
+            "nameA": "Enigma",
+            "nameB": "九泉"
+          },
+          {
+            "rank": 4,
+            "valueA": 194582,
+            "valueB": 65188,
+            "userIdA": 167791490,
+            "userIdB": 252139182,
+            "nameA": "Reisz",
+            "nameB": "Yin"
+          },
+          {
+            "rank": 5,
+            "valueA": 71469,
+            "valueB": 38461,
+            "userIdA": 718599324,
+            "userIdB": 435540086,
+            "nameA": "RockとDevil",
+            "nameB": "Hasuki"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 120289,
+            "valueB": 1184262,
+            "userIdA": 718599324,
+            "userIdB": 616311637,
+            "nameA": "RockとDevil",
+            "nameB": "0cb"
+          },
+          {
+            "rank": 2,
+            "valueA": 90782,
+            "valueB": 870072,
+            "userIdA": 934398383,
+            "userIdB": 642010919,
+            "nameA": "FrostBiTE",
+            "nameB": "Erthar"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 273714,
+            "userIdA": 0,
+            "userIdB": 373553457,
+            "nameA": "",
+            "nameB": "RikuXigbar"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 165253,
+            "userIdA": 0,
+            "userIdB": 122399458,
+            "nameA": "",
+            "nameB": "Galadyer"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 148272,
+            "userIdA": 0,
+            "userIdB": 997240045,
+            "nameA": "",
+            "nameB": "九泉"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 130410,
+            "valueB": 1383324,
+            "userIdA": 718599324,
+            "userIdB": 616311637,
+            "nameA": "RockとDevil",
+            "nameB": "0cb"
+          },
+          {
+            "rank": 2,
+            "valueA": 77706,
+            "valueB": 1118655,
+            "userIdA": 934398383,
+            "userIdB": 642010919,
+            "nameA": "FrostBiTE",
+            "nameB": "Erthar"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 277847,
+            "userIdA": 0,
+            "userIdB": 122399458,
+            "nameA": "",
+            "nameB": "Galadyer"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 240675,
+            "userIdA": 0,
+            "userIdB": 373553457,
+            "nameA": "",
+            "nameB": "RikuXigbar"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 213313,
+            "userIdA": 0,
+            "userIdB": 997240045,
+            "nameA": "",
+            "nameB": "九泉"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 68,
+            "valueB": 148,
+            "userIdA": 718599324,
+            "userIdB": 116126800,
+            "nameA": "RockとDevil",
+            "nameB": "jashinist"
+          },
+          {
+            "rank": 2,
+            "valueA": 60,
+            "valueB": 129,
+            "userIdA": 934398383,
+            "userIdB": 237412879,
+            "nameA": "FrostBiTE",
+            "nameB": "d.thrower"
+          },
+          {
+            "rank": 3,
+            "valueA": 4,
+            "valueB": 129,
+            "userIdA": 167791490,
+            "userIdB": 563866944,
+            "nameA": "Reisz",
+            "nameB": "Freya"
+          },
+          {
+            "rank": 4,
+            "valueA": 3,
+            "valueB": 114,
+            "userIdA": 515568020,
+            "userIdB": 664002344,
+            "nameA": "Enigma",
+            "nameB": "PayWall"
+          },
+          {
+            "rank": 5,
+            "valueA": 3,
+            "valueB": 106,
+            "userIdA": 616104189,
+            "userIdB": 435540086,
+            "nameA": "Saphira",
+            "nameB": "Hasuki"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3086385,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 21,
+          "guildBCount": 72
+        },
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 34,
+          "guildBCount": 43
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 105,
+    "gvgDataId": 3086385,
+    "guildDataIdA": 449,
+    "guildDataIdB": 7712,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "RetirementHome",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 227,
+        "totalPower": 380914,
+        "maxHp": 94733
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 207,
+        "totalPower": 343504,
+        "maxHp": 84787
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 325326,
+        "maxHp": 73559
+      },
+      {
+        "userId": 616104189,
+        "name": "Saphira",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 272034,
+        "maxHp": 62468
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 318615,
+        "maxHp": 70130
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 197,
+        "totalPower": 258737,
+        "maxHp": 58868
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 237412879,
+        "name": "d.thrower",
+        "characterMstId": 103,
+        "level": 193,
+        "totalPower": 267163,
+        "maxHp": 59573
+      },
+      {
+        "userId": 563866944,
+        "name": "Freya",
+        "characterMstId": 103,
+        "level": 189,
+        "totalPower": 239167,
+        "maxHp": 59034
+      },
+      {
+        "userId": 435540086,
+        "name": "Hasuki",
+        "characterMstId": 103,
+        "level": 198,
+        "totalPower": 239128,
+        "maxHp": 61730
+      },
+      {
+        "userId": 664002344,
+        "name": "PayWall",
+        "characterMstId": 48,
+        "level": 201,
+        "totalPower": 291312,
+        "maxHp": 67595
+      },
+      {
+        "userId": 116126800,
+        "name": "jashinist",
+        "characterMstId": 139,
+        "level": 202,
+        "totalPower": 240951,
+        "maxHp": 54072
+      },
+      {
+        "userId": 653637844,
+        "name": "Avis",
+        "characterMstId": 114,
+        "level": 199,
+        "totalPower": 273322,
+        "maxHp": 65542
+      },
+      {
+        "userId": 997240045,
+        "name": "九泉",
+        "characterMstId": 209,
+        "level": 196,
+        "totalPower": 251263,
+        "maxHp": 58456
+      },
+      {
+        "userId": 198842893,
+        "name": "Zilai",
+        "characterMstId": 114,
+        "level": 199,
+        "totalPower": 206202,
+        "maxHp": 51942
+      },
+      {
+        "userId": 616311637,
+        "name": "0cb",
+        "characterMstId": 167,
+        "level": 193,
+        "totalPower": 273670,
+        "maxHp": 60573
+      },
+      {
+        "userId": 642010919,
+        "name": "Erthar",
+        "characterMstId": 93,
+        "level": 194,
+        "totalPower": 232511,
+        "maxHp": 55634
+      },
+      {
+        "userId": 373553457,
+        "name": "RikuXigbar",
+        "characterMstId": 93,
+        "level": 190,
+        "totalPower": 227406,
+        "maxHp": 54693
+      },
+      {
+        "userId": 252139182,
+        "name": "Yin",
+        "characterMstId": 251,
+        "level": 209,
+        "totalPower": 332839,
+        "maxHp": 76617
+      },
+      {
+        "userId": 430305676,
+        "name": "Penguin",
+        "characterMstId": 85,
+        "level": 205,
+        "totalPower": 247928,
+        "maxHp": 65365
+      },
+      {
+        "userId": 122399458,
+        "name": "Galadyer",
+        "characterMstId": 291,
+        "level": 201,
+        "totalPower": 247152,
+        "maxHp": 75695
+      },
+      {
+        "userId": 578632919,
+        "name": "kat",
+        "characterMstId": 85,
+        "level": 151,
+        "totalPower": 197286,
+        "maxHp": 41282
+      }
+    ]
+  }
+}
