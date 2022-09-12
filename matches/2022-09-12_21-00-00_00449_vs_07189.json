@@ -1,0 +1,595 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 205,
+      "battleStartTime": 1663016400,
+      "battleEndTime": 1663017599,
+      "gvgDataId": 3087996,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 15227,
+      "selfComboCount": 74,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 7189,
+      "enemyGuildName": "Punny",
+      "enemyTotalGuildPoint": 3587698,
+      "enemyComboCount": 1386,
+      "enemySiegeWinCount": 33,
+      "selfRankUserId": 934398383,
+      "selfRankNum": 1,
+      "selfRankUserName": "FrostBiTE",
+      "selfRankGuildPoint": 144997,
+      "enemyRankUserId": 457275575,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "WATER",
+      "enemyRankGuildPoint": 1152928,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 752
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 144997,
+            "valueB": 1152928,
+            "userIdA": 934398383,
+            "userIdB": 457275575,
+            "nameA": "FrostBiTE",
+            "nameB": "WATER"
+          },
+          {
+            "rank": 2,
+            "valueA": 92681,
+            "valueB": 737334,
+            "userIdA": 718599324,
+            "userIdB": 404774130,
+            "nameA": "RockとDevil",
+            "nameB": "Nebiros"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 530749,
+            "userIdA": 167791490,
+            "userIdB": 858320058,
+            "nameA": "Reisz",
+            "nameB": "Kuristwo"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 469961,
+            "userIdA": 515568020,
+            "userIdB": 927381570,
+            "nameA": "Enigma",
+            "nameB": "Jujube"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 378837,
+            "userIdA": 616104189,
+            "userIdB": 422651267,
+            "nameA": "Saphira",
+            "nameB": "Luma"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 6076350,
+            "valueB": 8620375,
+            "userIdA": 515568020,
+            "userIdB": 471475922,
+            "nameA": "Enigma",
+            "nameB": "Pinkmii"
+          },
+          {
+            "rank": 2,
+            "valueA": 5534434,
+            "valueB": 6446921,
+            "userIdA": 167791490,
+            "userIdB": 596302834,
+            "nameA": "Reisz",
+            "nameB": "Brevity"
+          },
+          {
+            "rank": 3,
+            "valueA": 2690336,
+            "valueB": 5529711,
+            "userIdA": 934398383,
+            "userIdB": 487985124,
+            "nameA": "FrostBiTE",
+            "nameB": "YuleTree"
+          },
+          {
+            "rank": 4,
+            "valueA": 2441476,
+            "valueB": 47594,
+            "userIdA": 718599324,
+            "userIdB": 404774130,
+            "nameA": "RockとDevil",
+            "nameB": "Nebiros"
+          },
+          {
+            "rank": 5,
+            "valueA": 2040426,
+            "valueB": 5264,
+            "userIdA": 991509328,
+            "userIdB": 457275575,
+            "nameA": "Drystar",
+            "nameB": "WATER"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1887580,
+            "valueB": 331265,
+            "userIdA": 991509328,
+            "userIdB": 541612293,
+            "nameA": "Drystar",
+            "nameB": "Guren"
+          },
+          {
+            "rank": 2,
+            "valueA": 1164340,
+            "valueB": 317033,
+            "userIdA": 616104189,
+            "userIdB": 283928972,
+            "nameA": "Saphira",
+            "nameB": "Shiune"
+          },
+          {
+            "rank": 3,
+            "valueA": 55311,
+            "valueB": 300333,
+            "userIdA": 934398383,
+            "userIdB": 893158546,
+            "nameA": "FrostBiTE",
+            "nameB": "Tyene"
+          },
+          {
+            "rank": 4,
+            "valueA": 43603,
+            "valueB": 21620,
+            "userIdA": 515568020,
+            "userIdB": 471475922,
+            "nameA": "Enigma",
+            "nameB": "Pinkmii"
+          },
+          {
+            "rank": 5,
+            "valueA": 31386,
+            "valueB": 21602,
+            "userIdA": 718599324,
+            "userIdB": 596302834,
+            "nameA": "RockとDevil",
+            "nameB": "Brevity"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 825898,
+            "valueB": 307621,
+            "userIdA": 991509328,
+            "userIdB": 893158546,
+            "nameA": "Drystar",
+            "nameB": "Tyene"
+          },
+          {
+            "rank": 2,
+            "valueA": 315121,
+            "valueB": 276317,
+            "userIdA": 616104189,
+            "userIdB": 541612293,
+            "nameA": "Saphira",
+            "nameB": "Guren"
+          },
+          {
+            "rank": 3,
+            "valueA": 109286,
+            "valueB": 158624,
+            "userIdA": 515568020,
+            "userIdB": 283928972,
+            "nameA": "Enigma",
+            "nameB": "Shiune"
+          },
+          {
+            "rank": 4,
+            "valueA": 76053,
+            "valueB": 48328,
+            "userIdA": 167791490,
+            "userIdB": 596302834,
+            "nameA": "Reisz",
+            "nameB": "Brevity"
+          },
+          {
+            "rank": 5,
+            "valueA": 50518,
+            "valueB": 46684,
+            "userIdA": 718599324,
+            "userIdB": 487985124,
+            "nameA": "RockとDevil",
+            "nameB": "YuleTree"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 54855,
+            "valueB": 1506282,
+            "userIdA": 934398383,
+            "userIdB": 190680049,
+            "nameA": "FrostBiTE",
+            "nameB": "Prophetchu"
+          },
+          {
+            "rank": 2,
+            "valueA": 47176,
+            "valueB": 1346407,
+            "userIdA": 718599324,
+            "userIdB": 832885833,
+            "nameA": "RockとDevil",
+            "nameB": "Miyu"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 1090088,
+            "userIdA": 0,
+            "userIdB": 669054379,
+            "nameA": "",
+            "nameB": "Sabine"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 62849,
+            "userIdA": 0,
+            "userIdB": 457275575,
+            "nameA": "",
+            "nameB": "WATER"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 48482,
+            "userIdA": 0,
+            "userIdB": 927381570,
+            "nameA": "",
+            "nameB": "Jujube"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 53973,
+            "valueB": 1193396,
+            "userIdA": 934398383,
+            "userIdB": 669054379,
+            "nameA": "FrostBiTE",
+            "nameB": "Sabine"
+          },
+          {
+            "rank": 2,
+            "valueA": 49653,
+            "valueB": 1082322,
+            "userIdA": 718599324,
+            "userIdB": 190680049,
+            "nameA": "RockとDevil",
+            "nameB": "Prophetchu"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 1048207,
+            "userIdA": 0,
+            "userIdB": 832885833,
+            "nameA": "",
+            "nameB": "Miyu"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 114235,
+            "userIdA": 0,
+            "userIdB": 858320058,
+            "nameA": "",
+            "nameB": "Kuristwo"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 110403,
+            "userIdA": 0,
+            "userIdB": 457275575,
+            "nameA": "",
+            "nameB": "WATER"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 40,
+            "valueB": 307,
+            "userIdA": 718599324,
+            "userIdB": 212261163,
+            "nameA": "RockとDevil",
+            "nameB": "Littlechu"
+          },
+          {
+            "rank": 2,
+            "valueA": 34,
+            "valueB": 298,
+            "userIdA": 934398383,
+            "userIdB": 457275575,
+            "nameA": "FrostBiTE",
+            "nameB": "WATER"
+          },
+          {
+            "rank": 3,
+            "valueA": 0,
+            "valueB": 112,
+            "userIdA": 0,
+            "userIdB": 404774130,
+            "nameA": "",
+            "nameB": "Nebiros"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 99,
+            "userIdA": 0,
+            "userIdB": 927381570,
+            "nameA": "",
+            "nameB": "Jujube"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 94,
+            "userIdA": 0,
+            "userIdB": 422651267,
+            "nameA": "",
+            "nameB": "Luma"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3087996,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 10,
+          "ultimateArtMethodMstId": 10,
+          "guildACount": 14,
+          "guildBCount": 52
+        },
+        {
+          "artMstId": 34,
+          "ultimateArtMethodMstId": 34,
+          "guildACount": 9,
+          "guildBCount": 32
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 205,
+    "gvgDataId": 3087996,
+    "guildDataIdA": 449,
+    "guildDataIdB": 7189,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Punny",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 227,
+        "totalPower": 380914,
+        "maxHp": 94733
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 207,
+        "totalPower": 343504,
+        "maxHp": 84787
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 325326,
+        "maxHp": 73559
+      },
+      {
+        "userId": 616104189,
+        "name": "Saphira",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 272034,
+        "maxHp": 62468
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 318615,
+        "maxHp": 70130
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 197,
+        "totalPower": 258737,
+        "maxHp": 58868
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 404774130,
+        "name": "Nebiros",
+        "characterMstId": 103,
+        "level": 211,
+        "totalPower": 418488,
+        "maxHp": 98709
+      },
+      {
+        "userId": 212261163,
+        "name": "Littlechu",
+        "characterMstId": 25,
+        "level": 199,
+        "totalPower": 201387,
+        "maxHp": 72442
+      },
+      {
+        "userId": 457275575,
+        "name": "WATER",
+        "characterMstId": 48,
+        "level": 227,
+        "totalPower": 390947,
+        "maxHp": 106633
+      },
+      {
+        "userId": 858320058,
+        "name": "Kuristwo",
+        "characterMstId": 48,
+        "level": 215,
+        "totalPower": 349893,
+        "maxHp": 86577
+      },
+      {
+        "userId": 927381570,
+        "name": "Jujube",
+        "characterMstId": 48,
+        "level": 212,
+        "totalPower": 334386,
+        "maxHp": 81215
+      },
+      {
+        "userId": 422651267,
+        "name": "Luma",
+        "characterMstId": 48,
+        "level": 216,
+        "totalPower": 316280,
+        "maxHp": 86763
+      },
+      {
+        "userId": 893158546,
+        "name": "Tyene",
+        "characterMstId": 114,
+        "level": 225,
+        "totalPower": 378616,
+        "maxHp": 99183
+      },
+      {
+        "userId": 541612293,
+        "name": "Guren",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 363106,
+        "maxHp": 82359
+      },
+      {
+        "userId": 283928972,
+        "name": "Shiune",
+        "characterMstId": 114,
+        "level": 203,
+        "totalPower": 318880,
+        "maxHp": 78001
+      },
+      {
+        "userId": 190680049,
+        "name": "Prophetchu",
+        "characterMstId": 93,
+        "level": 218,
+        "totalPower": 379114,
+        "maxHp": 96307
+      },
+      {
+        "userId": 832885833,
+        "name": "Miyu",
+        "characterMstId": 167,
+        "level": 213,
+        "totalPower": 359995,
+        "maxHp": 87928
+      },
+      {
+        "userId": 669054379,
+        "name": "Sabine",
+        "characterMstId": 93,
+        "level": 205,
+        "totalPower": 339493,
+        "maxHp": 83515
+      },
+      {
+        "userId": 471475922,
+        "name": "Pinkmii",
+        "characterMstId": 85,
+        "level": 209,
+        "totalPower": 365710,
+        "maxHp": 80667
+      },
+      {
+        "userId": 487985124,
+        "name": "YuleTree",
+        "characterMstId": 85,
+        "level": 213,
+        "totalPower": 343061,
+        "maxHp": 81228
+      },
+      {
+        "userId": 596302834,
+        "name": "Brevity",
+        "characterMstId": 85,
+        "level": 210,
+        "totalPower": 332263,
+        "maxHp": 80710
+      }
+    ]
+  }
+}
