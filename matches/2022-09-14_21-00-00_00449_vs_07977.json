@@ -1,0 +1,587 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 405,
+      "battleStartTime": 1663189200,
+      "battleEndTime": 1663190399,
+      "gvgDataId": 3091330,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 2536641,
+      "selfComboCount": 284,
+      "selfSiegeWinCount": 6,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 7977,
+      "enemyGuildName": "Akasha",
+      "enemyTotalGuildPoint": 260721,
+      "enemyComboCount": 583,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 934398383,
+      "selfRankNum": 1,
+      "selfRankUserName": "FrostBiTE",
+      "selfRankGuildPoint": 1138914,
+      "enemyRankUserId": 679271658,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Ryu",
+      "enemyRankGuildPoint": 278867,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1138914,
+            "valueB": 278867,
+            "userIdA": 934398383,
+            "userIdB": 679271658,
+            "nameA": "FrostBiTE",
+            "nameB": "Ryu"
+          },
+          {
+            "rank": 2,
+            "valueA": 844139,
+            "valueB": 221887,
+            "userIdA": 718599324,
+            "userIdB": 964254087,
+            "nameA": "RockとDevil",
+            "nameB": "drass"
+          },
+          {
+            "rank": 3,
+            "valueA": 27018,
+            "valueB": 123602,
+            "userIdA": 991509328,
+            "userIdB": 184323777,
+            "nameA": "Drystar",
+            "nameB": "Leeks"
+          },
+          {
+            "rank": 4,
+            "valueA": 21357,
+            "valueB": 70686,
+            "userIdA": 890964279,
+            "userIdB": 647094531,
+            "nameA": "S0J",
+            "nameB": "Chrysanth"
+          },
+          {
+            "rank": 5,
+            "valueA": 20618,
+            "valueB": 33410,
+            "userIdA": 167791490,
+            "userIdB": 890851228,
+            "nameA": "Reisz",
+            "nameB": "LTAnima"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 14079637,
+            "valueB": 11628485,
+            "userIdA": 167791490,
+            "userIdB": 952037900,
+            "nameA": "Reisz",
+            "nameB": "Semiramis"
+          },
+          {
+            "rank": 2,
+            "valueA": 12961292,
+            "valueB": 6150606,
+            "userIdA": 515568020,
+            "userIdB": 881842309,
+            "nameA": "Enigma",
+            "nameB": "Tae"
+          },
+          {
+            "rank": 3,
+            "valueA": 120105,
+            "valueB": 456873,
+            "userIdA": 934398383,
+            "userIdB": 922706206,
+            "nameA": "FrostBiTE",
+            "nameB": "Snowblind"
+          },
+          {
+            "rank": 4,
+            "valueA": 113898,
+            "valueB": 356542,
+            "userIdA": 718599324,
+            "userIdB": 184323777,
+            "nameA": "RockとDevil",
+            "nameB": "Leeks"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 344779,
+            "userIdA": 0,
+            "userIdB": 691265708,
+            "nameA": "",
+            "nameB": "Jakkc"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1442253,
+            "valueB": 1970640,
+            "userIdA": 991509328,
+            "userIdB": 704274621,
+            "nameA": "Drystar",
+            "nameB": "Fabry"
+          },
+          {
+            "rank": 2,
+            "valueA": 1126499,
+            "valueB": 402466,
+            "userIdA": 616104189,
+            "userIdB": 607563099,
+            "nameA": "Saphira",
+            "nameB": "aljoapi"
+          },
+          {
+            "rank": 3,
+            "valueA": 283992,
+            "valueB": 125788,
+            "userIdA": 890964279,
+            "userIdB": 881842309,
+            "nameA": "S0J",
+            "nameB": "Tae"
+          },
+          {
+            "rank": 4,
+            "valueA": 75823,
+            "valueB": 98392,
+            "userIdA": 167791490,
+            "userIdB": 952037900,
+            "nameA": "Reisz",
+            "nameB": "Semiramis"
+          },
+          {
+            "rank": 5,
+            "valueA": 65409,
+            "valueB": 88554,
+            "userIdA": 515568020,
+            "userIdB": 712842283,
+            "nameA": "Enigma",
+            "nameB": "eros"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1191522,
+            "valueB": 908921,
+            "userIdA": 991509328,
+            "userIdB": 704274621,
+            "nameA": "Drystar",
+            "nameB": "Fabry"
+          },
+          {
+            "rank": 2,
+            "valueA": 584852,
+            "valueB": 335633,
+            "userIdA": 890964279,
+            "userIdB": 607563099,
+            "nameA": "S0J",
+            "nameB": "aljoapi"
+          },
+          {
+            "rank": 3,
+            "valueA": 437484,
+            "valueB": 233223,
+            "userIdA": 616104189,
+            "userIdB": 952037900,
+            "nameA": "Saphira",
+            "nameB": "Semiramis"
+          },
+          {
+            "rank": 4,
+            "valueA": 280694,
+            "valueB": 160160,
+            "userIdA": 515568020,
+            "userIdB": 712842283,
+            "nameA": "Enigma",
+            "nameB": "eros"
+          },
+          {
+            "rank": 5,
+            "valueA": 147724,
+            "valueB": 59503,
+            "userIdA": 167791490,
+            "userIdB": 964254087,
+            "nameA": "Reisz",
+            "nameB": "drass"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1961989,
+            "valueB": 825765,
+            "userIdA": 492044794,
+            "userIdB": 704274621,
+            "nameA": "Saltea",
+            "nameB": "Fabry"
+          },
+          {
+            "rank": 2,
+            "valueA": 745696,
+            "valueB": 743083,
+            "userIdA": 890964279,
+            "userIdB": 712842283,
+            "nameA": "S0J",
+            "nameB": "eros"
+          },
+          {
+            "rank": 3,
+            "valueA": 141848,
+            "valueB": 80813,
+            "userIdA": 934398383,
+            "userIdB": 922706206,
+            "nameA": "FrostBiTE",
+            "nameB": "Snowblind"
+          },
+          {
+            "rank": 4,
+            "valueA": 137573,
+            "valueB": 72342,
+            "userIdA": 718599324,
+            "userIdB": 679271658,
+            "nameA": "RockとDevil",
+            "nameB": "Ryu"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 68671,
+            "userIdA": 0,
+            "userIdB": 964254087,
+            "nameA": "",
+            "nameB": "drass"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1709479,
+            "valueB": 957303,
+            "userIdA": 492044794,
+            "userIdB": 712842283,
+            "nameA": "Saltea",
+            "nameB": "eros"
+          },
+          {
+            "rank": 2,
+            "valueA": 572248,
+            "valueB": 908286,
+            "userIdA": 890964279,
+            "userIdB": 704274621,
+            "nameA": "S0J",
+            "nameB": "Fabry"
+          },
+          {
+            "rank": 3,
+            "valueA": 132921,
+            "valueB": 148049,
+            "userIdA": 718599324,
+            "userIdB": 679271658,
+            "nameA": "RockとDevil",
+            "nameB": "Ryu"
+          },
+          {
+            "rank": 4,
+            "valueA": 89709,
+            "valueB": 56774,
+            "userIdA": 934398383,
+            "userIdB": 964254087,
+            "nameA": "FrostBiTE",
+            "nameB": "drass"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 47978,
+            "userIdA": 0,
+            "userIdB": 922706206,
+            "nameA": "",
+            "nameB": "Snowblind"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 99,
+            "valueB": 141,
+            "userIdA": 718599324,
+            "userIdB": 890851228,
+            "nameA": "RockとDevil",
+            "nameB": "LTAnima"
+          },
+          {
+            "rank": 2,
+            "valueA": 98,
+            "valueB": 131,
+            "userIdA": 934398383,
+            "userIdB": 184323777,
+            "nameA": "FrostBiTE",
+            "nameB": "Leeks"
+          },
+          {
+            "rank": 3,
+            "valueA": 20,
+            "valueB": 93,
+            "userIdA": 492044794,
+            "userIdB": 679271658,
+            "nameA": "Saltea",
+            "nameB": "Ryu"
+          },
+          {
+            "rank": 4,
+            "valueA": 18,
+            "valueB": 87,
+            "userIdA": 167791490,
+            "userIdB": 647094531,
+            "nameA": "Reisz",
+            "nameB": "Chrysanth"
+          },
+          {
+            "rank": 5,
+            "valueA": 18,
+            "valueB": 84,
+            "userIdA": 991509328,
+            "userIdB": 964254087,
+            "nameA": "Drystar",
+            "nameB": "drass"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3091330,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 10,
+          "ultimateArtMethodMstId": 10,
+          "guildACount": 44,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 4,
+          "ultimateArtMethodMstId": 4,
+          "guildACount": 41,
+          "guildBCount": 56
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 405,
+    "gvgDataId": 3091330,
+    "guildDataIdA": 449,
+    "guildDataIdB": 7977,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Akasha",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 227,
+        "totalPower": 380914,
+        "maxHp": 94733
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 207,
+        "totalPower": 343504,
+        "maxHp": 84787
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 325326,
+        "maxHp": 73559
+      },
+      {
+        "userId": 616104189,
+        "name": "Saphira",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 272034,
+        "maxHp": 62468
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 144,
+        "level": 200,
+        "totalPower": 318055,
+        "maxHp": 79705
+      },
+      {
+        "userId": 492044794,
+        "name": "Saltea",
+        "characterMstId": 167,
+        "level": 193,
+        "totalPower": 305496,
+        "maxHp": 66823
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 318615,
+        "maxHp": 70130
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 197,
+        "totalPower": 258737,
+        "maxHp": 58868
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 184323777,
+        "name": "Leeks",
+        "characterMstId": 126,
+        "level": 176,
+        "totalPower": 244541,
+        "maxHp": 49063
+      },
+      {
+        "userId": 679271658,
+        "name": "Ryu",
+        "characterMstId": 52,
+        "level": 191,
+        "totalPower": 292185,
+        "maxHp": 71103
+      },
+      {
+        "userId": 647094531,
+        "name": "Chrysanth",
+        "characterMstId": 219,
+        "level": 189,
+        "totalPower": 254845,
+        "maxHp": 63434
+      },
+      {
+        "userId": 964254087,
+        "name": "drass",
+        "characterMstId": 48,
+        "level": 196,
+        "totalPower": 244346,
+        "maxHp": 53206
+      },
+      {
+        "userId": 890851228,
+        "name": "LTAnima",
+        "characterMstId": 158,
+        "level": 180,
+        "totalPower": 222452,
+        "maxHp": 54815
+      },
+      {
+        "userId": 704274621,
+        "name": "Fabry",
+        "characterMstId": 209,
+        "level": 199,
+        "totalPower": 288156,
+        "maxHp": 59292
+      },
+      {
+        "userId": 607563099,
+        "name": "aljoapi",
+        "characterMstId": 197,
+        "level": 122,
+        "totalPower": 151666,
+        "maxHp": 29340
+      },
+      {
+        "userId": 712842283,
+        "name": "eros",
+        "characterMstId": 561,
+        "level": 176,
+        "totalPower": 246418,
+        "maxHp": 55963
+      },
+      {
+        "userId": 922706206,
+        "name": "Snowblind",
+        "characterMstId": 620,
+        "level": 113,
+        "totalPower": 136842,
+        "maxHp": 23971
+      },
+      {
+        "userId": 881842309,
+        "name": "Tae",
+        "characterMstId": 560,
+        "level": 206,
+        "totalPower": 290424,
+        "maxHp": 87600
+      },
+      {
+        "userId": 952037900,
+        "name": "Semiramis",
+        "characterMstId": 85,
+        "level": 172,
+        "totalPower": 251451,
+        "maxHp": 50076
+      },
+      {
+        "userId": 691265708,
+        "name": "Jakkc",
+        "characterMstId": 210,
+        "level": 117,
+        "totalPower": 114574,
+        "maxHp": 21605
+      }
+    ]
+  }
+}
