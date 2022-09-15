@@ -1,0 +1,603 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 505,
+      "battleStartTime": 1663275600,
+      "battleEndTime": 1663276799,
+      "gvgDataId": 3092970,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 2006124,
+      "selfComboCount": 199,
+      "selfSiegeWinCount": 2,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 23582,
+      "enemyGuildName": "Oath",
+      "enemyTotalGuildPoint": 728242,
+      "enemyComboCount": 1178,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 934398383,
+      "selfRankNum": 1,
+      "selfRankUserName": "FrostBiTE",
+      "selfRankGuildPoint": 1090411,
+      "enemyRankUserId": 979195981,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Zero",
+      "enemyRankGuildPoint": 410639,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1090411,
+            "valueB": 410639,
+            "userIdA": 934398383,
+            "userIdB": 979195981,
+            "nameA": "FrostBiTE",
+            "nameB": "Zero"
+          },
+          {
+            "rank": 2,
+            "valueA": 620328,
+            "valueB": 302283,
+            "userIdA": 718599324,
+            "userIdB": 468152687,
+            "nameA": "RockとDevil",
+            "nameB": "Mina"
+          },
+          {
+            "rank": 3,
+            "valueA": 10818,
+            "valueB": 171311,
+            "userIdA": 890964279,
+            "userIdB": 461748666,
+            "nameA": "S0J",
+            "nameB": "PuroVicio"
+          },
+          {
+            "rank": 4,
+            "valueA": 9817,
+            "valueB": 107584,
+            "userIdA": 991509328,
+            "userIdB": 949433603,
+            "nameA": "Drystar",
+            "nameB": "Ozemeier"
+          },
+          {
+            "rank": 5,
+            "valueA": 1043,
+            "valueB": 8577,
+            "userIdA": 616104189,
+            "userIdB": 864814508,
+            "nameA": "Saphira",
+            "nameB": "Miyazaki"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 15022350,
+            "valueB": 9333751,
+            "userIdA": 167791490,
+            "userIdB": 114960605,
+            "nameA": "Reisz",
+            "nameB": "Grimlock"
+          },
+          {
+            "rank": 2,
+            "valueA": 12843039,
+            "valueB": 7747703,
+            "userIdA": 515568020,
+            "userIdB": 443245645,
+            "nameA": "Enigma",
+            "nameB": "Yume"
+          },
+          {
+            "rank": 3,
+            "valueA": 144126,
+            "valueB": 4184466,
+            "userIdA": 934398383,
+            "userIdB": 161722168,
+            "nameA": "FrostBiTE",
+            "nameB": "Taikis"
+          },
+          {
+            "rank": 4,
+            "valueA": 94915,
+            "valueB": 295731,
+            "userIdA": 718599324,
+            "userIdB": 461748666,
+            "nameA": "RockとDevil",
+            "nameB": "PuroVicio"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 173576,
+            "userIdA": 0,
+            "userIdB": 468152687,
+            "nameA": "",
+            "nameB": "Mina"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1909835,
+            "valueB": 1377313,
+            "userIdA": 991509328,
+            "userIdB": 582726727,
+            "nameA": "Drystar",
+            "nameB": "Ayla"
+          },
+          {
+            "rank": 2,
+            "valueA": 1055974,
+            "valueB": 1277951,
+            "userIdA": 616104189,
+            "userIdB": 233558434,
+            "nameA": "Saphira",
+            "nameB": "Alice"
+          },
+          {
+            "rank": 3,
+            "valueA": 282640,
+            "valueB": 928926,
+            "userIdA": 890964279,
+            "userIdB": 189026190,
+            "nameA": "S0J",
+            "nameB": "Alex"
+          },
+          {
+            "rank": 4,
+            "valueA": 81246,
+            "valueB": 62941,
+            "userIdA": 167791490,
+            "userIdB": 114960605,
+            "nameA": "Reisz",
+            "nameB": "Grimlock"
+          },
+          {
+            "rank": 5,
+            "valueA": 47312,
+            "valueB": 57979,
+            "userIdA": 515568020,
+            "userIdB": 161722168,
+            "nameA": "Enigma",
+            "nameB": "Taikis"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2057187,
+            "valueB": 1367133,
+            "userIdA": 991509328,
+            "userIdB": 582726727,
+            "nameA": "Drystar",
+            "nameB": "Ayla"
+          },
+          {
+            "rank": 2,
+            "valueA": 680519,
+            "valueB": 815744,
+            "userIdA": 890964279,
+            "userIdB": 189026190,
+            "nameA": "S0J",
+            "nameB": "Alex"
+          },
+          {
+            "rank": 3,
+            "valueA": 542777,
+            "valueB": 800927,
+            "userIdA": 616104189,
+            "userIdB": 233558434,
+            "nameA": "Saphira",
+            "nameB": "Alice"
+          },
+          {
+            "rank": 4,
+            "valueA": 304162,
+            "valueB": 130213,
+            "userIdA": 515568020,
+            "userIdB": 443245645,
+            "nameA": "Enigma",
+            "nameB": "Yume"
+          },
+          {
+            "rank": 5,
+            "valueA": 195299,
+            "valueB": 94556,
+            "userIdA": 167791490,
+            "userIdB": 114960605,
+            "nameA": "Reisz",
+            "nameB": "Grimlock"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2388381,
+            "valueB": 1254318,
+            "userIdA": 492044794,
+            "userIdB": 126729511,
+            "nameA": "Saltea",
+            "nameB": "noelle"
+          },
+          {
+            "rank": 2,
+            "valueA": 1100908,
+            "valueB": 693992,
+            "userIdA": 890964279,
+            "userIdB": 603082657,
+            "nameA": "S0J",
+            "nameB": "MałyWilk"
+          },
+          {
+            "rank": 3,
+            "valueA": 158129,
+            "valueB": 362345,
+            "userIdA": 718599324,
+            "userIdB": 330623808,
+            "nameA": "RockとDevil",
+            "nameB": "Nightmu"
+          },
+          {
+            "rank": 4,
+            "valueA": 124601,
+            "valueB": 74230,
+            "userIdA": 934398383,
+            "userIdB": 949433603,
+            "nameA": "FrostBiTE",
+            "nameB": "Ozemeier"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 38159,
+            "userIdA": 0,
+            "userIdB": 979195981,
+            "nameA": "",
+            "nameB": "Zero"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2157267,
+            "valueB": 1538678,
+            "userIdA": 492044794,
+            "userIdB": 126729511,
+            "nameA": "Saltea",
+            "nameB": "noelle"
+          },
+          {
+            "rank": 2,
+            "valueA": 770608,
+            "valueB": 1089586,
+            "userIdA": 890964279,
+            "userIdB": 603082657,
+            "nameA": "S0J",
+            "nameB": "MałyWilk"
+          },
+          {
+            "rank": 3,
+            "valueA": 164841,
+            "valueB": 722004,
+            "userIdA": 934398383,
+            "userIdB": 330623808,
+            "nameA": "FrostBiTE",
+            "nameB": "Nightmu"
+          },
+          {
+            "rank": 4,
+            "valueA": 116128,
+            "valueB": 148466,
+            "userIdA": 718599324,
+            "userIdB": 979195981,
+            "nameA": "RockとDevil",
+            "nameB": "Zero"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 137719,
+            "userIdA": 0,
+            "userIdB": 949433603,
+            "nameA": "",
+            "nameB": "Ozemeier"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 84,
+            "valueB": 594,
+            "userIdA": 718599324,
+            "userIdB": 864814508,
+            "nameA": "RockとDevil",
+            "nameB": "Miyazaki"
+          },
+          {
+            "rank": 2,
+            "valueA": 81,
+            "valueB": 198,
+            "userIdA": 934398383,
+            "userIdB": 468152687,
+            "nameA": "FrostBiTE",
+            "nameB": "Mina"
+          },
+          {
+            "rank": 3,
+            "valueA": 8,
+            "valueB": 138,
+            "userIdA": 616104189,
+            "userIdB": 461748666,
+            "nameA": "Saphira",
+            "nameB": "PuroVicio"
+          },
+          {
+            "rank": 4,
+            "valueA": 8,
+            "valueB": 132,
+            "userIdA": 890964279,
+            "userIdB": 979195981,
+            "nameA": "S0J",
+            "nameB": "Zero"
+          },
+          {
+            "rank": 5,
+            "valueA": 7,
+            "valueB": 116,
+            "userIdA": 991509328,
+            "userIdB": 949433603,
+            "nameA": "Drystar",
+            "nameB": "Ozemeier"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3092970,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 4,
+          "ultimateArtMethodMstId": 4,
+          "guildACount": 72,
+          "guildBCount": 60
+        },
+        {
+          "artMstId": 22,
+          "ultimateArtMethodMstId": 22,
+          "guildACount": 31,
+          "guildBCount": 67
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 505,
+    "gvgDataId": 3092970,
+    "guildDataIdA": 449,
+    "guildDataIdB": 23582,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Oath",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 227,
+        "totalPower": 380914,
+        "maxHp": 94733
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 207,
+        "totalPower": 343504,
+        "maxHp": 84787
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 325326,
+        "maxHp": 73559
+      },
+      {
+        "userId": 616104189,
+        "name": "Saphira",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 272034,
+        "maxHp": 62468
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 144,
+        "level": 200,
+        "totalPower": 318055,
+        "maxHp": 79705
+      },
+      {
+        "userId": 492044794,
+        "name": "Saltea",
+        "characterMstId": 167,
+        "level": 193,
+        "totalPower": 305496,
+        "maxHp": 66823
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 318615,
+        "maxHp": 70130
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 197,
+        "totalPower": 258737,
+        "maxHp": 58868
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 461748666,
+        "name": "PuroVicio",
+        "characterMstId": 621,
+        "level": 206,
+        "totalPower": 271111,
+        "maxHp": 72600
+      },
+      {
+        "userId": 949433603,
+        "name": "Ozemeier",
+        "characterMstId": 103,
+        "level": 173,
+        "totalPower": 242531,
+        "maxHp": 58997
+      },
+      {
+        "userId": 979195981,
+        "name": "Zero",
+        "characterMstId": 48,
+        "level": 189,
+        "totalPower": 318794,
+        "maxHp": 70334
+      },
+      {
+        "userId": 468152687,
+        "name": "Mina",
+        "characterMstId": 64,
+        "level": 203,
+        "totalPower": 295412,
+        "maxHp": 79151
+      },
+      {
+        "userId": 233558434,
+        "name": "Alice",
+        "characterMstId": 114,
+        "level": 204,
+        "totalPower": 311188,
+        "maxHp": 84982
+      },
+      {
+        "userId": 189026190,
+        "name": "Alex",
+        "characterMstId": 114,
+        "level": 201,
+        "totalPower": 292927,
+        "maxHp": 79195
+      },
+      {
+        "userId": 582726727,
+        "name": "Ayla",
+        "characterMstId": 114,
+        "level": 199,
+        "totalPower": 290273,
+        "maxHp": 60542
+      },
+      {
+        "userId": 126729511,
+        "name": "noelle",
+        "characterMstId": 93,
+        "level": 187,
+        "totalPower": 230845,
+        "maxHp": 55316
+      },
+      {
+        "userId": 603082657,
+        "name": "MałyWilk",
+        "characterMstId": 208,
+        "level": 153,
+        "totalPower": 210390,
+        "maxHp": 48790
+      },
+      {
+        "userId": 330623808,
+        "name": "Nightmu",
+        "characterMstId": 620,
+        "level": 172,
+        "totalPower": 194897,
+        "maxHp": 50726
+      },
+      {
+        "userId": 864814508,
+        "name": "Miyazaki",
+        "characterMstId": 88,
+        "level": 116,
+        "totalPower": 90245,
+        "maxHp": 29365
+      },
+      {
+        "userId": 443245645,
+        "name": "Yume",
+        "characterMstId": 251,
+        "level": 191,
+        "totalPower": 248106,
+        "maxHp": 67103
+      },
+      {
+        "userId": 114960605,
+        "name": "Grimlock",
+        "characterMstId": 85,
+        "level": 191,
+        "totalPower": 242135,
+        "maxHp": 50053
+      },
+      {
+        "userId": 161722168,
+        "name": "Taikis",
+        "characterMstId": 85,
+        "level": 148,
+        "totalPower": 197412,
+        "maxHp": 46026
+      }
+    ]
+  }
+}
