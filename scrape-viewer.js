@@ -49,7 +49,7 @@ function viewGuildHistory(matchHistory, shinmaSkills) {
 	const guildA = matchHistory.items[0].guildAName;
 
 	let html = `<h1>${guildA}</h1>`;
-	html += '<table class="table table-striped table-bordered table-sm"><thead><tr>';
+	html += '<table class="table table-striped table-bordered table-hover table-sm"><thead class="table-light sticky-top"><tr>';
 	html += '<th>Date</th>';
 	html += '<th>Rank</th>';
 	html += '<th>Result</th>';
