@@ -1,0 +1,9 @@
+.clickable {
+	cursor: pointer;
+}
+thead.sticky-top > tr > th {
+	border-width: 0 1px;
+}
+thead.sticky-top > tr > th.clickable:hover {
+	background-color: var(--bs-gray-200);
+}

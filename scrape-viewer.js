@@ -1,6 +1,7 @@
 "use strict";
 
 const nf = new Intl.NumberFormat('en-US');
+const collator = new Intl.Collator('en');
 
 let db = {
 	json: new Map(),
@@ -29,78 +30,250 @@ const weaponMapLong = [
 	'Blade', 'Heavy', 'Projectile', 'Polearm',
 ];
 
-function viewGuildHistory(matchHistory, shinmaSkills) {
-	function generateShinmaCells(shinma, shinmaSkills) {
-		if (!shinma) {
-			return '<td align="center"></td><td align="center"></td>';
+function generateTable(table) {
+	function canSort(table) {
+		return typeof table.sortColumn !== 'undefined' && typeof table.sortDirection !== 'undefined';
+	}
+
+	function applySort(table) {
+		if (!canSort(table)) {
+			console.error("Attempting to apply sort when sort direction or column are undefined.");
+			return;
 		}
 
+		const sortColumn = table.sortColumn;
+		const sortDirection = table.sortDirection;
+		const tbody = table.dom.children[1];
+		const rows = new Array(tbody.children.length);
+		for (let i = 0; i < rows.length; i++) {
+			const dom = tbody.children[i];
+			const sourceIdx = dom.getAttribute("data-source-idx");
+			rows[i] = {
+				dom: dom,
+				data: table.data[sourceIdx],
+			};
+		}
+
+		const cmp = table.columns[sortColumn].cmp;
+
+		rows.sort(function(l, r) {
+			return sortDirection * cmp(l, r, sortColumn);
+		});
+
+		for (const row of rows) {
+			tbody.appendChild(row.dom);
+		}
+	}
+
+	function onColumnHeadClick(event, columnIdx, table) {
+		const column = table.columns[columnIdx];
+		if (table.sortColumn == columnIdx) {
+			table.sortDirection = -table.sortDirection;
+		} else {
+			table.sortColumn = columnIdx;
+			table.sortDirection = 1;
+		}
+		applySort(table);
+	}
+
+	const domTable = document.createElement('table');
+	if (table.class)
+		domTable.className = table.class;
+
+	let html = '';
+
+	html += '<thead';
+	if (table.theadClass)
+		html += ` class="${table.theadClass}"`;
+	html += '><tr>';
+	for (const col of table.columns) {
+		html += `<th>${col.title}</th>`;
+	}
+	html += '</tr></thead>';
+
+	html += '<tbody>';
+	const rowCount = table.data.length;
+	for (let i = 0; i < rowCount; i++) {
+		const rowData = table.data[i];
+		html += `<tr data-source-idx="${i}">`;
+		for (const col of table.columns) {
+			html += '<td';
+			if (col.align) {
+				html += ` align="${col.align}"`;
+			}
+			html += '>';
+
+			let data;
+			if (col.field) {
+				data = rowData[col.field];
+			} else {
+				data = col.generator(rowData);
+			}
+			if (col.numberFormat) {
+				data = col.numberFormat.format(data);
+			}
+			html += data;
+
+			html += '</td>';
+		}
+		html += '</tr>';
+	}
+	html += '</tbody>';
+
+	domTable.innerHTML = html;
+	table.dom = domTable;
+
+	const thead = table.dom.children[0];
+	const theadRow = thead.children[0];
+	for (let i = 0; i < table.columns.length; i++) {
+		if (table.columns[i].cmp) {
+			const th = theadRow.children[i];
+			th.addEventListener('click', function(e) { onColumnHeadClick(e, i, table); });
+			th.className = 'clickable';
+		}
+	}
+
+	if (canSort(table)) {
+		applySort(table);
+	}
+
+	return domTable;
+}
+
+function viewGuildHistory(matchHistory, shinmaSkills) {
+	function generateShinmaType(shinma, shinmaSkills) {
+		if (!shinma)
+			return "";
+
 		const shinmaMst = shinmaSkills.get(shinma.artMstId);
-		const shinmaWeapons =
+		const shinmaType =
 			weaponMapShort[shinmaMst.element1] +
 			weaponMapShort[shinmaMst.element2] +
 			weaponMapShort[shinmaMst.element3] +
 			weaponMapShort[shinmaMst.element4];
 
-		return `<td align="center">${shinmaWeapons}</td>` +
-			`<td align="center">${shinma.guildACount}/${shinma.guildBCount}</td>`;
+		return shinmaType;
+	}
+
+	function generateShinmaTally(shinma) {
+		if (!shinma)
+			return "";
+
+		return `${shinma.guildACount}/${shinma.guildBCount}`;
 	}
 
 	const guildA = matchHistory.items[0].guildAName;
 
-	let html = `<h1>${guildA}</h1>`;
-	html += '<table class="table table-striped table-bordered table-hover table-sm"><thead class="table-light sticky-top"><tr>';
-	html += '<th>Date</th>';
-	html += '<th>Rank</th>';
-	html += '<th>Result</th>';
-	html += '<th>Enemy Guild</th>';
-	html += '<th>Guild ID</th>';
-	html += `<th>${guildA} (Lifeforce)</th>`;
-	html += '<th>Enemy Guild (Lifeforce)</th>';
-	html += `<th>${guildA} (Combo)</th>`;
-	html += '<th>Enemy Guild (Combo)</th>';
-	html += `<th>${guildA} (Ship)</th>`;
-	html += '<th>Enemy Guild (Ship)</th>';
-	html += '<th>1st Shinma</th>';
-	html += '<th>Tally</th>';
-	html += '<th>2nd Shinma</th>';
-	html += '<th>Tally</th>';
-	html += '</tr></thead>';
-	html += '<tbody>';
+	const table = {
+		class: "table table-striped table-bordered table-hover table-sm",
+		theadClass: "table-light sticky-top",
+		data: matchHistory.items,
+		columns: [
+			{
+				title: 'Date',
+				cmp: (l, r, col) => l.data.startTime - r.data.startTime,
+				generator: function(m) {
+					const dt = new Date(m.startTime * 1000);
+					const matchUrl = `?view=match&time=${m.startTime}&a=${m.guildAId}&b=${m.guildBId}`;
+					return `<a href="${matchUrl}">${dt.getUTCFullYear()}/${dt.getUTCMonth()+1}/${dt.getUTCDate()}</a>`
+				}
+			},
+			{ title: 'Rank', field: 'rank', cmp: (l, r, col) => collator.compare(l.data.rank, r.data.rank) },
+			{
+				title: 'Result',
+				cmp: function(l, r, col) {
+					const lRes = Math.sign(l.data.guildAPoints - l.data.guildBPoints);
+					const rRes = Math.sign(r.data.guildAPoints - r.data.guildBPoints);
+					return lRes - rRes;
+				},
+				generator: function(m) {
+					if (m.guildAPoints > m.guildBPoints) return "Victory";
+					else if (m.guildAPoints < m.guildBPoints) return "Defeat";
+					else return "Tie";
+				}
+			},
+			{
+				title: 'Enemy Guild',
+				field: 'guildBName',
+				cmp: (l, r, col) => collator.compare(l.data.guildBName, r.data.guildBName)
+			},
+			{
+				title: 'Guild ID',
+				field: 'guildBId',
+				align: 'right',
+				cmp: (l, r, col) => l.data.guildBId - r.data.guildBId,
+			},
+			{
+				title: `${guildA} (Lifeforce)`,
+				field: 'guildAPoints',
+				align: 'right',
+				numberFormat: nf,
+				cmp: (l, r, col) => l.data.guildAPoints - r.data.guildAPoints,
+			},
+			{
+				title: 'Enemy Guild (Lifeforce)',
+				field: 'guildBPoints',
+				align: 'right',
+				numberFormat: nf,
+				cmp: (l, r, col) => l.data.guildBPoints - r.data.guildBPoints,
+			},
+			{
+				title: `${guildA} (Combo)`,
+				field: 'guildACombo',
+				align: 'right',
+				cmp: (l, r, col) => l.data.guildACombo - r.data.guildACombo,
+			},
+			{
+				title: 'Enemy Guild (Combo)',
+				field: 'guildBCombo',
+				align: 'right',
+				cmp: (l, r, col) => l.data.guildBCombo - r.data.guildBCombo,
+			},
+			{
+				title: `${guildA} (Ship)`,
+				field: 'guildAShipWin',
+				align: 'right',
+				cmp: (l, r, col) => l.data.guildAShipWin - r.data.guildAShipWin,
+			},
+			{
+				title: 'Enemy Guild (Ship)',
+				field: 'guildBShipWin',
+				align: 'right',
+				cmp: (l, r, col) => l.data.guildBShipWin - r.data.guildBShipWin,
+			},
 
-	const matchCount = matchHistory.items.length;
-	for (let i = matchCount-1; i >= 0; i--) {
-		const m = matchHistory.items[i];
-		const dt = new Date(m.startTime * 1000);
-
-		let result = "Tie";
-		if (m.guildAPoints > m.guildBPoints)
-			result = "Victory";
-		else if (m.guildAPoints < m.guildBPoints)
-			result = "Defeat";
-
-		const matchUrl = `?view=match&time=${m.startTime}&a=${m.guildAId}&b=${m.guildBId}`;
-
-		html += '<tr>';
-		html += `<td><a href="${matchUrl}">${dt.getUTCFullYear()}/${dt.getUTCMonth()+1}/${dt.getUTCDate()}</a></td>`;
-		html += `<td>${m.rank}</td>`;
-		html += `<td>${result}</td>`;
-		html += `<td>${m.guildBName}</td>`;
-		html += `<td align="right">${m.guildBId}</td>`;
-		html += `<td align="right">${nf.format(m.guildAPoints)}</td>`;
-		html += `<td align="right">${nf.format(m.guildBPoints)}</td>`;
-		html += `<td align="right">${m.guildACombo}</td>`;
-		html += `<td align="right">${m.guildBCombo}</td>`;
-		html += `<td align="right">${m.guildAShipWin}</td>`;
-		html += `<td align="right">${m.guildBShipWin}</td>`;
-		html += generateShinmaCells(m.shinma[0], shinmaSkills);
-		html += generateShinmaCells(m.shinma[1], shinmaSkills);
-		html += '</tr>';
-	}
-	html += '</tbody></table>';
+			{
+				title: '1st Shinma',
+				align: 'center',
+				generator: function(m) { return generateShinmaType(m.shinma[0], shinmaSkills); },
+				cmp: (l, r, col) => collator.compare(l.dom.children[col].innerText, r.dom.children[col].innerText)
+			},
+			{
+				title: 'Tally',
+				align: 'center',
+				generator: function(m) { return generateShinmaTally(m.shinma[0]); },
+				cmp: (l, r, col) => collator.compare(l.dom.children[col].innerText, r.dom.children[col].innerText)
+			},
+			{
+				title: '2nd Shinma',
+				align: 'center',
+				generator: function(m) { return generateShinmaType(m.shinma[1], shinmaSkills); },
+				cmp: (l, r, col) => collator.compare(l.dom.children[col].innerText, r.dom.children[col].innerText)
+			},
+			{
+				title: 'Tally',
+				align: 'center',
+				generator: function(m) { return generateShinmaTally(m.shinma[1]); },
+				cmp: (l, r, col) => collator.compare(l.dom.children[col].innerText, r.dom.children[col].innerText)
+			},
+		],
+		sortColumn: 0,
+		sortDirection: -1,
+	};
 
 	let content = document.getElementById("content");
-	content.innerHTML = html;
+	content.innerHTML = `<h1>${guildA}</h1>`;
+	content.appendChild(generateTable(table));
 	return `Scrape Viewer: ${guildA} match history`;
 }
 
