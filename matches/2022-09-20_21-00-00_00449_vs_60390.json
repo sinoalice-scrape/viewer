@@ -1,0 +1,619 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 305,
+      "battleStartTime": 1663707600,
+      "battleEndTime": 1663708799,
+      "gvgDataId": 3101165,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 2158987,
+      "selfComboCount": 578,
+      "selfSiegeWinCount": 16,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 60390,
+      "enemyGuildName": "Cosmikaria",
+      "enemyTotalGuildPoint": 66922,
+      "enemyComboCount": 410,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 934398383,
+      "selfRankNum": 1,
+      "selfRankUserName": "FrostBiTE",
+      "selfRankGuildPoint": 743284,
+      "enemyRankUserId": 352544371,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Unbent",
+      "enemyRankGuildPoint": 80153,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 743284,
+            "valueB": 80153,
+            "userIdA": 934398383,
+            "userIdB": 352544371,
+            "nameA": "FrostBiTE",
+            "nameB": "Unbent"
+          },
+          {
+            "rank": 2,
+            "valueA": 582808,
+            "valueB": 56046,
+            "userIdA": 718599324,
+            "userIdB": 164087835,
+            "nameA": "RockとDevil",
+            "nameB": "BaileYoRHa"
+          },
+          {
+            "rank": 3,
+            "valueA": 522211,
+            "valueB": 43622,
+            "userIdA": 161754158,
+            "userIdB": 712329850,
+            "nameA": "oeuf",
+            "nameB": "Azilos"
+          },
+          {
+            "rank": 4,
+            "valueA": 54024,
+            "valueB": 37164,
+            "userIdA": 890964279,
+            "userIdB": 973331524,
+            "nameA": "S0J",
+            "nameB": "silexa"
+          },
+          {
+            "rank": 5,
+            "valueA": 51878,
+            "valueB": 20773,
+            "userIdA": 167791490,
+            "userIdB": 101794802,
+            "nameA": "Reisz",
+            "nameB": "Potooooooo"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 7938435,
+            "valueB": 2147961,
+            "userIdA": 167791490,
+            "userIdB": 623087908,
+            "nameA": "Reisz",
+            "nameB": "Titania"
+          },
+          {
+            "rank": 2,
+            "valueA": 7911037,
+            "valueB": 1166770,
+            "userIdA": 515568020,
+            "userIdB": 872286762,
+            "nameA": "Enigma",
+            "nameB": "Mirrak"
+          },
+          {
+            "rank": 3,
+            "valueA": 65492,
+            "valueB": 632450,
+            "userIdA": 718599324,
+            "userIdB": 413708454,
+            "nameA": "RockとDevil",
+            "nameB": "Eliade"
+          },
+          {
+            "rank": 4,
+            "valueA": 48042,
+            "valueB": 535593,
+            "userIdA": 934398383,
+            "userIdB": 101794802,
+            "nameA": "FrostBiTE",
+            "nameB": "Potooooooo"
+          },
+          {
+            "rank": 5,
+            "valueA": 38714,
+            "valueB": 516448,
+            "userIdA": 161754158,
+            "userIdB": 712329850,
+            "nameA": "oeuf",
+            "nameB": "Azilos"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1063695,
+            "valueB": 633045,
+            "userIdA": 991509328,
+            "userIdB": 892933419,
+            "nameA": "Drystar",
+            "nameB": "Koala"
+          },
+          {
+            "rank": 2,
+            "valueA": 649980,
+            "valueB": 458163,
+            "userIdA": 616104189,
+            "userIdB": 277646296,
+            "nameA": "Saphira",
+            "nameB": "GMKF"
+          },
+          {
+            "rank": 3,
+            "valueA": 180799,
+            "valueB": 343815,
+            "userIdA": 890964279,
+            "userIdB": 264589478,
+            "nameA": "S0J",
+            "nameB": "milk"
+          },
+          {
+            "rank": 4,
+            "valueA": 57423,
+            "valueB": 55126,
+            "userIdA": 167791490,
+            "userIdB": 367613577,
+            "nameA": "Reisz",
+            "nameB": "Felix"
+          },
+          {
+            "rank": 5,
+            "valueA": 53423,
+            "valueB": 32054,
+            "userIdA": 515568020,
+            "userIdB": 164087835,
+            "nameA": "Enigma",
+            "nameB": "BaileYoRHa"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 866442,
+            "valueB": 414404,
+            "userIdA": 991509328,
+            "userIdB": 892933419,
+            "nameA": "Drystar",
+            "nameB": "Koala"
+          },
+          {
+            "rank": 2,
+            "valueA": 456317,
+            "valueB": 308317,
+            "userIdA": 890964279,
+            "userIdB": 264589478,
+            "nameA": "S0J",
+            "nameB": "milk"
+          },
+          {
+            "rank": 3,
+            "valueA": 283012,
+            "valueB": 291945,
+            "userIdA": 616104189,
+            "userIdB": 277646296,
+            "nameA": "Saphira",
+            "nameB": "GMKF"
+          },
+          {
+            "rank": 4,
+            "valueA": 227446,
+            "valueB": 24191,
+            "userIdA": 515568020,
+            "userIdB": 623087908,
+            "nameA": "Enigma",
+            "nameB": "Titania"
+          },
+          {
+            "rank": 5,
+            "valueA": 124428,
+            "valueB": 20741,
+            "userIdA": 167791490,
+            "userIdB": 367613577,
+            "nameA": "Reisz",
+            "nameB": "Felix"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1001629,
+            "valueB": 415841,
+            "userIdA": 492044794,
+            "userIdB": 413708454,
+            "nameA": "Saltea",
+            "nameB": "Eliade"
+          },
+          {
+            "rank": 2,
+            "valueA": 467340,
+            "valueB": 256775,
+            "userIdA": 890964279,
+            "userIdB": 974332045,
+            "nameA": "S0J",
+            "nameB": "Ireha"
+          },
+          {
+            "rank": 3,
+            "valueA": 77602,
+            "valueB": 251059,
+            "userIdA": 718599324,
+            "userIdB": 235978863,
+            "nameA": "RockとDevil",
+            "nameB": "Dark"
+          },
+          {
+            "rank": 4,
+            "valueA": 62975,
+            "valueB": 210235,
+            "userIdA": 934398383,
+            "userIdB": 277646296,
+            "nameA": "FrostBiTE",
+            "nameB": "GMKF"
+          },
+          {
+            "rank": 5,
+            "valueA": 21125,
+            "valueB": 93282,
+            "userIdA": 161754158,
+            "userIdB": 892933419,
+            "nameA": "oeuf",
+            "nameB": "Koala"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 954298,
+            "valueB": 623288,
+            "userIdA": 492044794,
+            "userIdB": 413708454,
+            "nameA": "Saltea",
+            "nameB": "Eliade"
+          },
+          {
+            "rank": 2,
+            "valueA": 340876,
+            "valueB": 483398,
+            "userIdA": 890964279,
+            "userIdB": 235978863,
+            "nameA": "S0J",
+            "nameB": "Dark"
+          },
+          {
+            "rank": 3,
+            "valueA": 84212,
+            "valueB": 311158,
+            "userIdA": 934398383,
+            "userIdB": 277646296,
+            "nameA": "FrostBiTE",
+            "nameB": "GMKF"
+          },
+          {
+            "rank": 4,
+            "valueA": 77101,
+            "valueB": 284212,
+            "userIdA": 718599324,
+            "userIdB": 974332045,
+            "nameA": "RockとDevil",
+            "nameB": "Ireha"
+          },
+          {
+            "rank": 5,
+            "valueA": 36499,
+            "valueB": 56581,
+            "userIdA": 161754158,
+            "userIdB": 892933419,
+            "nameA": "oeuf",
+            "nameB": "Koala"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 201,
+            "valueB": 107,
+            "userIdA": 161754158,
+            "userIdB": 101794802,
+            "nameA": "oeuf",
+            "nameB": "Potooooooo"
+          },
+          {
+            "rank": 2,
+            "valueA": 93,
+            "valueB": 78,
+            "userIdA": 718599324,
+            "userIdB": 164087835,
+            "nameA": "RockとDevil",
+            "nameB": "BaileYoRHa"
+          },
+          {
+            "rank": 3,
+            "valueA": 86,
+            "valueB": 70,
+            "userIdA": 934398383,
+            "userIdB": 973331524,
+            "nameA": "FrostBiTE",
+            "nameB": "silexa"
+          },
+          {
+            "rank": 4,
+            "valueA": 42,
+            "valueB": 62,
+            "userIdA": 492044794,
+            "userIdB": 823396482,
+            "nameA": "Saltea",
+            "nameB": "Apophis"
+          },
+          {
+            "rank": 5,
+            "valueA": 41,
+            "valueB": 44,
+            "userIdA": 167791490,
+            "userIdB": 352544371,
+            "nameA": "Reisz",
+            "nameB": "Unbent"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3101165,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 10,
+          "ultimateArtMethodMstId": 10,
+          "guildACount": 16,
+          "guildBCount": 35
+        },
+        {
+          "artMstId": 16,
+          "ultimateArtMethodMstId": 16,
+          "guildACount": 30,
+          "guildBCount": 18
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 305,
+    "gvgDataId": 3101165,
+    "guildDataIdA": 449,
+    "guildDataIdB": 60390,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "Cosmikaria",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 208,
+        "totalPower": 361060,
+        "maxHp": 81276
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 227,
+        "totalPower": 380914,
+        "maxHp": 94733
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 207,
+        "totalPower": 343504,
+        "maxHp": 84787
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 325326,
+        "maxHp": 73559
+      },
+      {
+        "userId": 616104189,
+        "name": "Saphira",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 272034,
+        "maxHp": 62468
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 144,
+        "level": 200,
+        "totalPower": 318055,
+        "maxHp": 79705
+      },
+      {
+        "userId": 492044794,
+        "name": "Saltea",
+        "characterMstId": 167,
+        "level": 193,
+        "totalPower": 305496,
+        "maxHp": 66823
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 318615,
+        "maxHp": 70130
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 197,
+        "totalPower": 259009,
+        "maxHp": 58868
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 352544371,
+        "name": "Unbent",
+        "characterMstId": 103,
+        "level": 139,
+        "totalPower": 201327,
+        "maxHp": 42454
+      },
+      {
+        "userId": 712329850,
+        "name": "Azilos",
+        "characterMstId": 60,
+        "level": 121,
+        "totalPower": 200961,
+        "maxHp": 35514
+      },
+      {
+        "userId": 973331524,
+        "name": "silexa",
+        "characterMstId": 103,
+        "level": 141,
+        "totalPower": 192412,
+        "maxHp": 40556
+      },
+      {
+        "userId": 823396482,
+        "name": "Apophis",
+        "characterMstId": 5,
+        "level": 22,
+        "totalPower": 16690,
+        "maxHp": 2666
+      },
+      {
+        "userId": 164087835,
+        "name": "BaileYoRHa",
+        "characterMstId": 48,
+        "level": 198,
+        "totalPower": 273101,
+        "maxHp": 68230
+      },
+      {
+        "userId": 101794802,
+        "name": "Potooooooo",
+        "characterMstId": 659,
+        "level": 163,
+        "totalPower": 234070,
+        "maxHp": 55978
+      },
+      {
+        "userId": 277646296,
+        "name": "GMKF",
+        "characterMstId": 33,
+        "level": 189,
+        "totalPower": 250189,
+        "maxHp": 62934
+      },
+      {
+        "userId": 264589478,
+        "name": "milk",
+        "characterMstId": 114,
+        "level": 161,
+        "totalPower": 215750,
+        "maxHp": 49504
+      },
+      {
+        "userId": 892933419,
+        "name": "Koala",
+        "characterMstId": 173,
+        "level": 183,
+        "totalPower": 215639,
+        "maxHp": 55585
+      },
+      {
+        "userId": 413708454,
+        "name": "Eliade",
+        "characterMstId": 93,
+        "level": 158,
+        "totalPower": 229144,
+        "maxHp": 57974
+      },
+      {
+        "userId": 235978863,
+        "name": "Dark",
+        "characterMstId": 93,
+        "level": 124,
+        "totalPower": 156014,
+        "maxHp": 26782
+      },
+      {
+        "userId": 974332045,
+        "name": "Ireha",
+        "characterMstId": 167,
+        "level": 110,
+        "totalPower": 150515,
+        "maxHp": 27614
+      },
+      {
+        "userId": 367613577,
+        "name": "Felix",
+        "characterMstId": 20,
+        "level": 104,
+        "totalPower": 109374,
+        "maxHp": 20503
+      },
+      {
+        "userId": 623087908,
+        "name": "Titania",
+        "characterMstId": 85,
+        "level": 121,
+        "totalPower": 156066,
+        "maxHp": 29864
+      },
+      {
+        "userId": 872286762,
+        "name": "Mirrak",
+        "characterMstId": 85,
+        "level": 112,
+        "totalPower": 121342,
+        "maxHp": 20748
+      }
+    ]
+  }
+}
