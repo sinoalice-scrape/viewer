@@ -129,7 +129,8 @@ function generateTable(table) {
 		if (table.columns[i].cmp) {
 			const th = theadRow.children[i];
 			th.addEventListener('click', function(e) { onColumnHeadClick(e, i, table); });
-			th.className = 'clickable';
+			// Will switch between `bi-filter` and `bi-funnel-fill`
+			th.className = 'clickable bi bi-filter'; // See https://icons.getbootstrap.com/
 		}
 	}
 

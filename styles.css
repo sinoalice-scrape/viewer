@@ -7,3 +7,6 @@ thead.sticky-top > tr > th {
 thead.sticky-top > tr > th.clickable:hover {
 	background-color: var(--bs-gray-200);
 }
+th, td {
+	white-space: nowrap;
+}
