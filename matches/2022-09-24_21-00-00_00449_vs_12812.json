@@ -1,0 +1,627 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 705,
+      "battleStartTime": 1664053200,
+      "battleEndTime": 1664054399,
+      "gvgDataId": 3107623,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 320246,
+      "selfComboCount": 179,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 12812,
+      "enemyGuildName": "TheAvatars",
+      "enemyTotalGuildPoint": 4186954,
+      "enemyComboCount": 1573,
+      "enemySiegeWinCount": 24,
+      "selfRankUserId": 161754158,
+      "selfRankNum": 1,
+      "selfRankUserName": "oeuf",
+      "selfRankGuildPoint": 514049,
+      "enemyRankUserId": 893125296,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Shinnentai",
+      "enemyRankGuildPoint": 999653,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 514049,
+            "valueB": 999653,
+            "userIdA": 161754158,
+            "userIdB": 893125296,
+            "nameA": "oeuf",
+            "nameB": "Shinnentai"
+          },
+          {
+            "rank": 2,
+            "valueA": 377022,
+            "valueB": 929249,
+            "userIdA": 934398383,
+            "userIdB": 109370183,
+            "nameA": "FrostBiTE",
+            "nameB": "Rusalka"
+          },
+          {
+            "rank": 3,
+            "valueA": 313565,
+            "valueB": 746144,
+            "userIdA": 718599324,
+            "userIdB": 255504848,
+            "nameA": "RockとDevil",
+            "nameB": "Clotho"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 389555,
+            "userIdA": 167791490,
+            "userIdB": 921493081,
+            "nameA": "Reisz",
+            "nameB": "Ptera"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 179414,
+            "userIdA": 200491281,
+            "userIdB": 807625061,
+            "nameA": "Silverasha",
+            "nameB": "Lizzy"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 8886212,
+            "valueB": 6943886,
+            "userIdA": 167791490,
+            "userIdB": 495580075,
+            "nameA": "Reisz",
+            "nameB": "Altair"
+          },
+          {
+            "rank": 2,
+            "valueA": 6915229,
+            "valueB": 6500450,
+            "userIdA": 515568020,
+            "userIdB": 610320541,
+            "nameA": "Enigma",
+            "nameB": "Flutter"
+          },
+          {
+            "rank": 3,
+            "valueA": 1498934,
+            "valueB": 4113052,
+            "userIdA": 934398383,
+            "userIdB": 444623760,
+            "nameA": "FrostBiTE",
+            "nameB": "NattAlone"
+          },
+          {
+            "rank": 4,
+            "valueA": 1426398,
+            "valueB": 313438,
+            "userIdA": 718599324,
+            "userIdB": 255504848,
+            "nameA": "RockとDevil",
+            "nameB": "Clotho"
+          },
+          {
+            "rank": 5,
+            "valueA": 1014775,
+            "valueB": 310616,
+            "userIdA": 161754158,
+            "userIdB": 109370183,
+            "nameA": "oeuf",
+            "nameB": "Rusalka"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1437547,
+            "valueB": 1187270,
+            "userIdA": 991509328,
+            "userIdB": 104242741,
+            "nameA": "Drystar",
+            "nameB": "ZeonFlux"
+          },
+          {
+            "rank": 2,
+            "valueA": 914999,
+            "valueB": 563644,
+            "userIdA": 616104189,
+            "userIdB": 448203740,
+            "nameA": "Saphira",
+            "nameB": "Honey"
+          },
+          {
+            "rank": 3,
+            "valueA": 493001,
+            "valueB": 348849,
+            "userIdA": 200491281,
+            "userIdB": 125168618,
+            "nameA": "Silverasha",
+            "nameB": "neon"
+          },
+          {
+            "rank": 4,
+            "valueA": 214054,
+            "valueB": 118022,
+            "userIdA": 890964279,
+            "userIdB": 425623376,
+            "nameA": "S0J",
+            "nameB": "Marble"
+          },
+          {
+            "rank": 5,
+            "valueA": 58156,
+            "valueB": 92946,
+            "userIdA": 167791490,
+            "userIdB": 495580075,
+            "nameA": "Reisz",
+            "nameB": "Altair"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1709935,
+            "valueB": 668290,
+            "userIdA": 200491281,
+            "userIdB": 104242741,
+            "nameA": "Silverasha",
+            "nameB": "ZeonFlux"
+          },
+          {
+            "rank": 2,
+            "valueA": 714640,
+            "valueB": 467256,
+            "userIdA": 991509328,
+            "userIdB": 448203740,
+            "nameA": "Drystar",
+            "nameB": "Honey"
+          },
+          {
+            "rank": 3,
+            "valueA": 348037,
+            "valueB": 196432,
+            "userIdA": 890964279,
+            "userIdB": 125168618,
+            "nameA": "S0J",
+            "nameB": "neon"
+          },
+          {
+            "rank": 4,
+            "valueA": 231556,
+            "valueB": 128927,
+            "userIdA": 616104189,
+            "userIdB": 425623376,
+            "nameA": "Saphira",
+            "nameB": "Marble"
+          },
+          {
+            "rank": 5,
+            "valueA": 135391,
+            "valueB": 121111,
+            "userIdA": 515568020,
+            "userIdB": 610320541,
+            "nameA": "Enigma",
+            "nameB": "Flutter"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1130051,
+            "valueB": 1045778,
+            "userIdA": 492044794,
+            "userIdB": 127570238,
+            "nameA": "Saltea",
+            "nameB": "hubbididub"
+          },
+          {
+            "rank": 2,
+            "valueA": 608961,
+            "valueB": 635242,
+            "userIdA": 890964279,
+            "userIdB": 412203762,
+            "nameA": "S0J",
+            "nameB": "Glosori"
+          },
+          {
+            "rank": 3,
+            "valueA": 101368,
+            "valueB": 466568,
+            "userIdA": 718599324,
+            "userIdB": 425623376,
+            "nameA": "RockとDevil",
+            "nameB": "Marble"
+          },
+          {
+            "rank": 4,
+            "valueA": 38823,
+            "valueB": 37822,
+            "userIdA": 934398383,
+            "userIdB": 921493081,
+            "nameA": "FrostBiTE",
+            "nameB": "Ptera"
+          },
+          {
+            "rank": 5,
+            "valueA": 34932,
+            "valueB": 34436,
+            "userIdA": 161754158,
+            "userIdB": 109370183,
+            "nameA": "oeuf",
+            "nameB": "Rusalka"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1063598,
+            "valueB": 1258696,
+            "userIdA": 492044794,
+            "userIdB": 127570238,
+            "nameA": "Saltea",
+            "nameB": "hubbididub"
+          },
+          {
+            "rank": 2,
+            "valueA": 394091,
+            "valueB": 824717,
+            "userIdA": 890964279,
+            "userIdB": 412203762,
+            "nameA": "S0J",
+            "nameB": "Glosori"
+          },
+          {
+            "rank": 3,
+            "valueA": 81203,
+            "valueB": 554882,
+            "userIdA": 718599324,
+            "userIdB": 425623376,
+            "nameA": "RockとDevil",
+            "nameB": "Marble"
+          },
+          {
+            "rank": 4,
+            "valueA": 70748,
+            "valueB": 260693,
+            "userIdA": 934398383,
+            "userIdB": 893125296,
+            "nameA": "FrostBiTE",
+            "nameB": "Shinnentai"
+          },
+          {
+            "rank": 5,
+            "valueA": 65549,
+            "valueB": 101966,
+            "userIdA": 161754158,
+            "userIdB": 921493081,
+            "nameA": "oeuf",
+            "nameB": "Ptera"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 82,
+            "valueB": 345,
+            "userIdA": 161754158,
+            "userIdB": 329024706,
+            "nameA": "oeuf",
+            "nameB": "Honigdachs"
+          },
+          {
+            "rank": 2,
+            "valueA": 52,
+            "valueB": 268,
+            "userIdA": 718599324,
+            "userIdB": 109370183,
+            "nameA": "RockとDevil",
+            "nameB": "Rusalka"
+          },
+          {
+            "rank": 3,
+            "valueA": 45,
+            "valueB": 199,
+            "userIdA": 934398383,
+            "userIdB": 807625061,
+            "nameA": "FrostBiTE",
+            "nameB": "Lizzy"
+          },
+          {
+            "rank": 4,
+            "valueA": 0,
+            "valueB": 186,
+            "userIdA": 0,
+            "userIdB": 893125296,
+            "nameA": "",
+            "nameB": "Shinnentai"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 146,
+            "userIdA": 0,
+            "userIdB": 255504848,
+            "nameA": "",
+            "nameB": "Clotho"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3107623,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 16,
+          "ultimateArtMethodMstId": 16,
+          "guildACount": 19,
+          "guildBCount": 43
+        },
+        {
+          "artMstId": 4,
+          "ultimateArtMethodMstId": 4,
+          "guildACount": 38,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 705,
+    "gvgDataId": 3107623,
+    "guildDataIdA": 449,
+    "guildDataIdB": 12812,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "TheAvatars",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 2,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 208,
+        "totalPower": 361060,
+        "maxHp": 81276
+      },
+      {
+        "userId": 934398383,
+        "name": "FrostBiTE",
+        "characterMstId": 48,
+        "level": 227,
+        "totalPower": 380914,
+        "maxHp": 94733
+      },
+      {
+        "userId": 718599324,
+        "name": "RockとDevil",
+        "characterMstId": 231,
+        "level": 208,
+        "totalPower": 343504,
+        "maxHp": 85076
+      },
+      {
+        "userId": 200491281,
+        "name": "Silverasha",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 336398,
+        "maxHp": 87672
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 325326,
+        "maxHp": 73559
+      },
+      {
+        "userId": 616104189,
+        "name": "Saphira",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 272034,
+        "maxHp": 62468
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 144,
+        "level": 201,
+        "totalPower": 318055,
+        "maxHp": 81595
+      },
+      {
+        "userId": 492044794,
+        "name": "Saltea",
+        "characterMstId": 167,
+        "level": 193,
+        "totalPower": 305496,
+        "maxHp": 66823
+      },
+      {
+        "userId": 167791490,
+        "name": "Reisz",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 318776,
+        "maxHp": 70130
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 197,
+        "totalPower": 259077,
+        "maxHp": 58868
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 921493081,
+        "name": "Ptera",
+        "characterMstId": 103,
+        "level": 210,
+        "totalPower": 337791,
+        "maxHp": 83060
+      },
+      {
+        "userId": 807625061,
+        "name": "Lizzy",
+        "characterMstId": 83,
+        "level": 189,
+        "totalPower": 304038,
+        "maxHp": 69034
+      },
+      {
+        "userId": 329024706,
+        "name": "Honigdachs",
+        "characterMstId": 126,
+        "level": 204,
+        "totalPower": 174221,
+        "maxHp": 75532
+      },
+      {
+        "userId": 893125296,
+        "name": "Shinnentai",
+        "characterMstId": 48,
+        "level": 225,
+        "totalPower": 380461,
+        "maxHp": 96483
+      },
+      {
+        "userId": 255504848,
+        "name": "Clotho",
+        "characterMstId": 204,
+        "level": 230,
+        "totalPower": 380883,
+        "maxHp": 114733
+      },
+      {
+        "userId": 109370183,
+        "name": "Rusalka",
+        "characterMstId": 139,
+        "level": 204,
+        "totalPower": 329039,
+        "maxHp": 79382
+      },
+      {
+        "userId": 104242741,
+        "name": "ZeonFlux",
+        "characterMstId": 114,
+        "level": 192,
+        "totalPower": 277909,
+        "maxHp": 61913
+      },
+      {
+        "userId": 448203740,
+        "name": "Honey",
+        "characterMstId": 624,
+        "level": 173,
+        "totalPower": 235281,
+        "maxHp": 48297
+      },
+      {
+        "userId": 425623376,
+        "name": "Marble",
+        "characterMstId": 114,
+        "level": 157,
+        "totalPower": 231659,
+        "maxHp": 59566
+      },
+      {
+        "userId": 125168618,
+        "name": "neon",
+        "characterMstId": 166,
+        "level": 118,
+        "totalPower": 186450,
+        "maxHp": 35049
+      },
+      {
+        "userId": 127570238,
+        "name": "hubbididub",
+        "characterMstId": 167,
+        "level": 201,
+        "totalPower": 299414,
+        "maxHp": 69595
+      },
+      {
+        "userId": 412203762,
+        "name": "Glosori",
+        "characterMstId": 167,
+        "level": 198,
+        "totalPower": 266802,
+        "maxHp": 61930
+      },
+      {
+        "userId": 610320541,
+        "name": "Flutter",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 329434,
+        "maxHp": 80337
+      },
+      {
+        "userId": 495580075,
+        "name": "Altair",
+        "characterMstId": 85,
+        "level": 213,
+        "totalPower": 308138,
+        "maxHp": 75228
+      },
+      {
+        "userId": 444623760,
+        "name": "NattAlone",
+        "characterMstId": 85,
+        "level": 151,
+        "totalPower": 242740,
+        "maxHp": 49182
+      }
+    ]
+  }
+}
