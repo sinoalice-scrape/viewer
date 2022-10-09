@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 103,
+      "battleStartTime": 1665342000,
+      "battleEndTime": 1665343199,
+      "gvgDataId": 3131090,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 5191831,
+      "selfComboCount": 1972,
+      "selfSiegeWinCount": 4,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 2886,
+      "enemyGuildName": "Lycoris",
+      "enemyTotalGuildPoint": 1444547,
+      "enemyComboCount": 1026,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 1849496,
+      "enemyRankUserId": 425654854,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Otaqween",
+      "enemyRankGuildPoint": 778665,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 250
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1849496,
+            "valueB": 778665,
+            "userIdA": 489820080,
+            "userIdB": 425654854,
+            "nameA": "Poetic0",
+            "nameB": "Otaqween"
+          },
+          {
+            "rank": 2,
+            "valueA": 740819,
+            "valueB": 624097,
+            "userIdA": 528967104,
+            "userIdB": 419898152,
+            "nameA": "Guider",
+            "nameB": "Tigrou"
+          },
+          {
+            "rank": 3,
+            "valueA": 594852,
+            "valueB": 360273,
+            "userIdA": 647526045,
+            "userIdB": 728064023,
+            "nameA": "Amber",
+            "nameB": "Eris"
+          },
+          {
+            "rank": 4,
+            "valueA": 586262,
+            "valueB": 270670,
+            "userIdA": 658397897,
+            "userIdB": 891482407,
+            "nameA": "Juddy",
+            "nameB": "Kimiyoo"
+          },
+          {
+            "rank": 5,
+            "valueA": 568958,
+            "valueB": 202275,
+            "userIdA": 311155260,
+            "userIdB": 396553890,
+            "nameA": "Tamuko",
+            "nameB": "valpinkman"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 47773768,
+            "valueB": 20870774,
+            "userIdA": 237959838,
+            "userIdB": 355357909,
+            "nameA": "Nheksh",
+            "nameB": "Kuri"
+          },
+          {
+            "rank": 2,
+            "valueA": 37996234,
+            "valueB": 17136170,
+            "userIdA": 335076343,
+            "userIdB": 962244565,
+            "nameA": "Melesie",
+            "nameB": "Kurukame"
+          },
+          {
+            "rank": 3,
+            "valueA": 37463300,
+            "valueB": 13821886,
+            "userIdA": 112665300,
+            "userIdB": 288233375,
+            "nameA": "ilyas",
+            "nameB": "Sakuw"
+          },
+          {
+            "rank": 4,
+            "valueA": 297658,
+            "valueB": 328960,
+            "userIdA": 658397897,
+            "userIdB": 728064023,
+            "nameA": "Juddy",
+            "nameB": "Eris"
+          },
+          {
+            "rank": 5,
+            "valueA": 185409,
+            "valueB": 325191,
+            "userIdA": 489820080,
+            "userIdB": 425654854,
+            "nameA": "Poetic0",
+            "nameB": "Otaqween"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4811587,
+            "valueB": 4614716,
+            "userIdA": 884034009,
+            "userIdB": 178625596,
+            "nameA": "Cheshipuss",
+            "nameB": "Sokaradian"
+          },
+          {
+            "rank": 2,
+            "valueA": 4483505,
+            "valueB": 2774414,
+            "userIdA": 889582783,
+            "userIdB": 610494276,
+            "nameA": "Baka",
+            "nameB": "Eiriana"
+          },
+          {
+            "rank": 3,
+            "valueA": 3136171,
+            "valueB": 2108728,
+            "userIdA": 519350497,
+            "userIdB": 216598468,
+            "nameA": "Andy",
+            "nameB": "Kurii"
+          },
+          {
+            "rank": 4,
+            "valueA": 2038222,
+            "valueB": 231398,
+            "userIdA": 249958587,
+            "userIdB": 355357909,
+            "nameA": "Sakura",
+            "nameB": "Kuri"
+          },
+          {
+            "rank": 5,
+            "valueA": 461312,
+            "valueB": 185435,
+            "userIdA": 237959838,
+            "userIdB": 288233375,
+            "nameA": "Nheksh",
+            "nameB": "Sakuw"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5009110,
+            "valueB": 2641821,
+            "userIdA": 884034009,
+            "userIdB": 178625596,
+            "nameA": "Cheshipuss",
+            "nameB": "Sokaradian"
+          },
+          {
+            "rank": 2,
+            "valueA": 2486267,
+            "valueB": 1843040,
+            "userIdA": 889582783,
+            "userIdB": 610494276,
+            "nameA": "Baka",
+            "nameB": "Eiriana"
+          },
+          {
+            "rank": 3,
+            "valueA": 1496333,
+            "valueB": 1544722,
+            "userIdA": 249958587,
+            "userIdB": 216598468,
+            "nameA": "Sakura",
+            "nameB": "Kurii"
+          },
+          {
+            "rank": 4,
+            "valueA": 1407804,
+            "valueB": 317424,
+            "userIdA": 519350497,
+            "userIdB": 355357909,
+            "nameA": "Andy",
+            "nameB": "Kuri"
+          },
+          {
+            "rank": 5,
+            "valueA": 665340,
+            "valueB": 240949,
+            "userIdA": 112665300,
+            "userIdB": 962244565,
+            "nameA": "ilyas",
+            "nameB": "Kurukame"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3760972,
+            "valueB": 5942950,
+            "userIdA": 594178109,
+            "userIdB": 423897038,
+            "nameA": "Jeanne",
+            "nameB": "Kyhra"
+          },
+          {
+            "rank": 2,
+            "valueA": 3044224,
+            "valueB": 3406233,
+            "userIdA": 580947666,
+            "userIdB": 701034628,
+            "nameA": "MeanRin",
+            "nameB": "dylan76"
+          },
+          {
+            "rank": 3,
+            "valueA": 2547647,
+            "valueB": 2606764,
+            "userIdA": 662352178,
+            "userIdB": 564275723,
+            "nameA": "NotRosé",
+            "nameB": "Lorelei"
+          },
+          {
+            "rank": 4,
+            "valueA": 1064295,
+            "valueB": 2020127,
+            "userIdA": 889582783,
+            "userIdB": 216598468,
+            "nameA": "Baka",
+            "nameB": "Kurii"
+          },
+          {
+            "rank": 5,
+            "valueA": 523099,
+            "valueB": 907669,
+            "userIdA": 519350497,
+            "userIdB": 268083056,
+            "nameA": "Andy",
+            "nameB": "Sirop"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3522345,
+            "valueB": 3591569,
+            "userIdA": 594178109,
+            "userIdB": 423897038,
+            "nameA": "Jeanne",
+            "nameB": "Kyhra"
+          },
+          {
+            "rank": 2,
+            "valueA": 1452109,
+            "valueB": 2832979,
+            "userIdA": 580947666,
+            "userIdB": 701034628,
+            "nameA": "MeanRin",
+            "nameB": "dylan76"
+          },
+          {
+            "rank": 3,
+            "valueA": 1290499,
+            "valueB": 2463868,
+            "userIdA": 662352178,
+            "userIdB": 564275723,
+            "nameA": "NotRosé",
+            "nameB": "Lorelei"
+          },
+          {
+            "rank": 4,
+            "valueA": 783742,
+            "valueB": 1342527,
+            "userIdA": 889582783,
+            "userIdB": 216598468,
+            "nameA": "Baka",
+            "nameB": "Kurii"
+          },
+          {
+            "rank": 5,
+            "valueA": 728209,
+            "valueB": 1111515,
+            "userIdA": 519350497,
+            "userIdB": 268083056,
+            "nameA": "Andy",
+            "nameB": "Sirop"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 433,
+            "valueB": 300,
+            "userIdA": 489820080,
+            "userIdB": 425654854,
+            "nameA": "Poetic0",
+            "nameB": "Otaqween"
+          },
+          {
+            "rank": 2,
+            "valueA": 337,
+            "valueB": 163,
+            "userIdA": 528967104,
+            "userIdB": 728064023,
+            "nameA": "Guider",
+            "nameB": "Eris"
+          },
+          {
+            "rank": 3,
+            "valueA": 237,
+            "valueB": 154,
+            "userIdA": 658397897,
+            "userIdB": 396553890,
+            "nameA": "Juddy",
+            "nameB": "valpinkman"
+          },
+          {
+            "rank": 4,
+            "valueA": 165,
+            "valueB": 144,
+            "userIdA": 311155260,
+            "userIdB": 216598468,
+            "nameA": "Tamuko",
+            "nameB": "Kurii"
+          },
+          {
+            "rank": 5,
+            "valueA": 156,
+            "valueB": 136,
+            "userIdA": 519350497,
+            "userIdB": 891482407,
+            "nameA": "Andy",
+            "nameB": "Kimiyoo"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3131090,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 75,
+          "guildBCount": 51
+        },
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 75,
+          "guildBCount": 46
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 103,
+    "gvgDataId": 3131090,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 2886,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Lycoris",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 103,
+        "level": 207,
+        "totalPower": 357056,
+        "maxHp": 86687
+      },
+      {
+        "userId": 311155260,
+        "name": "Tamuko",
+        "characterMstId": 103,
+        "level": 199,
+        "totalPower": 335013,
+        "maxHp": 74342
+      },
+      {
+        "userId": 647526045,
+        "name": "Amber",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 411833,
+        "maxHp": 103683
+      },
+      {
+        "userId": 528967104,
+        "name": "Guider",
+        "characterMstId": 48,
+        "level": 197,
+        "totalPower": 294408,
+        "maxHp": 67068
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 139,
+        "level": 219,
+        "totalPower": 355583,
+        "maxHp": 90616
+      },
+      {
+        "userId": 889582783,
+        "name": "Baka",
+        "characterMstId": 432,
+        "level": 198,
+        "totalPower": 352528,
+        "maxHp": 72030
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 432,
+        "level": 203,
+        "totalPower": 348232,
+        "maxHp": 80351
+      },
+      {
+        "userId": 884034009,
+        "name": "Cheshipuss",
+        "characterMstId": 114,
+        "level": 204,
+        "totalPower": 326181,
+        "maxHp": 65982
+      },
+      {
+        "userId": 249958587,
+        "name": "Sakura",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 300674,
+        "maxHp": 75055
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 93,
+        "level": 220,
+        "totalPower": 355631,
+        "maxHp": 83183
+      },
+      {
+        "userId": 662352178,
+        "name": "NotRosé",
+        "characterMstId": 93,
+        "level": 210,
+        "totalPower": 337267,
+        "maxHp": 79060
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 167,
+        "level": 206,
+        "totalPower": 323702,
+        "maxHp": 79700
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 85,
+        "level": 220,
+        "totalPower": 492851,
+        "maxHp": 129033
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 227,
+        "totalPower": 377611,
+        "maxHp": 97033
+      },
+      {
+        "userId": 112665300,
+        "name": "ilyas",
+        "characterMstId": 85,
+        "level": 205,
+        "totalPower": 359820,
+        "maxHp": 84015
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 425654854,
+        "name": "Otaqween",
+        "characterMstId": 103,
+        "level": 206,
+        "totalPower": 370214,
+        "maxHp": 88950
+      },
+      {
+        "userId": 728064023,
+        "name": "Eris",
+        "characterMstId": 103,
+        "level": 210,
+        "totalPower": 337406,
+        "maxHp": 84760
+      },
+      {
+        "userId": 396553890,
+        "name": "valpinkman",
+        "characterMstId": 288,
+        "level": 200,
+        "totalPower": 289137,
+        "maxHp": 64305
+      },
+      {
+        "userId": 419898152,
+        "name": "Tigrou",
+        "characterMstId": 48,
+        "level": 209,
+        "totalPower": 358700,
+        "maxHp": 78767
+      },
+      {
+        "userId": 891482407,
+        "name": "Kimiyoo",
+        "characterMstId": 48,
+        "level": 207,
+        "totalPower": 356373,
+        "maxHp": 86487
+      },
+      {
+        "userId": 178625596,
+        "name": "Sokaradian",
+        "characterMstId": 114,
+        "level": 204,
+        "totalPower": 340261,
+        "maxHp": 81132
+      },
+      {
+        "userId": 610494276,
+        "name": "Eiriana",
+        "characterMstId": 114,
+        "level": 194,
+        "totalPower": 304925,
+        "maxHp": 73234
+      },
+      {
+        "userId": 701034628,
+        "name": "dylan76",
+        "characterMstId": 93,
+        "level": 207,
+        "totalPower": 343765,
+        "maxHp": 82087
+      },
+      {
+        "userId": 423897038,
+        "name": "Kyhra",
+        "characterMstId": 167,
+        "level": 204,
+        "totalPower": 340451,
+        "maxHp": 88032
+      },
+      {
+        "userId": 216598468,
+        "name": "Kurii",
+        "characterMstId": 336,
+        "level": 198,
+        "totalPower": 325046,
+        "maxHp": 77630
+      },
+      {
+        "userId": 564275723,
+        "name": "Lorelei",
+        "characterMstId": 167,
+        "level": 132,
+        "totalPower": 246678,
+        "maxHp": 51614
+      },
+      {
+        "userId": 268083056,
+        "name": "Sirop",
+        "characterMstId": 93,
+        "level": 136,
+        "totalPower": 152407,
+        "maxHp": 34697
+      },
+      {
+        "userId": 355357909,
+        "name": "Kuri",
+        "characterMstId": 85,
+        "level": 204,
+        "totalPower": 368339,
+        "maxHp": 89832
+      },
+      {
+        "userId": 962244565,
+        "name": "Kurukame",
+        "characterMstId": 85,
+        "level": 202,
+        "totalPower": 328200,
+        "maxHp": 76222
+      },
+      {
+        "userId": 288233375,
+        "name": "Sakuw",
+        "characterMstId": 251,
+        "level": 194,
+        "totalPower": 301538,
+        "maxHp": 73784
+      }
+    ]
+  }
+}
