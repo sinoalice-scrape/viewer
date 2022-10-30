@@ -103,6 +103,11 @@ function generateTable(table) {
 			if (col.align) {
 				html += ` align="${col.align}"`;
 			}
+			if (col.classGenerator) {
+				const cssClass = col.classGenerator(rowData);
+				if (cssClass)
+					html += ` class="${cssClass}"`;
+			}
 			html += '>';
 
 			let data;
@@ -143,7 +148,7 @@ function generateTable(table) {
 	return domTable;
 }
 
-function viewGuildHistory(matchHistory, shinmaSkills) {
+function viewGuildHistory(matchHistory, events, shinmaSkills) {
 	function generateShinmaType(shinma, shinmaSkills) {
 		if (!shinma)
 			return "";
@@ -165,6 +170,20 @@ function viewGuildHistory(matchHistory, shinmaSkills) {
 		return `${shinma.guildACount}/${shinma.guildBCount}`;
 	}
 
+	{
+		let eventIdx = 0;
+		let event = events[eventIdx];
+		for (const match of matchHistory.items) {
+			while (event && event.end <= match.startTime) {
+				eventIdx += 1;
+				event = events[eventIdx];
+			}
+			if (event && event.start <= match.startTime && match.startTime < event.end) {
+				match.event = event;
+			}
+		}
+	}
+
 	const guildA = matchHistory.items[0].guildAName;
 
 	const table = {
@@ -179,7 +198,29 @@ function viewGuildHistory(matchHistory, shinmaSkills) {
 					const dt = new Date(m.startTime * 1000);
 					const matchUrl = `?view=match&time=${m.startTime}&a=${m.guildAId}&b=${m.guildBId}`;
 					return `<a href="${matchUrl}">${dt.getUTCFullYear()}/${dt.getUTCMonth()+1}/${dt.getUTCDate()}</a>`
-				}
+				},
+			},
+			{
+				title: 'Event',
+				cmp: function(l, r, col) {
+					const eventL = l.data.event;
+					const eventR = r.data.event;
+					if (eventL == eventR) return 0;
+					if (!eventL) return -1;
+					if (!eventR) return 1;
+					const catDiff = collator.compare(eventL.category, eventR.category);
+					if (catDiff != 0) return catDiff;
+					return eventL.start - eventR.start;
+				},
+				generator: function(m) { return (m.event) ? m.event.name : ""; },
+				classGenerator: function(m) {
+					if (!m.event) return null;
+					switch (m.event.category) {
+						case "GranColosseum": return "table-warning";
+						case "ColosseumSP": return "table-danger";
+						default: return null;
+					}
+				},
 			},
 			{ title: 'Rank', field: 'rank', cmp: (l, r, col) => collator.compare(l.data.rank, r.data.rank) },
 			{
@@ -193,7 +234,7 @@ function viewGuildHistory(matchHistory, shinmaSkills) {
 					if (m.guildAPoints > m.guildBPoints) return "Victory";
 					else if (m.guildAPoints < m.guildBPoints) return "Defeat";
 					else return "Tie";
-				}
+				},
 			},
 			{
 				title: 'Enemy Guild',
@@ -481,12 +522,13 @@ async function showView(searchText, pushState) {
 					return;
 			}
 
-			const [history, shinmaSkills] = await Promise.allSettled([
+			const [history, events, shinmaSkills] = await Promise.allSettled([
 				loadJson(historyUrl),
-				loadShinmaSkills()
+				loadJson("events.json"),
+				loadShinmaSkills(),
 			]);
 
-			pageTitle = viewGuildHistory(history.value, shinmaSkills.value);
+			pageTitle = viewGuildHistory(history.value, events.value, shinmaSkills.value);
 		}
 		break;
 
