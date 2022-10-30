@@ -73,6 +73,8 @@ function generateTable(table) {
 			table.sortColumn = columnIdx;
 			table.sortDirection = 1;
 		}
+		// let myModal = new bootstrap.Modal(document.getElementById('column-filter-dialog'), {});
+		// myModal.show();
 		applySort(table);
 	}
 
