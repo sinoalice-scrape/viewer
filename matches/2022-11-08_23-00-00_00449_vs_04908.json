@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 306,
+      "battleStartTime": 1667948400,
+      "battleEndTime": 1667949599,
+      "gvgDataId": 3177920,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 5173365,
+      "selfComboCount": 1524,
+      "selfSiegeWinCount": 7,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 4908,
+      "enemyGuildName": "WildKass",
+      "enemyTotalGuildPoint": 2226480,
+      "enemyComboCount": 1887,
+      "enemySiegeWinCount": 1,
+      "selfRankUserId": 964507183,
+      "selfRankNum": 1,
+      "selfRankUserName": "Shibakita",
+      "selfRankGuildPoint": 1118202,
+      "enemyRankUserId": 362432902,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "víctorxx6",
+      "enemyRankGuildPoint": 924295,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 840
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1118202,
+            "valueB": 924295,
+            "userIdA": 964507183,
+            "userIdB": 362432902,
+            "nameA": "Shibakita",
+            "nameB": "víctorxx6"
+          },
+          {
+            "rank": 2,
+            "valueA": 803266,
+            "valueB": 800044,
+            "userIdA": 891861245,
+            "userIdB": 229102790,
+            "nameA": "Cyn",
+            "nameB": "Nailkaiser"
+          },
+          {
+            "rank": 3,
+            "valueA": 793356,
+            "valueB": 675981,
+            "userIdA": 373947304,
+            "userIdB": 634122213,
+            "nameA": "Oshyn",
+            "nameB": "Mathy"
+          },
+          {
+            "rank": 4,
+            "valueA": 728072,
+            "valueB": 644163,
+            "userIdA": 593439881,
+            "userIdB": 864051255,
+            "nameA": "Ludmila",
+            "nameB": "G-PhenH3X"
+          },
+          {
+            "rank": 5,
+            "valueA": 653285,
+            "valueB": 163033,
+            "userIdA": 161754158,
+            "userIdB": 413543021,
+            "nameA": "oeuf",
+            "nameB": "skyline"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 26556702,
+            "valueB": 22547684,
+            "userIdA": 809241235,
+            "userIdB": 884207515,
+            "nameA": "K",
+            "nameB": "Healchu"
+          },
+          {
+            "rank": 2,
+            "valueA": 26279946,
+            "valueB": 21273884,
+            "userIdA": 482452519,
+            "userIdB": 707886195,
+            "nameA": "☆Freddi",
+            "nameB": "Trident"
+          },
+          {
+            "rank": 3,
+            "valueA": 17048188,
+            "valueB": 16765906,
+            "userIdA": 515568020,
+            "userIdB": 589742143,
+            "nameA": "Enigma",
+            "nameB": "Purechi☕"
+          },
+          {
+            "rank": 4,
+            "valueA": 483143,
+            "valueB": 700893,
+            "userIdA": 964507183,
+            "userIdB": 378999454,
+            "nameA": "Shibakita",
+            "nameB": "Patchon"
+          },
+          {
+            "rank": 5,
+            "valueA": 215090,
+            "valueB": 650778,
+            "userIdA": 891861245,
+            "userIdB": 362432902,
+            "nameA": "Cyn",
+            "nameB": "víctorxx6"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 6615151,
+            "valueB": 3298631,
+            "userIdA": 991509328,
+            "userIdB": 470577571,
+            "nameA": "Drystar",
+            "nameB": "LeiSheng"
+          },
+          {
+            "rank": 2,
+            "valueA": 1375443,
+            "valueB": 3290655,
+            "userIdA": 200491281,
+            "userIdB": 794245679,
+            "nameA": "Silverasha",
+            "nameB": "riskbreakr"
+          },
+          {
+            "rank": 3,
+            "valueA": 868148,
+            "valueB": 1698924,
+            "userIdA": 946559622,
+            "userIdB": 908386573,
+            "nameA": "Thanatos",
+            "nameB": "Tanuki"
+          },
+          {
+            "rank": 4,
+            "valueA": 677226,
+            "valueB": 1622155,
+            "userIdA": 890964279,
+            "userIdB": 343022927,
+            "nameA": "S0J",
+            "nameB": "Momo"
+          },
+          {
+            "rank": 5,
+            "valueA": 425872,
+            "valueB": 1326916,
+            "userIdA": 809241235,
+            "userIdB": 107120425,
+            "nameA": "K",
+            "nameB": "Archeotech"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3841735,
+            "valueB": 3176824,
+            "userIdA": 991509328,
+            "userIdB": 794245679,
+            "nameA": "Drystar",
+            "nameB": "riskbreakr"
+          },
+          {
+            "rank": 2,
+            "valueA": 3808922,
+            "valueB": 2753797,
+            "userIdA": 200491281,
+            "userIdB": 470577571,
+            "nameA": "Silverasha",
+            "nameB": "LeiSheng"
+          },
+          {
+            "rank": 3,
+            "valueA": 727310,
+            "valueB": 2149182,
+            "userIdA": 890964279,
+            "userIdB": 343022927,
+            "nameA": "S0J",
+            "nameB": "Momo"
+          },
+          {
+            "rank": 4,
+            "valueA": 486913,
+            "valueB": 1086889,
+            "userIdA": 809241235,
+            "userIdB": 908386573,
+            "nameA": "K",
+            "nameB": "Tanuki"
+          },
+          {
+            "rank": 5,
+            "valueA": 452975,
+            "valueB": 734968,
+            "userIdA": 515568020,
+            "userIdB": 107120425,
+            "nameA": "Enigma",
+            "nameB": "Archeotech"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4133684,
+            "valueB": 3563578,
+            "userIdA": 742972387,
+            "userIdB": 378999454,
+            "nameA": "Jinx",
+            "nameB": "Patchon"
+          },
+          {
+            "rank": 2,
+            "valueA": 3708515,
+            "valueB": 3004517,
+            "userIdA": 946559622,
+            "userIdB": 528313330,
+            "nameA": "Thanatos",
+            "nameB": "Aster"
+          },
+          {
+            "rank": 3,
+            "valueA": 1991876,
+            "valueB": 2900746,
+            "userIdA": 681769414,
+            "userIdB": 107120425,
+            "nameA": "Vanilla",
+            "nameB": "Archeotech"
+          },
+          {
+            "rank": 4,
+            "valueA": 1555986,
+            "valueB": 868575,
+            "userIdA": 817039541,
+            "userIdB": 908386573,
+            "nameA": "Eto",
+            "nameB": "Tanuki"
+          },
+          {
+            "rank": 5,
+            "valueA": 870839,
+            "valueB": 130461,
+            "userIdA": 890964279,
+            "userIdB": 362432902,
+            "nameA": "S0J",
+            "nameB": "víctorxx6"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3795862,
+            "valueB": 3775854,
+            "userIdA": 742972387,
+            "userIdB": 378999454,
+            "nameA": "Jinx",
+            "nameB": "Patchon"
+          },
+          {
+            "rank": 2,
+            "valueA": 3149259,
+            "valueB": 2820016,
+            "userIdA": 817039541,
+            "userIdB": 528313330,
+            "nameA": "Eto",
+            "nameB": "Aster"
+          },
+          {
+            "rank": 3,
+            "valueA": 2970592,
+            "valueB": 1883259,
+            "userIdA": 946559622,
+            "userIdB": 107120425,
+            "nameA": "Thanatos",
+            "nameB": "Archeotech"
+          },
+          {
+            "rank": 4,
+            "valueA": 1568050,
+            "valueB": 1365977,
+            "userIdA": 681769414,
+            "userIdB": 908386573,
+            "nameA": "Vanilla",
+            "nameB": "Tanuki"
+          },
+          {
+            "rank": 5,
+            "valueA": 574028,
+            "valueB": 225582,
+            "userIdA": 890964279,
+            "userIdB": 864051255,
+            "nameA": "S0J",
+            "nameB": "G-PhenH3X"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 368,
+            "valueB": 523,
+            "userIdA": 891861245,
+            "userIdB": 413543021,
+            "nameA": "Cyn",
+            "nameB": "skyline"
+          },
+          {
+            "rank": 2,
+            "valueA": 220,
+            "valueB": 491,
+            "userIdA": 964507183,
+            "userIdB": 634122213,
+            "nameA": "Shibakita",
+            "nameB": "Mathy"
+          },
+          {
+            "rank": 3,
+            "valueA": 184,
+            "valueB": 333,
+            "userIdA": 742972387,
+            "userIdB": 864051255,
+            "nameA": "Jinx",
+            "nameB": "G-PhenH3X"
+          },
+          {
+            "rank": 4,
+            "valueA": 181,
+            "valueB": 238,
+            "userIdA": 373947304,
+            "userIdB": 229102790,
+            "nameA": "Oshyn",
+            "nameB": "Nailkaiser"
+          },
+          {
+            "rank": 5,
+            "valueA": 148,
+            "valueB": 121,
+            "userIdA": 161754158,
+            "userIdB": 362432902,
+            "nameA": "oeuf",
+            "nameB": "víctorxx6"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3177920,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 16,
+          "ultimateArtMethodMstId": 16,
+          "guildACount": 75,
+          "guildBCount": 39
+        },
+        {
+          "artMstId": 28,
+          "ultimateArtMethodMstId": 28,
+          "guildACount": 75,
+          "guildBCount": 44
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 306,
+    "gvgDataId": 3177920,
+    "guildDataIdA": 449,
+    "guildDataIdB": 4908,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "WildKass",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 373947304,
+        "name": "Oshyn",
+        "characterMstId": 103,
+        "level": 200,
+        "totalPower": 377458,
+        "maxHp": 97255
+      },
+      {
+        "userId": 891861245,
+        "name": "Cyn",
+        "characterMstId": 103,
+        "level": 217,
+        "totalPower": 371479,
+        "maxHp": 98606
+      },
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 208,
+        "totalPower": 369340,
+        "maxHp": 85376
+      },
+      {
+        "userId": 964507183,
+        "name": "Shibakita",
+        "characterMstId": 196,
+        "level": 209,
+        "totalPower": 530937,
+        "maxHp": 130667
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 357947,
+        "maxHp": 96683
+      },
+      {
+        "userId": 200491281,
+        "name": "Silverasha",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 350090,
+        "maxHp": 91222
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 344041,
+        "maxHp": 76509
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 558,
+        "level": 201,
+        "totalPower": 325605,
+        "maxHp": 87895
+      },
+      {
+        "userId": 681769414,
+        "name": "Vanilla",
+        "characterMstId": 167,
+        "level": 215,
+        "totalPower": 387267,
+        "maxHp": 102527
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 336,
+        "level": 209,
+        "totalPower": 378717,
+        "maxHp": 81517
+      },
+      {
+        "userId": 742972387,
+        "name": "Jinx",
+        "characterMstId": 167,
+        "level": 204,
+        "totalPower": 365310,
+        "maxHp": 84332
+      },
+      {
+        "userId": 817039541,
+        "name": "Eto",
+        "characterMstId": 573,
+        "level": 174,
+        "totalPower": 256388,
+        "maxHp": 65968
+      },
+      {
+        "userId": 809241235,
+        "name": "K",
+        "characterMstId": 85,
+        "level": 209,
+        "totalPower": 367609,
+        "maxHp": 92067
+      },
+      {
+        "userId": 482452519,
+        "name": "☆Freddi",
+        "characterMstId": 85,
+        "level": 206,
+        "totalPower": 357810,
+        "maxHp": 79300
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 198,
+        "totalPower": 270921,
+        "maxHp": 59530
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 413543021,
+        "name": "skyline",
+        "characterMstId": 312,
+        "level": 220,
+        "totalPower": 351859,
+        "maxHp": 101583
+      },
+      {
+        "userId": 229102790,
+        "name": "Nailkaiser",
+        "characterMstId": 48,
+        "level": 230,
+        "totalPower": 474295,
+        "maxHp": 121833
+      },
+      {
+        "userId": 634122213,
+        "name": "Mathy",
+        "characterMstId": 48,
+        "level": 223,
+        "totalPower": 447806,
+        "maxHp": 120233
+      },
+      {
+        "userId": 864051255,
+        "name": "G-PhenH3X",
+        "characterMstId": 48,
+        "level": 222,
+        "totalPower": 428186,
+        "maxHp": 114733
+      },
+      {
+        "userId": 362432902,
+        "name": "víctorxx6",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 404617,
+        "maxHp": 104178
+      },
+      {
+        "userId": 794245679,
+        "name": "riskbreakr",
+        "characterMstId": 114,
+        "level": 214,
+        "totalPower": 395519,
+        "maxHp": 93699
+      },
+      {
+        "userId": 470577571,
+        "name": "LeiSheng",
+        "characterMstId": 114,
+        "level": 210,
+        "totalPower": 378985,
+        "maxHp": 89460
+      },
+      {
+        "userId": 343022927,
+        "name": "Momo",
+        "characterMstId": 616,
+        "level": 208,
+        "totalPower": 360648,
+        "maxHp": 91276
+      },
+      {
+        "userId": 378999454,
+        "name": "Patchon",
+        "characterMstId": 167,
+        "level": 218,
+        "totalPower": 413468,
+        "maxHp": 91707
+      },
+      {
+        "userId": 528313330,
+        "name": "Aster",
+        "characterMstId": 167,
+        "level": 217,
+        "totalPower": 403825,
+        "maxHp": 97006
+      },
+      {
+        "userId": 107120425,
+        "name": "Archeotech",
+        "characterMstId": 336,
+        "level": 208,
+        "totalPower": 380284,
+        "maxHp": 93026
+      },
+      {
+        "userId": 908386573,
+        "name": "Tanuki",
+        "characterMstId": 336,
+        "level": 204,
+        "totalPower": 330016,
+        "maxHp": 79282
+      },
+      {
+        "userId": 707886195,
+        "name": "Trident",
+        "characterMstId": 85,
+        "level": 226,
+        "totalPower": 426805,
+        "maxHp": 121333
+      },
+      {
+        "userId": 884207515,
+        "name": "Healchu",
+        "characterMstId": 85,
+        "level": 206,
+        "totalPower": 377991,
+        "maxHp": 87700
+      },
+      {
+        "userId": 589742143,
+        "name": "Purechi☕",
+        "characterMstId": 85,
+        "level": 204,
+        "totalPower": 332624,
+        "maxHp": 73432
+      }
+    ]
+  }
+}
