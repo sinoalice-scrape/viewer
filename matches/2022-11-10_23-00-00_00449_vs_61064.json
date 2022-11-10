@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 506,
+      "battleStartTime": 1668121200,
+      "battleEndTime": 1668122399,
+      "gvgDataId": 3180961,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 449,
+      "selfGuildName": "WildCard",
+      "selfTotalGuildPoint": 2361914,
+      "selfComboCount": 1196,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 61064,
+      "enemyGuildName": "PopcornChocobo",
+      "enemyTotalGuildPoint": 11856768,
+      "enemyComboCount": 1715,
+      "enemySiegeWinCount": 7,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 1744459,
+      "enemyRankUserId": 769443026,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Mog",
+      "enemyRankGuildPoint": 3259059,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 840
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1744459,
+            "valueB": 3259059,
+            "userIdA": 593439881,
+            "userIdB": 769443026,
+            "nameA": "Ludmila",
+            "nameB": "Mog"
+          },
+          {
+            "rank": 2,
+            "valueA": 934267,
+            "valueB": 3054397,
+            "userIdA": 964507183,
+            "userIdB": 996278038,
+            "nameA": "Shibakita",
+            "nameB": "Ashenbun"
+          },
+          {
+            "rank": 3,
+            "valueA": 737611,
+            "valueB": 1750996,
+            "userIdA": 891861245,
+            "userIdB": 537932143,
+            "nameA": "Cyn",
+            "nameB": "Saruwu"
+          },
+          {
+            "rank": 4,
+            "valueA": 637670,
+            "valueB": 928423,
+            "userIdA": 161754158,
+            "userIdB": 381554542,
+            "nameA": "oeuf",
+            "nameB": "Asakusa"
+          },
+          {
+            "rank": 5,
+            "valueA": 434316,
+            "valueB": 644468,
+            "userIdA": 373947304,
+            "userIdB": 780789990,
+            "nameA": "Oshyn",
+            "nameB": "NPC"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 33540761,
+            "valueB": 43841721,
+            "userIdA": 482452519,
+            "userIdB": 644377240,
+            "nameA": "☆Freddi",
+            "nameB": "inkay"
+          },
+          {
+            "rank": 2,
+            "valueA": 32005771,
+            "valueB": 35734550,
+            "userIdA": 809241235,
+            "userIdB": 509268361,
+            "nameA": "K",
+            "nameB": "Mi2ki~"
+          },
+          {
+            "rank": 3,
+            "valueA": 16316709,
+            "valueB": 35131146,
+            "userIdA": 515568020,
+            "userIdB": 191659881,
+            "nameA": "Enigma",
+            "nameB": "Matrix"
+          },
+          {
+            "rank": 4,
+            "valueA": 1139244,
+            "valueB": 232334,
+            "userIdA": 964507183,
+            "userIdB": 769443026,
+            "nameA": "Shibakita",
+            "nameB": "Mog"
+          },
+          {
+            "rank": 5,
+            "valueA": 639677,
+            "valueB": 175680,
+            "userIdA": 200491281,
+            "userIdB": 996278038,
+            "nameA": "Silverasha",
+            "nameB": "Ashenbun"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 9096704,
+            "valueB": 7375067,
+            "userIdA": 991509328,
+            "userIdB": 449424852,
+            "nameA": "Drystar",
+            "nameB": "Terra"
+          },
+          {
+            "rank": 2,
+            "valueA": 1531141,
+            "valueB": 4855879,
+            "userIdA": 200491281,
+            "userIdB": 147053668,
+            "nameA": "Silverasha",
+            "nameB": "oiKram"
+          },
+          {
+            "rank": 3,
+            "valueA": 873229,
+            "valueB": 3779969,
+            "userIdA": 890964279,
+            "userIdB": 998330693,
+            "nameA": "S0J",
+            "nameB": "LazyDuck"
+          },
+          {
+            "rank": 4,
+            "valueA": 652193,
+            "valueB": 1808418,
+            "userIdA": 946559622,
+            "userIdB": 300636283,
+            "nameA": "Thanatos",
+            "nameB": "●◌●曼珠沙華●◌●"
+          },
+          {
+            "rank": 5,
+            "valueA": 501451,
+            "valueB": 502020,
+            "userIdA": 809241235,
+            "userIdB": 644377240,
+            "nameA": "K",
+            "nameB": "inkay"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5518651,
+            "valueB": 5615187,
+            "userIdA": 991509328,
+            "userIdB": 449424852,
+            "nameA": "Drystar",
+            "nameB": "Terra"
+          },
+          {
+            "rank": 2,
+            "valueA": 4438174,
+            "valueB": 4480679,
+            "userIdA": 200491281,
+            "userIdB": 998330693,
+            "nameA": "Silverasha",
+            "nameB": "LazyDuck"
+          },
+          {
+            "rank": 3,
+            "valueA": 1092693,
+            "valueB": 2879446,
+            "userIdA": 890964279,
+            "userIdB": 147053668,
+            "nameA": "S0J",
+            "nameB": "oiKram"
+          },
+          {
+            "rank": 4,
+            "valueA": 580897,
+            "valueB": 1780213,
+            "userIdA": 809241235,
+            "userIdB": 300636283,
+            "nameA": "K",
+            "nameB": "●◌●曼珠沙華●◌●"
+          },
+          {
+            "rank": 5,
+            "valueA": 456522,
+            "valueB": 739423,
+            "userIdA": 482452519,
+            "userIdB": 644377240,
+            "nameA": "☆Freddi",
+            "nameB": "inkay"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 6707138,
+            "valueB": 6132875,
+            "userIdA": 742972387,
+            "userIdB": 788643157,
+            "nameA": "Jinx",
+            "nameB": "Ekardnam"
+          },
+          {
+            "rank": 2,
+            "valueA": 3560147,
+            "valueB": 5007829,
+            "userIdA": 946559622,
+            "userIdB": 174635520,
+            "nameA": "Thanatos",
+            "nameB": "FakeSorc"
+          },
+          {
+            "rank": 3,
+            "valueA": 3433947,
+            "valueB": 2464250,
+            "userIdA": 681769414,
+            "userIdB": 951033157,
+            "nameA": "Vanilla",
+            "nameB": "Dmiko"
+          },
+          {
+            "rank": 4,
+            "valueA": 2416769,
+            "valueB": 218880,
+            "userIdA": 817039541,
+            "userIdB": 537932143,
+            "nameA": "Eto",
+            "nameB": "Saruwu"
+          },
+          {
+            "rank": 5,
+            "valueA": 1109150,
+            "valueB": 154180,
+            "userIdA": 890964279,
+            "userIdB": 381554542,
+            "nameA": "S0J",
+            "nameB": "Asakusa"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 6104942,
+            "valueB": 6932014,
+            "userIdA": 742972387,
+            "userIdB": 951033157,
+            "nameA": "Jinx",
+            "nameB": "Dmiko"
+          },
+          {
+            "rank": 2,
+            "valueA": 3849603,
+            "valueB": 3422617,
+            "userIdA": 817039541,
+            "userIdB": 174635520,
+            "nameA": "Eto",
+            "nameB": "FakeSorc"
+          },
+          {
+            "rank": 3,
+            "valueA": 3111538,
+            "valueB": 3355780,
+            "userIdA": 946559622,
+            "userIdB": 788643157,
+            "nameA": "Thanatos",
+            "nameB": "Ekardnam"
+          },
+          {
+            "rank": 4,
+            "valueA": 2056651,
+            "valueB": 418920,
+            "userIdA": 681769414,
+            "userIdB": 537932143,
+            "nameA": "Vanilla",
+            "nameB": "Saruwu"
+          },
+          {
+            "rank": 5,
+            "valueA": 807117,
+            "valueB": 198299,
+            "userIdA": 890964279,
+            "userIdB": 996278038,
+            "nameA": "S0J",
+            "nameB": "Ashenbun"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 396,
+            "valueB": 672,
+            "userIdA": 891861245,
+            "userIdB": 780789990,
+            "nameA": "Cyn",
+            "nameB": "NPC"
+          },
+          {
+            "rank": 2,
+            "valueA": 265,
+            "valueB": 341,
+            "userIdA": 593439881,
+            "userIdB": 769443026,
+            "nameA": "Ludmila",
+            "nameB": "Mog"
+          },
+          {
+            "rank": 3,
+            "valueA": 200,
+            "valueB": 252,
+            "userIdA": 964507183,
+            "userIdB": 381554542,
+            "nameA": "Shibakita",
+            "nameB": "Asakusa"
+          },
+          {
+            "rank": 4,
+            "valueA": 170,
+            "valueB": 150,
+            "userIdA": 161754158,
+            "userIdB": 996278038,
+            "nameA": "oeuf",
+            "nameB": "Ashenbun"
+          },
+          {
+            "rank": 5,
+            "valueA": 165,
+            "valueB": 137,
+            "userIdA": 373947304,
+            "userIdB": 537932143,
+            "nameA": "Oshyn",
+            "nameB": "Saruwu"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3180961,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 10,
+          "ultimateArtMethodMstId": 10,
+          "guildACount": 75,
+          "guildBCount": 44
+        },
+        {
+          "artMstId": 4,
+          "ultimateArtMethodMstId": 4,
+          "guildACount": 75,
+          "guildBCount": 67
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 506,
+    "gvgDataId": 3180961,
+    "guildDataIdA": 449,
+    "guildDataIdB": 61064,
+    "guildDataNameA": "WildCard",
+    "guildDataNameB": "PopcornChocobo",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 373947304,
+        "name": "Oshyn",
+        "characterMstId": 103,
+        "level": 200,
+        "totalPower": 377508,
+        "maxHp": 97255
+      },
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 208,
+        "totalPower": 369340,
+        "maxHp": 85376
+      },
+      {
+        "userId": 964507183,
+        "name": "Shibakita",
+        "characterMstId": 196,
+        "level": 209,
+        "totalPower": 530937,
+        "maxHp": 130667
+      },
+      {
+        "userId": 891861245,
+        "name": "Cyn",
+        "characterMstId": 48,
+        "level": 217,
+        "totalPower": 374912,
+        "maxHp": 98606
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 358547,
+        "maxHp": 98883
+      },
+      {
+        "userId": 200491281,
+        "name": "Silverasha",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 350090,
+        "maxHp": 91222
+      },
+      {
+        "userId": 991509328,
+        "name": "Drystar",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 344041,
+        "maxHp": 76509
+      },
+      {
+        "userId": 890964279,
+        "name": "S0J",
+        "characterMstId": 558,
+        "level": 201,
+        "totalPower": 325605,
+        "maxHp": 87895
+      },
+      {
+        "userId": 681769414,
+        "name": "Vanilla",
+        "characterMstId": 167,
+        "level": 215,
+        "totalPower": 387267,
+        "maxHp": 102527
+      },
+      {
+        "userId": 946559622,
+        "name": "Thanatos",
+        "characterMstId": 336,
+        "level": 209,
+        "totalPower": 378717,
+        "maxHp": 81517
+      },
+      {
+        "userId": 742972387,
+        "name": "Jinx",
+        "characterMstId": 167,
+        "level": 204,
+        "totalPower": 369758,
+        "maxHp": 84482
+      },
+      {
+        "userId": 817039541,
+        "name": "Eto",
+        "characterMstId": 573,
+        "level": 174,
+        "totalPower": 256388,
+        "maxHp": 65968
+      },
+      {
+        "userId": 809241235,
+        "name": "K",
+        "characterMstId": 85,
+        "level": 209,
+        "totalPower": 367609,
+        "maxHp": 92067
+      },
+      {
+        "userId": 482452519,
+        "name": "☆Freddi",
+        "characterMstId": 85,
+        "level": 206,
+        "totalPower": 358767,
+        "maxHp": 79300
+      },
+      {
+        "userId": 515568020,
+        "name": "Enigma",
+        "characterMstId": 251,
+        "level": 198,
+        "totalPower": 270921,
+        "maxHp": 59530
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 537932143,
+        "name": "Saruwu",
+        "characterMstId": 103,
+        "level": 230,
+        "totalPower": 513101,
+        "maxHp": 142233
+      },
+      {
+        "userId": 381554542,
+        "name": "Asakusa",
+        "characterMstId": 103,
+        "level": 230,
+        "totalPower": 492349,
+        "maxHp": 124883
+      },
+      {
+        "userId": 996278038,
+        "name": "Ashenbun",
+        "characterMstId": 103,
+        "level": 230,
+        "totalPower": 481093,
+        "maxHp": 130333
+      },
+      {
+        "userId": 769443026,
+        "name": "Mog",
+        "characterMstId": 126,
+        "level": 223,
+        "totalPower": 571211,
+        "maxHp": 149783
+      },
+      {
+        "userId": 780789990,
+        "name": "NPC",
+        "characterMstId": 277,
+        "level": 225,
+        "totalPower": 442127,
+        "maxHp": 141783
+      },
+      {
+        "userId": 449424852,
+        "name": "Terra",
+        "characterMstId": 114,
+        "level": 219,
+        "totalPower": 551662,
+        "maxHp": 132816
+      },
+      {
+        "userId": 300636283,
+        "name": "●◌●曼珠沙華●◌●",
+        "characterMstId": 114,
+        "level": 228,
+        "totalPower": 521469,
+        "maxHp": 134183
+      },
+      {
+        "userId": 998330693,
+        "name": "LazyDuck",
+        "characterMstId": 114,
+        "level": 223,
+        "totalPower": 495193,
+        "maxHp": 135033
+      },
+      {
+        "userId": 147053668,
+        "name": "oiKram",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 469809,
+        "maxHp": 92837
+      },
+      {
+        "userId": 951033157,
+        "name": "Dmiko",
+        "characterMstId": 167,
+        "level": 224,
+        "totalPower": 508165,
+        "maxHp": 133633
+      },
+      {
+        "userId": 788643157,
+        "name": "Ekardnam",
+        "characterMstId": 167,
+        "level": 227,
+        "totalPower": 506646,
+        "maxHp": 137133
+      },
+      {
+        "userId": 174635520,
+        "name": "FakeSorc",
+        "characterMstId": 167,
+        "level": 217,
+        "totalPower": 441415,
+        "maxHp": 109606
+      },
+      {
+        "userId": 191659881,
+        "name": "Matrix",
+        "characterMstId": 85,
+        "level": 230,
+        "totalPower": 459353,
+        "maxHp": 122283
+      },
+      {
+        "userId": 644377240,
+        "name": "inkay",
+        "characterMstId": 85,
+        "level": 213,
+        "totalPower": 446012,
+        "maxHp": 100428
+      },
+      {
+        "userId": 509268361,
+        "name": "Mi2ki~",
+        "characterMstId": 85,
+        "level": 211,
+        "totalPower": 427136,
+        "maxHp": 101509
+      }
+    ]
+  }
+}
