@@ -65,17 +65,42 @@ function generateTable(table) {
 		}
 	}
 
+	const idPrefix = 'column-filter-dialog';
+
+	const dialog = {
+		table: null,
+		columnIdx: 0,
+
+		root: document.getElementById(idPrefix),
+		buttonOk: document.getElementById(`${idPrefix}-ok`),
+		buttonSortAsc: document.getElementById(`${idPrefix}-sort-asc`),
+		buttonSortDsc: document.getElementById(`${idPrefix}-sort-dsc`),
+	};
+	dialog.modal = new bootstrap.Modal(dialog.root, {});
+
+	dialog.buttonOk.addEventListener('click', function(event) {
+		console.log('clicked ok');
+		dialog.modal.hide();
+	});
+	dialog.buttonSortAsc.addEventListener('click', function(event) {
+		dialog.modal.hide();
+		dialog.table.sortColumn = dialog.columnIdx;
+		dialog.table.sortDirection = 1;
+		applySort(dialog.table);
+	});
+	dialog.buttonSortDsc.addEventListener('click', function(event) {
+		dialog.modal.hide();
+		dialog.table.sortColumn = dialog.columnIdx;
+		dialog.table.sortDirection = -1;
+		applySort(dialog.table);
+	});
+
 	function onColumnHeadClick(event, columnIdx, table) {
-		const column = table.columns[columnIdx];
-		if (table.sortColumn == columnIdx) {
-			table.sortDirection = -table.sortDirection;
-		} else {
-			table.sortColumn = columnIdx;
-			table.sortDirection = 1;
-		}
-		// let myModal = new bootstrap.Modal(document.getElementById('column-filter-dialog'), {});
-		// myModal.show();
-		applySort(table);
+		const modalTitle = dialog.root.querySelector('.modal-title');
+		modalTitle.textContent = `Column '${table.columns[columnIdx].title}'`;
+		dialog.table = table;
+		dialog.columnIdx = columnIdx;
+		dialog.modal.show();
 	}
 
 	const domTable = document.createElement('table');
