@@ -60,12 +60,7 @@ class Table {
 				}
 				html += '>';
 
-				let data;
-				if (col.field) {
-					data = rowData[col.field];
-				} else {
-					data = col.generator(rowData);
-				}
+				let data = rowData[col.field];
 				if (col.numberFormat) {
 					data = col.numberFormat.format(data);
 				}

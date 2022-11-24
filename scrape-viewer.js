@@ -63,6 +63,26 @@ function viewGuildHistory(matchHistory, events, shinmaSkills) {
 			if (event && event.start <= match.startTime && match.startTime < event.end) {
 				match.event = event;
 			}
+
+			{
+				const dt = new Date(match.startTime * 1000);
+				const matchUrl = `?view=match&time=${match.startTime}&a=${match.guildAId}&b=${match.guildBId}`;
+				match.cellVal_date = `<a href="${matchUrl}">${dt.getFullYear()}/${dt.getMonth()+1}/${dt.getDate()}</a>`
+			}
+
+			match.cellVal_event = (match.event) ? match.event.name : "";
+
+			if (match.guildAPoints > match.guildBPoints)
+				match.cellVal_result = "Victory";
+			else if (match.guildAPoints < match.guildBPoints)
+				match.cellVal_result = "Defeat";
+			else
+				match.cellVal_result = "Tie";
+
+			match.cellVal_shinmaType0 = generateShinmaType(match.shinma[0], shinmaSkills);
+			match.cellVal_shinmaType1 = generateShinmaType(match.shinma[1], shinmaSkills);
+			match.cellVal_shinmaTally0 = generateShinmaTally(match.shinma[0]);
+			match.cellVal_shinmaTally1 = generateShinmaTally(match.shinma[1]);
 		}
 	}
 
@@ -75,15 +95,12 @@ function viewGuildHistory(matchHistory, events, shinmaSkills) {
 		columns: [
 			{
 				title: 'Date',
+				field: 'cellVal_date',
 				cmp: (l, r, col) => l.data.startTime - r.data.startTime,
-				generator: function(m) {
-					const dt = new Date(m.startTime * 1000);
-					const matchUrl = `?view=match&time=${m.startTime}&a=${m.guildAId}&b=${m.guildBId}`;
-					return `<a href="${matchUrl}">${dt.getUTCFullYear()}/${dt.getUTCMonth()+1}/${dt.getUTCDate()}</a>`
-				},
 			},
 			{
 				title: 'Event',
+				field: 'cellVal_event',
 				cmp: function(l, r, col) {
 					const eventL = l.data.event;
 					const eventR = r.data.event;
@@ -94,7 +111,6 @@ function viewGuildHistory(matchHistory, events, shinmaSkills) {
 					if (catDiff != 0) return catDiff;
 					return eventL.start - eventR.start;
 				},
-				generator: function(m) { return (m.event) ? m.event.name : ""; },
 				classGenerator: function(m) {
 					if (!m.event) return null;
 					switch (m.event.category) {
@@ -104,18 +120,18 @@ function viewGuildHistory(matchHistory, events, shinmaSkills) {
 					}
 				},
 			},
-			{ title: 'Rank', field: 'rank', cmp: (l, r, col) => collator.compare(l.data.rank, r.data.rank) },
+			{
+				title: 'Rank',
+				field: 'rank',
+				cmp: (l, r, col) => collator.compare(l.data.rank, r.data.rank)
+			},
 			{
 				title: 'Result',
+				field: 'cellVal_result',
 				cmp: function(l, r, col) {
 					const lRes = Math.sign(l.data.guildAPoints - l.data.guildBPoints);
 					const rRes = Math.sign(r.data.guildAPoints - r.data.guildBPoints);
 					return lRes - rRes;
-				},
-				generator: function(m) {
-					if (m.guildAPoints > m.guildBPoints) return "Victory";
-					else if (m.guildAPoints < m.guildBPoints) return "Defeat";
-					else return "Tie";
 				},
 			},
 			{
@@ -167,29 +183,28 @@ function viewGuildHistory(matchHistory, events, shinmaSkills) {
 				align: 'right',
 				cmp: (l, r, col) => l.data.guildBShipWin - r.data.guildBShipWin,
 			},
-
 			{
 				title: '1st Shinma',
+				field: 'cellVal_shinmaType0',
 				align: 'center',
-				generator: function(m) { return generateShinmaType(m.shinma[0], shinmaSkills); },
 				cmp: (l, r, col) => collator.compare(l.dom.children[col].innerText, r.dom.children[col].innerText)
 			},
 			{
 				title: 'Tally',
+				field: 'cellVal_shinmaTally0',
 				align: 'center',
-				generator: function(m) { return generateShinmaTally(m.shinma[0]); },
 				cmp: (l, r, col) => collator.compare(l.dom.children[col].innerText, r.dom.children[col].innerText)
 			},
 			{
 				title: '2nd Shinma',
+				field: 'cellVal_shinmaType1',
 				align: 'center',
-				generator: function(m) { return generateShinmaType(m.shinma[1], shinmaSkills); },
 				cmp: (l, r, col) => collator.compare(l.dom.children[col].innerText, r.dom.children[col].innerText)
 			},
 			{
 				title: 'Tally',
+				field: 'cellVal_shinmaTally1',
 				align: 'center',
-				generator: function(m) { return generateShinmaTally(m.shinma[1]); },
 				cmp: (l, r, col) => collator.compare(l.dom.children[col].innerText, r.dom.children[col].innerText)
 			},
 		],
