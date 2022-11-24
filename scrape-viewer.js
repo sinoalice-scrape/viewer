@@ -193,13 +193,14 @@ function viewGuildHistory(matchHistory, events, shinmaSkills) {
 				cmp: (l, r, col) => collator.compare(l.dom.children[col].innerText, r.dom.children[col].innerText)
 			},
 		],
-		sortColumn: 0,
-		sortDirection: -1,
 	};
 
 	let content = document.getElementById("content");
 	content.innerHTML = `<h1>${guildA}</h1>`;
-	content.appendChild(generateTable(table));
+	content.appendChild(generateTable(table, {
+		sortColumn: 0,
+		sortDirection: -1,
+	}));
 	return `Scrape Viewer: ${guildA} match history`;
 }
 

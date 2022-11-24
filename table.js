@@ -1,33 +1,33 @@
 "use strict";
 
 class Table {
-	tableModel;
+	#tableModel;
 
-	dialogColumnIdx;
+	#dialogColumnIdx;
 
 	domTable;
-	domFilterRoot;
-	domFilterOk;
-	domFilterSortAsc;
-	domFilterSortDsc;
+	#domFilterRoot;
+	#domFilterOk;
+	#domFilterSortAsc;
+	#domFilterSortDsc;
 
-	bsModal;
+	#bsModal;
 
-	constructor(tableModel, dialogIdPrefix) {
-		this.tableModel = tableModel;
-		this.dialogColumnIdx = 0;
+	constructor(tableModel, dialogIdPrefix, viewInit) {
+		this.#tableModel = tableModel;
+		this.#dialogColumnIdx = 0;
 
-		this.domTable         = document.createElement('table');
-		this.domFilterRoot    = document.getElementById(dialogIdPrefix);
-		this.domFilterOk      = document.getElementById(`${dialogIdPrefix}-ok`);
-		this.domFilterSortAsc = document.getElementById(`${dialogIdPrefix}-sort-asc`);
-		this.domFilterSortDsc = document.getElementById(`${dialogIdPrefix}-sort-dsc`);
+		this.domTable          = document.createElement('table');
+		this.#domFilterRoot    = document.getElementById(dialogIdPrefix);
+		this.#domFilterOk      = document.getElementById(`${dialogIdPrefix}-ok`);
+		this.#domFilterSortAsc = document.getElementById(`${dialogIdPrefix}-sort-asc`);
+		this.#domFilterSortDsc = document.getElementById(`${dialogIdPrefix}-sort-dsc`);
 
-		this.bsModal = new bootstrap.Modal(this.domFilterRoot, {});
+		this.#bsModal = new bootstrap.Modal(this.#domFilterRoot, {});
 
-		this.domFilterOk.addEventListener('click', (e) => this.#onFilterOkClick(e));
-		this.domFilterSortAsc.addEventListener('click', (e) => this.#onFilterSortClick(e,  1));
-		this.domFilterSortDsc.addEventListener('click', (e) => this.#onFilterSortClick(e, -1));
+		this.#domFilterOk.addEventListener('click', (e) => this.#onFilterOkClick(e));
+		this.#domFilterSortAsc.addEventListener('click', (e) => this.#onFilterSortClick(e,  1));
+		this.#domFilterSortDsc.addEventListener('click', (e) => this.#onFilterSortClick(e, -1));
 
 		if (tableModel.class)
 			this.domTable.className = tableModel.class;
@@ -78,9 +78,8 @@ class Table {
 		html += '</tbody>';
 
 		this.domTable.innerHTML = html;
-		tableModel.dom = this.domTable;
 
-		const thead = tableModel.dom.children[0];
+		const thead = this.domTable.children[0];
 		const theadRow = thead.children[0];
 		for (let i = 0; i < tableModel.columns.length; i++) {
 			if (tableModel.columns[i].cmp) {
@@ -91,44 +90,34 @@ class Table {
 			}
 		}
 
-		if (this.#canSort()) {
-			this.#applySort();
-		}
+		this.#applySort(viewInit.sortColumn, viewInit.sortDirection);
 	}
 
 	#onColumnHeadClick(event, columnIdx) {
-		const modalTitle = this.domFilterRoot.querySelector('.modal-title');
-		modalTitle.textContent = `Column '${this.tableModel.columns[columnIdx].title}'`;
-		this.dialogColumnIdx = columnIdx;
-		this.bsModal.show();
+		const modalTitle = this.#domFilterRoot.querySelector('.modal-title');
+		modalTitle.textContent = `Column '${this.#tableModel.columns[columnIdx].title}'`;
+		this.#dialogColumnIdx = columnIdx;
+		this.#bsModal.show();
 	}
 
 	#onFilterOkClick(event) {
 		console.log('clicked ok');
-		this.bsModal.hide();
+		this.#bsModal.hide();
 	}
 
 	#onFilterSortClick(event, dir) {
-		this.bsModal.hide();
-		this.tableModel.sortColumn = this.dialogColumnIdx;
-		this.tableModel.sortDirection = dir;
-		this.#applySort();
+		this.#bsModal.hide();
+		this.#applySort(this.#dialogColumnIdx, dir);
 	}
 
-	#canSort() {
-		return typeof this.tableModel.sortColumn !== 'undefined' && typeof this.tableModel.sortDirection !== 'undefined';
-	}
-
-	#applySort() {
-		const table = this.tableModel;
-		if (!this.#canSort()) {
-			console.error("Attempting to apply sort when sort direction or column are undefined.");
+	#applySort(sortColumn, sortDirection) {
+		if (typeof sortColumn !== 'number')
 			return;
-		}
+		if (typeof sortDirection !== 'number')
+			return;
 
-		const sortColumn = table.sortColumn;
-		const sortDirection = table.sortDirection;
-		const tbody = table.dom.children[1];
+		const table = this.#tableModel;
+		const tbody = this.domTable.children[1];
 		const rows = new Array(tbody.children.length);
 		for (let i = 0; i < rows.length; i++) {
 			const dom = tbody.children[i];
@@ -149,10 +138,9 @@ class Table {
 			tbody.appendChild(row.dom);
 		}
 	}
-
 }
 
-function generateTable(table) {
-	const tableObj = new Table(table, 'column-filter-dialog');
+function generateTable(table, viewState) {
+	const tableObj = new Table(table, 'column-filter-dialog', viewState);
 	return tableObj.domTable;
 }
