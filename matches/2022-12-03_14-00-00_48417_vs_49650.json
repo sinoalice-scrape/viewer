@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 613,
+      "battleStartTime": 1670076000,
+      "battleEndTime": 1670077199,
+      "gvgDataId": 3214752,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 171060,
+      "selfComboCount": 1378,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 49650,
+      "enemyGuildName": "Corosars",
+      "enemyTotalGuildPoint": 7409039,
+      "enemyComboCount": 1416,
+      "enemySiegeWinCount": 22,
+      "selfRankUserId": 250290573,
+      "selfRankNum": 1,
+      "selfRankUserName": "Laem",
+      "selfRankGuildPoint": 755448,
+      "enemyRankUserId": 347111306,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Aki",
+      "enemyRankGuildPoint": 1655593,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 392
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 755448,
+            "valueB": 1655593,
+            "userIdA": 250290573,
+            "userIdB": 347111306,
+            "nameA": "Laem",
+            "nameB": "Aki"
+          },
+          {
+            "rank": 2,
+            "valueA": 494742,
+            "valueB": 1445859,
+            "userIdA": 593439881,
+            "userIdB": 391417485,
+            "nameA": "Ludmila",
+            "nameB": "Storm"
+          },
+          {
+            "rank": 3,
+            "valueA": 247972,
+            "valueB": 1427190,
+            "userIdA": 210142711,
+            "userIdB": 162981207,
+            "nameA": "bauhaus",
+            "nameB": "Aria"
+          },
+          {
+            "rank": 4,
+            "valueA": 110927,
+            "valueB": 884302,
+            "userIdA": 494421992,
+            "userIdB": 598839418,
+            "nameA": "MOTO",
+            "nameB": "アリナ先輩"
+          },
+          {
+            "rank": 5,
+            "valueA": 64685,
+            "valueB": 327910,
+            "userIdA": 613241815,
+            "userIdB": 893643345,
+            "nameA": "xwill",
+            "nameB": "MS"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 12291149,
+            "valueB": 32358868,
+            "userIdA": 290888979,
+            "userIdB": 407684098,
+            "nameA": "Redo",
+            "nameB": "StaffBonk"
+          },
+          {
+            "rank": 2,
+            "valueA": 8909122,
+            "valueB": 19449108,
+            "userIdA": 759112051,
+            "userIdB": 235842157,
+            "nameA": "AmehExtra",
+            "nameB": "JokeXWeed"
+          },
+          {
+            "rank": 3,
+            "valueA": 2965129,
+            "valueB": 12219194,
+            "userIdA": 192640017,
+            "userIdB": 606692207,
+            "nameA": "IO",
+            "nameB": "Chrysalis"
+          },
+          {
+            "rank": 4,
+            "valueA": 1436678,
+            "valueB": 14916,
+            "userIdA": 613241815,
+            "userIdB": 598839418,
+            "nameA": "xwill",
+            "nameB": "アリナ先輩"
+          },
+          {
+            "rank": 5,
+            "valueA": 1044346,
+            "valueB": 11268,
+            "userIdA": 210142711,
+            "userIdB": 347111306,
+            "nameA": "bauhaus",
+            "nameB": "Aki"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1512346,
+            "valueB": 1114958,
+            "userIdA": 413997485,
+            "userIdB": 469742902,
+            "nameA": "Hepburn",
+            "nameB": "Yuuko"
+          },
+          {
+            "rank": 2,
+            "valueA": 1407971,
+            "valueB": 948838,
+            "userIdA": 672769111,
+            "userIdB": 193243915,
+            "nameA": "Adely",
+            "nameB": "Kote"
+          },
+          {
+            "rank": 3,
+            "valueA": 1381608,
+            "valueB": 759010,
+            "userIdA": 881393762,
+            "userIdB": 370789095,
+            "nameA": "Vatonage",
+            "nameB": "Shiratori"
+          },
+          {
+            "rank": 4,
+            "valueA": 652338,
+            "valueB": 403770,
+            "userIdA": 868795313,
+            "userIdB": 560006748,
+            "nameA": "Rein",
+            "nameB": "Noubakun"
+          },
+          {
+            "rank": 5,
+            "valueA": 109561,
+            "valueB": 132635,
+            "userIdA": 290888979,
+            "userIdB": 407684098,
+            "nameA": "Redo",
+            "nameB": "StaffBonk"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1332370,
+            "valueB": 746029,
+            "userIdA": 881393762,
+            "userIdB": 560006748,
+            "nameA": "Vatonage",
+            "nameB": "Noubakun"
+          },
+          {
+            "rank": 2,
+            "valueA": 1189495,
+            "valueB": 640328,
+            "userIdA": 413997485,
+            "userIdB": 469742902,
+            "nameA": "Hepburn",
+            "nameB": "Yuuko"
+          },
+          {
+            "rank": 3,
+            "valueA": 928701,
+            "valueB": 388874,
+            "userIdA": 672769111,
+            "userIdB": 370789095,
+            "nameA": "Adely",
+            "nameB": "Shiratori"
+          },
+          {
+            "rank": 4,
+            "valueA": 835089,
+            "valueB": 296741,
+            "userIdA": 868795313,
+            "userIdB": 407684098,
+            "nameA": "Rein",
+            "nameB": "StaffBonk"
+          },
+          {
+            "rank": 5,
+            "valueA": 194947,
+            "valueB": 269908,
+            "userIdA": 290888979,
+            "userIdB": 193243915,
+            "nameA": "Redo",
+            "nameB": "Kote"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1522506,
+            "valueB": 2462393,
+            "userIdA": 873505913,
+            "userIdB": 435449279,
+            "nameA": "へしふど",
+            "nameB": "prokomi"
+          },
+          {
+            "rank": 2,
+            "valueA": 350791,
+            "valueB": 1589839,
+            "userIdA": 195767153,
+            "userIdB": 587356717,
+            "nameA": "KuroNeko",
+            "nameB": "Keroppi"
+          },
+          {
+            "rank": 3,
+            "valueA": 139364,
+            "valueB": 1437610,
+            "userIdA": 210142711,
+            "userIdB": 902815324,
+            "nameA": "bauhaus",
+            "nameB": "Kayuta"
+          },
+          {
+            "rank": 4,
+            "valueA": 45614,
+            "valueB": 105654,
+            "userIdA": 250290573,
+            "userIdB": 391417485,
+            "nameA": "Laem",
+            "nameB": "Storm"
+          },
+          {
+            "rank": 5,
+            "valueA": 23385,
+            "valueB": 64449,
+            "userIdA": 593439881,
+            "userIdB": 162981207,
+            "nameA": "Ludmila",
+            "nameB": "Aria"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 979287,
+            "valueB": 3318518,
+            "userIdA": 873505913,
+            "userIdB": 902815324,
+            "nameA": "へしふど",
+            "nameB": "Kayuta"
+          },
+          {
+            "rank": 2,
+            "valueA": 299494,
+            "valueB": 1834372,
+            "userIdA": 195767153,
+            "userIdB": 587356717,
+            "nameA": "KuroNeko",
+            "nameB": "Keroppi"
+          },
+          {
+            "rank": 3,
+            "valueA": 211733,
+            "valueB": 308032,
+            "userIdA": 250290573,
+            "userIdB": 435449279,
+            "nameA": "Laem",
+            "nameB": "prokomi"
+          },
+          {
+            "rank": 4,
+            "valueA": 129963,
+            "valueB": 275884,
+            "userIdA": 593439881,
+            "userIdB": 162981207,
+            "nameA": "Ludmila",
+            "nameB": "Aria"
+          },
+          {
+            "rank": 5,
+            "valueA": 100549,
+            "valueB": 174123,
+            "userIdA": 210142711,
+            "userIdB": 391417485,
+            "nameA": "bauhaus",
+            "nameB": "Storm"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 390,
+            "valueB": 358,
+            "userIdA": 124016919,
+            "userIdB": 893643345,
+            "nameA": "Lio",
+            "nameB": "MS"
+          },
+          {
+            "rank": 2,
+            "valueA": 286,
+            "valueB": 293,
+            "userIdA": 250290573,
+            "userIdB": 598839418,
+            "nameA": "Laem",
+            "nameB": "アリナ先輩"
+          },
+          {
+            "rank": 3,
+            "valueA": 257,
+            "valueB": 278,
+            "userIdA": 613241815,
+            "userIdB": 347111306,
+            "nameA": "xwill",
+            "nameB": "Aki"
+          },
+          {
+            "rank": 4,
+            "valueA": 210,
+            "valueB": 113,
+            "userIdA": 881393762,
+            "userIdB": 162981207,
+            "nameA": "Vatonage",
+            "nameB": "Aria"
+          },
+          {
+            "rank": 5,
+            "valueA": 98,
+            "valueB": 91,
+            "userIdA": 494421992,
+            "userIdB": 391417485,
+            "nameA": "MOTO",
+            "nameB": "Storm"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3214752,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 75,
+          "guildBCount": 54
+        },
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 28,
+          "guildBCount": 43
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 613,
+    "gvgDataId": 3214752,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 49650,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "Corosars",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 103,
+        "level": 213,
+        "totalPower": 375367,
+        "maxHp": 96028
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 380445,
+        "maxHp": 104483
+      },
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 369843,
+        "maxHp": 85828
+      },
+      {
+        "userId": 210142711,
+        "name": "bauhaus",
+        "characterMstId": 48,
+        "level": 207,
+        "totalPower": 293501,
+        "maxHp": 84937
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 657,
+        "level": 194,
+        "totalPower": 200879,
+        "maxHp": 78384
+      },
+      {
+        "userId": 494421992,
+        "name": "MOTO",
+        "characterMstId": 64,
+        "level": 211,
+        "totalPower": 359597,
+        "maxHp": 99059
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 342669,
+        "maxHp": 82637
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 114,
+        "level": 129,
+        "totalPower": 302131,
+        "maxHp": 54960
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 114,
+        "level": 206,
+        "totalPower": 296333,
+        "maxHp": 78350
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 114,
+        "level": 210,
+        "totalPower": 291159,
+        "maxHp": 68610
+      },
+      {
+        "userId": 873505913,
+        "name": "へしふど",
+        "characterMstId": 167,
+        "level": 195,
+        "totalPower": 301167,
+        "maxHp": 71545
+      },
+      {
+        "userId": 195767153,
+        "name": "KuroNeko",
+        "characterMstId": 128,
+        "level": 123,
+        "totalPower": 195958,
+        "maxHp": 32979
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 85,
+        "level": 215,
+        "totalPower": 372541,
+        "maxHp": 95327
+      },
+      {
+        "userId": 759112051,
+        "name": "AmehExtra",
+        "characterMstId": 85,
+        "level": 201,
+        "totalPower": 309849,
+        "maxHp": 68345
+      },
+      {
+        "userId": 192640017,
+        "name": "IO",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 277373,
+        "maxHp": 70187
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 893643345,
+        "name": "MS",
+        "characterMstId": 60,
+        "level": 219,
+        "totalPower": 358426,
+        "maxHp": 105166
+      },
+      {
+        "userId": 347111306,
+        "name": "Aki",
+        "characterMstId": 126,
+        "level": 220,
+        "totalPower": 438882,
+        "maxHp": 112683
+      },
+      {
+        "userId": 391417485,
+        "name": "Storm",
+        "characterMstId": 48,
+        "level": 230,
+        "totalPower": 498531,
+        "maxHp": 129633
+      },
+      {
+        "userId": 162981207,
+        "name": "Aria",
+        "characterMstId": 48,
+        "level": 225,
+        "totalPower": 480379,
+        "maxHp": 121583
+      },
+      {
+        "userId": 598839418,
+        "name": "アリナ先輩",
+        "characterMstId": 48,
+        "level": 214,
+        "totalPower": 432312,
+        "maxHp": 102049
+      },
+      {
+        "userId": 370789095,
+        "name": "Shiratori",
+        "characterMstId": 114,
+        "level": 217,
+        "totalPower": 417874,
+        "maxHp": 97556
+      },
+      {
+        "userId": 469742902,
+        "name": "Yuuko",
+        "characterMstId": 114,
+        "level": 210,
+        "totalPower": 395898,
+        "maxHp": 86910
+      },
+      {
+        "userId": 560006748,
+        "name": "Noubakun",
+        "characterMstId": 252,
+        "level": 216,
+        "totalPower": 392968,
+        "maxHp": 93713
+      },
+      {
+        "userId": 193243915,
+        "name": "Kote",
+        "characterMstId": 114,
+        "level": 214,
+        "totalPower": 391212,
+        "maxHp": 95649
+      },
+      {
+        "userId": 587356717,
+        "name": "Keroppi",
+        "characterMstId": 167,
+        "level": 222,
+        "totalPower": 422695,
+        "maxHp": 105083
+      },
+      {
+        "userId": 902815324,
+        "name": "Kayuta",
+        "characterMstId": 167,
+        "level": 212,
+        "totalPower": 388466,
+        "maxHp": 83865
+      },
+      {
+        "userId": 435449279,
+        "name": "prokomi",
+        "characterMstId": 167,
+        "level": 210,
+        "totalPower": 363669,
+        "maxHp": 93810
+      },
+      {
+        "userId": 407684098,
+        "name": "StaffBonk",
+        "characterMstId": 85,
+        "level": 214,
+        "totalPower": 449325,
+        "maxHp": 98099
+      },
+      {
+        "userId": 606692207,
+        "name": "Chrysalis",
+        "characterMstId": 85,
+        "level": 218,
+        "totalPower": 412441,
+        "maxHp": 90707
+      },
+      {
+        "userId": 235842157,
+        "name": "JokeXWeed",
+        "characterMstId": 85,
+        "level": 216,
+        "totalPower": 408500,
+        "maxHp": 85713
+      }
+    ]
+  }
+}
