@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 213,
+      "battleStartTime": 1670335200,
+      "battleEndTime": 1670336399,
+      "gvgDataId": 3219141,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 96311,
+      "selfComboCount": 1114,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 45047,
+      "enemyGuildName": "Coldbrew",
+      "enemyTotalGuildPoint": 4751373,
+      "enemyComboCount": 1468,
+      "enemySiegeWinCount": 24,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 204710,
+      "enemyRankUserId": 725193452,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Leylin",
+      "enemyRankGuildPoint": 2021713,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 702
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 204710,
+            "valueB": 2021713,
+            "userIdA": 593439881,
+            "userIdB": 725193452,
+            "nameA": "Ludmila",
+            "nameB": "Leylin"
+          },
+          {
+            "rank": 2,
+            "valueA": 187156,
+            "valueB": 807207,
+            "userIdA": 613241815,
+            "userIdB": 623210196,
+            "nameA": "xwill",
+            "nameB": "Cinnabar"
+          },
+          {
+            "rank": 3,
+            "valueA": 96774,
+            "valueB": 706955,
+            "userIdA": 210142711,
+            "userIdB": 903314017,
+            "nameA": "bauhaus",
+            "nameB": "Phantom"
+          },
+          {
+            "rank": 4,
+            "valueA": 72112,
+            "valueB": 466568,
+            "userIdA": 250290573,
+            "userIdB": 990755799,
+            "nameA": "Laem",
+            "nameB": "エミリア"
+          },
+          {
+            "rank": 5,
+            "valueA": 53067,
+            "valueB": 125570,
+            "userIdA": 494421992,
+            "userIdB": 576604288,
+            "nameA": "MOTO",
+            "nameB": "Daltas"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 9119019,
+            "valueB": 9043635,
+            "userIdA": 290888979,
+            "userIdB": 182287280,
+            "nameA": "Redo",
+            "nameB": "JR0P"
+          },
+          {
+            "rank": 2,
+            "valueA": 7167126,
+            "valueB": 7583464,
+            "userIdA": 759112051,
+            "userIdB": 908193927,
+            "nameA": "AmehExtra",
+            "nameB": "ナノ"
+          },
+          {
+            "rank": 3,
+            "valueA": 2508519,
+            "valueB": 6451168,
+            "userIdA": 192640017,
+            "userIdB": 916655565,
+            "nameA": "IO",
+            "nameB": "Windfield"
+          },
+          {
+            "rank": 4,
+            "valueA": 2003099,
+            "valueB": 226383,
+            "userIdA": 868795313,
+            "userIdB": 725193452,
+            "nameA": "Rein",
+            "nameB": "Leylin"
+          },
+          {
+            "rank": 5,
+            "valueA": 1233212,
+            "valueB": 41238,
+            "userIdA": 210142711,
+            "userIdB": 903314017,
+            "nameA": "bauhaus",
+            "nameB": "Phantom"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1433619,
+            "valueB": 920470,
+            "userIdA": 413997485,
+            "userIdB": 377175961,
+            "nameA": "Hepburn",
+            "nameB": "Stooopid"
+          },
+          {
+            "rank": 2,
+            "valueA": 1058891,
+            "valueB": 877721,
+            "userIdA": 672769111,
+            "userIdB": 763906986,
+            "nameA": "Adely",
+            "nameB": "ringabel"
+          },
+          {
+            "rank": 3,
+            "valueA": 850180,
+            "valueB": 721169,
+            "userIdA": 868795313,
+            "userIdB": 359638577,
+            "nameA": "Rein",
+            "nameB": "NathanT"
+          },
+          {
+            "rank": 4,
+            "valueA": 273085,
+            "valueB": 70584,
+            "userIdA": 881393762,
+            "userIdB": 916655565,
+            "nameA": "Vatonage",
+            "nameB": "Windfield"
+          },
+          {
+            "rank": 5,
+            "valueA": 93695,
+            "valueB": 66877,
+            "userIdA": 290888979,
+            "userIdB": 908193927,
+            "nameA": "Redo",
+            "nameB": "ナノ"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1180011,
+            "valueB": 722166,
+            "userIdA": 413997485,
+            "userIdB": 377175961,
+            "nameA": "Hepburn",
+            "nameB": "Stooopid"
+          },
+          {
+            "rank": 2,
+            "valueA": 1038958,
+            "valueB": 649098,
+            "userIdA": 672769111,
+            "userIdB": 359638577,
+            "nameA": "Adely",
+            "nameB": "NathanT"
+          },
+          {
+            "rank": 3,
+            "valueA": 963612,
+            "valueB": 572649,
+            "userIdA": 868795313,
+            "userIdB": 763906986,
+            "nameA": "Rein",
+            "nameB": "ringabel"
+          },
+          {
+            "rank": 4,
+            "valueA": 283268,
+            "valueB": 81957,
+            "userIdA": 881393762,
+            "userIdB": 182287280,
+            "nameA": "Vatonage",
+            "nameB": "JR0P"
+          },
+          {
+            "rank": 5,
+            "valueA": 150759,
+            "valueB": 58560,
+            "userIdA": 759112051,
+            "userIdB": 908193927,
+            "nameA": "AmehExtra",
+            "nameB": "ナノ"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1296655,
+            "valueB": 1434610,
+            "userIdA": 873505913,
+            "userIdB": 431242150,
+            "nameA": "へしふど",
+            "nameB": "Liza"
+          },
+          {
+            "rank": 2,
+            "valueA": 310041,
+            "valueB": 1418148,
+            "userIdA": 195767153,
+            "userIdB": 999780198,
+            "nameA": "KuroNeko",
+            "nameB": "Mero-"
+          },
+          {
+            "rank": 3,
+            "valueA": 156944,
+            "valueB": 1315479,
+            "userIdA": 881393762,
+            "userIdB": 756315251,
+            "nameA": "Vatonage",
+            "nameB": "Rose"
+          },
+          {
+            "rank": 4,
+            "valueA": 64987,
+            "valueB": 340443,
+            "userIdA": 210142711,
+            "userIdB": 359638577,
+            "nameA": "bauhaus",
+            "nameB": "NathanT"
+          },
+          {
+            "rank": 5,
+            "valueA": 11171,
+            "valueB": 87453,
+            "userIdA": 613241815,
+            "userIdB": 725193452,
+            "nameA": "xwill",
+            "nameB": "Leylin"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 742776,
+            "valueB": 1625112,
+            "userIdA": 873505913,
+            "userIdB": 431242150,
+            "nameA": "へしふど",
+            "nameB": "Liza"
+          },
+          {
+            "rank": 2,
+            "valueA": 295739,
+            "valueB": 1390299,
+            "userIdA": 195767153,
+            "userIdB": 756315251,
+            "nameA": "KuroNeko",
+            "nameB": "Rose"
+          },
+          {
+            "rank": 3,
+            "valueA": 117042,
+            "valueB": 1069168,
+            "userIdA": 881393762,
+            "userIdB": 999780198,
+            "nameA": "Vatonage",
+            "nameB": "Mero-"
+          },
+          {
+            "rank": 4,
+            "valueA": 79243,
+            "valueB": 250509,
+            "userIdA": 613241815,
+            "userIdB": 359638577,
+            "nameA": "xwill",
+            "nameB": "NathanT"
+          },
+          {
+            "rank": 5,
+            "valueA": 52569,
+            "valueB": 158601,
+            "userIdA": 210142711,
+            "userIdB": 990755799,
+            "nameA": "bauhaus",
+            "nameB": "エミリア"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 294,
+            "valueB": 328,
+            "userIdA": 124016919,
+            "userIdB": 576604288,
+            "nameA": "Lio",
+            "nameB": "Daltas"
+          },
+          {
+            "rank": 2,
+            "valueA": 282,
+            "valueB": 304,
+            "userIdA": 881393762,
+            "userIdB": 209635911,
+            "nameA": "Vatonage",
+            "nameB": "RazeRaze"
+          },
+          {
+            "rank": 3,
+            "valueA": 268,
+            "valueB": 185,
+            "userIdA": 250290573,
+            "userIdB": 725193452,
+            "nameA": "Laem",
+            "nameB": "Leylin"
+          },
+          {
+            "rank": 4,
+            "valueA": 87,
+            "valueB": 125,
+            "userIdA": 494421992,
+            "userIdB": 903314017,
+            "nameA": "MOTO",
+            "nameB": "Phantom"
+          },
+          {
+            "rank": 5,
+            "valueA": 73,
+            "valueB": 117,
+            "userIdA": 593439881,
+            "userIdB": 623210196,
+            "nameA": "Ludmila",
+            "nameB": "Cinnabar"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3219141,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 29,
+          "ultimateArtMethodMstId": 29,
+          "guildACount": 39,
+          "guildBCount": 53
+        },
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 65,
+          "guildBCount": 44
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 213,
+    "gvgDataId": 3219141,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 45047,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "Coldbrew",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 103,
+        "level": 213,
+        "totalPower": 375367,
+        "maxHp": 96028
+      },
+      {
+        "userId": 210142711,
+        "name": "bauhaus",
+        "characterMstId": 48,
+        "level": 207,
+        "totalPower": 293501,
+        "maxHp": 84937
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 64,
+        "level": 220,
+        "totalPower": 360058,
+        "maxHp": 108283
+      },
+      {
+        "userId": 494421992,
+        "name": "MOTO",
+        "characterMstId": 64,
+        "level": 211,
+        "totalPower": 359597,
+        "maxHp": 99059
+      },
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 64,
+        "level": 213,
+        "totalPower": 337850,
+        "maxHp": 85828
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 258,
+        "level": 194,
+        "totalPower": 201129,
+        "maxHp": 78384
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 19,
+        "level": 207,
+        "totalPower": 347513,
+        "maxHp": 82637
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 114,
+        "level": 129,
+        "totalPower": 303866,
+        "maxHp": 54960
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 114,
+        "level": 206,
+        "totalPower": 297333,
+        "maxHp": 78650
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 114,
+        "level": 210,
+        "totalPower": 292445,
+        "maxHp": 68610
+      },
+      {
+        "userId": 873505913,
+        "name": "へしふど",
+        "characterMstId": 167,
+        "level": 195,
+        "totalPower": 301167,
+        "maxHp": 71545
+      },
+      {
+        "userId": 195767153,
+        "name": "KuroNeko",
+        "characterMstId": 128,
+        "level": 123,
+        "totalPower": 201656,
+        "maxHp": 32979
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 85,
+        "level": 215,
+        "totalPower": 372541,
+        "maxHp": 95327
+      },
+      {
+        "userId": 759112051,
+        "name": "AmehExtra",
+        "characterMstId": 85,
+        "level": 201,
+        "totalPower": 309849,
+        "maxHp": 68345
+      },
+      {
+        "userId": 192640017,
+        "name": "IO",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 277373,
+        "maxHp": 70187
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 725193452,
+        "name": "Leylin",
+        "characterMstId": 103,
+        "level": 222,
+        "totalPower": 407338,
+        "maxHp": 97583
+      },
+      {
+        "userId": 623210196,
+        "name": "Cinnabar",
+        "characterMstId": 103,
+        "level": 215,
+        "totalPower": 390713,
+        "maxHp": 97677
+      },
+      {
+        "userId": 903314017,
+        "name": "Phantom",
+        "characterMstId": 103,
+        "level": 209,
+        "totalPower": 380312,
+        "maxHp": 81417
+      },
+      {
+        "userId": 576604288,
+        "name": "Daltas",
+        "characterMstId": 99,
+        "level": 212,
+        "totalPower": 293919,
+        "maxHp": 91015
+      },
+      {
+        "userId": 990755799,
+        "name": "エミリア",
+        "characterMstId": 48,
+        "level": 210,
+        "totalPower": 386035,
+        "maxHp": 90610
+      },
+      {
+        "userId": 209635911,
+        "name": "RazeRaze",
+        "characterMstId": 546,
+        "level": 213,
+        "totalPower": 283229,
+        "maxHp": 92078
+      },
+      {
+        "userId": 377175961,
+        "name": "Stooopid",
+        "characterMstId": 114,
+        "level": 216,
+        "totalPower": 411183,
+        "maxHp": 94663
+      },
+      {
+        "userId": 763906986,
+        "name": "ringabel",
+        "characterMstId": 114,
+        "level": 212,
+        "totalPower": 399106,
+        "maxHp": 89565
+      },
+      {
+        "userId": 359638577,
+        "name": "NathanT",
+        "characterMstId": 432,
+        "level": 207,
+        "totalPower": 391324,
+        "maxHp": 81837
+      },
+      {
+        "userId": 756315251,
+        "name": "Rose",
+        "characterMstId": 93,
+        "level": 209,
+        "totalPower": 381189,
+        "maxHp": 96617
+      },
+      {
+        "userId": 999780198,
+        "name": "Mero-",
+        "characterMstId": 93,
+        "level": 202,
+        "totalPower": 378530,
+        "maxHp": 80672
+      },
+      {
+        "userId": 431242150,
+        "name": "Liza",
+        "characterMstId": 93,
+        "level": 204,
+        "totalPower": 366181,
+        "maxHp": 87282
+      },
+      {
+        "userId": 182287280,
+        "name": "JR0P",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 387262,
+        "maxHp": 86587
+      },
+      {
+        "userId": 908193927,
+        "name": "ナノ",
+        "characterMstId": 85,
+        "level": 220,
+        "totalPower": 386681,
+        "maxHp": 105233
+      },
+      {
+        "userId": 916655565,
+        "name": "Windfield",
+        "characterMstId": 85,
+        "level": 205,
+        "totalPower": 364196,
+        "maxHp": 82215
+      }
+    ]
+  }
+}
