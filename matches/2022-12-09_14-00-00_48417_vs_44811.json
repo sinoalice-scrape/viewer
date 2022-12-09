@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 513,
+      "battleStartTime": 1670594400,
+      "battleEndTime": 1670595599,
+      "gvgDataId": 3223512,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 7415676,
+      "selfComboCount": 1941,
+      "selfSiegeWinCount": 10,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 44811,
+      "enemyGuildName": "끓는무쇠솥",
+      "enemyTotalGuildPoint": 57529,
+      "enemyComboCount": 3520,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 250290573,
+      "selfRankNum": 1,
+      "selfRankUserName": "Laem",
+      "selfRankGuildPoint": 2179423,
+      "enemyRankUserId": 982061272,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "하라라죠",
+      "enemyRankGuildPoint": 64746,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2179423,
+            "valueB": 64746,
+            "userIdA": 250290573,
+            "userIdB": 982061272,
+            "nameA": "Laem",
+            "nameB": "하라라죠"
+          },
+          {
+            "rank": 2,
+            "valueA": 1944737,
+            "valueB": 40671,
+            "userIdA": 593439881,
+            "userIdB": 324142830,
+            "nameA": "Ludmila",
+            "nameB": "기유"
+          },
+          {
+            "rank": 3,
+            "valueA": 1752063,
+            "valueB": 32638,
+            "userIdA": 613241815,
+            "userIdB": 236000802,
+            "nameA": "xwill",
+            "nameB": "은밀"
+          },
+          {
+            "rank": 4,
+            "valueA": 817486,
+            "valueB": 24001,
+            "userIdA": 210142711,
+            "userIdB": 282543097,
+            "nameA": "bauhaus",
+            "nameB": "머리속꽃밭"
+          },
+          {
+            "rank": 5,
+            "valueA": 494526,
+            "valueB": 22229,
+            "userIdA": 494421992,
+            "userIdB": 463954619,
+            "nameA": "MOTO",
+            "nameB": "후르츠칵테일"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 32292302,
+            "valueB": 33028718,
+            "userIdA": 290888979,
+            "userIdB": 167195260,
+            "nameA": "Redo",
+            "nameB": "MixUp"
+          },
+          {
+            "rank": 2,
+            "valueA": 14054703,
+            "valueB": 22405906,
+            "userIdA": 759112051,
+            "userIdB": 262930678,
+            "nameA": "AmehExtra",
+            "nameB": "Tau"
+          },
+          {
+            "rank": 3,
+            "valueA": 3641547,
+            "valueB": 13180074,
+            "userIdA": 192640017,
+            "userIdB": 755204028,
+            "nameA": "IO",
+            "nameB": "엠야크"
+          },
+          {
+            "rank": 4,
+            "valueA": 299440,
+            "valueB": 11685490,
+            "userIdA": 494421992,
+            "userIdB": 737361120,
+            "nameA": "MOTO",
+            "nameB": "호산"
+          },
+          {
+            "rank": 5,
+            "valueA": 146130,
+            "valueB": 3974008,
+            "userIdA": 593439881,
+            "userIdB": 282543097,
+            "nameA": "Ludmila",
+            "nameB": "머리속꽃밭"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1553729,
+            "valueB": 2170189,
+            "userIdA": 413997485,
+            "userIdB": 439209725,
+            "nameA": "Hepburn",
+            "nameB": "맹물찻잔"
+          },
+          {
+            "rank": 2,
+            "valueA": 1255289,
+            "valueB": 252732,
+            "userIdA": 881393762,
+            "userIdB": 755204028,
+            "nameA": "Vatonage",
+            "nameB": "엠야크"
+          },
+          {
+            "rank": 3,
+            "valueA": 1151227,
+            "valueB": 238726,
+            "userIdA": 672769111,
+            "userIdB": 262930678,
+            "nameA": "Adely",
+            "nameB": "Tau"
+          },
+          {
+            "rank": 4,
+            "valueA": 697225,
+            "valueB": 193813,
+            "userIdA": 868795313,
+            "userIdB": 320889450,
+            "nameA": "Rein",
+            "nameB": "세이암"
+          },
+          {
+            "rank": 5,
+            "valueA": 218077,
+            "valueB": 179467,
+            "userIdA": 290888979,
+            "userIdB": 167195260,
+            "nameA": "Redo",
+            "nameB": "MixUp"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1624171,
+            "valueB": 2573574,
+            "userIdA": 672769111,
+            "userIdB": 439209725,
+            "nameA": "Adely",
+            "nameB": "맹물찻잔"
+          },
+          {
+            "rank": 2,
+            "valueA": 1251468,
+            "valueB": 423043,
+            "userIdA": 413997485,
+            "userIdB": 167195260,
+            "nameA": "Hepburn",
+            "nameB": "MixUp"
+          },
+          {
+            "rank": 3,
+            "valueA": 1186068,
+            "valueB": 320071,
+            "userIdA": 868795313,
+            "userIdB": 737361120,
+            "nameA": "Rein",
+            "nameB": "호산"
+          },
+          {
+            "rank": 4,
+            "valueA": 1018039,
+            "valueB": 234884,
+            "userIdA": 881393762,
+            "userIdB": 755204028,
+            "nameA": "Vatonage",
+            "nameB": "엠야크"
+          },
+          {
+            "rank": 5,
+            "valueA": 411810,
+            "valueB": 205138,
+            "userIdA": 290888979,
+            "userIdB": 262930678,
+            "nameA": "Redo",
+            "nameB": "Tau"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1965630,
+            "valueB": 3397795,
+            "userIdA": 873505913,
+            "userIdB": 847608891,
+            "nameA": "へしふど",
+            "nameB": "아니아니저다시"
+          },
+          {
+            "rank": 2,
+            "valueA": 960380,
+            "valueB": 816223,
+            "userIdA": 124016919,
+            "userIdB": 320889450,
+            "nameA": "Lio",
+            "nameB": "세이암"
+          },
+          {
+            "rank": 3,
+            "valueA": 652211,
+            "valueB": 11415,
+            "userIdA": 881393762,
+            "userIdB": 288046287,
+            "nameA": "Vatonage",
+            "nameB": "크루하르"
+          },
+          {
+            "rank": 4,
+            "valueA": 629383,
+            "valueB": 4291,
+            "userIdA": 195767153,
+            "userIdB": 439209725,
+            "nameA": "KuroNeko",
+            "nameB": "맹물찻잔"
+          },
+          {
+            "rank": 5,
+            "valueA": 185858,
+            "valueB": 0,
+            "userIdA": 210142711,
+            "userIdB": 0,
+            "nameA": "bauhaus",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1491173,
+            "valueB": 3429305,
+            "userIdA": 124016919,
+            "userIdB": 847608891,
+            "nameA": "Lio",
+            "nameB": "아니아니저다시"
+          },
+          {
+            "rank": 2,
+            "valueA": 1261129,
+            "valueB": 1998653,
+            "userIdA": 873505913,
+            "userIdB": 320889450,
+            "nameA": "へしふど",
+            "nameB": "세이암"
+          },
+          {
+            "rank": 3,
+            "valueA": 638800,
+            "valueB": 39953,
+            "userIdA": 195767153,
+            "userIdB": 288046287,
+            "nameA": "KuroNeko",
+            "nameB": "크루하르"
+          },
+          {
+            "rank": 4,
+            "valueA": 419351,
+            "valueB": 0,
+            "userIdA": 881393762,
+            "userIdB": 0,
+            "nameA": "Vatonage",
+            "nameB": ""
+          },
+          {
+            "rank": 5,
+            "valueA": 338598,
+            "valueB": 0,
+            "userIdA": 250290573,
+            "userIdB": 0,
+            "nameA": "Laem",
+            "nameB": ""
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 383,
+            "valueB": 894,
+            "userIdA": 593439881,
+            "userIdB": 324142830,
+            "nameA": "Ludmila",
+            "nameB": "기유"
+          },
+          {
+            "rank": 2,
+            "valueA": 373,
+            "valueB": 858,
+            "userIdA": 250290573,
+            "userIdB": 901590907,
+            "nameA": "Laem",
+            "nameB": "유자"
+          },
+          {
+            "rank": 3,
+            "valueA": 325,
+            "valueB": 612,
+            "userIdA": 613241815,
+            "userIdB": 982061272,
+            "nameA": "xwill",
+            "nameB": "하라라죠"
+          },
+          {
+            "rank": 4,
+            "valueA": 253,
+            "valueB": 528,
+            "userIdA": 124016919,
+            "userIdB": 236000802,
+            "nameA": "Lio",
+            "nameB": "은밀"
+          },
+          {
+            "rank": 5,
+            "valueA": 209,
+            "valueB": 132,
+            "userIdA": 494421992,
+            "userIdB": 282543097,
+            "nameA": "MOTO",
+            "nameB": "머리속꽃밭"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3223512,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 16,
+          "ultimateArtMethodMstId": 16,
+          "guildACount": 75,
+          "guildBCount": 67
+        },
+        {
+          "artMstId": 34,
+          "ultimateArtMethodMstId": 34,
+          "guildACount": 75,
+          "guildBCount": 71
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 513,
+    "gvgDataId": 3223512,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 44811,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "끓는무쇠솥",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 2,
+    "guildMemberA": [
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 103,
+        "level": 213,
+        "totalPower": 375367,
+        "maxHp": 96028
+      },
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 370714,
+        "maxHp": 85828
+      },
+      {
+        "userId": 210142711,
+        "name": "bauhaus",
+        "characterMstId": 48,
+        "level": 207,
+        "totalPower": 293501,
+        "maxHp": 84937
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 64,
+        "level": 220,
+        "totalPower": 362217,
+        "maxHp": 105883
+      },
+      {
+        "userId": 494421992,
+        "name": "MOTO",
+        "characterMstId": 64,
+        "level": 211,
+        "totalPower": 359597,
+        "maxHp": 99059
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 19,
+        "level": 207,
+        "totalPower": 347513,
+        "maxHp": 82637
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 114,
+        "level": 129,
+        "totalPower": 304639,
+        "maxHp": 54960
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 114,
+        "level": 206,
+        "totalPower": 297333,
+        "maxHp": 78650
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 114,
+        "level": 210,
+        "totalPower": 292645,
+        "maxHp": 68610
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 167,
+        "level": 194,
+        "totalPower": 302375,
+        "maxHp": 78834
+      },
+      {
+        "userId": 873505913,
+        "name": "へしふど",
+        "characterMstId": 167,
+        "level": 195,
+        "totalPower": 301167,
+        "maxHp": 71545
+      },
+      {
+        "userId": 195767153,
+        "name": "KuroNeko",
+        "characterMstId": 128,
+        "level": 123,
+        "totalPower": 201836,
+        "maxHp": 32979
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 85,
+        "level": 215,
+        "totalPower": 375935,
+        "maxHp": 95327
+      },
+      {
+        "userId": 759112051,
+        "name": "AmehExtra",
+        "characterMstId": 85,
+        "level": 201,
+        "totalPower": 309849,
+        "maxHp": 68345
+      },
+      {
+        "userId": 192640017,
+        "name": "IO",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 277373,
+        "maxHp": 70187
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 324142830,
+        "name": "기유",
+        "characterMstId": 235,
+        "level": 230,
+        "totalPower": 213141,
+        "maxHp": 111733
+      },
+      {
+        "userId": 901590907,
+        "name": "유자",
+        "characterMstId": 123,
+        "level": 222,
+        "totalPower": 157249,
+        "maxHp": 103633
+      },
+      {
+        "userId": 236000802,
+        "name": "은밀",
+        "characterMstId": 229,
+        "level": 206,
+        "totalPower": 256181,
+        "maxHp": 94600
+      },
+      {
+        "userId": 463954619,
+        "name": "후르츠칵테일",
+        "characterMstId": 442,
+        "level": 222,
+        "totalPower": 370790,
+        "maxHp": 125133
+      },
+      {
+        "userId": 282543097,
+        "name": "머리속꽃밭",
+        "characterMstId": 442,
+        "level": 224,
+        "totalPower": 365473,
+        "maxHp": 129783
+      },
+      {
+        "userId": 992282851,
+        "name": "입은먹기만하지않아",
+        "characterMstId": 442,
+        "level": 222,
+        "totalPower": 347633,
+        "maxHp": 121233
+      },
+      {
+        "userId": 288046287,
+        "name": "크루하르",
+        "characterMstId": 204,
+        "level": 220,
+        "totalPower": 334178,
+        "maxHp": 118283
+      },
+      {
+        "userId": 982061272,
+        "name": "하라라죠",
+        "characterMstId": 507,
+        "level": 201,
+        "totalPower": 273343,
+        "maxHp": 99995
+      },
+      {
+        "userId": 439209725,
+        "name": "맹물찻잔",
+        "characterMstId": 114,
+        "level": 216,
+        "totalPower": 415241,
+        "maxHp": 114863
+      },
+      {
+        "userId": 847608891,
+        "name": "아니아니저다시",
+        "characterMstId": 93,
+        "level": 222,
+        "totalPower": 430078,
+        "maxHp": 123233
+      },
+      {
+        "userId": 320889450,
+        "name": "세이암",
+        "characterMstId": 620,
+        "level": 210,
+        "totalPower": 321394,
+        "maxHp": 93560
+      },
+      {
+        "userId": 167195260,
+        "name": "MixUp",
+        "characterMstId": 85,
+        "level": 225,
+        "totalPower": 519468,
+        "maxHp": 142633
+      },
+      {
+        "userId": 755204028,
+        "name": "엠야크",
+        "characterMstId": 85,
+        "level": 223,
+        "totalPower": 407222,
+        "maxHp": 116383
+      },
+      {
+        "userId": 262930678,
+        "name": "Tau",
+        "characterMstId": 85,
+        "level": 211,
+        "totalPower": 374351,
+        "maxHp": 84309
+      },
+      {
+        "userId": 737361120,
+        "name": "호산",
+        "characterMstId": 85,
+        "level": 199,
+        "totalPower": 302647,
+        "maxHp": 68642
+      }
+    ]
+  }
+}
