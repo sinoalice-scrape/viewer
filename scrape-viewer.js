@@ -408,18 +408,7 @@ async function showView(searchText, pushState) {
 			if (!guild)
 				return;
 
-			let historyUrl;
-			switch (guild.toLowerCase()) {
-				case "daydreamer":
-					historyUrl = "match_history_Melesie.json";
-					break;
-				case "wildcard":
-					historyUrl = "match_history_Ludmila.json";
-					break;
-				default:
-					return;
-			}
-
+			const historyUrl = `match_history_${guild}.json`;
 			const [history, events, shinmaSkills] = await Promise.allSettled([
 				loadJson(historyUrl),
 				loadJson("events.json"),
