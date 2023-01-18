@@ -410,8 +410,8 @@ async function showView(searchText, pushState) {
 
 			const historyUrl = `match_history_${guild}.json`;
 			const [history, events, shinmaSkills] = await Promise.allSettled([
-				loadJson(historyUrl),
-				loadJson("events.json"),
+				loadJson(db.json, historyUrl),
+				loadJson(db.json, "events.json"),
 				loadShinmaSkills(),
 			]);
 
@@ -444,7 +444,7 @@ async function showView(searchText, pushState) {
 			matchUrl += `_${pad(5, guildA)}_vs_${pad(5, guildB)}.json`;
 
 			const [match, shinmaSkills, characters] = await Promise.allSettled([
-				loadJson(matchUrl),
+				loadJson(db.json, matchUrl),
 				loadShinmaSkills(),
 				loadCharacters(),
 			]);
@@ -502,49 +502,13 @@ function onPopState(event) {
 	showView(document.location.search, false);
 }
 
-function asyncRequest(method, url) {
-	return new Promise(function(resolve, reject) {
-		let xhr = new XMLHttpRequest();
-		xhr.open(method, url, true);
-		xhr.onload = function() {
-			if (this.status >= 200 && this.status < 300) {
-				resolve(xhr.response);
-			} else {
-				reject({
-					status: this.status,
-					statusText: xhr.statusText
-				});
-			}
-		};
-		xhr.onerror = function() {
-			reject({
-				status: this.status,
-				statusText: xhr.statusText
-			});
-		};
-		xhr.send();
-	});
-}
-
-async function loadJson(url) {
-	let json = db.json.get(url);
-	if (json) {
-		return json;
-	}
-
-	let response = await asyncRequest("GET", url);
-	json = JSON.parse(response);
-	db.json.set(url, json);
-	return json;
-}
-
 async function loadShinmaSkills() {
 	let shinmaSkills = db.index.shinmaSkills;
 	if (shinmaSkills) {
 		return shinmaSkills;
 	}
 
-	const shinmaTable = await loadJson(en_ultimate_art_method_mst_list);
+	const shinmaTable = await loadJson(db.json, en_ultimate_art_method_mst_list);
 
 	shinmaSkills = new Map();
 	for (let i = 0; i < shinmaTable.length; i++) {
@@ -562,7 +526,7 @@ async function loadCharacters() {
 		return characters;
 	}
 
-	const characterMstList = await loadJson(en_character_mst_list);
+	const characterMstList = await loadJson(db.json, en_character_mst_list);
 	characters = new Map();
 	for (let i = 0; i < characterMstList.length; i++) {
 		const mst = characterMstList[i];
