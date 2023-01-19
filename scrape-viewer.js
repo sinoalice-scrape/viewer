@@ -392,7 +392,7 @@ function viewMatch(dt, match, shinmaSkills, characters) {
 	return pageTitle;
 }
 
-async function showView(searchText, pushState) {
+async function showView(searchText) {
 	const params = new URLSearchParams(searchText);
 
 	let view = params.get("view");
@@ -461,45 +461,7 @@ async function showView(searchText, pushState) {
 		break;
 	}
 
-	{
-		const content = document.getElementById('content');
-		const links = content.querySelectorAll('a');
-		for (let i = 0; i < links.length; i++) {
-			const link = links[i];
-			if (link.getAttribute('href').startsWith('?'))
-				link.addEventListener('click', onLinkClick);
-		}
-	}
-
-	if (pushState) {
-		history.pushState({}, '', searchText);
-	}
-	document.title = pageTitle;
-}
-
-function onLinkClick(event) {
-	event.preventDefault();
-	showView(event.target.getAttribute('href'), true);
-}
-
-function onDocumentLoad(event) {
-	{
-		const navs = document.getElementsByTagName('nav');
-		for (let i = 0; i < navs.length; i++) {
-			const links = navs[i].querySelectorAll('a');
-			for (let j = 0; j < links.length; j++) {
-				const link = links[j];
-				if (link.getAttribute('href').startsWith('?'))
-					link.addEventListener('click', onLinkClick);
-			}
-		}
-	}
-
-	showView(document.location.search, false);
-}
-
-function onPopState(event) {
-	showView(document.location.search, false);
+	return pageTitle;
 }
 
 async function loadShinmaSkills() {
@@ -541,5 +503,4 @@ function pad(p, val) {
 	return val.toString().padStart(p, '0');
 }
 
-window.addEventListener('load', onDocumentLoad);
-window.addEventListener('popstate', onPopState);
+setupViewRequestHandler(showView);
