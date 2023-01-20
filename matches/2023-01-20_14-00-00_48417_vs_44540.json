@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 513,
+      "battleStartTime": 1674223200,
+      "battleEndTime": 1674224399,
+      "gvgDataId": 3284150,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 10420710,
+      "selfComboCount": 1768,
+      "selfSiegeWinCount": 10,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 44540,
+      "enemyGuildName": "ZODIAC",
+      "enemyTotalGuildPoint": 1814879,
+      "enemyComboCount": 1604,
+      "enemySiegeWinCount": 5,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 2131379,
+      "enemyRankUserId": 920173154,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "moon_child",
+      "enemyRankGuildPoint": 2220900,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2131379,
+            "valueB": 2220900,
+            "userIdA": 593439881,
+            "userIdB": 920173154,
+            "nameA": "Ludmila",
+            "nameB": "moon_child"
+          },
+          {
+            "rank": 2,
+            "valueA": 1531784,
+            "valueB": 1284152,
+            "userIdA": 613241815,
+            "userIdB": 327720499,
+            "nameA": "xwill",
+            "nameB": "beneben"
+          },
+          {
+            "rank": 3,
+            "valueA": 1521523,
+            "valueB": 1038334,
+            "userIdA": 250290573,
+            "userIdB": 708792067,
+            "nameA": "Laem",
+            "nameB": "알테라"
+          },
+          {
+            "rank": 4,
+            "valueA": 1198988,
+            "valueB": 248911,
+            "userIdA": 293335438,
+            "userIdB": 985799020,
+            "nameA": "rii",
+            "nameB": "리하엘"
+          },
+          {
+            "rank": 5,
+            "valueA": 799597,
+            "valueB": 169644,
+            "userIdA": 494421992,
+            "userIdB": 234426063,
+            "nameA": "MOTO",
+            "nameB": "분노발싸소스"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 28671054,
+            "valueB": 47374179,
+            "userIdA": 290888979,
+            "userIdB": 410029819,
+            "nameA": "Redo",
+            "nameB": "도스쟈그라스"
+          },
+          {
+            "rank": 2,
+            "valueA": 17547396,
+            "valueB": 21149999,
+            "userIdA": 759112051,
+            "userIdB": 202945480,
+            "nameA": "AmehExtra",
+            "nameB": "카이란"
+          },
+          {
+            "rank": 3,
+            "valueA": 14006124,
+            "valueB": 10483781,
+            "userIdA": 603787872,
+            "userIdB": 588325382,
+            "nameA": "Will",
+            "nameB": "DiesIrae"
+          },
+          {
+            "rank": 4,
+            "valueA": 713662,
+            "valueB": 1017177,
+            "userIdA": 613241815,
+            "userIdB": 920173154,
+            "nameA": "xwill",
+            "nameB": "moon_child"
+          },
+          {
+            "rank": 5,
+            "valueA": 675315,
+            "valueB": 766924,
+            "userIdA": 494421992,
+            "userIdB": 327720499,
+            "nameA": "MOTO",
+            "nameB": "beneben"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1805949,
+            "valueB": 2972666,
+            "userIdA": 672769111,
+            "userIdB": 523081110,
+            "nameA": "Adely",
+            "nameB": "닝"
+          },
+          {
+            "rank": 2,
+            "valueA": 1655751,
+            "valueB": 1730349,
+            "userIdA": 881393762,
+            "userIdB": 708686417,
+            "nameA": "Vatonage",
+            "nameB": "매드"
+          },
+          {
+            "rank": 3,
+            "valueA": 999415,
+            "valueB": 1223137,
+            "userIdA": 413997485,
+            "userIdB": 583621043,
+            "nameA": "Hepburn",
+            "nameB": "바닐라"
+          },
+          {
+            "rank": 4,
+            "valueA": 801400,
+            "valueB": 707454,
+            "userIdA": 868795313,
+            "userIdB": 784272655,
+            "nameA": "Rein",
+            "nameB": "미노"
+          },
+          {
+            "rank": 5,
+            "valueA": 176321,
+            "valueB": 522922,
+            "userIdA": 290888979,
+            "userIdB": 410029819,
+            "nameA": "Redo",
+            "nameB": "도스쟈그라스"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4003708,
+            "valueB": 1822784,
+            "userIdA": 672769111,
+            "userIdB": 523081110,
+            "nameA": "Adely",
+            "nameB": "닝"
+          },
+          {
+            "rank": 2,
+            "valueA": 1896525,
+            "valueB": 1490472,
+            "userIdA": 868795313,
+            "userIdB": 583621043,
+            "nameA": "Rein",
+            "nameB": "바닐라"
+          },
+          {
+            "rank": 3,
+            "valueA": 1388519,
+            "valueB": 1136548,
+            "userIdA": 881393762,
+            "userIdB": 708686417,
+            "nameA": "Vatonage",
+            "nameB": "매드"
+          },
+          {
+            "rank": 4,
+            "valueA": 1136363,
+            "valueB": 570794,
+            "userIdA": 413997485,
+            "userIdB": 410029819,
+            "nameA": "Hepburn",
+            "nameB": "도스쟈그라스"
+          },
+          {
+            "rank": 5,
+            "valueA": 397819,
+            "valueB": 387219,
+            "userIdA": 290888979,
+            "userIdB": 784272655,
+            "nameA": "Redo",
+            "nameB": "미노"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2861616,
+            "valueB": 1941820,
+            "userIdA": 873505913,
+            "userIdB": 200776922,
+            "nameA": "へしふど",
+            "nameB": "클로버"
+          },
+          {
+            "rank": 2,
+            "valueA": 2784386,
+            "valueB": 1229340,
+            "userIdA": 124016919,
+            "userIdB": 687848418,
+            "nameA": "Lio",
+            "nameB": "월하애"
+          },
+          {
+            "rank": 3,
+            "valueA": 925499,
+            "valueB": 1049614,
+            "userIdA": 881393762,
+            "userIdB": 216376559,
+            "nameA": "Vatonage",
+            "nameB": "MayStil"
+          },
+          {
+            "rank": 4,
+            "valueA": 683768,
+            "valueB": 207107,
+            "userIdA": 195767153,
+            "userIdB": 920173154,
+            "nameA": "KuroNeko",
+            "nameB": "moon_child"
+          },
+          {
+            "rank": 5,
+            "valueA": 59212,
+            "valueB": 131512,
+            "userIdA": 250290573,
+            "userIdB": 327720499,
+            "nameA": "Laem",
+            "nameB": "beneben"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1903979,
+            "valueB": 4940211,
+            "userIdA": 124016919,
+            "userIdB": 200776922,
+            "nameA": "Lio",
+            "nameB": "클로버"
+          },
+          {
+            "rank": 2,
+            "valueA": 1660670,
+            "valueB": 1808738,
+            "userIdA": 873505913,
+            "userIdB": 216376559,
+            "nameA": "へしふど",
+            "nameB": "MayStil"
+          },
+          {
+            "rank": 3,
+            "valueA": 740636,
+            "valueB": 1579020,
+            "userIdA": 195767153,
+            "userIdB": 687848418,
+            "nameA": "KuroNeko",
+            "nameB": "월하애"
+          },
+          {
+            "rank": 4,
+            "valueA": 656336,
+            "valueB": 241678,
+            "userIdA": 881393762,
+            "userIdB": 708792067,
+            "nameA": "Vatonage",
+            "nameB": "알테라"
+          },
+          {
+            "rank": 5,
+            "valueA": 254650,
+            "valueB": 130389,
+            "userIdA": 613241815,
+            "userIdB": 920173154,
+            "nameA": "xwill",
+            "nameB": "moon_child"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 310,
+            "valueB": 372,
+            "userIdA": 593439881,
+            "userIdB": 327720499,
+            "nameA": "Ludmila",
+            "nameB": "beneben"
+          },
+          {
+            "rank": 2,
+            "valueA": 272,
+            "valueB": 351,
+            "userIdA": 494421992,
+            "userIdB": 920173154,
+            "nameA": "MOTO",
+            "nameB": "moon_child"
+          },
+          {
+            "rank": 3,
+            "valueA": 250,
+            "valueB": 206,
+            "userIdA": 603787872,
+            "userIdB": 708792067,
+            "nameA": "Will",
+            "nameB": "알테라"
+          },
+          {
+            "rank": 4,
+            "valueA": 248,
+            "valueB": 162,
+            "userIdA": 293335438,
+            "userIdB": 202945480,
+            "nameA": "rii",
+            "nameB": "카이란"
+          },
+          {
+            "rank": 5,
+            "valueA": 236,
+            "valueB": 158,
+            "userIdA": 250290573,
+            "userIdB": 523081110,
+            "nameA": "Laem",
+            "nameB": "닝"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3284150,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 75,
+          "guildBCount": 67
+        },
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 75,
+          "guildBCount": 49
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 513,
+    "gvgDataId": 3284150,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 44540,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "ZODIAC",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 1,
+    "guildMemberA": [
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 103,
+        "level": 214,
+        "totalPower": 394020,
+        "maxHp": 99049
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 48,
+        "level": 222,
+        "totalPower": 391887,
+        "maxHp": 112583
+      },
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 48,
+        "level": 215,
+        "totalPower": 384392,
+        "maxHp": 90677
+      },
+      {
+        "userId": 293335438,
+        "name": "rii",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 326826,
+        "maxHp": 79900
+      },
+      {
+        "userId": 494421992,
+        "name": "MOTO",
+        "characterMstId": 64,
+        "level": 211,
+        "totalPower": 361867,
+        "maxHp": 102459
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 19,
+        "level": 207,
+        "totalPower": 370277,
+        "maxHp": 90087
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 114,
+        "level": 130,
+        "totalPower": 317807,
+        "maxHp": 56101
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 114,
+        "level": 212,
+        "totalPower": 300747,
+        "maxHp": 70015
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 114,
+        "level": 208,
+        "totalPower": 299970,
+        "maxHp": 80626
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 167,
+        "level": 194,
+        "totalPower": 312728,
+        "maxHp": 81584
+      },
+      {
+        "userId": 873505913,
+        "name": "へしふど",
+        "characterMstId": 167,
+        "level": 195,
+        "totalPower": 301757,
+        "maxHp": 71645
+      },
+      {
+        "userId": 195767153,
+        "name": "KuroNeko",
+        "characterMstId": 128,
+        "level": 123,
+        "totalPower": 205988,
+        "maxHp": 32979
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 85,
+        "level": 216,
+        "totalPower": 388186,
+        "maxHp": 97713
+      },
+      {
+        "userId": 603787872,
+        "name": "Will",
+        "characterMstId": 85,
+        "level": 209,
+        "totalPower": 353829,
+        "maxHp": 101667
+      },
+      {
+        "userId": 759112051,
+        "name": "AmehExtra",
+        "characterMstId": 85,
+        "level": 201,
+        "totalPower": 321272,
+        "maxHp": 71295
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 920173154,
+        "name": "moon_child",
+        "characterMstId": 103,
+        "level": 213,
+        "totalPower": 571810,
+        "maxHp": 146128
+      },
+      {
+        "userId": 327720499,
+        "name": "beneben",
+        "characterMstId": 103,
+        "level": 223,
+        "totalPower": 421207,
+        "maxHp": 118933
+      },
+      {
+        "userId": 708792067,
+        "name": "알테라",
+        "characterMstId": 48,
+        "level": 212,
+        "totalPower": 398083,
+        "maxHp": 98615
+      },
+      {
+        "userId": 985799020,
+        "name": "리하엘",
+        "characterMstId": 48,
+        "level": 189,
+        "totalPower": 323853,
+        "maxHp": 94234
+      },
+      {
+        "userId": 234426063,
+        "name": "분노발싸소스",
+        "characterMstId": 48,
+        "level": 128,
+        "totalPower": 212949,
+        "maxHp": 47185
+      },
+      {
+        "userId": 523081110,
+        "name": "닝",
+        "characterMstId": 114,
+        "level": 198,
+        "totalPower": 377106,
+        "maxHp": 75130
+      },
+      {
+        "userId": 583621043,
+        "name": "바닐라",
+        "characterMstId": 410,
+        "level": 206,
+        "totalPower": 343884,
+        "maxHp": 69100
+      },
+      {
+        "userId": 708686417,
+        "name": "매드",
+        "characterMstId": 114,
+        "level": 198,
+        "totalPower": 310807,
+        "maxHp": 71930
+      },
+      {
+        "userId": 784272655,
+        "name": "미노",
+        "characterMstId": 432,
+        "level": 107,
+        "totalPower": 204185,
+        "maxHp": 33142
+      },
+      {
+        "userId": 200776922,
+        "name": "클로버",
+        "characterMstId": 93,
+        "level": 200,
+        "totalPower": 305305,
+        "maxHp": 80555
+      },
+      {
+        "userId": 687848418,
+        "name": "월하애",
+        "characterMstId": 93,
+        "level": 167,
+        "totalPower": 269405,
+        "maxHp": 69386
+      },
+      {
+        "userId": 216376559,
+        "name": "MayStil",
+        "characterMstId": 167,
+        "level": 166,
+        "totalPower": 240392,
+        "maxHp": 52620
+      },
+      {
+        "userId": 410029819,
+        "name": "도스쟈그라스",
+        "characterMstId": 85,
+        "level": 231,
+        "totalPower": 517940,
+        "maxHp": 136583
+      },
+      {
+        "userId": 202945480,
+        "name": "카이란",
+        "characterMstId": 85,
+        "level": 189,
+        "totalPower": 340273,
+        "maxHp": 73684
+      },
+      {
+        "userId": 588325382,
+        "name": "DiesIrae",
+        "characterMstId": 85,
+        "level": 214,
+        "totalPower": 323755,
+        "maxHp": 77949
+      }
+    ]
+  }
+}
