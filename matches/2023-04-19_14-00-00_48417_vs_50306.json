@@ -1,0 +1,659 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 313,
+      "battleStartTime": 1681912800,
+      "battleEndTime": 1681913999,
+      "gvgDataId": 3409983,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 8511025,
+      "selfComboCount": 1837,
+      "selfSiegeWinCount": 18,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 50306,
+      "enemyGuildName": "Solaris",
+      "enemyTotalGuildPoint": 249736,
+      "enemyComboCount": 1473,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 250290573,
+      "selfRankNum": 1,
+      "selfRankUserName": "Laem",
+      "selfRankGuildPoint": 1989135,
+      "enemyRankUserId": 263624163,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Fergus",
+      "enemyRankGuildPoint": 693489,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1989135,
+            "valueB": 693489,
+            "userIdA": 250290573,
+            "userIdB": 263624163,
+            "nameA": "Laem",
+            "nameB": "Fergus"
+          },
+          {
+            "rank": 2,
+            "valueA": 1605599,
+            "valueB": 483387,
+            "userIdA": 593439881,
+            "userIdB": 172457942,
+            "nameA": "Ludmila",
+            "nameB": "Excalibur"
+          },
+          {
+            "rank": 3,
+            "valueA": 1550127,
+            "valueB": 471693,
+            "userIdA": 580592710,
+            "userIdB": 661472216,
+            "nameA": "¥Empanada¥",
+            "nameB": "Layla"
+          },
+          {
+            "rank": 4,
+            "valueA": 678406,
+            "valueB": 391020,
+            "userIdA": 494421992,
+            "userIdB": 952603736,
+            "nameA": "MOTO",
+            "nameB": "Beelze"
+          },
+          {
+            "rank": 5,
+            "valueA": 664022,
+            "valueB": 154718,
+            "userIdA": 613241815,
+            "userIdB": 371954544,
+            "nameA": "xwill",
+            "nameB": "W"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 31234748,
+            "valueB": 19467292,
+            "userIdA": 290888979,
+            "userIdB": 743296078,
+            "nameA": "Redo",
+            "nameB": "riku"
+          },
+          {
+            "rank": 2,
+            "valueA": 18211084,
+            "valueB": 6914557,
+            "userIdA": 603787872,
+            "userIdB": 286379053,
+            "nameA": "Will",
+            "nameB": "Phaser"
+          },
+          {
+            "rank": 3,
+            "valueA": 313993,
+            "valueB": 1451548,
+            "userIdA": 494421992,
+            "userIdB": 952603736,
+            "nameA": "MOTO",
+            "nameB": "Beelze"
+          },
+          {
+            "rank": 4,
+            "valueA": 205967,
+            "valueB": 979611,
+            "userIdA": 613241815,
+            "userIdB": 371954544,
+            "nameA": "xwill",
+            "nameB": "W"
+          },
+          {
+            "rank": 5,
+            "valueA": 180667,
+            "valueB": 967113,
+            "userIdA": 250290573,
+            "userIdB": 661419535,
+            "nameA": "Laem",
+            "nameB": "『　　』"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2252688,
+            "valueB": 3231578,
+            "userIdA": 672769111,
+            "userIdB": 661419535,
+            "nameA": "Adely",
+            "nameB": "『　　』"
+          },
+          {
+            "rank": 2,
+            "valueA": 1819383,
+            "valueB": 3123534,
+            "userIdA": 881393762,
+            "userIdB": 658398849,
+            "nameA": "Vatonage",
+            "nameB": "Stralias"
+          },
+          {
+            "rank": 3,
+            "valueA": 1434667,
+            "valueB": 280705,
+            "userIdA": 868795313,
+            "userIdB": 743296078,
+            "nameA": "Rein",
+            "nameB": "riku"
+          },
+          {
+            "rank": 4,
+            "valueA": 1281510,
+            "valueB": 256332,
+            "userIdA": 413997485,
+            "userIdB": 511788717,
+            "nameA": "Hepburn",
+            "nameB": "Icegloom"
+          },
+          {
+            "rank": 5,
+            "valueA": 358732,
+            "valueB": 91834,
+            "userIdA": 463610148,
+            "userIdB": 286379053,
+            "nameA": "Luna",
+            "nameB": "Phaser"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2629853,
+            "valueB": 2174588,
+            "userIdA": 672769111,
+            "userIdB": 661419535,
+            "nameA": "Adely",
+            "nameB": "『　　』"
+          },
+          {
+            "rank": 2,
+            "valueA": 1921861,
+            "valueB": 2078144,
+            "userIdA": 868795313,
+            "userIdB": 658398849,
+            "nameA": "Rein",
+            "nameB": "Stralias"
+          },
+          {
+            "rank": 3,
+            "valueA": 1017188,
+            "valueB": 217947,
+            "userIdA": 881393762,
+            "userIdB": 743296078,
+            "nameA": "Vatonage",
+            "nameB": "riku"
+          },
+          {
+            "rank": 4,
+            "valueA": 945399,
+            "valueB": 138483,
+            "userIdA": 413997485,
+            "userIdB": 286379053,
+            "nameA": "Hepburn",
+            "nameB": "Phaser"
+          },
+          {
+            "rank": 5,
+            "valueA": 596063,
+            "valueB": 115081,
+            "userIdA": 463610148,
+            "userIdB": 511788717,
+            "nameA": "Luna",
+            "nameB": "Icegloom"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4230956,
+            "valueB": 2146364,
+            "userIdA": 873505913,
+            "userIdB": 738067342,
+            "nameA": "へしふど",
+            "nameB": "Vencieno"
+          },
+          {
+            "rank": 2,
+            "valueA": 2385258,
+            "valueB": 1869451,
+            "userIdA": 463610148,
+            "userIdB": 285639431,
+            "nameA": "Luna",
+            "nameB": "Paannn"
+          },
+          {
+            "rank": 3,
+            "valueA": 1402004,
+            "valueB": 1743083,
+            "userIdA": 124016919,
+            "userIdB": 756512591,
+            "nameA": "Lio",
+            "nameB": "Fritzd"
+          },
+          {
+            "rank": 4,
+            "valueA": 1061043,
+            "valueB": 754106,
+            "userIdA": 881393762,
+            "userIdB": 989581557,
+            "nameA": "Vatonage",
+            "nameB": "Reia"
+          },
+          {
+            "rank": 5,
+            "valueA": 619216,
+            "valueB": 94975,
+            "userIdA": 195767153,
+            "userIdB": 172457942,
+            "nameA": "KuroNeko",
+            "nameB": "Excalibur"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2010355,
+            "valueB": 1946736,
+            "userIdA": 463610148,
+            "userIdB": 285639431,
+            "nameA": "Luna",
+            "nameB": "Paannn"
+          },
+          {
+            "rank": 2,
+            "valueA": 1783769,
+            "valueB": 1803309,
+            "userIdA": 873505913,
+            "userIdB": 738067342,
+            "nameA": "へしふど",
+            "nameB": "Vencieno"
+          },
+          {
+            "rank": 3,
+            "valueA": 1171090,
+            "valueB": 1616381,
+            "userIdA": 124016919,
+            "userIdB": 756512591,
+            "nameA": "Lio",
+            "nameB": "Fritzd"
+          },
+          {
+            "rank": 4,
+            "valueA": 846699,
+            "valueB": 1322051,
+            "userIdA": 881393762,
+            "userIdB": 989581557,
+            "nameA": "Vatonage",
+            "nameB": "Reia"
+          },
+          {
+            "rank": 5,
+            "valueA": 552214,
+            "valueB": 163726,
+            "userIdA": 195767153,
+            "userIdB": 952603736,
+            "nameA": "KuroNeko",
+            "nameB": "Beelze"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 370,
+            "valueB": 411,
+            "userIdA": 593439881,
+            "userIdB": 371954544,
+            "nameA": "Ludmila",
+            "nameB": "W"
+          },
+          {
+            "rank": 2,
+            "valueA": 300,
+            "valueB": 364,
+            "userIdA": 250290573,
+            "userIdB": 263624163,
+            "nameA": "Laem",
+            "nameB": "Fergus"
+          },
+          {
+            "rank": 3,
+            "valueA": 282,
+            "valueB": 252,
+            "userIdA": 124016919,
+            "userIdB": 756512591,
+            "nameA": "Lio",
+            "nameB": "Fritzd"
+          },
+          {
+            "rank": 4,
+            "valueA": 257,
+            "valueB": 241,
+            "userIdA": 613241815,
+            "userIdB": 661472216,
+            "nameA": "xwill",
+            "nameB": "Layla"
+          },
+          {
+            "rank": 5,
+            "valueA": 203,
+            "valueB": 126,
+            "userIdA": 494421992,
+            "userIdB": 172457942,
+            "nameA": "MOTO",
+            "nameB": "Excalibur"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3409983,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 75,
+          "guildBCount": 54
+        },
+        {
+          "artMstId": 11,
+          "ultimateArtMethodMstId": 11,
+          "guildACount": 75,
+          "guildBCount": 56
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 313,
+    "gvgDataId": 3409983,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 50306,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "Solaris",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 2,
+    "guildMemberA": [
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 126,
+        "level": 218,
+        "totalPower": 388406,
+        "maxHp": 115657
+      },
+      {
+        "userId": 580592710,
+        "name": "¥Empanada¥",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 378777,
+        "maxHp": 94750
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 64,
+        "level": 224,
+        "totalPower": 406017,
+        "maxHp": 132833
+      },
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 64,
+        "level": 218,
+        "totalPower": 391857,
+        "maxHp": 109007
+      },
+      {
+        "userId": 494421992,
+        "name": "MOTO",
+        "characterMstId": 64,
+        "level": 211,
+        "totalPower": 375543,
+        "maxHp": 115859
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 432,
+        "level": 208,
+        "totalPower": 388639,
+        "maxHp": 98676
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 114,
+        "level": 220,
+        "totalPower": 358932,
+        "maxHp": 80533
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 114,
+        "level": 133,
+        "totalPower": 353279,
+        "maxHp": 75996
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 114,
+        "level": 210,
+        "totalPower": 333713,
+        "maxHp": 92410
+      },
+      {
+        "userId": 463610148,
+        "name": "Luna",
+        "characterMstId": 336,
+        "level": 210,
+        "totalPower": 430634,
+        "maxHp": 135460
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 167,
+        "level": 194,
+        "totalPower": 335436,
+        "maxHp": 91384
+      },
+      {
+        "userId": 873505913,
+        "name": "へしふど",
+        "characterMstId": 167,
+        "level": 195,
+        "totalPower": 317758,
+        "maxHp": 83345
+      },
+      {
+        "userId": 195767153,
+        "name": "KuroNeko",
+        "characterMstId": 128,
+        "level": 123,
+        "totalPower": 208053,
+        "maxHp": 32979
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 85,
+        "level": 217,
+        "totalPower": 417591,
+        "maxHp": 120856
+      },
+      {
+        "userId": 603787872,
+        "name": "Will",
+        "characterMstId": 85,
+        "level": 210,
+        "totalPower": 383308,
+        "maxHp": 122260
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 263624163,
+        "name": "Fergus",
+        "characterMstId": 103,
+        "level": 231,
+        "totalPower": 417223,
+        "maxHp": 118933
+      },
+      {
+        "userId": 172457942,
+        "name": "Excalibur",
+        "characterMstId": 103,
+        "level": 203,
+        "totalPower": 388909,
+        "maxHp": 86351
+      },
+      {
+        "userId": 661472216,
+        "name": "Layla",
+        "characterMstId": 126,
+        "level": 216,
+        "totalPower": 356778,
+        "maxHp": 81763
+      },
+      {
+        "userId": 952603736,
+        "name": "Beelze",
+        "characterMstId": 48,
+        "level": 230,
+        "totalPower": 445150,
+        "maxHp": 126433
+      },
+      {
+        "userId": 371954544,
+        "name": "W",
+        "characterMstId": 48,
+        "level": 209,
+        "totalPower": 438255,
+        "maxHp": 108367
+      },
+      {
+        "userId": 658398849,
+        "name": "Stralias",
+        "characterMstId": 114,
+        "level": 196,
+        "totalPower": 390305,
+        "maxHp": 101856
+      },
+      {
+        "userId": 661419535,
+        "name": "『　　』",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 315755,
+        "maxHp": 75972
+      },
+      {
+        "userId": 511788717,
+        "name": "Icegloom",
+        "characterMstId": 137,
+        "level": 131,
+        "totalPower": 166806,
+        "maxHp": 36282
+      },
+      {
+        "userId": 756512591,
+        "name": "Fritzd",
+        "characterMstId": 93,
+        "level": 215,
+        "totalPower": 390828,
+        "maxHp": 117577
+      },
+      {
+        "userId": 989581557,
+        "name": "Reia",
+        "characterMstId": 167,
+        "level": 191,
+        "totalPower": 335975,
+        "maxHp": 101603
+      },
+      {
+        "userId": 738067342,
+        "name": "Vencieno",
+        "characterMstId": 167,
+        "level": 195,
+        "totalPower": 298064,
+        "maxHp": 80995
+      },
+      {
+        "userId": 285639431,
+        "name": "Paannn",
+        "characterMstId": 167,
+        "level": 162,
+        "totalPower": 233470,
+        "maxHp": 48316
+      },
+      {
+        "userId": 743296078,
+        "name": "riku",
+        "characterMstId": 85,
+        "level": 201,
+        "totalPower": 379825,
+        "maxHp": 92295
+      },
+      {
+        "userId": 286379053,
+        "name": "Phaser",
+        "characterMstId": 729,
+        "level": 202,
+        "totalPower": 293086,
+        "maxHp": 77522
+      }
+    ]
+  }
+}
