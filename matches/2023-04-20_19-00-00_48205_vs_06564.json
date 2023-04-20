@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 503,
+      "battleStartTime": 1682017200,
+      "battleEndTime": 1682018399,
+      "gvgDataId": 3411515,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 5666480,
+      "selfComboCount": 1486,
+      "selfSiegeWinCount": 6,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 6564,
+      "enemyGuildName": "Degenerates",
+      "enemyTotalGuildPoint": 11380302,
+      "enemyComboCount": 1886,
+      "enemySiegeWinCount": 13,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 2221086,
+      "enemyRankUserId": 426818203,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Arcaya",
+      "enemyRankGuildPoint": 3032560,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 578
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2221086,
+            "valueB": 3032560,
+            "userIdA": 489820080,
+            "userIdB": 426818203,
+            "nameA": "Poetic0",
+            "nameB": "Arcaya"
+          },
+          {
+            "rank": 2,
+            "valueA": 1421485,
+            "valueB": 2467236,
+            "userIdA": 736354962,
+            "userIdB": 998841019,
+            "nameA": "Luffy",
+            "nameB": "Pear"
+          },
+          {
+            "rank": 3,
+            "valueA": 1371088,
+            "valueB": 1581825,
+            "userIdA": 647526045,
+            "userIdB": 315182479,
+            "nameA": "Amber",
+            "nameB": "Salsa☂"
+          },
+          {
+            "rank": 4,
+            "valueA": 1257425,
+            "valueB": 1502649,
+            "userIdA": 161754158,
+            "userIdB": 675152159,
+            "nameA": "oeuf",
+            "nameB": "Daiti"
+          },
+          {
+            "rank": 5,
+            "valueA": 643612,
+            "valueB": 1422841,
+            "userIdA": 658397897,
+            "userIdB": 764131681,
+            "nameA": "Juddy",
+            "nameB": "Shiro"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 33214767,
+            "valueB": 36551315,
+            "userIdA": 335076343,
+            "userIdB": 176635513,
+            "nameA": "Melesie",
+            "nameB": "Karig"
+          },
+          {
+            "rank": 2,
+            "valueA": 26153664,
+            "valueB": 35061405,
+            "userIdA": 112665300,
+            "userIdB": 517010391,
+            "nameA": "ilyas",
+            "nameB": "Saphira"
+          },
+          {
+            "rank": 3,
+            "valueA": 19626557,
+            "valueB": 28365423,
+            "userIdA": 237959838,
+            "userIdB": 545322087,
+            "nameA": "Nheksh",
+            "nameB": "Krähe"
+          },
+          {
+            "rank": 4,
+            "valueA": 2649897,
+            "valueB": 665063,
+            "userIdA": 658397897,
+            "userIdB": 765708130,
+            "nameA": "Juddy",
+            "nameB": "Richard"
+          },
+          {
+            "rank": 5,
+            "valueA": 1540698,
+            "valueB": 618659,
+            "userIdA": 249958587,
+            "userIdB": 764131681,
+            "nameA": "Sakura",
+            "nameB": "Shiro"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5170180,
+            "valueB": 5102650,
+            "userIdA": 519350497,
+            "userIdB": 707573563,
+            "nameA": "Andy",
+            "nameB": "Raine"
+          },
+          {
+            "rank": 2,
+            "valueA": 4142576,
+            "valueB": 4723405,
+            "userIdA": 889582783,
+            "userIdB": 626809878,
+            "nameA": "Baka",
+            "nameB": "Kairi"
+          },
+          {
+            "rank": 3,
+            "valueA": 2982342,
+            "valueB": 4211495,
+            "userIdA": 884034009,
+            "userIdB": 669004263,
+            "nameA": "Cheshipuss",
+            "nameB": "Kitty"
+          },
+          {
+            "rank": 4,
+            "valueA": 2013354,
+            "valueB": 3772951,
+            "userIdA": 249958587,
+            "userIdB": 816252344,
+            "nameA": "Sakura",
+            "nameB": "Pizza"
+          },
+          {
+            "rank": 5,
+            "valueA": 250564,
+            "valueB": 290942,
+            "userIdA": 335076343,
+            "userIdB": 176635513,
+            "nameA": "Melesie",
+            "nameB": "Karig"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4112026,
+            "valueB": 4219497,
+            "userIdA": 884034009,
+            "userIdB": 707573563,
+            "nameA": "Cheshipuss",
+            "nameB": "Raine"
+          },
+          {
+            "rank": 2,
+            "valueA": 3221872,
+            "valueB": 3562911,
+            "userIdA": 889582783,
+            "userIdB": 669004263,
+            "nameA": "Baka",
+            "nameB": "Kitty"
+          },
+          {
+            "rank": 3,
+            "valueA": 2370249,
+            "valueB": 2484369,
+            "userIdA": 519350497,
+            "userIdB": 816252344,
+            "nameA": "Andy",
+            "nameB": "Pizza"
+          },
+          {
+            "rank": 4,
+            "valueA": 1509831,
+            "valueB": 2455317,
+            "userIdA": 249958587,
+            "userIdB": 626809878,
+            "nameA": "Sakura",
+            "nameB": "Kairi"
+          },
+          {
+            "rank": 5,
+            "valueA": 391212,
+            "valueB": 623414,
+            "userIdA": 112665300,
+            "userIdB": 176635513,
+            "nameA": "ilyas",
+            "nameB": "Karig"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 6413469,
+            "valueB": 7060480,
+            "userIdA": 662352178,
+            "userIdB": 765708130,
+            "nameA": "NotRosé",
+            "nameB": "Richard"
+          },
+          {
+            "rank": 2,
+            "valueA": 5469609,
+            "valueB": 5172838,
+            "userIdA": 594178109,
+            "userIdB": 835956955,
+            "nameA": "Jeanne",
+            "nameB": "Accord"
+          },
+          {
+            "rank": 3,
+            "valueA": 3859654,
+            "valueB": 2969603,
+            "userIdA": 580947666,
+            "userIdB": 289018287,
+            "nameA": "MeanRin",
+            "nameB": "Melichoir"
+          },
+          {
+            "rank": 4,
+            "valueA": 3386421,
+            "valueB": 57865,
+            "userIdA": 237959838,
+            "userIdB": 315182479,
+            "nameA": "Nheksh",
+            "nameB": "Salsa☂"
+          },
+          {
+            "rank": 5,
+            "valueA": 78816,
+            "valueB": 41340,
+            "userIdA": 647526045,
+            "userIdB": 426818203,
+            "nameA": "Amber",
+            "nameB": "Arcaya"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4306559,
+            "valueB": 5763397,
+            "userIdA": 594178109,
+            "userIdB": 765708130,
+            "nameA": "Jeanne",
+            "nameB": "Richard"
+          },
+          {
+            "rank": 2,
+            "valueA": 4179010,
+            "valueB": 4164556,
+            "userIdA": 662352178,
+            "userIdB": 835956955,
+            "nameA": "NotRosé",
+            "nameB": "Accord"
+          },
+          {
+            "rank": 3,
+            "valueA": 3253143,
+            "valueB": 3021681,
+            "userIdA": 580947666,
+            "userIdB": 289018287,
+            "nameA": "MeanRin",
+            "nameB": "Melichoir"
+          },
+          {
+            "rank": 4,
+            "valueA": 2895919,
+            "valueB": 165358,
+            "userIdA": 237959838,
+            "userIdB": 998841019,
+            "nameA": "Nheksh",
+            "nameB": "Pear"
+          },
+          {
+            "rank": 5,
+            "valueA": 212592,
+            "valueB": 163231,
+            "userIdA": 647526045,
+            "userIdB": 426818203,
+            "nameA": "Amber",
+            "nameB": "Arcaya"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 247,
+            "valueB": 357,
+            "userIdA": 647526045,
+            "userIdB": 675152159,
+            "nameA": "Amber",
+            "nameB": "Daiti"
+          },
+          {
+            "rank": 2,
+            "valueA": 241,
+            "valueB": 314,
+            "userIdA": 161754158,
+            "userIdB": 426818203,
+            "nameA": "oeuf",
+            "nameB": "Arcaya"
+          },
+          {
+            "rank": 3,
+            "valueA": 226,
+            "valueB": 239,
+            "userIdA": 489820080,
+            "userIdB": 764131681,
+            "nameA": "Poetic0",
+            "nameB": "Shiro"
+          },
+          {
+            "rank": 4,
+            "valueA": 183,
+            "valueB": 173,
+            "userIdA": 736354962,
+            "userIdB": 315182479,
+            "nameA": "Luffy",
+            "nameB": "Salsa☂"
+          },
+          {
+            "rank": 5,
+            "valueA": 162,
+            "valueB": 170,
+            "userIdA": 884034009,
+            "userIdB": 998841019,
+            "nameA": "Cheshipuss",
+            "nameB": "Pear"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3411515,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 41,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 58,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 503,
+    "gvgDataId": 3411515,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 6564,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Degenerates",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 2,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 210,
+        "totalPower": 418137,
+        "maxHp": 114110
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 103,
+        "level": 212,
+        "totalPower": 406706,
+        "maxHp": 118365
+      },
+      {
+        "userId": 647526045,
+        "name": "Amber",
+        "characterMstId": 48,
+        "level": 228,
+        "totalPower": 484170,
+        "maxHp": 144533
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 231,
+        "level": 224,
+        "totalPower": 433700,
+        "maxHp": 132383
+      },
+      {
+        "userId": 736354962,
+        "name": "Luffy",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 418873,
+        "maxHp": 118478
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 114,
+        "level": 206,
+        "totalPower": 419628,
+        "maxHp": 108250
+      },
+      {
+        "userId": 889582783,
+        "name": "Baka",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 388824,
+        "maxHp": 99305
+      },
+      {
+        "userId": 884034009,
+        "name": "Cheshipuss",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 363493,
+        "maxHp": 94987
+      },
+      {
+        "userId": 249958587,
+        "name": "Sakura",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 358877,
+        "maxHp": 97672
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 93,
+        "level": 225,
+        "totalPower": 579212,
+        "maxHp": 183833
+      },
+      {
+        "userId": 662352178,
+        "name": "NotRosé",
+        "characterMstId": 93,
+        "level": 213,
+        "totalPower": 416578,
+        "maxHp": 98778
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 93,
+        "level": 226,
+        "totalPower": 409477,
+        "maxHp": 114333
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 167,
+        "level": 208,
+        "totalPower": 354735,
+        "maxHp": 97176
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 233,
+        "totalPower": 468116,
+        "maxHp": 142383
+      },
+      {
+        "userId": 112665300,
+        "name": "ilyas",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 403816,
+        "maxHp": 106587
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 998841019,
+        "name": "Pear",
+        "characterMstId": 103,
+        "level": 218,
+        "totalPower": 461174,
+        "maxHp": 127207
+      },
+      {
+        "userId": 315182479,
+        "name": "Salsa☂",
+        "characterMstId": 103,
+        "level": 212,
+        "totalPower": 436910,
+        "maxHp": 116715
+      },
+      {
+        "userId": 426818203,
+        "name": "Arcaya",
+        "characterMstId": 231,
+        "level": 233,
+        "totalPower": 533929,
+        "maxHp": 160133
+      },
+      {
+        "userId": 764131681,
+        "name": "Shiro",
+        "characterMstId": 48,
+        "level": 209,
+        "totalPower": 469320,
+        "maxHp": 131217
+      },
+      {
+        "userId": 675152159,
+        "name": "Daiti",
+        "characterMstId": 48,
+        "level": 214,
+        "totalPower": 422803,
+        "maxHp": 121899
+      },
+      {
+        "userId": 669004263,
+        "name": "Kitty",
+        "characterMstId": 114,
+        "level": 208,
+        "totalPower": 426168,
+        "maxHp": 123426
+      },
+      {
+        "userId": 816252344,
+        "name": "Pizza",
+        "characterMstId": 114,
+        "level": 213,
+        "totalPower": 416648,
+        "maxHp": 94928
+      },
+      {
+        "userId": 707573563,
+        "name": "Raine",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 392609,
+        "maxHp": 95087
+      },
+      {
+        "userId": 626809878,
+        "name": "Kairi",
+        "characterMstId": 114,
+        "level": 203,
+        "totalPower": 387046,
+        "maxHp": 104451
+      },
+      {
+        "userId": 765708130,
+        "name": "Richard",
+        "characterMstId": 167,
+        "level": 219,
+        "totalPower": 465555,
+        "maxHp": 122416
+      },
+      {
+        "userId": 289018287,
+        "name": "Melichoir",
+        "characterMstId": 93,
+        "level": 211,
+        "totalPower": 422967,
+        "maxHp": 118709
+      },
+      {
+        "userId": 835956955,
+        "name": "Accord",
+        "characterMstId": 167,
+        "level": 208,
+        "totalPower": 398921,
+        "maxHp": 98726
+      },
+      {
+        "userId": 176635513,
+        "name": "Karig",
+        "characterMstId": 85,
+        "level": 228,
+        "totalPower": 460677,
+        "maxHp": 122683
+      },
+      {
+        "userId": 545322087,
+        "name": "Krähe",
+        "characterMstId": 85,
+        "level": 212,
+        "totalPower": 389584,
+        "maxHp": 100715
+      },
+      {
+        "userId": 517010391,
+        "name": "Saphira",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 388712,
+        "maxHp": 80301
+      }
+    ]
+  }
+}
