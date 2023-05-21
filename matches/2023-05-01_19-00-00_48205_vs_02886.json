@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 203,
+      "battleStartTime": 1682967600,
+      "battleEndTime": 1682968799,
+      "gvgDataId": 3425300,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 33128713,
+      "selfComboCount": 1621,
+      "selfSiegeWinCount": 21,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 2886,
+      "enemyGuildName": "Lycoris",
+      "enemyTotalGuildPoint": 394449,
+      "enemyComboCount": 425,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 736354962,
+      "selfRankNum": 1,
+      "selfRankUserName": "Luffy",
+      "selfRankGuildPoint": 6775746,
+      "enemyRankUserId": 804804239,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Corbenik",
+      "enemyRankGuildPoint": 1414934,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 250
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 6775746,
+            "valueB": 1414934,
+            "userIdA": 736354962,
+            "userIdB": 804804239,
+            "nameA": "Luffy",
+            "nameB": "Corbenik"
+          },
+          {
+            "rank": 2,
+            "valueA": 6410710,
+            "valueB": 1160352,
+            "userIdA": 489820080,
+            "userIdB": 425654854,
+            "nameA": "Poetic0",
+            "nameB": "Otaqween"
+          },
+          {
+            "rank": 3,
+            "valueA": 5842315,
+            "valueB": 978723,
+            "userIdA": 658397897,
+            "userIdB": 419898152,
+            "nameA": "Juddy",
+            "nameB": "Tigrou"
+          },
+          {
+            "rank": 4,
+            "valueA": 5276761,
+            "valueB": 793480,
+            "userIdA": 161754158,
+            "userIdB": 878187916,
+            "nameA": "oeuf",
+            "nameB": "Sakyuu"
+          },
+          {
+            "rank": 5,
+            "valueA": 3575961,
+            "valueB": 746579,
+            "userIdA": 647526045,
+            "userIdB": 573866232,
+            "nameA": "Amber",
+            "nameB": "Navarich"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 94656881,
+            "valueB": 54046898,
+            "userIdA": 335076343,
+            "userIdB": 962244565,
+            "nameA": "Melesie",
+            "nameB": "Kurukame"
+          },
+          {
+            "rank": 2,
+            "valueA": 88072254,
+            "valueB": 49413195,
+            "userIdA": 112665300,
+            "userIdB": 355357909,
+            "nameA": "ilyas",
+            "nameB": "Kuri"
+          },
+          {
+            "rank": 3,
+            "valueA": 14043721,
+            "valueB": 14780940,
+            "userIdA": 237959838,
+            "userIdB": 573866232,
+            "nameA": "Nheksh",
+            "nameB": "Navarich"
+          },
+          {
+            "rank": 4,
+            "valueA": 1368814,
+            "valueB": 12742571,
+            "userIdA": 658397897,
+            "userIdB": 804804239,
+            "nameA": "Juddy",
+            "nameB": "Corbenik"
+          },
+          {
+            "rank": 5,
+            "valueA": 1055876,
+            "valueB": 9000000,
+            "userIdA": 161754158,
+            "userIdB": 564275723,
+            "nameA": "oeuf",
+            "nameB": "Lorelei"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 14749703,
+            "valueB": 12033580,
+            "userIdA": 519350497,
+            "userIdB": 371718168,
+            "nameA": "Andy",
+            "nameB": "Skeith"
+          },
+          {
+            "rank": 2,
+            "valueA": 12195418,
+            "valueB": 11053900,
+            "userIdA": 884034009,
+            "userIdB": 178625596,
+            "nameA": "Cheshipuss",
+            "nameB": "Sokaradian"
+          },
+          {
+            "rank": 3,
+            "valueA": 8411559,
+            "valueB": 7737366,
+            "userIdA": 889582783,
+            "userIdB": 610494276,
+            "nameA": "Baka",
+            "nameB": "Eiriana"
+          },
+          {
+            "rank": 4,
+            "valueA": 6951202,
+            "valueB": 6668887,
+            "userIdA": 249958587,
+            "userIdB": 216598468,
+            "nameA": "Sakura",
+            "nameB": "Kurii"
+          },
+          {
+            "rank": 5,
+            "valueA": 827955,
+            "valueB": 897778,
+            "userIdA": 335076343,
+            "userIdB": 355357909,
+            "nameA": "Melesie",
+            "nameB": "Kuri"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 15019878,
+            "valueB": 11874435,
+            "userIdA": 884034009,
+            "userIdB": 371718168,
+            "nameA": "Cheshipuss",
+            "nameB": "Skeith"
+          },
+          {
+            "rank": 2,
+            "valueA": 7576391,
+            "valueB": 9344628,
+            "userIdA": 889582783,
+            "userIdB": 178625596,
+            "nameA": "Baka",
+            "nameB": "Sokaradian"
+          },
+          {
+            "rank": 3,
+            "valueA": 7366931,
+            "valueB": 1999939,
+            "userIdA": 519350497,
+            "userIdB": 610494276,
+            "nameA": "Andy",
+            "nameB": "Eiriana"
+          },
+          {
+            "rank": 4,
+            "valueA": 4434729,
+            "valueB": 1541809,
+            "userIdA": 249958587,
+            "userIdB": 216598468,
+            "nameA": "Sakura",
+            "nameB": "Kurii"
+          },
+          {
+            "rank": 5,
+            "valueA": 1090568,
+            "valueB": 713073,
+            "userIdA": 112665300,
+            "userIdB": 355357909,
+            "nameA": "ilyas",
+            "nameB": "Kuri"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 16973066,
+            "valueB": 11087444,
+            "userIdA": 594178109,
+            "userIdB": 701034628,
+            "nameA": "Jeanne",
+            "nameB": "dylan76"
+          },
+          {
+            "rank": 2,
+            "valueA": 14881588,
+            "valueB": 10752742,
+            "userIdA": 237959838,
+            "userIdB": 423897038,
+            "nameA": "Nheksh",
+            "nameB": "Kyhra"
+          },
+          {
+            "rank": 3,
+            "valueA": 11954567,
+            "valueB": 7721917,
+            "userIdA": 662352178,
+            "userIdB": 268083056,
+            "nameA": "NotRosé",
+            "nameB": "Sirop"
+          },
+          {
+            "rank": 4,
+            "valueA": 7784810,
+            "valueB": 6544508,
+            "userIdA": 580947666,
+            "userIdB": 564275723,
+            "nameA": "MeanRin",
+            "nameB": "Lorelei"
+          },
+          {
+            "rank": 5,
+            "valueA": 300304,
+            "valueB": 5304084,
+            "userIdA": 161754158,
+            "userIdB": 216598468,
+            "nameA": "oeuf",
+            "nameB": "Kurii"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 13998246,
+            "valueB": 8058549,
+            "userIdA": 237959838,
+            "userIdB": 268083056,
+            "nameA": "Nheksh",
+            "nameB": "Sirop"
+          },
+          {
+            "rank": 2,
+            "valueA": 12309863,
+            "valueB": 8038683,
+            "userIdA": 594178109,
+            "userIdB": 701034628,
+            "nameA": "Jeanne",
+            "nameB": "dylan76"
+          },
+          {
+            "rank": 3,
+            "valueA": 9482580,
+            "valueB": 7508571,
+            "userIdA": 662352178,
+            "userIdB": 423897038,
+            "nameA": "NotRosé",
+            "nameB": "Kyhra"
+          },
+          {
+            "rank": 4,
+            "valueA": 6371022,
+            "valueB": 5902921,
+            "userIdA": 580947666,
+            "userIdB": 564275723,
+            "nameA": "MeanRin",
+            "nameB": "Lorelei"
+          },
+          {
+            "rank": 5,
+            "valueA": 512725,
+            "valueB": 4899079,
+            "userIdA": 658397897,
+            "userIdB": 216598468,
+            "nameA": "Juddy",
+            "nameB": "Kurii"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 415,
+            "valueB": 159,
+            "userIdA": 489820080,
+            "userIdB": 425654854,
+            "nameA": "Poetic0",
+            "nameB": "Otaqween"
+          },
+          {
+            "rank": 2,
+            "valueA": 237,
+            "valueB": 74,
+            "userIdA": 736354962,
+            "userIdB": 804804239,
+            "nameA": "Luffy",
+            "nameB": "Corbenik"
+          },
+          {
+            "rank": 3,
+            "valueA": 202,
+            "valueB": 73,
+            "userIdA": 658397897,
+            "userIdB": 573866232,
+            "nameA": "Juddy",
+            "nameB": "Navarich"
+          },
+          {
+            "rank": 4,
+            "valueA": 166,
+            "valueB": 64,
+            "userIdA": 161754158,
+            "userIdB": 419898152,
+            "nameA": "oeuf",
+            "nameB": "Tigrou"
+          },
+          {
+            "rank": 5,
+            "valueA": 143,
+            "valueB": 55,
+            "userIdA": 594178109,
+            "userIdB": 878187916,
+            "nameA": "Jeanne",
+            "nameB": "Sakyuu"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3425300,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 75,
+          "guildBCount": 44
+        },
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 75,
+          "guildBCount": 40
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 203,
+    "gvgDataId": 3425300,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 2886,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Lycoris",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 210,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 103,
+        "level": 213,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 736354962,
+        "name": "Luffy",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 647526045,
+        "name": "Amber",
+        "characterMstId": 48,
+        "level": 228,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 139,
+        "level": 224,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 889582783,
+        "name": "Baka",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 249958587,
+        "name": "Sakura",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 114,
+        "level": 206,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 884034009,
+        "name": "Cheshipuss",
+        "characterMstId": 114,
+        "level": 208,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 167,
+        "level": 208,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 662352178,
+        "name": "NotRosé",
+        "characterMstId": 93,
+        "level": 213,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 93,
+        "level": 225,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 93,
+        "level": 226,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 112665300,
+        "name": "ilyas",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 233,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 425654854,
+        "name": "Otaqween",
+        "characterMstId": 103,
+        "level": 209,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 804804239,
+        "name": "Corbenik",
+        "characterMstId": 103,
+        "level": 214,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 573866232,
+        "name": "Navarich",
+        "characterMstId": 103,
+        "level": 216,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 878187916,
+        "name": "Sakyuu",
+        "characterMstId": 48,
+        "level": 204,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 419898152,
+        "name": "Tigrou",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 610494276,
+        "name": "Eiriana",
+        "characterMstId": 114,
+        "level": 196,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 178625596,
+        "name": "Sokaradian",
+        "characterMstId": 114,
+        "level": 206,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 371718168,
+        "name": "Skeith",
+        "characterMstId": 328,
+        "level": 215,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 564275723,
+        "name": "Lorelei",
+        "characterMstId": 93,
+        "level": 134,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 268083056,
+        "name": "Sirop",
+        "characterMstId": 93,
+        "level": 183,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 216598468,
+        "name": "Kurii",
+        "characterMstId": 694,
+        "level": 202,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 423897038,
+        "name": "Kyhra",
+        "characterMstId": 167,
+        "level": 205,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 701034628,
+        "name": "dylan76",
+        "characterMstId": 381,
+        "level": 210,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 962244565,
+        "name": "Kurukame",
+        "characterMstId": 85,
+        "level": 205,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      },
+      {
+        "userId": 355357909,
+        "name": "Kuri",
+        "characterMstId": 85,
+        "level": 206,
+        "totalPower": 1420000,
+        "maxHp": 1000000
+      }
+    ]
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 603,
+      "battleStartTime": 1682708400,
+      "battleEndTime": 1682709599,
+      "gvgDataId": 3421285,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 7194503,
+      "selfComboCount": 1825,
+      "selfSiegeWinCount": 41,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 35241,
+      "enemyGuildName": "PureOnes",
+      "enemyTotalGuildPoint": 28863,
+      "enemyComboCount": 783,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 1943337,
+      "enemyRankUserId": 864586438,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Ryu",
+      "enemyRankGuildPoint": 105974,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1943337,
+            "valueB": 105974,
+            "userIdA": 489820080,
+            "userIdB": 864586438,
+            "nameA": "Poetic0",
+            "nameB": "Ryu"
+          },
+          {
+            "rank": 2,
+            "valueA": 1595239,
+            "valueB": 92505,
+            "userIdA": 161754158,
+            "userIdB": 726127732,
+            "nameA": "oeuf",
+            "nameB": "diebuster"
+          },
+          {
+            "rank": 3,
+            "valueA": 1585774,
+            "valueB": 79216,
+            "userIdA": 647526045,
+            "userIdB": 970630846,
+            "nameA": "Amber",
+            "nameB": "Leonora"
+          },
+          {
+            "rank": 4,
+            "valueA": 1032449,
+            "valueB": 73476,
+            "userIdA": 736354962,
+            "userIdB": 821990050,
+            "nameA": "Luffy",
+            "nameB": "Dochas"
+          },
+          {
+            "rank": 5,
+            "valueA": 571669,
+            "valueB": 38042,
+            "userIdA": 658397897,
+            "userIdB": 111623506,
+            "nameA": "Juddy",
+            "nameB": "Moonofsoul"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 29609141,
+            "valueB": 7301152,
+            "userIdA": 237959838,
+            "userIdB": 358293826,
+            "nameA": "Nheksh",
+            "nameB": "Marie"
+          },
+          {
+            "rank": 2,
+            "valueA": 26813884,
+            "valueB": 6654454,
+            "userIdA": 335076343,
+            "userIdB": 414145351,
+            "nameA": "Melesie",
+            "nameB": "BAD"
+          },
+          {
+            "rank": 3,
+            "valueA": 10851112,
+            "valueB": 4997949,
+            "userIdA": 112665300,
+            "userIdB": 379139315,
+            "nameA": "ilyas",
+            "nameB": "Hunam"
+          },
+          {
+            "rank": 4,
+            "valueA": 160836,
+            "valueB": 1766258,
+            "userIdA": 658397897,
+            "userIdB": 291089933,
+            "nameA": "Juddy",
+            "nameB": "Justice"
+          },
+          {
+            "rank": 5,
+            "valueA": 120868,
+            "valueB": 1421860,
+            "userIdA": 161754158,
+            "userIdB": 864586438,
+            "nameA": "oeuf",
+            "nameB": "Ryu"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1062512,
+            "valueB": 1918371,
+            "userIdA": 889582783,
+            "userIdB": 282847376,
+            "nameA": "Baka",
+            "nameB": "Allern"
+          },
+          {
+            "rank": 2,
+            "valueA": 1024565,
+            "valueB": 1224248,
+            "userIdA": 519350497,
+            "userIdB": 533312137,
+            "nameA": "Andy",
+            "nameB": "Hope"
+          },
+          {
+            "rank": 3,
+            "valueA": 594828,
+            "valueB": 515184,
+            "userIdA": 249958587,
+            "userIdB": 753890332,
+            "nameA": "Sakura",
+            "nameB": "cookieguy"
+          },
+          {
+            "rank": 4,
+            "valueA": 276960,
+            "valueB": 331584,
+            "userIdA": 884034009,
+            "userIdB": 708246649,
+            "nameA": "Cheshipuss",
+            "nameB": "Cirque"
+          },
+          {
+            "rank": 5,
+            "valueA": 182808,
+            "valueB": 80820,
+            "userIdA": 237959838,
+            "userIdB": 358293826,
+            "nameA": "Nheksh",
+            "nameB": "Marie"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 940609,
+            "valueB": 1473687,
+            "userIdA": 889582783,
+            "userIdB": 282847376,
+            "nameA": "Baka",
+            "nameB": "Allern"
+          },
+          {
+            "rank": 2,
+            "valueA": 724892,
+            "valueB": 1040041,
+            "userIdA": 519350497,
+            "userIdB": 533312137,
+            "nameA": "Andy",
+            "nameB": "Hope"
+          },
+          {
+            "rank": 3,
+            "valueA": 532558,
+            "valueB": 494476,
+            "userIdA": 884034009,
+            "userIdB": 753890332,
+            "nameA": "Cheshipuss",
+            "nameB": "cookieguy"
+          },
+          {
+            "rank": 4,
+            "valueA": 454046,
+            "valueB": 159580,
+            "userIdA": 249958587,
+            "userIdB": 708246649,
+            "nameA": "Sakura",
+            "nameB": "Cirque"
+          },
+          {
+            "rank": 5,
+            "valueA": 155039,
+            "valueB": 137245,
+            "userIdA": 335076343,
+            "userIdB": 291089933,
+            "nameA": "Melesie",
+            "nameB": "Justice"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2906111,
+            "valueB": 1063948,
+            "userIdA": 662352178,
+            "userIdB": 665410641,
+            "nameA": "NotRosé",
+            "nameB": "Oregano"
+          },
+          {
+            "rank": 2,
+            "valueA": 2661080,
+            "valueB": 494250,
+            "userIdA": 594178109,
+            "userIdB": 970925765,
+            "nameA": "Jeanne",
+            "nameB": "Nikolai"
+          },
+          {
+            "rank": 3,
+            "valueA": 1240857,
+            "valueB": 420169,
+            "userIdA": 580947666,
+            "userIdB": 291089933,
+            "nameA": "MeanRin",
+            "nameB": "Justice"
+          },
+          {
+            "rank": 4,
+            "valueA": 69615,
+            "valueB": 83903,
+            "userIdA": 647526045,
+            "userIdB": 708246649,
+            "nameA": "Amber",
+            "nameB": "Cirque"
+          },
+          {
+            "rank": 5,
+            "valueA": 58576,
+            "valueB": 48607,
+            "userIdA": 519350497,
+            "userIdB": 111623506,
+            "nameA": "Andy",
+            "nameB": "Moonofsoul"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2291351,
+            "valueB": 994395,
+            "userIdA": 594178109,
+            "userIdB": 665410641,
+            "nameA": "Jeanne",
+            "nameB": "Oregano"
+          },
+          {
+            "rank": 2,
+            "valueA": 2147722,
+            "valueB": 482196,
+            "userIdA": 662352178,
+            "userIdB": 970925765,
+            "nameA": "NotRosé",
+            "nameB": "Nikolai"
+          },
+          {
+            "rank": 3,
+            "valueA": 899684,
+            "valueB": 295173,
+            "userIdA": 580947666,
+            "userIdB": 291089933,
+            "nameA": "MeanRin",
+            "nameB": "Justice"
+          },
+          {
+            "rank": 4,
+            "valueA": 245842,
+            "valueB": 150512,
+            "userIdA": 647526045,
+            "userIdB": 708246649,
+            "nameA": "Amber",
+            "nameB": "Cirque"
+          },
+          {
+            "rank": 5,
+            "valueA": 173758,
+            "valueB": 91827,
+            "userIdA": 489820080,
+            "userIdB": 821990050,
+            "nameA": "Poetic0",
+            "nameB": "Dochas"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 309,
+            "valueB": 277,
+            "userIdA": 161754158,
+            "userIdB": 864586438,
+            "nameA": "oeuf",
+            "nameB": "Ryu"
+          },
+          {
+            "rank": 2,
+            "valueA": 278,
+            "valueB": 132,
+            "userIdA": 489820080,
+            "userIdB": 665410641,
+            "nameA": "Poetic0",
+            "nameB": "Oregano"
+          },
+          {
+            "rank": 3,
+            "valueA": 218,
+            "valueB": 123,
+            "userIdA": 647526045,
+            "userIdB": 726127732,
+            "nameA": "Amber",
+            "nameB": "diebuster"
+          },
+          {
+            "rank": 4,
+            "valueA": 182,
+            "valueB": 87,
+            "userIdA": 736354962,
+            "userIdB": 821990050,
+            "nameA": "Luffy",
+            "nameB": "Dochas"
+          },
+          {
+            "rank": 5,
+            "valueA": 169,
+            "valueB": 69,
+            "userIdA": 884034009,
+            "userIdB": 970630846,
+            "nameA": "Cheshipuss",
+            "nameB": "Leonora"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3421285,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 74,
+          "guildBCount": 45
+        },
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 54,
+          "guildBCount": 41
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 603,
+    "gvgDataId": 3421285,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 35241,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "PureOnes",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 2,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 210,
+        "totalPower": 420861,
+        "maxHp": 115460
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 103,
+        "level": 212,
+        "totalPower": 411398,
+        "maxHp": 122815
+      },
+      {
+        "userId": 647526045,
+        "name": "Amber",
+        "characterMstId": 48,
+        "level": 228,
+        "totalPower": 489320,
+        "maxHp": 152833
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 231,
+        "level": 224,
+        "totalPower": 434037,
+        "maxHp": 134783
+      },
+      {
+        "userId": 736354962,
+        "name": "Luffy",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 425398,
+        "maxHp": 122078
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 114,
+        "level": 206,
+        "totalPower": 426994,
+        "maxHp": 109800
+      },
+      {
+        "userId": 889582783,
+        "name": "Baka",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 395903,
+        "maxHp": 102905
+      },
+      {
+        "userId": 884034009,
+        "name": "Cheshipuss",
+        "characterMstId": 114,
+        "level": 208,
+        "totalPower": 363458,
+        "maxHp": 95576
+      },
+      {
+        "userId": 249958587,
+        "name": "Sakura",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 363090,
+        "maxHp": 97972
+      },
+      {
+        "userId": 662352178,
+        "name": "NotRosé",
+        "characterMstId": 93,
+        "level": 213,
+        "totalPower": 422568,
+        "maxHp": 100678
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 93,
+        "level": 226,
+        "totalPower": 416606,
+        "maxHp": 115533
+      },
+      {
+        "userId": 580947666,
+        "name": "MeanRin",
+        "characterMstId": 167,
+        "level": 208,
+        "totalPower": 349312,
+        "maxHp": 97176
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 85,
+        "level": 225,
+        "totalPower": 594541,
+        "maxHp": 186233
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 233,
+        "totalPower": 468116,
+        "maxHp": 142383
+      },
+      {
+        "userId": 112665300,
+        "name": "ilyas",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 405932,
+        "maxHp": 107837
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 970630846,
+        "name": "Leonora",
+        "characterMstId": 103,
+        "level": 218,
+        "totalPower": 378363,
+        "maxHp": 111857
+      },
+      {
+        "userId": 111623506,
+        "name": "Moonofsoul",
+        "characterMstId": 103,
+        "level": 198,
+        "totalPower": 325169,
+        "maxHp": 69030
+      },
+      {
+        "userId": 821990050,
+        "name": "Dochas",
+        "characterMstId": 48,
+        "level": 207,
+        "totalPower": 379215,
+        "maxHp": 99037
+      },
+      {
+        "userId": 864586438,
+        "name": "Ryu",
+        "characterMstId": 48,
+        "level": 203,
+        "totalPower": 339295,
+        "maxHp": 87451
+      },
+      {
+        "userId": 726127732,
+        "name": "diebuster",
+        "characterMstId": 401,
+        "level": 198,
+        "totalPower": 315444,
+        "maxHp": 88030
+      },
+      {
+        "userId": 282847376,
+        "name": "Allern",
+        "characterMstId": 453,
+        "level": 198,
+        "totalPower": 307703,
+        "maxHp": 66030
+      },
+      {
+        "userId": 533312137,
+        "name": "Hope",
+        "characterMstId": 114,
+        "level": 167,
+        "totalPower": 277102,
+        "maxHp": 63586
+      },
+      {
+        "userId": 753890332,
+        "name": "cookieguy",
+        "characterMstId": 328,
+        "level": 160,
+        "totalPower": 253170,
+        "maxHp": 57693
+      },
+      {
+        "userId": 708246649,
+        "name": "Cirque",
+        "characterMstId": 197,
+        "level": 154,
+        "totalPower": 221228,
+        "maxHp": 49745
+      },
+      {
+        "userId": 665410641,
+        "name": "Oregano",
+        "characterMstId": 381,
+        "level": 198,
+        "totalPower": 322429,
+        "maxHp": 79930
+      },
+      {
+        "userId": 291089933,
+        "name": "Justice",
+        "characterMstId": 721,
+        "level": 145,
+        "totalPower": 246762,
+        "maxHp": 57894
+      },
+      {
+        "userId": 970925765,
+        "name": "Nikolai",
+        "characterMstId": 721,
+        "level": 179,
+        "totalPower": 214341,
+        "maxHp": 61838
+      },
+      {
+        "userId": 358293826,
+        "name": "Marie",
+        "characterMstId": 85,
+        "level": 198,
+        "totalPower": 311902,
+        "maxHp": 93230
+      },
+      {
+        "userId": 379139315,
+        "name": "Hunam",
+        "characterMstId": 85,
+        "level": 209,
+        "totalPower": 308571,
+        "maxHp": 101767
+      },
+      {
+        "userId": 414145351,
+        "name": "BAD",
+        "characterMstId": 85,
+        "level": 199,
+        "totalPower": 295636,
+        "maxHp": 62992
+      }
+    ]
+  }
+}
