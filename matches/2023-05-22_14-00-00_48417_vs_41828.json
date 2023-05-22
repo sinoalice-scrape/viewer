@@ -1,0 +1,611 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 113,
+      "battleStartTime": 1684764000,
+      "battleEndTime": 1684765199,
+      "gvgDataId": 3451024,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 4422851,
+      "selfComboCount": 1713,
+      "selfSiegeWinCount": 15,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 41828,
+      "enemyGuildName": "BLACKPAGE",
+      "enemyTotalGuildPoint": 17152,
+      "enemyComboCount": 346,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 984436051,
+      "selfRankNum": 1,
+      "selfRankUserName": "Marco",
+      "selfRankGuildPoint": 1278985,
+      "enemyRankUserId": 635427743,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "공산주의자",
+      "enemyRankGuildPoint": 42096,
+      "scheduleNo": 0,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 410
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1278985,
+            "valueB": 42096,
+            "userIdA": 984436051,
+            "userIdB": 635427743,
+            "nameA": "Marco",
+            "nameB": "공산주의자"
+          },
+          {
+            "rank": 2,
+            "valueA": 1077727,
+            "valueB": 24211,
+            "userIdA": 593439881,
+            "userIdB": 196782077,
+            "nameA": "Ludmila",
+            "nameB": "2B"
+          },
+          {
+            "rank": 3,
+            "valueA": 1038801,
+            "valueB": 16431,
+            "userIdA": 250290573,
+            "userIdB": 761398431,
+            "nameA": "Laem",
+            "nameB": "유퐁"
+          },
+          {
+            "rank": 4,
+            "valueA": 485685,
+            "valueB": 14198,
+            "userIdA": 613241815,
+            "userIdB": 164603375,
+            "nameA": "xwill",
+            "nameB": "Able"
+          },
+          {
+            "rank": 5,
+            "valueA": 264260,
+            "valueB": 452,
+            "userIdA": 580592710,
+            "userIdB": 723969315,
+            "nameA": "¥Empanada¥",
+            "nameB": "리엘"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 19369526,
+            "valueB": 4003245,
+            "userIdA": 290888979,
+            "userIdB": 150276011,
+            "nameA": "Redo",
+            "nameB": "루비"
+          },
+          {
+            "rank": 2,
+            "valueA": 12138224,
+            "valueB": 1335437,
+            "userIdA": 603787872,
+            "userIdB": 164603375,
+            "nameA": "Will",
+            "nameB": "Able"
+          },
+          {
+            "rank": 3,
+            "valueA": 310900,
+            "valueB": 835236,
+            "userIdA": 984436051,
+            "userIdB": 723969315,
+            "nameA": "Marco",
+            "nameB": "리엘"
+          },
+          {
+            "rank": 4,
+            "valueA": 83036,
+            "valueB": 813815,
+            "userIdA": 613241815,
+            "userIdB": 761398431,
+            "nameA": "xwill",
+            "nameB": "유퐁"
+          },
+          {
+            "rank": 5,
+            "valueA": 52434,
+            "valueB": 763134,
+            "userIdA": 593439881,
+            "userIdB": 635427743,
+            "nameA": "Ludmila",
+            "nameB": "공산주의자"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 955433,
+            "valueB": 550683,
+            "userIdA": 413997485,
+            "userIdB": 172882112,
+            "nameA": "Hepburn",
+            "nameB": "에루티에"
+          },
+          {
+            "rank": 2,
+            "valueA": 558484,
+            "valueB": 58380,
+            "userIdA": 868795313,
+            "userIdB": 196782077,
+            "nameA": "Rein",
+            "nameB": "2B"
+          },
+          {
+            "rank": 3,
+            "valueA": 390169,
+            "valueB": 44669,
+            "userIdA": 881393762,
+            "userIdB": 150276011,
+            "nameA": "Vatonage",
+            "nameB": "루비"
+          },
+          {
+            "rank": 4,
+            "valueA": 274915,
+            "valueB": 40538,
+            "userIdA": 672769111,
+            "userIdB": 761398431,
+            "nameA": "Adely",
+            "nameB": "유퐁"
+          },
+          {
+            "rank": 5,
+            "valueA": 71092,
+            "valueB": 23536,
+            "userIdA": 290888979,
+            "userIdB": 635427743,
+            "nameA": "Redo",
+            "nameB": "공산주의자"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 924974,
+            "valueB": 608366,
+            "userIdA": 413997485,
+            "userIdB": 172882112,
+            "nameA": "Hepburn",
+            "nameB": "에루티에"
+          },
+          {
+            "rank": 2,
+            "valueA": 761971,
+            "valueB": 86215,
+            "userIdA": 868795313,
+            "userIdB": 196782077,
+            "nameA": "Rein",
+            "nameB": "2B"
+          },
+          {
+            "rank": 3,
+            "valueA": 381845,
+            "valueB": 62555,
+            "userIdA": 672769111,
+            "userIdB": 150276011,
+            "nameA": "Adely",
+            "nameB": "루비"
+          },
+          {
+            "rank": 4,
+            "valueA": 168985,
+            "valueB": 54131,
+            "userIdA": 463610148,
+            "userIdB": 761398431,
+            "nameA": "Luna",
+            "nameB": "유퐁"
+          },
+          {
+            "rank": 5,
+            "valueA": 120446,
+            "valueB": 37219,
+            "userIdA": 881393762,
+            "userIdB": 635427743,
+            "nameA": "Vatonage",
+            "nameB": "공산주의자"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1302916,
+            "valueB": 464876,
+            "userIdA": 124016919,
+            "userIdB": 359071819,
+            "nameA": "Lio",
+            "nameB": "93"
+          },
+          {
+            "rank": 2,
+            "valueA": 1166979,
+            "valueB": 22498,
+            "userIdA": 463610148,
+            "userIdB": 723969315,
+            "nameA": "Luna",
+            "nameB": "리엘"
+          },
+          {
+            "rank": 3,
+            "valueA": 1112276,
+            "valueB": 19350,
+            "userIdA": 873505913,
+            "userIdB": 164603375,
+            "nameA": "Vorfreude",
+            "nameB": "Able"
+          },
+          {
+            "rank": 4,
+            "valueA": 463180,
+            "valueB": 14913,
+            "userIdA": 195767153,
+            "userIdB": 196782077,
+            "nameA": "KuroNeko",
+            "nameB": "2B"
+          },
+          {
+            "rank": 5,
+            "valueA": 433749,
+            "valueB": 12172,
+            "userIdA": 868795313,
+            "userIdB": 635427743,
+            "nameA": "Rein",
+            "nameB": "공산주의자"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1246870,
+            "valueB": 905034,
+            "userIdA": 124016919,
+            "userIdB": 359071819,
+            "nameA": "Lio",
+            "nameB": "93"
+          },
+          {
+            "rank": 2,
+            "valueA": 904340,
+            "valueB": 118605,
+            "userIdA": 463610148,
+            "userIdB": 196782077,
+            "nameA": "Luna",
+            "nameB": "2B"
+          },
+          {
+            "rank": 3,
+            "valueA": 766335,
+            "valueB": 50237,
+            "userIdA": 868795313,
+            "userIdB": 635427743,
+            "nameA": "Rein",
+            "nameB": "공산주의자"
+          },
+          {
+            "rank": 4,
+            "valueA": 418166,
+            "valueB": 30219,
+            "userIdA": 195767153,
+            "userIdB": 761398431,
+            "nameA": "KuroNeko",
+            "nameB": "유퐁"
+          },
+          {
+            "rank": 5,
+            "valueA": 406456,
+            "valueB": 8836,
+            "userIdA": 873505913,
+            "userIdB": 723969315,
+            "nameA": "Vorfreude",
+            "nameB": "리엘"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 257,
+            "valueB": 87,
+            "userIdA": 984436051,
+            "userIdB": 635427743,
+            "nameA": "Marco",
+            "nameB": "공산주의자"
+          },
+          {
+            "rank": 2,
+            "valueA": 205,
+            "valueB": 73,
+            "userIdA": 250290573,
+            "userIdB": 196782077,
+            "nameA": "Laem",
+            "nameB": "2B"
+          },
+          {
+            "rank": 3,
+            "valueA": 203,
+            "valueB": 70,
+            "userIdA": 613241815,
+            "userIdB": 164603375,
+            "nameA": "xwill",
+            "nameB": "Able"
+          },
+          {
+            "rank": 4,
+            "valueA": 203,
+            "valueB": 61,
+            "userIdA": 873505913,
+            "userIdB": 761398431,
+            "nameA": "Vorfreude",
+            "nameB": "유퐁"
+          },
+          {
+            "rank": 5,
+            "valueA": 202,
+            "valueB": 55,
+            "userIdA": 593439881,
+            "userIdB": 723969315,
+            "nameA": "Ludmila",
+            "nameB": "리엘"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3451024,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 29,
+          "ultimateArtMethodMstId": 29,
+          "guildACount": 75,
+          "guildBCount": 34
+        },
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 47,
+          "guildBCount": 28
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 113,
+    "gvgDataId": 3451024,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 41828,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "BLACKPAGE",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 0,
+    "guildMemberA": [
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 126,
+        "level": 219,
+        "totalPower": 395246,
+        "maxHp": 122366
+      },
+      {
+        "userId": 580592710,
+        "name": "¥Empanada¥",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 379149,
+        "maxHp": 94750
+      },
+      {
+        "userId": 984436051,
+        "name": "Marco",
+        "characterMstId": 139,
+        "level": 230,
+        "totalPower": 443229,
+        "maxHp": 135883
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 64,
+        "level": 225,
+        "totalPower": 410017,
+        "maxHp": 134333
+      },
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 64,
+        "level": 218,
+        "totalPower": 400198,
+        "maxHp": 112407
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 432,
+        "level": 208,
+        "totalPower": 394094,
+        "maxHp": 101676
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 114,
+        "level": 134,
+        "totalPower": 359636,
+        "maxHp": 77729
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 352554,
+        "maxHp": 95709
+      },
+      {
+        "userId": 463610148,
+        "name": "Luna",
+        "characterMstId": 694,
+        "level": 210,
+        "totalPower": 440058,
+        "maxHp": 138160
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 93,
+        "level": 220,
+        "totalPower": 365996,
+        "maxHp": 80783
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 167,
+        "level": 195,
+        "totalPower": 352855,
+        "maxHp": 95545
+      },
+      {
+        "userId": 873505913,
+        "name": "Vorfreude",
+        "characterMstId": 93,
+        "level": 195,
+        "totalPower": 323711,
+        "maxHp": 93195
+      },
+      {
+        "userId": 195767153,
+        "name": "KuroNeko",
+        "characterMstId": 128,
+        "level": 123,
+        "totalPower": 208053,
+        "maxHp": 32979
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 85,
+        "level": 217,
+        "totalPower": 421706,
+        "maxHp": 122006
+      },
+      {
+        "userId": 603787872,
+        "name": "Will",
+        "characterMstId": 85,
+        "level": 210,
+        "totalPower": 388304,
+        "maxHp": 130010
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 761398431,
+        "name": "유퐁",
+        "characterMstId": 103,
+        "level": 203,
+        "totalPower": 295259,
+        "maxHp": 75651
+      },
+      {
+        "userId": 196782077,
+        "name": "2B",
+        "characterMstId": 103,
+        "level": 203,
+        "totalPower": 280092,
+        "maxHp": 63501
+      },
+      {
+        "userId": 635427743,
+        "name": "공산주의자",
+        "characterMstId": 103,
+        "level": 195,
+        "totalPower": 250745,
+        "maxHp": 56295
+      },
+      {
+        "userId": 164603375,
+        "name": "Able",
+        "characterMstId": 126,
+        "level": 204,
+        "totalPower": 280104,
+        "maxHp": 104932
+      },
+      {
+        "userId": 723969315,
+        "name": "리엘",
+        "characterMstId": 126,
+        "level": 200,
+        "totalPower": 241091,
+        "maxHp": 57305
+      },
+      {
+        "userId": 172882112,
+        "name": "에루티에",
+        "characterMstId": 114,
+        "level": 130,
+        "totalPower": 189401,
+        "maxHp": 41201
+      },
+      {
+        "userId": 359071819,
+        "name": "93",
+        "characterMstId": 93,
+        "level": 133,
+        "totalPower": 182870,
+        "maxHp": 35946
+      },
+      {
+        "userId": 150276011,
+        "name": "루비",
+        "characterMstId": 85,
+        "level": 134,
+        "totalPower": 195166,
+        "maxHp": 43329
+      }
+    ]
+  }
+}
