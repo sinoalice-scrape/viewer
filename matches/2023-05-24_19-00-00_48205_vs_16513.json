@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 403,
+      "battleStartTime": 1684954800,
+      "battleEndTime": 1684955999,
+      "gvgDataId": 3453703,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 2027360,
+      "selfComboCount": 1835,
+      "selfSiegeWinCount": 1,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 16513,
+      "enemyGuildName": "Aether",
+      "enemyTotalGuildPoint": 14990009,
+      "enemyComboCount": 2709,
+      "enemySiegeWinCount": 13,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 2343222,
+      "enemyRankUserId": 323605893,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Embla",
+      "enemyRankGuildPoint": 2688660,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2343222,
+            "valueB": 2688660,
+            "userIdA": 489820080,
+            "userIdB": 323605893,
+            "nameA": "Poetic0",
+            "nameB": "Embla"
+          },
+          {
+            "rank": 2,
+            "valueA": 1759396,
+            "valueB": 2598052,
+            "userIdA": 647526045,
+            "userIdB": 115130336,
+            "nameA": "Amber",
+            "nameB": "Shiitsu"
+          },
+          {
+            "rank": 3,
+            "valueA": 1216972,
+            "valueB": 2040932,
+            "userIdA": 736354962,
+            "userIdB": 865115811,
+            "nameA": "Luffy",
+            "nameB": "Caelum"
+          },
+          {
+            "rank": 4,
+            "valueA": 1118690,
+            "valueB": 1488131,
+            "userIdA": 161754158,
+            "userIdB": 671610813,
+            "nameA": "oeuf",
+            "nameB": "Nykta"
+          },
+          {
+            "rank": 5,
+            "valueA": 768313,
+            "valueB": 875065,
+            "userIdA": 658397897,
+            "userIdB": 587905013,
+            "nameA": "Juddy",
+            "nameB": "Susannah"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 39966533,
+            "valueB": 52949283,
+            "userIdA": 335076343,
+            "userIdB": 424479457,
+            "nameA": "Melesie",
+            "nameB": "Rookiie"
+          },
+          {
+            "rank": 2,
+            "valueA": 30591299,
+            "valueB": 49509350,
+            "userIdA": 112665300,
+            "userIdB": 287822766,
+            "nameA": "ilyas",
+            "nameB": "Xaede_4CX"
+          },
+          {
+            "rank": 3,
+            "valueA": 4160715,
+            "valueB": 29431437,
+            "userIdA": 237959838,
+            "userIdB": 143452310,
+            "nameA": "Nheksh",
+            "nameB": "Colm"
+          },
+          {
+            "rank": 4,
+            "valueA": 1539078,
+            "valueB": 564692,
+            "userIdA": 658397897,
+            "userIdB": 671610813,
+            "nameA": "Juddy",
+            "nameB": "Nykta"
+          },
+          {
+            "rank": 5,
+            "valueA": 1368169,
+            "valueB": 485027,
+            "userIdA": 736354962,
+            "userIdB": 115130336,
+            "nameA": "Luffy",
+            "nameB": "Shiitsu"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 7782461,
+            "valueB": 7819701,
+            "userIdA": 519350497,
+            "userIdB": 291292784,
+            "nameA": "Andy",
+            "nameB": "Kyo"
+          },
+          {
+            "rank": 2,
+            "valueA": 5087168,
+            "valueB": 5978567,
+            "userIdA": 889582783,
+            "userIdB": 676455782,
+            "nameA": "Baka",
+            "nameB": "Fluxy"
+          },
+          {
+            "rank": 3,
+            "valueA": 4040024,
+            "valueB": 5616278,
+            "userIdA": 249958587,
+            "userIdB": 689606380,
+            "nameA": "Sakura",
+            "nameB": "Ellana"
+          },
+          {
+            "rank": 4,
+            "valueA": 3972665,
+            "valueB": 2469693,
+            "userIdA": 884034009,
+            "userIdB": 319266481,
+            "nameA": "Cheshipuss",
+            "nameB": "Digikai"
+          },
+          {
+            "rank": 5,
+            "valueA": 347268,
+            "valueB": 939004,
+            "userIdA": 335076343,
+            "userIdB": 507575234,
+            "nameA": "Melesie",
+            "nameB": "Shogun"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5547631,
+            "valueB": 7392455,
+            "userIdA": 884034009,
+            "userIdB": 689606380,
+            "nameA": "Cheshipuss",
+            "nameB": "Ellana"
+          },
+          {
+            "rank": 2,
+            "valueA": 4010389,
+            "valueB": 5001800,
+            "userIdA": 889582783,
+            "userIdB": 291292784,
+            "nameA": "Baka",
+            "nameB": "Kyo"
+          },
+          {
+            "rank": 3,
+            "valueA": 3659650,
+            "valueB": 3598948,
+            "userIdA": 519350497,
+            "userIdB": 676455782,
+            "nameA": "Andy",
+            "nameB": "Fluxy"
+          },
+          {
+            "rank": 4,
+            "valueA": 2630663,
+            "valueB": 946236,
+            "userIdA": 249958587,
+            "userIdB": 319266481,
+            "nameA": "Sakura",
+            "nameB": "Digikai"
+          },
+          {
+            "rank": 5,
+            "valueA": 577625,
+            "valueB": 687917,
+            "userIdA": 335076343,
+            "userIdB": 424479457,
+            "nameA": "Melesie",
+            "nameB": "Rookiie"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 7591082,
+            "valueB": 7430522,
+            "userIdA": 237959838,
+            "userIdB": 130589516,
+            "nameA": "Nheksh",
+            "nameB": "Cyaine"
+          },
+          {
+            "rank": 2,
+            "valueA": 6739630,
+            "valueB": 7121608,
+            "userIdA": 594178109,
+            "userIdB": 319266481,
+            "nameA": "Jeanne",
+            "nameB": "Digikai"
+          },
+          {
+            "rank": 3,
+            "valueA": 6213694,
+            "valueB": 4895015,
+            "userIdA": 662352178,
+            "userIdB": 875178374,
+            "nameA": "NotRosé",
+            "nameB": "Rin"
+          },
+          {
+            "rank": 4,
+            "valueA": 3243353,
+            "valueB": 3691206,
+            "userIdA": 268301929,
+            "userIdB": 507575234,
+            "nameA": "Frankger",
+            "nameB": "Shogun"
+          },
+          {
+            "rank": 5,
+            "valueA": 59499,
+            "valueB": 131773,
+            "userIdA": 736354962,
+            "userIdB": 291292784,
+            "nameA": "Luffy",
+            "nameB": "Kyo"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 7084938,
+            "valueB": 6024658,
+            "userIdA": 237959838,
+            "userIdB": 130589516,
+            "nameA": "Nheksh",
+            "nameB": "Cyaine"
+          },
+          {
+            "rank": 2,
+            "valueA": 5167366,
+            "valueB": 5155275,
+            "userIdA": 594178109,
+            "userIdB": 319266481,
+            "nameA": "Jeanne",
+            "nameB": "Digikai"
+          },
+          {
+            "rank": 3,
+            "valueA": 3507336,
+            "valueB": 3858643,
+            "userIdA": 662352178,
+            "userIdB": 875178374,
+            "nameA": "NotRosé",
+            "nameB": "Rin"
+          },
+          {
+            "rank": 4,
+            "valueA": 3175958,
+            "valueB": 2667257,
+            "userIdA": 268301929,
+            "userIdB": 507575234,
+            "nameA": "Frankger",
+            "nameB": "Shogun"
+          },
+          {
+            "rank": 5,
+            "valueA": 114522,
+            "valueB": 128567,
+            "userIdA": 161754158,
+            "userIdB": 671610813,
+            "nameA": "oeuf",
+            "nameB": "Nykta"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 335,
+            "valueB": 550,
+            "userIdA": 161754158,
+            "userIdB": 115130336,
+            "nameA": "oeuf",
+            "nameB": "Shiitsu"
+          },
+          {
+            "rank": 2,
+            "valueA": 324,
+            "valueB": 387,
+            "userIdA": 647526045,
+            "userIdB": 587905013,
+            "nameA": "Amber",
+            "nameB": "Susannah"
+          },
+          {
+            "rank": 3,
+            "valueA": 288,
+            "valueB": 359,
+            "userIdA": 489820080,
+            "userIdB": 323605893,
+            "nameA": "Poetic0",
+            "nameB": "Embla"
+          },
+          {
+            "rank": 4,
+            "valueA": 195,
+            "valueB": 357,
+            "userIdA": 736354962,
+            "userIdB": 671610813,
+            "nameA": "Luffy",
+            "nameB": "Nykta"
+          },
+          {
+            "rank": 5,
+            "valueA": 176,
+            "valueB": 348,
+            "userIdA": 884034009,
+            "userIdB": 865115811,
+            "nameA": "Cheshipuss",
+            "nameB": "Caelum"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3453703,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 51,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 61,
+          "guildBCount": 69
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 403,
+    "gvgDataId": 3453703,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 16513,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Aether",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 210,
+        "totalPower": 428228,
+        "maxHp": 117960
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 103,
+        "level": 213,
+        "totalPower": 412295,
+        "maxHp": 126678
+      },
+      {
+        "userId": 647526045,
+        "name": "Amber",
+        "characterMstId": 48,
+        "level": 229,
+        "totalPower": 495011,
+        "maxHp": 156033
+      },
+      {
+        "userId": 736354962,
+        "name": "Luffy",
+        "characterMstId": 48,
+        "level": 213,
+        "totalPower": 429008,
+        "maxHp": 124878
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 507,
+        "level": 224,
+        "totalPower": 437581,
+        "maxHp": 134883
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 114,
+        "level": 206,
+        "totalPower": 436262,
+        "maxHp": 114200
+      },
+      {
+        "userId": 889582783,
+        "name": "Baka",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 396903,
+        "maxHp": 102905
+      },
+      {
+        "userId": 884034009,
+        "name": "Cheshipuss",
+        "characterMstId": 114,
+        "level": 208,
+        "totalPower": 366499,
+        "maxHp": 98876
+      },
+      {
+        "userId": 249958587,
+        "name": "Sakura",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 365612,
+        "maxHp": 97972
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 93,
+        "level": 225,
+        "totalPower": 585812,
+        "maxHp": 189433
+      },
+      {
+        "userId": 268301929,
+        "name": "Frankger",
+        "characterMstId": 167,
+        "level": 206,
+        "totalPower": 422762,
+        "maxHp": 134300
+      },
+      {
+        "userId": 662352178,
+        "name": "NotRosé",
+        "characterMstId": 93,
+        "level": 213,
+        "totalPower": 420850,
+        "maxHp": 100678
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 93,
+        "level": 227,
+        "totalPower": 417906,
+        "maxHp": 116433
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 233,
+        "totalPower": 475015,
+        "maxHp": 150333
+      },
+      {
+        "userId": 112665300,
+        "name": "ilyas",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 408928,
+        "maxHp": 107837
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 115130336,
+        "name": "Shiitsu",
+        "characterMstId": 103,
+        "level": 214,
+        "totalPower": 507261,
+        "maxHp": 149099
+      },
+      {
+        "userId": 323605893,
+        "name": "Embla",
+        "characterMstId": 103,
+        "level": 210,
+        "totalPower": 442591,
+        "maxHp": 119210
+      },
+      {
+        "userId": 671610813,
+        "name": "Nykta",
+        "characterMstId": 48,
+        "level": 223,
+        "totalPower": 507563,
+        "maxHp": 150233
+      },
+      {
+        "userId": 865115811,
+        "name": "Caelum",
+        "characterMstId": 48,
+        "level": 230,
+        "totalPower": 477828,
+        "maxHp": 144133
+      },
+      {
+        "userId": 587905013,
+        "name": "Susannah",
+        "characterMstId": 48,
+        "level": 215,
+        "totalPower": 408163,
+        "maxHp": 121027
+      },
+      {
+        "userId": 291292784,
+        "name": "Kyo",
+        "characterMstId": 114,
+        "level": 234,
+        "totalPower": 464758,
+        "maxHp": 149383
+      },
+      {
+        "userId": 689606380,
+        "name": "Ellana",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 413819,
+        "maxHp": 99537
+      },
+      {
+        "userId": 676455782,
+        "name": "Fluxy",
+        "characterMstId": 114,
+        "level": 204,
+        "totalPower": 399192,
+        "maxHp": 111832
+      },
+      {
+        "userId": 130589516,
+        "name": "Cyaine",
+        "characterMstId": 167,
+        "level": 204,
+        "totalPower": 445973,
+        "maxHp": 118532
+      },
+      {
+        "userId": 319266481,
+        "name": "Digikai",
+        "characterMstId": 694,
+        "level": 219,
+        "totalPower": 442434,
+        "maxHp": 119366
+      },
+      {
+        "userId": 507575234,
+        "name": "Shogun",
+        "characterMstId": 93,
+        "level": 222,
+        "totalPower": 433104,
+        "maxHp": 119233
+      },
+      {
+        "userId": 875178374,
+        "name": "Rin",
+        "characterMstId": 167,
+        "level": 214,
+        "totalPower": 413024,
+        "maxHp": 114699
+      },
+      {
+        "userId": 424479457,
+        "name": "Rookiie",
+        "characterMstId": 85,
+        "level": 233,
+        "totalPower": 487174,
+        "maxHp": 128833
+      },
+      {
+        "userId": 287822766,
+        "name": "Xaede_4CX",
+        "characterMstId": 85,
+        "level": 219,
+        "totalPower": 462796,
+        "maxHp": 119316
+      },
+      {
+        "userId": 143452310,
+        "name": "Colm",
+        "characterMstId": 85,
+        "level": 210,
+        "totalPower": 408187,
+        "maxHp": 107760
+      }
+    ]
+  }
+}
