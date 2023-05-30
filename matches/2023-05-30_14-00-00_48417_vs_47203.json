@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 213,
+      "battleStartTime": 1685455200,
+      "battleEndTime": 1685456399,
+      "gvgDataId": 3460649,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 168399,
+      "selfComboCount": 1163,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 47203,
+      "enemyGuildName": "Kyushi",
+      "enemyTotalGuildPoint": 6883544,
+      "enemyComboCount": 1547,
+      "enemySiegeWinCount": 28,
+      "selfRankUserId": 984436051,
+      "selfRankNum": 1,
+      "selfRankUserName": "Marco",
+      "selfRankGuildPoint": 610637,
+      "enemyRankUserId": 532623312,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Peppercorn",
+      "enemyRankGuildPoint": 2261962,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 702
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 610637,
+            "valueB": 2261962,
+            "userIdA": 984436051,
+            "userIdB": 532623312,
+            "nameA": "Marco",
+            "nameB": "Peppercorn"
+          },
+          {
+            "rank": 2,
+            "valueA": 451062,
+            "valueB": 926505,
+            "userIdA": 593439881,
+            "userIdB": 389023450,
+            "nameA": "Ludmila",
+            "nameB": "Smαʂh"
+          },
+          {
+            "rank": 3,
+            "valueA": 438210,
+            "valueB": 777948,
+            "userIdA": 580592710,
+            "userIdB": 150162865,
+            "nameA": "¥Empanada¥",
+            "nameB": "Takashirou"
+          },
+          {
+            "rank": 4,
+            "valueA": 77849,
+            "valueB": 738243,
+            "userIdA": 613241815,
+            "userIdB": 727251032,
+            "nameA": "xwill",
+            "nameB": "tEDDY1724"
+          },
+          {
+            "rank": 5,
+            "valueA": 31643,
+            "valueB": 630734,
+            "userIdA": 250290573,
+            "userIdB": 927576694,
+            "nameA": "Laem",
+            "nameB": "Sandwich"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 13621328,
+            "valueB": 27137999,
+            "userIdA": 290888979,
+            "userIdB": 723220587,
+            "nameA": "Redo",
+            "nameB": "Harleybun"
+          },
+          {
+            "rank": 2,
+            "valueA": 8662777,
+            "valueB": 16063103,
+            "userIdA": 603787872,
+            "userIdB": 417320504,
+            "nameA": "Will",
+            "nameB": "Noraa"
+          },
+          {
+            "rank": 3,
+            "valueA": 1953385,
+            "valueB": 13075265,
+            "userIdA": 250290573,
+            "userIdB": 697757743,
+            "nameA": "Laem",
+            "nameB": "LostArc"
+          },
+          {
+            "rank": 4,
+            "valueA": 1635623,
+            "valueB": 202351,
+            "userIdA": 613241815,
+            "userIdB": 532623312,
+            "nameA": "xwill",
+            "nameB": "Peppercorn"
+          },
+          {
+            "rank": 5,
+            "valueA": 1318521,
+            "valueB": 127143,
+            "userIdA": 984436051,
+            "userIdB": 150162865,
+            "nameA": "Marco",
+            "nameB": "Takashirou"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2339108,
+            "valueB": 4088871,
+            "userIdA": 672769111,
+            "userIdB": 507233506,
+            "nameA": "Adely",
+            "nameB": "Darkwind"
+          },
+          {
+            "rank": 2,
+            "valueA": 1885109,
+            "valueB": 2833302,
+            "userIdA": 413997485,
+            "userIdB": 278548388,
+            "nameA": "Hepburn",
+            "nameB": "Escha"
+          },
+          {
+            "rank": 3,
+            "valueA": 1432811,
+            "valueB": 275514,
+            "userIdA": 868795313,
+            "userIdB": 418113673,
+            "nameA": "Rein",
+            "nameB": "Velvet"
+          },
+          {
+            "rank": 4,
+            "valueA": 1371480,
+            "valueB": 188634,
+            "userIdA": 881393762,
+            "userIdB": 723220587,
+            "nameA": "Vatonage",
+            "nameB": "Harleybun"
+          },
+          {
+            "rank": 5,
+            "valueA": 455115,
+            "valueB": 88303,
+            "userIdA": 463610148,
+            "userIdB": 417320504,
+            "nameA": "Luna",
+            "nameB": "Noraa"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2286316,
+            "valueB": 2392990,
+            "userIdA": 672769111,
+            "userIdB": 278548388,
+            "nameA": "Adely",
+            "nameB": "Escha"
+          },
+          {
+            "rank": 2,
+            "valueA": 1468699,
+            "valueB": 2099325,
+            "userIdA": 413997485,
+            "userIdB": 507233506,
+            "nameA": "Hepburn",
+            "nameB": "Darkwind"
+          },
+          {
+            "rank": 3,
+            "valueA": 1335522,
+            "valueB": 181708,
+            "userIdA": 868795313,
+            "userIdB": 417320504,
+            "nameA": "Rein",
+            "nameB": "Noraa"
+          },
+          {
+            "rank": 4,
+            "valueA": 713201,
+            "valueB": 164890,
+            "userIdA": 463610148,
+            "userIdB": 418113673,
+            "nameA": "Luna",
+            "nameB": "Velvet"
+          },
+          {
+            "rank": 5,
+            "valueA": 546236,
+            "valueB": 125824,
+            "userIdA": 881393762,
+            "userIdB": 723220587,
+            "nameA": "Vatonage",
+            "nameB": "Harleybun"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2383675,
+            "valueB": 3350017,
+            "userIdA": 463610148,
+            "userIdB": 578577944,
+            "nameA": "Luna",
+            "nameB": "Kyo"
+          },
+          {
+            "rank": 2,
+            "valueA": 2048252,
+            "valueB": 1966246,
+            "userIdA": 873505913,
+            "userIdB": 940662213,
+            "nameA": "Vorfreude",
+            "nameB": "Sybil"
+          },
+          {
+            "rank": 3,
+            "valueA": 2021067,
+            "valueB": 1802013,
+            "userIdA": 971621633,
+            "userIdB": 559960648,
+            "nameA": "Tea",
+            "nameB": "Vince"
+          },
+          {
+            "rank": 4,
+            "valueA": 447512,
+            "valueB": 1611880,
+            "userIdA": 881393762,
+            "userIdB": 256660097,
+            "nameA": "Vatonage",
+            "nameB": "Alara"
+          },
+          {
+            "rank": 5,
+            "valueA": 52719,
+            "valueB": 1242486,
+            "userIdA": 984436051,
+            "userIdB": 418113673,
+            "nameA": "Marco",
+            "nameB": "Velvet"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2321391,
+            "valueB": 2031177,
+            "userIdA": 463610148,
+            "userIdB": 940662213,
+            "nameA": "Luna",
+            "nameB": "Sybil"
+          },
+          {
+            "rank": 2,
+            "valueA": 1050456,
+            "valueB": 1984548,
+            "userIdA": 971621633,
+            "userIdB": 578577944,
+            "nameA": "Tea",
+            "nameB": "Kyo"
+          },
+          {
+            "rank": 3,
+            "valueA": 674931,
+            "valueB": 1941320,
+            "userIdA": 873505913,
+            "userIdB": 559960648,
+            "nameA": "Vorfreude",
+            "nameB": "Vince"
+          },
+          {
+            "rank": 4,
+            "valueA": 150241,
+            "valueB": 1659132,
+            "userIdA": 881393762,
+            "userIdB": 256660097,
+            "nameA": "Vatonage",
+            "nameB": "Alara"
+          },
+          {
+            "rank": 5,
+            "valueA": 135016,
+            "valueB": 1286177,
+            "userIdA": 580592710,
+            "userIdB": 418113673,
+            "nameA": "¥Empanada¥",
+            "nameB": "Velvet"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 324,
+            "valueB": 343,
+            "userIdA": 124016919,
+            "userIdB": 697757743,
+            "nameA": "Lio",
+            "nameB": "LostArc"
+          },
+          {
+            "rank": 2,
+            "valueA": 306,
+            "valueB": 216,
+            "userIdA": 613241815,
+            "userIdB": 532623312,
+            "nameA": "xwill",
+            "nameB": "Peppercorn"
+          },
+          {
+            "rank": 3,
+            "valueA": 252,
+            "valueB": 165,
+            "userIdA": 250290573,
+            "userIdB": 150162865,
+            "nameA": "Laem",
+            "nameB": "Takashirou"
+          },
+          {
+            "rank": 4,
+            "valueA": 96,
+            "valueB": 154,
+            "userIdA": 881393762,
+            "userIdB": 927576694,
+            "nameA": "Vatonage",
+            "nameB": "Sandwich"
+          },
+          {
+            "rank": 5,
+            "valueA": 77,
+            "valueB": 137,
+            "userIdA": 593439881,
+            "userIdB": 578577944,
+            "nameA": "Ludmila",
+            "nameB": "Kyo"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3460649,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 17,
+          "ultimateArtMethodMstId": 17,
+          "guildACount": 31,
+          "guildBCount": 33
+        },
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 40,
+          "guildBCount": 54
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 213,
+    "gvgDataId": 3460649,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 47203,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "Kyushi",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 304,
+        "level": 218,
+        "totalPower": 308792,
+        "maxHp": 113507
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 585,
+        "level": 195,
+        "totalPower": 235836,
+        "maxHp": 112295
+      },
+      {
+        "userId": 984436051,
+        "name": "Marco",
+        "characterMstId": 48,
+        "level": 230,
+        "totalPower": 475434,
+        "maxHp": 138783
+      },
+      {
+        "userId": 580592710,
+        "name": "¥Empanada¥",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 379149,
+        "maxHp": 94750
+      },
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 623,
+        "level": 219,
+        "totalPower": 312189,
+        "maxHp": 126316
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 507,
+        "level": 225,
+        "totalPower": 440469,
+        "maxHp": 134483
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 432,
+        "level": 208,
+        "totalPower": 394694,
+        "maxHp": 101676
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 114,
+        "level": 221,
+        "totalPower": 361140,
+        "maxHp": 81583
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 114,
+        "level": 134,
+        "totalPower": 359836,
+        "maxHp": 77829
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 352554,
+        "maxHp": 95709
+      },
+      {
+        "userId": 463610148,
+        "name": "Luna",
+        "characterMstId": 694,
+        "level": 210,
+        "totalPower": 451172,
+        "maxHp": 140360
+      },
+      {
+        "userId": 971621633,
+        "name": "Tea",
+        "characterMstId": 98,
+        "level": 207,
+        "totalPower": 379617,
+        "maxHp": 84587
+      },
+      {
+        "userId": 873505913,
+        "name": "Vorfreude",
+        "characterMstId": 93,
+        "level": 195,
+        "totalPower": 328721,
+        "maxHp": 98095
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 85,
+        "level": 217,
+        "totalPower": 422706,
+        "maxHp": 122006
+      },
+      {
+        "userId": 603787872,
+        "name": "Will",
+        "characterMstId": 85,
+        "level": 210,
+        "totalPower": 393853,
+        "maxHp": 132710
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 532623312,
+        "name": "Peppercorn",
+        "characterMstId": 103,
+        "level": 230,
+        "totalPower": 608275,
+        "maxHp": 175283
+      },
+      {
+        "userId": 389023450,
+        "name": "Smαʂh",
+        "characterMstId": 103,
+        "level": 217,
+        "totalPower": 490455,
+        "maxHp": 144506
+      },
+      {
+        "userId": 150162865,
+        "name": "Takashirou",
+        "characterMstId": 103,
+        "level": 206,
+        "totalPower": 382250,
+        "maxHp": 111400
+      },
+      {
+        "userId": 927576694,
+        "name": "Sandwich",
+        "characterMstId": 103,
+        "level": 197,
+        "totalPower": 368926,
+        "maxHp": 106418
+      },
+      {
+        "userId": 727251032,
+        "name": "tEDDY1724",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 493849,
+        "maxHp": 132250
+      },
+      {
+        "userId": 507233506,
+        "name": "Darkwind",
+        "characterMstId": 114,
+        "level": 218,
+        "totalPower": 459058,
+        "maxHp": 136857
+      },
+      {
+        "userId": 278548388,
+        "name": "Escha",
+        "characterMstId": 432,
+        "level": 221,
+        "totalPower": 426594,
+        "maxHp": 127283
+      },
+      {
+        "userId": 559960648,
+        "name": "Vince",
+        "characterMstId": 167,
+        "level": 210,
+        "totalPower": 406515,
+        "maxHp": 103310
+      },
+      {
+        "userId": 940662213,
+        "name": "Sybil",
+        "characterMstId": 93,
+        "level": 207,
+        "totalPower": 402029,
+        "maxHp": 107087
+      },
+      {
+        "userId": 418113673,
+        "name": "Velvet",
+        "characterMstId": 336,
+        "level": 208,
+        "totalPower": 399492,
+        "maxHp": 100826
+      },
+      {
+        "userId": 578577944,
+        "name": "Kyo",
+        "characterMstId": 167,
+        "level": 202,
+        "totalPower": 380691,
+        "maxHp": 95922
+      },
+      {
+        "userId": 256660097,
+        "name": "Alara",
+        "characterMstId": 93,
+        "level": 218,
+        "totalPower": 374145,
+        "maxHp": 92407
+      },
+      {
+        "userId": 697757743,
+        "name": "LostArc",
+        "characterMstId": 85,
+        "level": 217,
+        "totalPower": 462750,
+        "maxHp": 117356
+      },
+      {
+        "userId": 417320504,
+        "name": "Noraa",
+        "characterMstId": 251,
+        "level": 211,
+        "totalPower": 440818,
+        "maxHp": 126559
+      },
+      {
+        "userId": 723220587,
+        "name": "Harleybun",
+        "characterMstId": 85,
+        "level": 217,
+        "totalPower": 425884,
+        "maxHp": 115056
+      }
+    ]
+  }
+}
