@@ -1,0 +1,659 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 213,
+      "battleStartTime": 1686060000,
+      "battleEndTime": 1686061199,
+      "gvgDataId": 3469022,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 4726251,
+      "selfComboCount": 1372,
+      "selfSiegeWinCount": 15,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 44793,
+      "enemyGuildName": "TakoPi",
+      "enemyTotalGuildPoint": 525992,
+      "enemyComboCount": 456,
+      "enemySiegeWinCount": 1,
+      "selfRankUserId": 250290573,
+      "selfRankNum": 1,
+      "selfRankUserName": "Laem",
+      "selfRankGuildPoint": 927231,
+      "enemyRankUserId": 367976533,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "PepegaVG",
+      "enemyRankGuildPoint": 581212,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 0
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 927231,
+            "valueB": 581212,
+            "userIdA": 250290573,
+            "userIdB": 367976533,
+            "nameA": "Laem",
+            "nameB": "PepegaVG"
+          },
+          {
+            "rank": 2,
+            "valueA": 911309,
+            "valueB": 489704,
+            "userIdA": 984436051,
+            "userIdB": 207839187,
+            "nameA": "Marco",
+            "nameB": "Ablehnen"
+          },
+          {
+            "rank": 3,
+            "valueA": 586511,
+            "valueB": 448283,
+            "userIdA": 593439881,
+            "userIdB": 634027171,
+            "nameA": "Ludmila",
+            "nameB": "Proxæ"
+          },
+          {
+            "rank": 4,
+            "valueA": 568491,
+            "valueB": 150460,
+            "userIdA": 580592710,
+            "userIdB": 197656752,
+            "nameA": "¥Empanada¥",
+            "nameB": "Hamon"
+          },
+          {
+            "rank": 5,
+            "valueA": 391668,
+            "valueB": 120471,
+            "userIdA": 613241815,
+            "userIdB": 495089260,
+            "nameA": "xwill",
+            "nameB": "Stray"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 11565798,
+            "valueB": 15953027,
+            "userIdA": 290888979,
+            "userIdB": 446386570,
+            "nameA": "Redo",
+            "nameB": "Estee"
+          },
+          {
+            "rank": 2,
+            "valueA": 10475795,
+            "valueB": 10754424,
+            "userIdA": 603787872,
+            "userIdB": 412968384,
+            "nameA": "Will",
+            "nameB": "spearb"
+          },
+          {
+            "rank": 3,
+            "valueA": 352152,
+            "valueB": 1202415,
+            "userIdA": 613241815,
+            "userIdB": 634027171,
+            "nameA": "xwill",
+            "nameB": "Proxæ"
+          },
+          {
+            "rank": 4,
+            "valueA": 302184,
+            "valueB": 1115713,
+            "userIdA": 250290573,
+            "userIdB": 495089260,
+            "nameA": "Laem",
+            "nameB": "Stray"
+          },
+          {
+            "rank": 5,
+            "valueA": 231333,
+            "valueB": 1082418,
+            "userIdA": 580592710,
+            "userIdB": 367976533,
+            "nameA": "¥Empanada¥",
+            "nameB": "PepegaVG"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2474760,
+            "valueB": 2767050,
+            "userIdA": 413997485,
+            "userIdB": 103442642,
+            "nameA": "Hepburn",
+            "nameB": "AzuReLife"
+          },
+          {
+            "rank": 2,
+            "valueA": 2469215,
+            "valueB": 2501765,
+            "userIdA": 881393762,
+            "userIdB": 124703427,
+            "nameA": "Vatonage",
+            "nameB": "Nobu"
+          },
+          {
+            "rank": 3,
+            "valueA": 2112973,
+            "valueB": 1708954,
+            "userIdA": 672769111,
+            "userIdB": 993194468,
+            "nameA": "Adely",
+            "nameB": "SonyBoy"
+          },
+          {
+            "rank": 4,
+            "valueA": 1859469,
+            "valueB": 1184813,
+            "userIdA": 868795313,
+            "userIdB": 823770924,
+            "nameA": "Rein",
+            "nameB": "wizzers"
+          },
+          {
+            "rank": 5,
+            "valueA": 685766,
+            "valueB": 141731,
+            "userIdA": 463610148,
+            "userIdB": 446386570,
+            "nameA": "Luna",
+            "nameB": "Estee"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2230911,
+            "valueB": 2572879,
+            "userIdA": 672769111,
+            "userIdB": 103442642,
+            "nameA": "Adely",
+            "nameB": "AzuReLife"
+          },
+          {
+            "rank": 2,
+            "valueA": 2000609,
+            "valueB": 1692601,
+            "userIdA": 868795313,
+            "userIdB": 124703427,
+            "nameA": "Rein",
+            "nameB": "Nobu"
+          },
+          {
+            "rank": 3,
+            "valueA": 1584618,
+            "valueB": 1382839,
+            "userIdA": 413997485,
+            "userIdB": 993194468,
+            "nameA": "Hepburn",
+            "nameB": "SonyBoy"
+          },
+          {
+            "rank": 4,
+            "valueA": 1131682,
+            "valueB": 605922,
+            "userIdA": 463610148,
+            "userIdB": 823770924,
+            "nameA": "Luna",
+            "nameB": "wizzers"
+          },
+          {
+            "rank": 5,
+            "valueA": 995216,
+            "valueB": 146414,
+            "userIdA": 881393762,
+            "userIdB": 446386570,
+            "nameA": "Vatonage",
+            "nameB": "Estee"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4011616,
+            "valueB": 3246001,
+            "userIdA": 971621633,
+            "userIdB": 844477455,
+            "nameA": "Tea",
+            "nameB": "Wine"
+          },
+          {
+            "rank": 2,
+            "valueA": 3422768,
+            "valueB": 2399204,
+            "userIdA": 463610148,
+            "userIdB": 257200085,
+            "nameA": "Luna",
+            "nameB": "Na"
+          },
+          {
+            "rank": 3,
+            "valueA": 1703428,
+            "valueB": 2280759,
+            "userIdA": 873505913,
+            "userIdB": 823770924,
+            "nameA": "Vorfreude",
+            "nameB": "wizzers"
+          },
+          {
+            "rank": 4,
+            "valueA": 806859,
+            "valueB": 1879049,
+            "userIdA": 881393762,
+            "userIdB": 922903440,
+            "nameA": "Vatonage",
+            "nameB": "Ruru"
+          },
+          {
+            "rank": 5,
+            "valueA": 551276,
+            "valueB": 78358,
+            "userIdA": 124016919,
+            "userIdB": 367976533,
+            "nameA": "Lio",
+            "nameB": "PepegaVG"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3123631,
+            "valueB": 2534155,
+            "userIdA": 971621633,
+            "userIdB": 844477455,
+            "nameA": "Tea",
+            "nameB": "Wine"
+          },
+          {
+            "rank": 2,
+            "valueA": 3043727,
+            "valueB": 2185765,
+            "userIdA": 463610148,
+            "userIdB": 922903440,
+            "nameA": "Luna",
+            "nameB": "Ruru"
+          },
+          {
+            "rank": 3,
+            "valueA": 528147,
+            "valueB": 1923018,
+            "userIdA": 873505913,
+            "userIdB": 257200085,
+            "nameA": "Vorfreude",
+            "nameB": "Na"
+          },
+          {
+            "rank": 4,
+            "valueA": 411990,
+            "valueB": 1480690,
+            "userIdA": 124016919,
+            "userIdB": 823770924,
+            "nameA": "Lio",
+            "nameB": "wizzers"
+          },
+          {
+            "rank": 5,
+            "valueA": 321129,
+            "valueB": 171621,
+            "userIdA": 881393762,
+            "userIdB": 367976533,
+            "nameA": "Vatonage",
+            "nameB": "PepegaVG"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 273,
+            "valueB": 119,
+            "userIdA": 250290573,
+            "userIdB": 495089260,
+            "nameA": "Laem",
+            "nameB": "Stray"
+          },
+          {
+            "rank": 2,
+            "valueA": 212,
+            "valueB": 84,
+            "userIdA": 124016919,
+            "userIdB": 197656752,
+            "nameA": "Lio",
+            "nameB": "Hamon"
+          },
+          {
+            "rank": 3,
+            "valueA": 199,
+            "valueB": 83,
+            "userIdA": 613241815,
+            "userIdB": 207839187,
+            "nameA": "xwill",
+            "nameB": "Ablehnen"
+          },
+          {
+            "rank": 4,
+            "valueA": 126,
+            "valueB": 73,
+            "userIdA": 593439881,
+            "userIdB": 634027171,
+            "nameA": "Ludmila",
+            "nameB": "Proxæ"
+          },
+          {
+            "rank": 5,
+            "valueA": 117,
+            "valueB": 66,
+            "userIdA": 881393762,
+            "userIdB": 367976533,
+            "nameA": "Vatonage",
+            "nameB": "PepegaVG"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3469022,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 16,
+          "ultimateArtMethodMstId": 16,
+          "guildACount": 64,
+          "guildBCount": 31
+        },
+        {
+          "artMstId": 34,
+          "ultimateArtMethodMstId": 34,
+          "guildACount": 20,
+          "guildBCount": 25
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 213,
+    "gvgDataId": 3469022,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 44793,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "TakoPi",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 2,
+    "guildMemberA": [
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 732,
+        "level": 219,
+        "totalPower": 451347,
+        "maxHp": 126916
+      },
+      {
+        "userId": 984436051,
+        "name": "Marco",
+        "characterMstId": 731,
+        "level": 230,
+        "totalPower": 475434,
+        "maxHp": 138783
+      },
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 48,
+        "level": 218,
+        "totalPower": 430808,
+        "maxHp": 114407
+      },
+      {
+        "userId": 580592710,
+        "name": "¥Empanada¥",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 379149,
+        "maxHp": 94750
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 507,
+        "level": 225,
+        "totalPower": 454424,
+        "maxHp": 136583
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 432,
+        "level": 208,
+        "totalPower": 394694,
+        "maxHp": 101676
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 364838,
+        "maxHp": 97809
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 114,
+        "level": 221,
+        "totalPower": 361432,
+        "maxHp": 81583
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 114,
+        "level": 134,
+        "totalPower": 359836,
+        "maxHp": 77829
+      },
+      {
+        "userId": 463610148,
+        "name": "Luna",
+        "characterMstId": 694,
+        "level": 211,
+        "totalPower": 451972,
+        "maxHp": 141559
+      },
+      {
+        "userId": 971621633,
+        "name": "Tea",
+        "characterMstId": 93,
+        "level": 207,
+        "totalPower": 379966,
+        "maxHp": 87187
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 167,
+        "level": 195,
+        "totalPower": 359200,
+        "maxHp": 114945
+      },
+      {
+        "userId": 873505913,
+        "name": "Vorfreude",
+        "characterMstId": 93,
+        "level": 195,
+        "totalPower": 329393,
+        "maxHp": 98095
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 85,
+        "level": 217,
+        "totalPower": 422706,
+        "maxHp": 122006
+      },
+      {
+        "userId": 603787872,
+        "name": "Will",
+        "characterMstId": 85,
+        "level": 211,
+        "totalPower": 402069,
+        "maxHp": 135209
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 367976533,
+        "name": "PepegaVG",
+        "characterMstId": 103,
+        "level": 214,
+        "totalPower": 439376,
+        "maxHp": 118699
+      },
+      {
+        "userId": 197656752,
+        "name": "Hamon",
+        "characterMstId": 103,
+        "level": 206,
+        "totalPower": 391117,
+        "maxHp": 103600
+      },
+      {
+        "userId": 207839187,
+        "name": "Ablehnen",
+        "characterMstId": 48,
+        "level": 212,
+        "totalPower": 468997,
+        "maxHp": 132165
+      },
+      {
+        "userId": 634027171,
+        "name": "Proxæ",
+        "characterMstId": 731,
+        "level": 215,
+        "totalPower": 406685,
+        "maxHp": 115077
+      },
+      {
+        "userId": 495089260,
+        "name": "Stray",
+        "characterMstId": 64,
+        "level": 219,
+        "totalPower": 394232,
+        "maxHp": 118066
+      },
+      {
+        "userId": 103442642,
+        "name": "AzuReLife",
+        "characterMstId": 114,
+        "level": 204,
+        "totalPower": 391596,
+        "maxHp": 101532
+      },
+      {
+        "userId": 124703427,
+        "name": "Nobu",
+        "characterMstId": 114,
+        "level": 209,
+        "totalPower": 364398,
+        "maxHp": 84917
+      },
+      {
+        "userId": 993194468,
+        "name": "SonyBoy",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 357471,
+        "maxHp": 81955
+      },
+      {
+        "userId": 922903440,
+        "name": "Ruru",
+        "characterMstId": 167,
+        "level": 206,
+        "totalPower": 434674,
+        "maxHp": 117100
+      },
+      {
+        "userId": 823770924,
+        "name": "wizzers",
+        "characterMstId": 694,
+        "level": 202,
+        "totalPower": 424305,
+        "maxHp": 119572
+      },
+      {
+        "userId": 844477455,
+        "name": "Wine",
+        "characterMstId": 167,
+        "level": 207,
+        "totalPower": 404082,
+        "maxHp": 104887
+      },
+      {
+        "userId": 257200085,
+        "name": "Na",
+        "characterMstId": 167,
+        "level": 202,
+        "totalPower": 367738,
+        "maxHp": 87072
+      },
+      {
+        "userId": 412968384,
+        "name": "spearb",
+        "characterMstId": 85,
+        "level": 206,
+        "totalPower": 426782,
+        "maxHp": 129050
+      },
+      {
+        "userId": 446386570,
+        "name": "Estee",
+        "characterMstId": 85,
+        "level": 215,
+        "totalPower": 412741,
+        "maxHp": 97927
+      }
+    ]
+  }
+}
