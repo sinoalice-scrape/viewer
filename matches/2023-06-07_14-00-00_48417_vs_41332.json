@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 313,
+      "battleStartTime": 1686146400,
+      "battleEndTime": 1686147599,
+      "gvgDataId": 3470191,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 4229600,
+      "selfComboCount": 1225,
+      "selfSiegeWinCount": 7,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 41332,
+      "enemyGuildName": "REPL:EVER",
+      "enemyTotalGuildPoint": 4098066,
+      "enemyComboCount": 1359,
+      "enemySiegeWinCount": 14,
+      "selfRankUserId": 984436051,
+      "selfRankNum": 1,
+      "selfRankUserName": "Marco",
+      "selfRankGuildPoint": 1164532,
+      "enemyRankUserId": 369822263,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "랑자",
+      "enemyRankGuildPoint": 1652610,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 410
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1164532,
+            "valueB": 1652610,
+            "userIdA": 984436051,
+            "userIdB": 369822263,
+            "nameA": "Marco",
+            "nameB": "랑자"
+          },
+          {
+            "rank": 2,
+            "valueA": 1083068,
+            "valueB": 670638,
+            "userIdA": 593439881,
+            "userIdB": 623475757,
+            "nameA": "Ludmila",
+            "nameB": "ALICE=アリス"
+          },
+          {
+            "rank": 3,
+            "valueA": 850418,
+            "valueB": 653335,
+            "userIdA": 250290573,
+            "userIdB": 555032954,
+            "nameA": "Laem",
+            "nameB": "Yuki"
+          },
+          {
+            "rank": 4,
+            "valueA": 539979,
+            "valueB": 614150,
+            "userIdA": 580592710,
+            "userIdB": 839821505,
+            "nameA": "¥Empanada¥",
+            "nameB": "Ryphea"
+          },
+          {
+            "rank": 5,
+            "valueA": 511978,
+            "valueB": 491907,
+            "userIdA": 613241815,
+            "userIdB": 426608217,
+            "nameA": "xwill",
+            "nameB": "Czhirh"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 13249096,
+            "valueB": 27382522,
+            "userIdA": 290888979,
+            "userIdB": 848885828,
+            "nameA": "Redo",
+            "nameB": "푸른눈의백룡"
+          },
+          {
+            "rank": 2,
+            "valueA": 10601588,
+            "valueB": 14724289,
+            "userIdA": 603787872,
+            "userIdB": 582379627,
+            "nameA": "Will",
+            "nameB": "유스"
+          },
+          {
+            "rank": 3,
+            "valueA": 1295829,
+            "valueB": 11403267,
+            "userIdA": 984436051,
+            "userIdB": 457852152,
+            "nameA": "Marco",
+            "nameB": "낭자"
+          },
+          {
+            "rank": 4,
+            "valueA": 1043127,
+            "valueB": 577022,
+            "userIdA": 250290573,
+            "userIdB": 839821505,
+            "nameA": "Laem",
+            "nameB": "Ryphea"
+          },
+          {
+            "rank": 5,
+            "valueA": 777346,
+            "valueB": 538996,
+            "userIdA": 868795313,
+            "userIdB": 587860080,
+            "nameA": "Rein",
+            "nameB": "☃"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1807926,
+            "valueB": 1960140,
+            "userIdA": 672769111,
+            "userIdB": 698638114,
+            "nameA": "Adely",
+            "nameB": "렌게。"
+          },
+          {
+            "rank": 2,
+            "valueA": 1752521,
+            "valueB": 1516856,
+            "userIdA": 413997485,
+            "userIdB": 587860080,
+            "nameA": "Hepburn",
+            "nameB": "☃"
+          },
+          {
+            "rank": 3,
+            "valueA": 1169476,
+            "valueB": 1469944,
+            "userIdA": 881393762,
+            "userIdB": 138931118,
+            "nameA": "Vatonage",
+            "nameB": "FunCoolS"
+          },
+          {
+            "rank": 4,
+            "valueA": 1053399,
+            "valueB": 1290539,
+            "userIdA": 868795313,
+            "userIdB": 991767664,
+            "nameA": "Rein",
+            "nameB": "하리"
+          },
+          {
+            "rank": 5,
+            "valueA": 340202,
+            "valueB": 280854,
+            "userIdA": 463610148,
+            "userIdB": 738891921,
+            "nameA": "Luna",
+            "nameB": "망고"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1669375,
+            "valueB": 1374324,
+            "userIdA": 672769111,
+            "userIdB": 587860080,
+            "nameA": "Adely",
+            "nameB": "☃"
+          },
+          {
+            "rank": 2,
+            "valueA": 1248955,
+            "valueB": 1323800,
+            "userIdA": 413997485,
+            "userIdB": 991767664,
+            "nameA": "Hepburn",
+            "nameB": "하리"
+          },
+          {
+            "rank": 3,
+            "valueA": 1149882,
+            "valueB": 1305840,
+            "userIdA": 868795313,
+            "userIdB": 138931118,
+            "nameA": "Rein",
+            "nameB": "FunCoolS"
+          },
+          {
+            "rank": 4,
+            "valueA": 635763,
+            "valueB": 626927,
+            "userIdA": 463610148,
+            "userIdB": 738891921,
+            "nameA": "Luna",
+            "nameB": "망고"
+          },
+          {
+            "rank": 5,
+            "valueA": 436194,
+            "valueB": 547980,
+            "userIdA": 881393762,
+            "userIdB": 698638114,
+            "nameA": "Vatonage",
+            "nameB": "렌게。"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2104178,
+            "valueB": 5318877,
+            "userIdA": 463610148,
+            "userIdB": 886335029,
+            "nameA": "Luna",
+            "nameB": "마닝"
+          },
+          {
+            "rank": 2,
+            "valueA": 2044644,
+            "valueB": 54290,
+            "userIdA": 873505913,
+            "userIdB": 426608217,
+            "nameA": "Vorfreude",
+            "nameB": "Czhirh"
+          },
+          {
+            "rank": 3,
+            "valueA": 1735824,
+            "valueB": 46056,
+            "userIdA": 971621633,
+            "userIdB": 555032954,
+            "nameA": "Tea",
+            "nameB": "Yuki"
+          },
+          {
+            "rank": 4,
+            "valueA": 555038,
+            "valueB": 42991,
+            "userIdA": 881393762,
+            "userIdB": 839821505,
+            "nameA": "Vatonage",
+            "nameB": "Ryphea"
+          },
+          {
+            "rank": 5,
+            "valueA": 65717,
+            "valueB": 21170,
+            "userIdA": 984436051,
+            "userIdB": 623475757,
+            "nameA": "Marco",
+            "nameB": "ALICE=アリス"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2233064,
+            "valueB": 5452192,
+            "userIdA": 463610148,
+            "userIdB": 886335029,
+            "nameA": "Luna",
+            "nameB": "마닝"
+          },
+          {
+            "rank": 2,
+            "valueA": 2049192,
+            "valueB": 99650,
+            "userIdA": 971621633,
+            "userIdB": 426608217,
+            "nameA": "Tea",
+            "nameB": "Czhirh"
+          },
+          {
+            "rank": 3,
+            "valueA": 512259,
+            "valueB": 92732,
+            "userIdA": 873505913,
+            "userIdB": 369822263,
+            "nameA": "Vorfreude",
+            "nameB": "랑자"
+          },
+          {
+            "rank": 4,
+            "valueA": 149088,
+            "valueB": 63662,
+            "userIdA": 250290573,
+            "userIdB": 839821505,
+            "nameA": "Laem",
+            "nameB": "Ryphea"
+          },
+          {
+            "rank": 5,
+            "valueA": 147012,
+            "valueB": 52444,
+            "userIdA": 881393762,
+            "userIdB": 623475757,
+            "nameA": "Vatonage",
+            "nameB": "ALICE=アリス"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 324,
+            "valueB": 291,
+            "userIdA": 124016919,
+            "userIdB": 811395614,
+            "nameA": "Lio",
+            "nameB": "monain"
+          },
+          {
+            "rank": 2,
+            "valueA": 246,
+            "valueB": 231,
+            "userIdA": 250290573,
+            "userIdB": 369822263,
+            "nameA": "Laem",
+            "nameB": "랑자"
+          },
+          {
+            "rank": 3,
+            "valueA": 204,
+            "valueB": 156,
+            "userIdA": 613241815,
+            "userIdB": 839821505,
+            "nameA": "xwill",
+            "nameB": "Ryphea"
+          },
+          {
+            "rank": 4,
+            "valueA": 151,
+            "valueB": 142,
+            "userIdA": 881393762,
+            "userIdB": 623475757,
+            "nameA": "Vatonage",
+            "nameB": "ALICE=アリス"
+          },
+          {
+            "rank": 5,
+            "valueA": 107,
+            "valueB": 123,
+            "userIdA": 593439881,
+            "userIdB": 991767664,
+            "nameA": "Ludmila",
+            "nameB": "하리"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3470191,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 10,
+          "ultimateArtMethodMstId": 10,
+          "guildACount": 35,
+          "guildBCount": 25
+        },
+        {
+          "artMstId": 34,
+          "ultimateArtMethodMstId": 34,
+          "guildACount": 33,
+          "guildBCount": 69
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 313,
+    "gvgDataId": 3470191,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 41332,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "REPL:EVER",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 732,
+        "level": 219,
+        "totalPower": 451347,
+        "maxHp": 126916
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 585,
+        "level": 195,
+        "totalPower": 237536,
+        "maxHp": 114495
+      },
+      {
+        "userId": 984436051,
+        "name": "Marco",
+        "characterMstId": 731,
+        "level": 230,
+        "totalPower": 475434,
+        "maxHp": 138783
+      },
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 48,
+        "level": 218,
+        "totalPower": 430808,
+        "maxHp": 114407
+      },
+      {
+        "userId": 580592710,
+        "name": "¥Empanada¥",
+        "characterMstId": 48,
+        "level": 206,
+        "totalPower": 379149,
+        "maxHp": 94750
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 507,
+        "level": 225,
+        "totalPower": 454424,
+        "maxHp": 136583
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 432,
+        "level": 208,
+        "totalPower": 394694,
+        "maxHp": 101676
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 114,
+        "level": 211,
+        "totalPower": 364838,
+        "maxHp": 97809
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 114,
+        "level": 221,
+        "totalPower": 361432,
+        "maxHp": 81583
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 114,
+        "level": 134,
+        "totalPower": 359836,
+        "maxHp": 77829
+      },
+      {
+        "userId": 463610148,
+        "name": "Luna",
+        "characterMstId": 694,
+        "level": 211,
+        "totalPower": 451972,
+        "maxHp": 141559
+      },
+      {
+        "userId": 971621633,
+        "name": "Tea",
+        "characterMstId": 93,
+        "level": 207,
+        "totalPower": 371898,
+        "maxHp": 87187
+      },
+      {
+        "userId": 873505913,
+        "name": "Vorfreude",
+        "characterMstId": 93,
+        "level": 195,
+        "totalPower": 329393,
+        "maxHp": 98095
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 85,
+        "level": 217,
+        "totalPower": 422706,
+        "maxHp": 122006
+      },
+      {
+        "userId": 603787872,
+        "name": "Will",
+        "characterMstId": 85,
+        "level": 211,
+        "totalPower": 402069,
+        "maxHp": 135209
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 369822263,
+        "name": "랑자",
+        "characterMstId": 103,
+        "level": 222,
+        "totalPower": 439632,
+        "maxHp": 120433
+      },
+      {
+        "userId": 623475757,
+        "name": "ALICE=アリス",
+        "characterMstId": 103,
+        "level": 223,
+        "totalPower": 389709,
+        "maxHp": 137533
+      },
+      {
+        "userId": 426608217,
+        "name": "Czhirh",
+        "characterMstId": 103,
+        "level": 225,
+        "totalPower": 358770,
+        "maxHp": 95333
+      },
+      {
+        "userId": 555032954,
+        "name": "Yuki",
+        "characterMstId": 103,
+        "level": 197,
+        "totalPower": 345667,
+        "maxHp": 102318
+      },
+      {
+        "userId": 839821505,
+        "name": "Ryphea",
+        "characterMstId": 48,
+        "level": 212,
+        "totalPower": 449099,
+        "maxHp": 131965
+      },
+      {
+        "userId": 811395614,
+        "name": "monain",
+        "characterMstId": 15,
+        "level": 167,
+        "totalPower": 96530,
+        "maxHp": 47836
+      },
+      {
+        "userId": 587860080,
+        "name": "☃",
+        "characterMstId": 114,
+        "level": 208,
+        "totalPower": 452124,
+        "maxHp": 100726
+      },
+      {
+        "userId": 138931118,
+        "name": "FunCoolS",
+        "characterMstId": 114,
+        "level": 209,
+        "totalPower": 412330,
+        "maxHp": 116467
+      },
+      {
+        "userId": 698638114,
+        "name": "렌게。",
+        "characterMstId": 114,
+        "level": 218,
+        "totalPower": 369668,
+        "maxHp": 104807
+      },
+      {
+        "userId": 991767664,
+        "name": "하리",
+        "characterMstId": 114,
+        "level": 197,
+        "totalPower": 359684,
+        "maxHp": 102918
+      },
+      {
+        "userId": 738891921,
+        "name": "망고",
+        "characterMstId": 114,
+        "level": 185,
+        "totalPower": 271138,
+        "maxHp": 71650
+      },
+      {
+        "userId": 886335029,
+        "name": "마닝",
+        "characterMstId": 167,
+        "level": 217,
+        "totalPower": 459667,
+        "maxHp": 125706
+      },
+      {
+        "userId": 582379627,
+        "name": "유스",
+        "characterMstId": 85,
+        "level": 219,
+        "totalPower": 409036,
+        "maxHp": 113316
+      },
+      {
+        "userId": 848885828,
+        "name": "푸른눈의백룡",
+        "characterMstId": 85,
+        "level": 211,
+        "totalPower": 407246,
+        "maxHp": 118559
+      },
+      {
+        "userId": 457852152,
+        "name": "낭자",
+        "characterMstId": 85,
+        "level": 219,
+        "totalPower": 379257,
+        "maxHp": 94416
+      }
+    ]
+  }
+}
