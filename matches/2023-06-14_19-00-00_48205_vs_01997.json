@@ -1,0 +1,659 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 403,
+      "battleStartTime": 1686769200,
+      "battleEndTime": 1686770399,
+      "gvgDataId": 3478622,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 1163310,
+      "selfComboCount": 661,
+      "selfSiegeWinCount": 4,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 1997,
+      "enemyGuildName": "Astra",
+      "enemyTotalGuildPoint": 11731986,
+      "enemyComboCount": 1381,
+      "enemySiegeWinCount": 13,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 1643313,
+      "enemyRankUserId": 311158332,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Forsaken",
+      "enemyRankGuildPoint": 4277049,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 250
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 1643313,
+            "valueB": 4277049,
+            "userIdA": 489820080,
+            "userIdB": 311158332,
+            "nameA": "Poetic0",
+            "nameB": "Forsaken"
+          },
+          {
+            "rank": 2,
+            "valueA": 1169423,
+            "valueB": 1810513,
+            "userIdA": 647526045,
+            "userIdB": 658414965,
+            "nameA": "Amber",
+            "nameB": "Axhlot"
+          },
+          {
+            "rank": 3,
+            "valueA": 975297,
+            "valueB": 1040655,
+            "userIdA": 161754158,
+            "userIdB": 268686850,
+            "nameA": "oeuf",
+            "nameB": "Abso"
+          },
+          {
+            "rank": 4,
+            "valueA": 610909,
+            "valueB": 741589,
+            "userIdA": 658397897,
+            "userIdB": 924766369,
+            "nameA": "Juddy",
+            "nameB": "Raenor"
+          },
+          {
+            "rank": 5,
+            "valueA": 39076,
+            "valueB": 477721,
+            "userIdA": 268301929,
+            "userIdB": 409940449,
+            "nameA": "Frankger",
+            "nameB": "Cyon"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 41143366,
+            "valueB": 18108894,
+            "userIdA": 237959838,
+            "userIdB": 458599700,
+            "nameA": "Nheksh",
+            "nameB": "Ayunie"
+          },
+          {
+            "rank": 2,
+            "valueA": 28339803,
+            "valueB": 14320315,
+            "userIdA": 335076343,
+            "userIdB": 548031601,
+            "nameA": "Melesie",
+            "nameB": "★·Λᶻʳᶦᵉˡ·★"
+          },
+          {
+            "rank": 3,
+            "valueA": 17255623,
+            "valueB": 12792729,
+            "userIdA": 112665300,
+            "userIdB": 768398489,
+            "nameA": "ilyas",
+            "nameB": "KingKash"
+          },
+          {
+            "rank": 4,
+            "valueA": 1319441,
+            "valueB": 725585,
+            "userIdA": 658397897,
+            "userIdB": 409940449,
+            "nameA": "Juddy",
+            "nameB": "Cyon"
+          },
+          {
+            "rank": 5,
+            "valueA": 1311981,
+            "valueB": 423169,
+            "userIdA": 889582783,
+            "userIdB": 268686850,
+            "nameA": "Baka",
+            "nameB": "Abso"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4955229,
+            "valueB": 3073833,
+            "userIdA": 519350497,
+            "userIdB": 607117015,
+            "nameA": "Andy",
+            "nameB": "Coda"
+          },
+          {
+            "rank": 2,
+            "valueA": 3855330,
+            "valueB": 2877050,
+            "userIdA": 884034009,
+            "userIdB": 336088353,
+            "nameA": "Cheshipuss",
+            "nameB": "Honey"
+          },
+          {
+            "rank": 3,
+            "valueA": 2172825,
+            "valueB": 2289049,
+            "userIdA": 249958587,
+            "userIdB": 797338367,
+            "nameA": "Sakura",
+            "nameB": "cookie"
+          },
+          {
+            "rank": 4,
+            "valueA": 2093941,
+            "valueB": 621234,
+            "userIdA": 889582783,
+            "userIdB": 148335929,
+            "nameA": "Baka",
+            "nameB": "Artemisya"
+          },
+          {
+            "rank": 5,
+            "valueA": 436038,
+            "valueB": 99160,
+            "userIdA": 237959838,
+            "userIdB": 458599700,
+            "nameA": "Nheksh",
+            "nameB": "Ayunie"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5306127,
+            "valueB": 4532598,
+            "userIdA": 884034009,
+            "userIdB": 336088353,
+            "nameA": "Cheshipuss",
+            "nameB": "Honey"
+          },
+          {
+            "rank": 2,
+            "valueA": 3088584,
+            "valueB": 3119589,
+            "userIdA": 519350497,
+            "userIdB": 607117015,
+            "nameA": "Andy",
+            "nameB": "Coda"
+          },
+          {
+            "rank": 3,
+            "valueA": 1626458,
+            "valueB": 1878423,
+            "userIdA": 889582783,
+            "userIdB": 797338367,
+            "nameA": "Baka",
+            "nameB": "cookie"
+          },
+          {
+            "rank": 4,
+            "valueA": 1324910,
+            "valueB": 561838,
+            "userIdA": 249958587,
+            "userIdB": 148335929,
+            "nameA": "Sakura",
+            "nameB": "Artemisya"
+          },
+          {
+            "rank": 5,
+            "valueA": 352880,
+            "valueB": 230288,
+            "userIdA": 335076343,
+            "userIdB": 768398489,
+            "nameA": "Melesie",
+            "nameB": "KingKash"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3963230,
+            "valueB": 3855755,
+            "userIdA": 594178109,
+            "userIdB": 654390786,
+            "nameA": "Jeanne",
+            "nameB": "Zoodiaque"
+          },
+          {
+            "rank": 2,
+            "valueA": 2238152,
+            "valueB": 2946026,
+            "userIdA": 662352178,
+            "userIdB": 469481892,
+            "nameA": "NotRosé",
+            "nameB": "Shy_Izumi"
+          },
+          {
+            "rank": 3,
+            "valueA": 2089234,
+            "valueB": 2209276,
+            "userIdA": 268301929,
+            "userIdB": 575573437,
+            "nameA": "Frankger",
+            "nameB": "Jin"
+          },
+          {
+            "rank": 4,
+            "valueA": 73738,
+            "valueB": 2065956,
+            "userIdA": 519350497,
+            "userIdB": 336088353,
+            "nameA": "Andy",
+            "nameB": "Honey"
+          },
+          {
+            "rank": 5,
+            "valueA": 69412,
+            "valueB": 1576614,
+            "userIdA": 647526045,
+            "userIdB": 797338367,
+            "nameA": "Amber",
+            "nameB": "cookie"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5521268,
+            "valueB": 3625852,
+            "userIdA": 662352178,
+            "userIdB": 469481892,
+            "nameA": "NotRosé",
+            "nameB": "Shy_Izumi"
+          },
+          {
+            "rank": 2,
+            "valueA": 2893398,
+            "valueB": 2823630,
+            "userIdA": 594178109,
+            "userIdB": 654390786,
+            "nameA": "Jeanne",
+            "nameB": "Zoodiaque"
+          },
+          {
+            "rank": 3,
+            "valueA": 1658053,
+            "valueB": 2076246,
+            "userIdA": 268301929,
+            "userIdB": 336088353,
+            "nameA": "Frankger",
+            "nameB": "Honey"
+          },
+          {
+            "rank": 4,
+            "valueA": 185039,
+            "valueB": 1671482,
+            "userIdA": 647526045,
+            "userIdB": 575573437,
+            "nameA": "Amber",
+            "nameB": "Jin"
+          },
+          {
+            "rank": 5,
+            "valueA": 108921,
+            "valueB": 754890,
+            "userIdA": 658397897,
+            "userIdB": 148335929,
+            "nameA": "Juddy",
+            "nameB": "Artemisya"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 281,
+            "valueB": 363,
+            "userIdA": 489820080,
+            "userIdB": 409940449,
+            "nameA": "Poetic0",
+            "nameB": "Cyon"
+          },
+          {
+            "rank": 2,
+            "valueA": 98,
+            "valueB": 285,
+            "userIdA": 647526045,
+            "userIdB": 924766369,
+            "nameA": "Amber",
+            "nameB": "Raenor"
+          },
+          {
+            "rank": 3,
+            "valueA": 96,
+            "valueB": 188,
+            "userIdA": 161754158,
+            "userIdB": 268686850,
+            "nameA": "oeuf",
+            "nameB": "Abso"
+          },
+          {
+            "rank": 4,
+            "valueA": 83,
+            "valueB": 168,
+            "userIdA": 658397897,
+            "userIdB": 311158332,
+            "nameA": "Juddy",
+            "nameB": "Forsaken"
+          },
+          {
+            "rank": 5,
+            "valueA": 35,
+            "valueB": 163,
+            "userIdA": 268301929,
+            "userIdB": 658414965,
+            "nameA": "Frankger",
+            "nameB": "Axhlot"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3478622,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 22,
+          "ultimateArtMethodMstId": 22,
+          "guildACount": 62,
+          "guildBCount": 75
+        },
+        {
+          "artMstId": 28,
+          "ultimateArtMethodMstId": 28,
+          "guildACount": 39,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 403,
+    "gvgDataId": 3478622,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 1997,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "Astra",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 103,
+        "level": 211,
+        "totalPower": 444114,
+        "maxHp": 122009
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 103,
+        "level": 213,
+        "totalPower": 419795,
+        "maxHp": 130728
+      },
+      {
+        "userId": 647526045,
+        "name": "Amber",
+        "characterMstId": 48,
+        "level": 229,
+        "totalPower": 503220,
+        "maxHp": 159483
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 507,
+        "level": 225,
+        "totalPower": 457608,
+        "maxHp": 144383
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 114,
+        "level": 206,
+        "totalPower": 445343,
+        "maxHp": 115500
+      },
+      {
+        "userId": 889582783,
+        "name": "Baka",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 405027,
+        "maxHp": 105205
+      },
+      {
+        "userId": 249958587,
+        "name": "Sakura",
+        "characterMstId": 114,
+        "level": 202,
+        "totalPower": 369647,
+        "maxHp": 99472
+      },
+      {
+        "userId": 884034009,
+        "name": "Cheshipuss",
+        "characterMstId": 114,
+        "level": 208,
+        "totalPower": 368212,
+        "maxHp": 99076
+      },
+      {
+        "userId": 268301929,
+        "name": "Frankger",
+        "characterMstId": 167,
+        "level": 207,
+        "totalPower": 445482,
+        "maxHp": 139187
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 93,
+        "level": 227,
+        "totalPower": 414015,
+        "maxHp": 120433
+      },
+      {
+        "userId": 662352178,
+        "name": "NotRosé",
+        "characterMstId": 93,
+        "level": 213,
+        "totalPower": 410946,
+        "maxHp": 100678
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 85,
+        "level": 226,
+        "totalPower": 608453,
+        "maxHp": 195233
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 85,
+        "level": 234,
+        "totalPower": 475015,
+        "maxHp": 151333
+      },
+      {
+        "userId": 112665300,
+        "name": "ilyas",
+        "characterMstId": 85,
+        "level": 207,
+        "totalPower": 413109,
+        "maxHp": 109837
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 658414965,
+        "name": "Axhlot",
+        "characterMstId": 103,
+        "level": 216,
+        "totalPower": 477748,
+        "maxHp": 138913
+      },
+      {
+        "userId": 409940449,
+        "name": "Cyon",
+        "characterMstId": 103,
+        "level": 208,
+        "totalPower": 375540,
+        "maxHp": 105826
+      },
+      {
+        "userId": 311158332,
+        "name": "Forsaken",
+        "characterMstId": 731,
+        "level": 233,
+        "totalPower": 549630,
+        "maxHp": 173683
+      },
+      {
+        "userId": 924766369,
+        "name": "Raenor",
+        "characterMstId": 731,
+        "level": 214,
+        "totalPower": 443984,
+        "maxHp": 131299
+      },
+      {
+        "userId": 268686850,
+        "name": "Abso",
+        "characterMstId": 64,
+        "level": 226,
+        "totalPower": 439030,
+        "maxHp": 167683
+      },
+      {
+        "userId": 797338367,
+        "name": "cookie",
+        "characterMstId": 695,
+        "level": 218,
+        "totalPower": 496936,
+        "maxHp": 134057
+      },
+      {
+        "userId": 607117015,
+        "name": "Coda",
+        "characterMstId": 114,
+        "level": 200,
+        "totalPower": 415292,
+        "maxHp": 106155
+      },
+      {
+        "userId": 148335929,
+        "name": "Artemisya",
+        "characterMstId": 614,
+        "level": 206,
+        "totalPower": 365832,
+        "maxHp": 100800
+      },
+      {
+        "userId": 336088353,
+        "name": "Honey",
+        "characterMstId": 694,
+        "level": 220,
+        "totalPower": 462514,
+        "maxHp": 127533
+      },
+      {
+        "userId": 469481892,
+        "name": "Shy_Izumi",
+        "characterMstId": 167,
+        "level": 218,
+        "totalPower": 448380,
+        "maxHp": 126657
+      },
+      {
+        "userId": 654390786,
+        "name": "Zoodiaque",
+        "characterMstId": 167,
+        "level": 200,
+        "totalPower": 392180,
+        "maxHp": 109655
+      },
+      {
+        "userId": 575573437,
+        "name": "Jin",
+        "characterMstId": 93,
+        "level": 209,
+        "totalPower": 371839,
+        "maxHp": 99067
+      },
+      {
+        "userId": 548031601,
+        "name": "★·Λᶻʳᶦᵉˡ·★",
+        "characterMstId": 251,
+        "level": 220,
+        "totalPower": 426792,
+        "maxHp": 126533
+      },
+      {
+        "userId": 768398489,
+        "name": "KingKash",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 394873,
+        "maxHp": 109751
+      },
+      {
+        "userId": 458599700,
+        "name": "Ayunie",
+        "characterMstId": 85,
+        "level": 218,
+        "totalPower": 390820,
+        "maxHp": 105057
+      }
+    ]
+  }
+}
