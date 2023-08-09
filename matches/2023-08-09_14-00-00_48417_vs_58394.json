@@ -1,0 +1,659 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 313,
+      "battleStartTime": 1691589600,
+      "battleEndTime": 1691590799,
+      "gvgDataId": 3544961,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 80920,
+      "selfComboCount": 1207,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 58394,
+      "enemyGuildName": "Quackterria",
+      "enemyTotalGuildPoint": 7909098,
+      "enemyComboCount": 1766,
+      "enemySiegeWinCount": 21,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 432580,
+      "enemyRankUserId": 725193452,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Leylin",
+      "enemyRankGuildPoint": 2159732,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 392
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 432580,
+            "valueB": 2159732,
+            "userIdA": 593439881,
+            "userIdB": 725193452,
+            "nameA": "Ludmila",
+            "nameB": "Leylin"
+          },
+          {
+            "rank": 2,
+            "valueA": 424325,
+            "valueB": 1782723,
+            "userIdA": 613241815,
+            "userIdB": 792093278,
+            "nameA": "xwill",
+            "nameB": "Tzuyu"
+          },
+          {
+            "rank": 3,
+            "valueA": 132808,
+            "valueB": 1370966,
+            "userIdA": 250290573,
+            "userIdB": 864158532,
+            "nameA": "Laem",
+            "nameB": "Redlin"
+          },
+          {
+            "rank": 4,
+            "valueA": 57536,
+            "valueB": 1323213,
+            "userIdA": 603787872,
+            "userIdB": 565136100,
+            "nameA": "Will",
+            "nameB": "VIRAL"
+          },
+          {
+            "rank": 5,
+            "valueA": 2059,
+            "valueB": 171532,
+            "userIdA": 124016919,
+            "userIdB": 527550664,
+            "nameA": "Lio",
+            "nameB": "Vontee"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 16708094,
+            "valueB": 21018217,
+            "userIdA": 290888979,
+            "userIdB": 136545627,
+            "nameA": "Redo",
+            "nameB": "SkyTera"
+          },
+          {
+            "rank": 2,
+            "valueA": 12308579,
+            "valueB": 18246588,
+            "userIdA": 320420655,
+            "userIdB": 455395245,
+            "nameA": "Juni",
+            "nameB": "bluetrots"
+          },
+          {
+            "rank": 3,
+            "valueA": 8829823,
+            "valueB": 16563052,
+            "userIdA": 529203450,
+            "userIdB": 940327886,
+            "nameA": "PADORU",
+            "nameB": "NightWish"
+          },
+          {
+            "rank": 4,
+            "valueA": 1865072,
+            "valueB": 134115,
+            "userIdA": 613241815,
+            "userIdB": 565136100,
+            "nameA": "xwill",
+            "nameB": "VIRAL"
+          },
+          {
+            "rank": 5,
+            "valueA": 1306718,
+            "valueB": 128409,
+            "userIdA": 873505913,
+            "userIdB": 792093278,
+            "nameA": "vorfreude",
+            "nameB": "Tzuyu"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2933001,
+            "valueB": 2617447,
+            "userIdA": 672769111,
+            "userIdB": 289128602,
+            "nameA": "Adely",
+            "nameB": "Weiss"
+          },
+          {
+            "rank": 2,
+            "valueA": 2041125,
+            "valueB": 2609692,
+            "userIdA": 413997485,
+            "userIdB": 170375999,
+            "nameA": "Hepburn",
+            "nameB": "Loverlost"
+          },
+          {
+            "rank": 3,
+            "valueA": 1884260,
+            "valueB": 200064,
+            "userIdA": 881393762,
+            "userIdB": 136545627,
+            "nameA": "Vatonage",
+            "nameB": "SkyTera"
+          },
+          {
+            "rank": 4,
+            "valueA": 1787521,
+            "valueB": 133384,
+            "userIdA": 868795313,
+            "userIdB": 940327886,
+            "nameA": "Rein",
+            "nameB": "NightWish"
+          },
+          {
+            "rank": 5,
+            "valueA": 223674,
+            "valueB": 119443,
+            "userIdA": 290888979,
+            "userIdB": 455395245,
+            "nameA": "Redo",
+            "nameB": "bluetrots"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2850675,
+            "valueB": 1900115,
+            "userIdA": 672769111,
+            "userIdB": 289128602,
+            "nameA": "Adely",
+            "nameB": "Weiss"
+          },
+          {
+            "rank": 2,
+            "valueA": 1815748,
+            "valueB": 1650590,
+            "userIdA": 868795313,
+            "userIdB": 170375999,
+            "nameA": "Rein",
+            "nameB": "Loverlost"
+          },
+          {
+            "rank": 3,
+            "valueA": 1282206,
+            "valueB": 194182,
+            "userIdA": 413997485,
+            "userIdB": 455395245,
+            "nameA": "Hepburn",
+            "nameB": "bluetrots"
+          },
+          {
+            "rank": 4,
+            "valueA": 1149318,
+            "valueB": 160853,
+            "userIdA": 881393762,
+            "userIdB": 940327886,
+            "nameA": "Vatonage",
+            "nameB": "NightWish"
+          },
+          {
+            "rank": 5,
+            "valueA": 247090,
+            "valueB": 119180,
+            "userIdA": 290888979,
+            "userIdB": 136545627,
+            "nameA": "Redo",
+            "nameB": "SkyTera"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2171828,
+            "valueB": 4045779,
+            "userIdA": 971621633,
+            "userIdB": 900240003,
+            "nameA": "Tea",
+            "nameB": "vic585"
+          },
+          {
+            "rank": 2,
+            "valueA": 1811604,
+            "valueB": 3316296,
+            "userIdA": 873505913,
+            "userIdB": 122025758,
+            "nameA": "vorfreude",
+            "nameB": "Zki"
+          },
+          {
+            "rank": 3,
+            "valueA": 935344,
+            "valueB": 2092659,
+            "userIdA": 881393762,
+            "userIdB": 233837888,
+            "nameA": "Vatonage",
+            "nameB": "Renyuu"
+          },
+          {
+            "rank": 4,
+            "valueA": 48639,
+            "valueB": 1872972,
+            "userIdA": 613241815,
+            "userIdB": 459924598,
+            "nameA": "xwill",
+            "nameB": "Laura"
+          },
+          {
+            "rank": 5,
+            "valueA": 5303,
+            "valueB": 42524,
+            "userIdA": 250290573,
+            "userIdB": 864158532,
+            "nameA": "Laem",
+            "nameB": "Redlin"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2072983,
+            "valueB": 3052908,
+            "userIdA": 971621633,
+            "userIdB": 122025758,
+            "nameA": "Tea",
+            "nameB": "Zki"
+          },
+          {
+            "rank": 2,
+            "valueA": 676860,
+            "valueB": 2493239,
+            "userIdA": 873505913,
+            "userIdB": 900240003,
+            "nameA": "vorfreude",
+            "nameB": "vic585"
+          },
+          {
+            "rank": 3,
+            "valueA": 395004,
+            "valueB": 2206446,
+            "userIdA": 881393762,
+            "userIdB": 233837888,
+            "nameA": "Vatonage",
+            "nameB": "Renyuu"
+          },
+          {
+            "rank": 4,
+            "valueA": 102937,
+            "valueB": 1451751,
+            "userIdA": 613241815,
+            "userIdB": 459924598,
+            "nameA": "xwill",
+            "nameB": "Laura"
+          },
+          {
+            "rank": 5,
+            "valueA": 99404,
+            "valueB": 66391,
+            "userIdA": 593439881,
+            "userIdB": 725193452,
+            "nameA": "Ludmila",
+            "nameB": "Leylin"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 352,
+            "valueB": 592,
+            "userIdA": 603787872,
+            "userIdB": 525209793,
+            "nameA": "Will",
+            "nameB": "4♡"
+          },
+          {
+            "rank": 2,
+            "valueA": 337,
+            "valueB": 449,
+            "userIdA": 124016919,
+            "userIdB": 527550664,
+            "nameA": "Lio",
+            "nameB": "Vontee"
+          },
+          {
+            "rank": 3,
+            "valueA": 281,
+            "valueB": 133,
+            "userIdA": 250290573,
+            "userIdB": 792093278,
+            "nameA": "Laem",
+            "nameB": "Tzuyu"
+          },
+          {
+            "rank": 4,
+            "valueA": 90,
+            "valueB": 110,
+            "userIdA": 881393762,
+            "userIdB": 864158532,
+            "nameA": "Vatonage",
+            "nameB": "Redlin"
+          },
+          {
+            "rank": 5,
+            "valueA": 81,
+            "valueB": 99,
+            "userIdA": 593439881,
+            "userIdB": 565136100,
+            "nameA": "Ludmila",
+            "nameB": "VIRAL"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3544961,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 3,
+          "ultimateArtMethodMstId": 3,
+          "guildACount": 43,
+          "guildBCount": 17
+        },
+        {
+          "artMstId": 15,
+          "ultimateArtMethodMstId": 15,
+          "guildACount": 29,
+          "guildBCount": 21
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 313,
+    "gvgDataId": 3544961,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 58394,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "Quackterria",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 2,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 732,
+        "level": 221,
+        "totalPower": 491060,
+        "maxHp": 142683
+      },
+      {
+        "userId": 603787872,
+        "name": "Will",
+        "characterMstId": 637,
+        "level": 212,
+        "totalPower": 340036,
+        "maxHp": 149915
+      },
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 470116,
+        "maxHp": 131483
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 507,
+        "level": 227,
+        "totalPower": 465281,
+        "maxHp": 139283
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 753,
+        "level": 196,
+        "totalPower": 283394,
+        "maxHp": 122606
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 695,
+        "level": 209,
+        "totalPower": 457286,
+        "maxHp": 116567
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 770,
+        "level": 223,
+        "totalPower": 413322,
+        "maxHp": 93983
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 770,
+        "level": 137,
+        "totalPower": 402340,
+        "maxHp": 81982
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 770,
+        "level": 213,
+        "totalPower": 397290,
+        "maxHp": 113178
+      },
+      {
+        "userId": 971621633,
+        "name": "Tea",
+        "characterMstId": 694,
+        "level": 208,
+        "totalPower": 381373,
+        "maxHp": 93026
+      },
+      {
+        "userId": 873505913,
+        "name": "vorfreude",
+        "characterMstId": 769,
+        "level": 196,
+        "totalPower": 366696,
+        "maxHp": 111956
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 761,
+        "level": 218,
+        "totalPower": 464738,
+        "maxHp": 144957
+      },
+      {
+        "userId": 320420655,
+        "name": "Juni",
+        "characterMstId": 251,
+        "level": 196,
+        "totalPower": 438467,
+        "maxHp": 128956
+      },
+      {
+        "userId": 529203450,
+        "name": "PADORU",
+        "characterMstId": 85,
+        "level": 199,
+        "totalPower": 321055,
+        "maxHp": 67692
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 725193452,
+        "name": "Leylin",
+        "characterMstId": 732,
+        "level": 230,
+        "totalPower": 541743,
+        "maxHp": 177633
+      },
+      {
+        "userId": 565136100,
+        "name": "VIRAL",
+        "characterMstId": 732,
+        "level": 217,
+        "totalPower": 486789,
+        "maxHp": 145556
+      },
+      {
+        "userId": 792093278,
+        "name": "Tzuyu",
+        "characterMstId": 732,
+        "level": 216,
+        "totalPower": 482311,
+        "maxHp": 150613
+      },
+      {
+        "userId": 527550664,
+        "name": "Vontee",
+        "characterMstId": 724,
+        "level": 229,
+        "totalPower": 388212,
+        "maxHp": 176383
+      },
+      {
+        "userId": 525209793,
+        "name": "4♡",
+        "characterMstId": 724,
+        "level": 231,
+        "totalPower": 346193,
+        "maxHp": 144633
+      },
+      {
+        "userId": 864158532,
+        "name": "Redlin",
+        "characterMstId": 731,
+        "level": 227,
+        "totalPower": 528353,
+        "maxHp": 170583
+      },
+      {
+        "userId": 289128602,
+        "name": "Weiss",
+        "characterMstId": 770,
+        "level": 221,
+        "totalPower": 494756,
+        "maxHp": 136383
+      },
+      {
+        "userId": 170375999,
+        "name": "Loverlost",
+        "characterMstId": 770,
+        "level": 216,
+        "totalPower": 487155,
+        "maxHp": 124163
+      },
+      {
+        "userId": 900240003,
+        "name": "vic585",
+        "characterMstId": 769,
+        "level": 207,
+        "totalPower": 534133,
+        "maxHp": 159387
+      },
+      {
+        "userId": 122025758,
+        "name": "Zki",
+        "characterMstId": 769,
+        "level": 212,
+        "totalPower": 473766,
+        "maxHp": 131615
+      },
+      {
+        "userId": 459924598,
+        "name": "Laura",
+        "characterMstId": 769,
+        "level": 197,
+        "totalPower": 459458,
+        "maxHp": 152168
+      },
+      {
+        "userId": 233837888,
+        "name": "Renyuu",
+        "characterMstId": 769,
+        "level": 205,
+        "totalPower": 453689,
+        "maxHp": 118465
+      },
+      {
+        "userId": 136545627,
+        "name": "SkyTera",
+        "characterMstId": 761,
+        "level": 223,
+        "totalPower": 527139,
+        "maxHp": 149333
+      },
+      {
+        "userId": 455395245,
+        "name": "bluetrots",
+        "characterMstId": 761,
+        "level": 217,
+        "totalPower": 500964,
+        "maxHp": 144906
+      },
+      {
+        "userId": 940327886,
+        "name": "NightWish",
+        "characterMstId": 761,
+        "level": 214,
+        "totalPower": 493680,
+        "maxHp": 145499
+      }
+    ]
+  }
+}
