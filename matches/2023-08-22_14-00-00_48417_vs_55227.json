@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 213,
+      "battleStartTime": 1692712800,
+      "battleEndTime": 1692713999,
+      "gvgDataId": 3560337,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 1,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48417,
+      "selfGuildName": "Arknight",
+      "selfTotalGuildPoint": 9034948,
+      "selfComboCount": 1238,
+      "selfSiegeWinCount": 8,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 55227,
+      "enemyGuildName": "FaE",
+      "enemyTotalGuildPoint": 4772408,
+      "enemyComboCount": 1848,
+      "enemySiegeWinCount": 16,
+      "selfRankUserId": 593439881,
+      "selfRankNum": 1,
+      "selfRankUserName": "Ludmila",
+      "selfRankGuildPoint": 2196790,
+      "enemyRankUserId": 800835943,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Chorize",
+      "enemyRankGuildPoint": 1701586,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 702
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2196790,
+            "valueB": 1701586,
+            "userIdA": 593439881,
+            "userIdB": 800835943,
+            "nameA": "Ludmila",
+            "nameB": "Chorize"
+          },
+          {
+            "rank": 2,
+            "valueA": 1833489,
+            "valueB": 1675328,
+            "userIdA": 250290573,
+            "userIdB": 965653017,
+            "nameA": "Laem",
+            "nameB": "秋天的一颗树"
+          },
+          {
+            "rank": 3,
+            "valueA": 1653633,
+            "valueB": 1568080,
+            "userIdA": 603787872,
+            "userIdB": 104967169,
+            "nameA": "Will",
+            "nameB": "DarkFlud"
+          },
+          {
+            "rank": 4,
+            "valueA": 960905,
+            "valueB": 946250,
+            "userIdA": 613241815,
+            "userIdB": 554674762,
+            "nameA": "xwill",
+            "nameB": "Emilien"
+          },
+          {
+            "rank": 5,
+            "valueA": 320368,
+            "valueB": 838325,
+            "userIdA": 868795313,
+            "userIdB": 592214789,
+            "nameA": "Rein",
+            "nameB": "Aufsea"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 27073531,
+            "valueB": 39293844,
+            "userIdA": 290888979,
+            "userIdB": 605760960,
+            "nameA": "Redo",
+            "nameB": "GrayBishop"
+          },
+          {
+            "rank": 2,
+            "valueA": 14391526,
+            "valueB": 22504032,
+            "userIdA": 320420655,
+            "userIdB": 314418247,
+            "nameA": "Juni",
+            "nameB": "Shuzen"
+          },
+          {
+            "rank": 3,
+            "valueA": 10390194,
+            "valueB": 16540234,
+            "userIdA": 529203450,
+            "userIdB": 419316635,
+            "nameA": "PADORU",
+            "nameB": "winter"
+          },
+          {
+            "rank": 4,
+            "valueA": 7320152,
+            "valueB": 996244,
+            "userIdA": 122184012,
+            "userIdB": 965653017,
+            "nameA": "Akagi",
+            "nameB": "秋天的一颗树"
+          },
+          {
+            "rank": 5,
+            "valueA": 1632524,
+            "valueB": 674302,
+            "userIdA": 603787872,
+            "userIdB": 800835943,
+            "nameA": "Will",
+            "nameB": "Chorize"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3785737,
+            "valueB": 3725750,
+            "userIdA": 881393762,
+            "userIdB": 319561737,
+            "nameA": "Vatonage",
+            "nameB": "Roxydancer"
+          },
+          {
+            "rank": 2,
+            "valueA": 3225094,
+            "valueB": 3222516,
+            "userIdA": 672769111,
+            "userIdB": 717229968,
+            "nameA": "Adely",
+            "nameB": "Ella"
+          },
+          {
+            "rank": 3,
+            "valueA": 1478708,
+            "valueB": 1319897,
+            "userIdA": 413997485,
+            "userIdB": 710379315,
+            "nameA": "Hepburn",
+            "nameB": "Deltorius"
+          },
+          {
+            "rank": 4,
+            "valueA": 891530,
+            "valueB": 518507,
+            "userIdA": 868795313,
+            "userIdB": 605760960,
+            "nameA": "Rein",
+            "nameB": "GrayBishop"
+          },
+          {
+            "rank": 5,
+            "valueA": 196429,
+            "valueB": 331470,
+            "userIdA": 290888979,
+            "userIdB": 668128156,
+            "nameA": "Redo",
+            "nameB": "JUN|純一"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 3354309,
+            "valueB": 4190211,
+            "userIdA": 672769111,
+            "userIdB": 717229968,
+            "nameA": "Adely",
+            "nameB": "Ella"
+          },
+          {
+            "rank": 2,
+            "valueA": 2003297,
+            "valueB": 1278238,
+            "userIdA": 881393762,
+            "userIdB": 319561737,
+            "nameA": "Vatonage",
+            "nameB": "Roxydancer"
+          },
+          {
+            "rank": 3,
+            "valueA": 1010351,
+            "valueB": 922718,
+            "userIdA": 413997485,
+            "userIdB": 710379315,
+            "nameA": "Hepburn",
+            "nameB": "Deltorius"
+          },
+          {
+            "rank": 4,
+            "valueA": 760836,
+            "valueB": 345561,
+            "userIdA": 868795313,
+            "userIdB": 605760960,
+            "nameA": "Rein",
+            "nameB": "GrayBishop"
+          },
+          {
+            "rank": 5,
+            "valueA": 257841,
+            "valueB": 103321,
+            "userIdA": 290888979,
+            "userIdB": 419316635,
+            "nameA": "Redo",
+            "nameB": "winter"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4206722,
+            "valueB": 4382690,
+            "userIdA": 873505913,
+            "userIdB": 660245327,
+            "nameA": "vorfreude",
+            "nameB": "Kora"
+          },
+          {
+            "rank": 2,
+            "valueA": 2486049,
+            "valueB": 3385263,
+            "userIdA": 124016919,
+            "userIdB": 668128156,
+            "nameA": "Lio",
+            "nameB": "JUN|純一"
+          },
+          {
+            "rank": 3,
+            "valueA": 2349178,
+            "valueB": 806833,
+            "userIdA": 971621633,
+            "userIdB": 907745982,
+            "nameA": "Tea",
+            "nameB": "Cepheis"
+          },
+          {
+            "rank": 4,
+            "valueA": 67569,
+            "valueB": 84356,
+            "userIdA": 250290573,
+            "userIdB": 554674762,
+            "nameA": "Laem",
+            "nameB": "Emilien"
+          },
+          {
+            "rank": 5,
+            "valueA": 31917,
+            "valueB": 78924,
+            "userIdA": 613241815,
+            "userIdB": 965653017,
+            "nameA": "xwill",
+            "nameB": "秋天的一颗树"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2681751,
+            "valueB": 3219217,
+            "userIdA": 971621633,
+            "userIdB": 668128156,
+            "nameA": "Tea",
+            "nameB": "JUN|純一"
+          },
+          {
+            "rank": 2,
+            "valueA": 1616619,
+            "valueB": 2941870,
+            "userIdA": 873505913,
+            "userIdB": 660245327,
+            "nameA": "vorfreude",
+            "nameB": "Kora"
+          },
+          {
+            "rank": 3,
+            "valueA": 1606877,
+            "valueB": 565060,
+            "userIdA": 124016919,
+            "userIdB": 907745982,
+            "nameA": "Lio",
+            "nameB": "Cepheis"
+          },
+          {
+            "rank": 4,
+            "valueA": 251797,
+            "valueB": 180423,
+            "userIdA": 603787872,
+            "userIdB": 104967169,
+            "nameA": "Will",
+            "nameB": "DarkFlud"
+          },
+          {
+            "rank": 5,
+            "valueA": 171142,
+            "valueB": 149253,
+            "userIdA": 250290573,
+            "userIdB": 800835943,
+            "nameA": "Laem",
+            "nameB": "Chorize"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 368,
+            "valueB": 499,
+            "userIdA": 593439881,
+            "userIdB": 205361845,
+            "nameA": "Ludmila",
+            "nameB": "Doxgeeeel"
+          },
+          {
+            "rank": 2,
+            "valueA": 230,
+            "valueB": 301,
+            "userIdA": 613241815,
+            "userIdB": 800835943,
+            "nameA": "xwill",
+            "nameB": "Chorize"
+          },
+          {
+            "rank": 3,
+            "valueA": 218,
+            "valueB": 291,
+            "userIdA": 250290573,
+            "userIdB": 104967169,
+            "nameA": "Laem",
+            "nameB": "DarkFlud"
+          },
+          {
+            "rank": 4,
+            "valueA": 165,
+            "valueB": 220,
+            "userIdA": 603787872,
+            "userIdB": 592214789,
+            "nameA": "Will",
+            "nameB": "Aufsea"
+          },
+          {
+            "rank": 5,
+            "valueA": 133,
+            "valueB": 134,
+            "userIdA": 881393762,
+            "userIdB": 965653017,
+            "nameA": "Vatonage",
+            "nameB": "秋天的一颗树"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3560337,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 75,
+          "guildBCount": 62
+        },
+        {
+          "artMstId": 23,
+          "ultimateArtMethodMstId": 23,
+          "guildACount": 51,
+          "guildBCount": 69
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 213,
+    "gvgDataId": 3560337,
+    "guildDataIdA": 48417,
+    "guildDataIdB": 55227,
+    "guildDataNameA": "Arknight",
+    "guildDataNameB": "FaE",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 3,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 613241815,
+        "name": "xwill",
+        "characterMstId": 732,
+        "level": 221,
+        "totalPower": 498045,
+        "maxHp": 143683
+      },
+      {
+        "userId": 868795313,
+        "name": "Rein",
+        "characterMstId": 754,
+        "level": 223,
+        "totalPower": 436119,
+        "maxHp": 95183
+      },
+      {
+        "userId": 593439881,
+        "name": "Ludmila",
+        "characterMstId": 731,
+        "level": 227,
+        "totalPower": 515054,
+        "maxHp": 167833
+      },
+      {
+        "userId": 250290573,
+        "name": "Laem",
+        "characterMstId": 48,
+        "level": 220,
+        "totalPower": 471237,
+        "maxHp": 133983
+      },
+      {
+        "userId": 603787872,
+        "name": "Will",
+        "characterMstId": 48,
+        "level": 212,
+        "totalPower": 462307,
+        "maxHp": 151915
+      },
+      {
+        "userId": 881393762,
+        "name": "Vatonage",
+        "characterMstId": 770,
+        "level": 209,
+        "totalPower": 458369,
+        "maxHp": 117267
+      },
+      {
+        "userId": 672769111,
+        "name": "Adely",
+        "characterMstId": 770,
+        "level": 137,
+        "totalPower": 404137,
+        "maxHp": 84982
+      },
+      {
+        "userId": 413997485,
+        "name": "Hepburn",
+        "characterMstId": 770,
+        "level": 213,
+        "totalPower": 397290,
+        "maxHp": 113178
+      },
+      {
+        "userId": 971621633,
+        "name": "Tea",
+        "characterMstId": 694,
+        "level": 208,
+        "totalPower": 381373,
+        "maxHp": 93026
+      },
+      {
+        "userId": 124016919,
+        "name": "Lio",
+        "characterMstId": 769,
+        "level": 196,
+        "totalPower": 379769,
+        "maxHp": 124306
+      },
+      {
+        "userId": 873505913,
+        "name": "vorfreude",
+        "characterMstId": 769,
+        "level": 196,
+        "totalPower": 370014,
+        "maxHp": 111956
+      },
+      {
+        "userId": 290888979,
+        "name": "Redo",
+        "characterMstId": 761,
+        "level": 218,
+        "totalPower": 472996,
+        "maxHp": 148957
+      },
+      {
+        "userId": 320420655,
+        "name": "Juni",
+        "characterMstId": 251,
+        "level": 196,
+        "totalPower": 438515,
+        "maxHp": 128956
+      },
+      {
+        "userId": 529203450,
+        "name": "PADORU",
+        "characterMstId": 85,
+        "level": 199,
+        "totalPower": 321055,
+        "maxHp": 67692
+      },
+      {
+        "userId": 122184012,
+        "name": "Akagi",
+        "characterMstId": 85,
+        "level": 203,
+        "totalPower": 290401,
+        "maxHp": 73651
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 554674762,
+        "name": "Emilien",
+        "characterMstId": 732,
+        "level": 211,
+        "totalPower": 460841,
+        "maxHp": 140509
+      },
+      {
+        "userId": 965653017,
+        "name": "秋天的一颗树",
+        "characterMstId": 103,
+        "level": 216,
+        "totalPower": 458880,
+        "maxHp": 139663
+      },
+      {
+        "userId": 205361845,
+        "name": "Doxgeeeel",
+        "characterMstId": 712,
+        "level": 138,
+        "totalPower": 246984,
+        "maxHp": 61268
+      },
+      {
+        "userId": 104967169,
+        "name": "DarkFlud",
+        "characterMstId": 731,
+        "level": 207,
+        "totalPower": 486842,
+        "maxHp": 124887
+      },
+      {
+        "userId": 800835943,
+        "name": "Chorize",
+        "characterMstId": 731,
+        "level": 206,
+        "totalPower": 458958,
+        "maxHp": 146550
+      },
+      {
+        "userId": 592214789,
+        "name": "Aufsea",
+        "characterMstId": 731,
+        "level": 198,
+        "totalPower": 399071,
+        "maxHp": 110280
+      },
+      {
+        "userId": 319561737,
+        "name": "Roxydancer",
+        "characterMstId": 770,
+        "level": 224,
+        "totalPower": 512374,
+        "maxHp": 169783
+      },
+      {
+        "userId": 717229968,
+        "name": "Ella",
+        "characterMstId": 770,
+        "level": 208,
+        "totalPower": 436872,
+        "maxHp": 117576
+      },
+      {
+        "userId": 710379315,
+        "name": "Deltorius",
+        "characterMstId": 114,
+        "level": 207,
+        "totalPower": 363864,
+        "maxHp": 74487
+      },
+      {
+        "userId": 668128156,
+        "name": "JUN|純一",
+        "characterMstId": 336,
+        "level": 222,
+        "totalPower": 488059,
+        "maxHp": 118383
+      },
+      {
+        "userId": 660245327,
+        "name": "Kora",
+        "characterMstId": 93,
+        "level": 202,
+        "totalPower": 390275,
+        "maxHp": 138622
+      },
+      {
+        "userId": 907745982,
+        "name": "Cepheis",
+        "characterMstId": 469,
+        "level": 181,
+        "totalPower": 228946,
+        "maxHp": 61771
+      },
+      {
+        "userId": 605760960,
+        "name": "GrayBishop",
+        "characterMstId": 761,
+        "level": 201,
+        "totalPower": 465242,
+        "maxHp": 109645
+      },
+      {
+        "userId": 314418247,
+        "name": "Shuzen",
+        "characterMstId": 761,
+        "level": 223,
+        "totalPower": 460441,
+        "maxHp": 147983
+      },
+      {
+        "userId": 419316635,
+        "name": "winter",
+        "characterMstId": 85,
+        "level": 202,
+        "totalPower": 413011,
+        "maxHp": 102672
+      }
+    ]
+  }
+}
