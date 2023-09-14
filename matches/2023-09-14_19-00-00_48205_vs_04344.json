@@ -1,0 +1,667 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 503,
+      "battleStartTime": 1694718000,
+      "battleEndTime": 1694719199,
+      "gvgDataId": 3587454,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 25519959,
+      "selfComboCount": 2319,
+      "selfSiegeWinCount": 7,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 4344,
+      "enemyGuildName": "VanitaS",
+      "enemyTotalGuildPoint": 4025494,
+      "enemyComboCount": 2630,
+      "enemySiegeWinCount": 0,
+      "selfRankUserId": 449045316,
+      "selfRankNum": 1,
+      "selfRankUserName": "○.○",
+      "selfRankGuildPoint": 5785618,
+      "enemyRankUserId": 970976686,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Zackzor",
+      "enemyRankGuildPoint": 3379927,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 392
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 5785618,
+            "valueB": 3379927,
+            "userIdA": 449045316,
+            "userIdB": 970976686,
+            "nameA": "○.○",
+            "nameB": "Zackzor"
+          },
+          {
+            "rank": 2,
+            "valueA": 5144992,
+            "valueB": 2759762,
+            "userIdA": 489820080,
+            "userIdB": 397753343,
+            "nameA": "Poetic0",
+            "nameB": "Vasher"
+          },
+          {
+            "rank": 3,
+            "valueA": 2301758,
+            "valueB": 2453664,
+            "userIdA": 161754158,
+            "userIdB": 183222839,
+            "nameA": "oeuf",
+            "nameB": "LeoOfComar"
+          },
+          {
+            "rank": 4,
+            "valueA": 2284958,
+            "valueB": 2219410,
+            "userIdA": 658397897,
+            "userIdB": 384186016,
+            "nameA": "Juddy",
+            "nameB": "Pepe"
+          },
+          {
+            "rank": 5,
+            "valueA": 1421802,
+            "valueB": 1530075,
+            "userIdA": 594178109,
+            "userIdB": 561045959,
+            "nameA": "Jeanne",
+            "nameB": "AllforOne"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 78628769,
+            "valueB": 81255764,
+            "userIdA": 335076343,
+            "userIdB": 751603892,
+            "nameA": "Melesie",
+            "nameB": "Ilirus"
+          },
+          {
+            "rank": 2,
+            "valueA": 62075488,
+            "valueB": 52880042,
+            "userIdA": 112665300,
+            "userIdB": 991122626,
+            "nameA": "ilyas",
+            "nameB": "Suki"
+          },
+          {
+            "rank": 3,
+            "valueA": 4480810,
+            "valueB": 48094249,
+            "userIdA": 237959838,
+            "userIdB": 591836454,
+            "nameA": "Nheksh",
+            "nameB": "Lou"
+          },
+          {
+            "rank": 4,
+            "valueA": 683104,
+            "valueB": 35196093,
+            "userIdA": 489820080,
+            "userIdB": 773542080,
+            "nameA": "Poetic0",
+            "nameB": "Takuya"
+          },
+          {
+            "rank": 5,
+            "valueA": 664491,
+            "valueB": 1386671,
+            "userIdA": 449045316,
+            "userIdB": 183222839,
+            "nameA": "○.○",
+            "nameB": "LeoOfComar"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 13335639,
+            "valueB": 13034141,
+            "userIdA": 519350497,
+            "userIdB": 241864916,
+            "nameA": "Andy",
+            "nameB": "Kexy"
+          },
+          {
+            "rank": 2,
+            "valueA": 12914427,
+            "valueB": 11125715,
+            "userIdA": 237959838,
+            "userIdB": 575521664,
+            "nameA": "Nheksh",
+            "nameB": "JACKY"
+          },
+          {
+            "rank": 3,
+            "valueA": 7681061,
+            "valueB": 11017959,
+            "userIdA": 884034009,
+            "userIdB": 343742312,
+            "nameA": "Cheshipuss",
+            "nameB": "chuli"
+          },
+          {
+            "rank": 4,
+            "valueA": 5421343,
+            "valueB": 1180857,
+            "userIdA": 249958587,
+            "userIdB": 751603892,
+            "nameA": "Sakura",
+            "nameB": "Ilirus"
+          },
+          {
+            "rank": 5,
+            "valueA": 4897589,
+            "valueB": 619294,
+            "userIdA": 889582783,
+            "userIdB": 991122626,
+            "nameA": "Baka",
+            "nameB": "Suki"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 9461863,
+            "valueB": 13610693,
+            "userIdA": 519350497,
+            "userIdB": 241864916,
+            "nameA": "Andy",
+            "nameB": "Kexy"
+          },
+          {
+            "rank": 2,
+            "valueA": 8495602,
+            "valueB": 7903598,
+            "userIdA": 237959838,
+            "userIdB": 343742312,
+            "nameA": "Nheksh",
+            "nameB": "chuli"
+          },
+          {
+            "rank": 3,
+            "valueA": 6344086,
+            "valueB": 6550304,
+            "userIdA": 884034009,
+            "userIdB": 575521664,
+            "nameA": "Cheshipuss",
+            "nameB": "JACKY"
+          },
+          {
+            "rank": 4,
+            "valueA": 5074510,
+            "valueB": 892339,
+            "userIdA": 249958587,
+            "userIdB": 991122626,
+            "nameA": "Sakura",
+            "nameB": "Suki"
+          },
+          {
+            "rank": 5,
+            "valueA": 4505667,
+            "valueB": 573418,
+            "userIdA": 889582783,
+            "userIdB": 751603892,
+            "nameA": "Baka",
+            "nameB": "Ilirus"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 13983364,
+            "valueB": 21105070,
+            "userIdA": 662352178,
+            "userIdB": 237691920,
+            "nameA": "NotXam",
+            "nameB": "Kruppe"
+          },
+          {
+            "rank": 2,
+            "valueA": 13478345,
+            "valueB": 15063323,
+            "userIdA": 623186999,
+            "userIdB": 252817546,
+            "nameA": "Twilight",
+            "nameB": "Pepega"
+          },
+          {
+            "rank": 3,
+            "valueA": 6834299,
+            "valueB": 7900355,
+            "userIdA": 268301929,
+            "userIdB": 827781962,
+            "nameA": "Frankger",
+            "nameB": "Vogauxts"
+          },
+          {
+            "rank": 4,
+            "valueA": 6490697,
+            "valueB": 1052176,
+            "userIdA": 594178109,
+            "userIdB": 343742312,
+            "nameA": "Jeanne",
+            "nameB": "chuli"
+          },
+          {
+            "rank": 5,
+            "valueA": 58978,
+            "valueB": 70859,
+            "userIdA": 161754158,
+            "userIdB": 561045959,
+            "nameA": "oeuf",
+            "nameB": "AllforOne"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 11450913,
+            "valueB": 17590883,
+            "userIdA": 623186999,
+            "userIdB": 237691920,
+            "nameA": "Twilight",
+            "nameB": "Kruppe"
+          },
+          {
+            "rank": 2,
+            "valueA": 10432983,
+            "valueB": 8447699,
+            "userIdA": 662352178,
+            "userIdB": 827781962,
+            "nameA": "NotXam",
+            "nameB": "Vogauxts"
+          },
+          {
+            "rank": 3,
+            "valueA": 7097247,
+            "valueB": 7199161,
+            "userIdA": 268301929,
+            "userIdB": 252817546,
+            "nameA": "Frankger",
+            "nameB": "Pepega"
+          },
+          {
+            "rank": 4,
+            "valueA": 2534360,
+            "valueB": 1426630,
+            "userIdA": 594178109,
+            "userIdB": 343742312,
+            "nameA": "Jeanne",
+            "nameB": "chuli"
+          },
+          {
+            "rank": 5,
+            "valueA": 191594,
+            "valueB": 130881,
+            "userIdA": 489820080,
+            "userIdB": 397753343,
+            "nameA": "Poetic0",
+            "nameB": "Vasher"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 436,
+            "valueB": 556,
+            "userIdA": 594178109,
+            "userIdB": 183222839,
+            "nameA": "Jeanne",
+            "nameB": "LeoOfComar"
+          },
+          {
+            "rank": 2,
+            "valueA": 419,
+            "valueB": 482,
+            "userIdA": 489820080,
+            "userIdB": 384186016,
+            "nameA": "Poetic0",
+            "nameB": "Pepe"
+          },
+          {
+            "rank": 3,
+            "valueA": 382,
+            "valueB": 405,
+            "userIdA": 449045316,
+            "userIdB": 970976686,
+            "nameA": "○.○",
+            "nameB": "Zackzor"
+          },
+          {
+            "rank": 4,
+            "valueA": 374,
+            "valueB": 372,
+            "userIdA": 658397897,
+            "userIdB": 397753343,
+            "nameA": "Juddy",
+            "nameB": "Vasher"
+          },
+          {
+            "rank": 5,
+            "valueA": 155,
+            "valueB": 302,
+            "userIdA": 161754158,
+            "userIdB": 561045959,
+            "nameA": "oeuf",
+            "nameB": "AllforOne"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3587454,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 29,
+          "ultimateArtMethodMstId": 29,
+          "guildACount": 75,
+          "guildBCount": 54
+        },
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 75,
+          "guildBCount": 68
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 503,
+    "gvgDataId": 3587454,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 4344,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "VanitaS",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 3,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 732,
+        "level": 211,
+        "totalPower": 492965,
+        "maxHp": 142409
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 732,
+        "level": 215,
+        "totalPower": 466863,
+        "maxHp": 148477
+      },
+      {
+        "userId": 449045316,
+        "name": "○.○",
+        "characterMstId": 48,
+        "level": 231,
+        "totalPower": 537364,
+        "maxHp": 174883
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 731,
+        "level": 227,
+        "totalPower": 519240,
+        "maxHp": 167033
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 826,
+        "level": 226,
+        "totalPower": 684051,
+        "maxHp": 210933
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 770,
+        "level": 207,
+        "totalPower": 524818,
+        "maxHp": 130937
+      },
+      {
+        "userId": 889582783,
+        "name": "Baka",
+        "characterMstId": 770,
+        "level": 201,
+        "totalPower": 455315,
+        "maxHp": 136045
+      },
+      {
+        "userId": 884034009,
+        "name": "Cheshipuss",
+        "characterMstId": 770,
+        "level": 208,
+        "totalPower": 426804,
+        "maxHp": 127576
+      },
+      {
+        "userId": 249958587,
+        "name": "Sakura",
+        "characterMstId": 826,
+        "level": 203,
+        "totalPower": 390444,
+        "maxHp": 107651
+      },
+      {
+        "userId": 623186999,
+        "name": "Twilight",
+        "characterMstId": 769,
+        "level": 221,
+        "totalPower": 575483,
+        "maxHp": 165833
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 769,
+        "level": 229,
+        "totalPower": 484408,
+        "maxHp": 133283
+      },
+      {
+        "userId": 268301929,
+        "name": "Frankger",
+        "characterMstId": 769,
+        "level": 207,
+        "totalPower": 471478,
+        "maxHp": 165137
+      },
+      {
+        "userId": 662352178,
+        "name": "NotXam",
+        "characterMstId": 769,
+        "level": 213,
+        "totalPower": 454823,
+        "maxHp": 105328
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 761,
+        "level": 236,
+        "totalPower": 523242,
+        "maxHp": 164833
+      },
+      {
+        "userId": 112665300,
+        "name": "ilyas",
+        "characterMstId": 761,
+        "level": 208,
+        "totalPower": 482156,
+        "maxHp": 143176
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 183222839,
+        "name": "LeoOfComar",
+        "characterMstId": 103,
+        "level": 236,
+        "totalPower": 536103,
+        "maxHp": 185633
+      },
+      {
+        "userId": 397753343,
+        "name": "Vasher",
+        "characterMstId": 732,
+        "level": 216,
+        "totalPower": 483330,
+        "maxHp": 154113
+      },
+      {
+        "userId": 384186016,
+        "name": "Pepe",
+        "characterMstId": 126,
+        "level": 210,
+        "totalPower": 491779,
+        "maxHp": 152410
+      },
+      {
+        "userId": 970976686,
+        "name": "Zackzor",
+        "characterMstId": 731,
+        "level": 221,
+        "totalPower": 565060,
+        "maxHp": 187683
+      },
+      {
+        "userId": 561045959,
+        "name": "AllforOne",
+        "characterMstId": 731,
+        "level": 216,
+        "totalPower": 511590,
+        "maxHp": 180013
+      },
+      {
+        "userId": 241864916,
+        "name": "Kexy",
+        "characterMstId": 770,
+        "level": 237,
+        "totalPower": 609437,
+        "maxHp": 177183
+      },
+      {
+        "userId": 343742312,
+        "name": "chuli",
+        "characterMstId": 770,
+        "level": 216,
+        "totalPower": 567497,
+        "maxHp": 169213
+      },
+      {
+        "userId": 575521664,
+        "name": "JACKY",
+        "characterMstId": 770,
+        "level": 225,
+        "totalPower": 519027,
+        "maxHp": 133433
+      },
+      {
+        "userId": 237691920,
+        "name": "Kruppe",
+        "characterMstId": 769,
+        "level": 237,
+        "totalPower": 615403,
+        "maxHp": 188283
+      },
+      {
+        "userId": 252817546,
+        "name": "Pepega",
+        "characterMstId": 769,
+        "level": 217,
+        "totalPower": 579766,
+        "maxHp": 165456
+      },
+      {
+        "userId": 827781962,
+        "name": "Vogauxts",
+        "characterMstId": 806,
+        "level": 227,
+        "totalPower": 492273,
+        "maxHp": 156733
+      },
+      {
+        "userId": 751603892,
+        "name": "Ilirus",
+        "characterMstId": 761,
+        "level": 214,
+        "totalPower": 524222,
+        "maxHp": 138299
+      },
+      {
+        "userId": 773542080,
+        "name": "Takuya",
+        "characterMstId": 85,
+        "level": 225,
+        "totalPower": 512656,
+        "maxHp": 155733
+      },
+      {
+        "userId": 991122626,
+        "name": "Suki",
+        "characterMstId": 761,
+        "level": 222,
+        "totalPower": 502964,
+        "maxHp": 142333
+      },
+      {
+        "userId": 591836454,
+        "name": "Lou",
+        "characterMstId": 761,
+        "level": 218,
+        "totalPower": 496968,
+        "maxHp": 162257
+      }
+    ]
+  }
+}
