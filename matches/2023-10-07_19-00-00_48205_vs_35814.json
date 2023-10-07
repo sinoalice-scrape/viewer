@@ -1,0 +1,659 @@
+{
+  "getResult": {
+    "gvgResult": {
+      "battleNum": 703,
+      "battleStartTime": 1696705200,
+      "battleEndTime": 1696706399,
+      "gvgDataId": 3612357,
+      "gvgTitle": "Server/typeMap.gvgOutBattle.getResultRes.gvgTitle",
+      "partySequence": 2,
+      "selfFavoriteAkbMember": 0,
+      "selfGuildDataId": 48205,
+      "selfGuildName": "Daydreamer",
+      "selfTotalGuildPoint": 200107,
+      "selfComboCount": 616,
+      "selfSiegeWinCount": 0,
+      "enemyFavoriteAkbMember": 0,
+      "enemyGuildDataId": 35814,
+      "enemyGuildName": "IV-RP",
+      "enemyTotalGuildPoint": 10255854,
+      "enemyComboCount": 1558,
+      "enemySiegeWinCount": 33,
+      "selfRankUserId": 489820080,
+      "selfRankNum": 1,
+      "selfRankUserName": "Poetic0",
+      "selfRankGuildPoint": 977076,
+      "enemyRankUserId": 979297214,
+      "enemyRankNum": 1,
+      "enemyRankUserName": "Wolf",
+      "enemyRankGuildPoint": 2496396,
+      "scheduleNo": 1,
+      "selfGuildCountryCode": 0,
+      "enemyGuildCountryCode": 616
+    },
+    "gvgMvpRank": [
+      {
+        "type": 1,
+        "typeName": "イノチ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 977076,
+            "valueB": 2496396,
+            "userIdA": 489820080,
+            "userIdB": 979297214,
+            "nameA": "Poetic0",
+            "nameB": "Wolf"
+          },
+          {
+            "rank": 2,
+            "valueA": 595584,
+            "valueB": 2448700,
+            "userIdA": 449045316,
+            "userIdB": 249484503,
+            "nameA": "○.○",
+            "nameB": "Sarna"
+          },
+          {
+            "rank": 3,
+            "valueA": 402006,
+            "valueB": 1866555,
+            "userIdA": 161754158,
+            "userIdB": 476937187,
+            "nameA": "oeuf",
+            "nameB": "Hork"
+          },
+          {
+            "rank": 4,
+            "valueA": 344895,
+            "valueB": 422505,
+            "userIdA": 889582783,
+            "userIdB": 669183072,
+            "nameA": "Baka",
+            "nameB": "Ves"
+          },
+          {
+            "rank": 5,
+            "valueA": 275501,
+            "valueB": 367315,
+            "userIdA": 658397897,
+            "userIdB": 961214187,
+            "nameA": "Juddy",
+            "nameB": "BenePL"
+          }
+        ]
+      },
+      {
+        "type": 2,
+        "typeName": "回復",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 19483878,
+            "valueB": 31117487,
+            "userIdA": 237959838,
+            "userIdB": 853463864,
+            "nameA": "Nheksh",
+            "nameB": "Flowein"
+          },
+          {
+            "rank": 2,
+            "valueA": 17830787,
+            "valueB": 23616595,
+            "userIdA": 335076343,
+            "userIdB": 130393798,
+            "nameA": "Melesie",
+            "nameB": "Wydra"
+          },
+          {
+            "rank": 3,
+            "valueA": 16646138,
+            "valueB": 22301103,
+            "userIdA": 112665300,
+            "userIdB": 608574861,
+            "nameA": "ilyas",
+            "nameB": "Hoork"
+          },
+          {
+            "rank": 4,
+            "valueA": 2834592,
+            "valueB": 321228,
+            "userIdA": 489820080,
+            "userIdB": 249484503,
+            "nameA": "Poetic0",
+            "nameB": "Sarna"
+          },
+          {
+            "rank": 5,
+            "valueA": 2352918,
+            "valueB": 286201,
+            "userIdA": 889582783,
+            "userIdB": 979297214,
+            "nameA": "Baka",
+            "nameB": "Wolf"
+          }
+        ]
+      },
+      {
+        "type": 3,
+        "typeName": "味方攻撃力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 6228404,
+            "valueB": 4775851,
+            "userIdA": 745714112,
+            "userIdB": 173464350,
+            "nameA": "Panda",
+            "nameB": "Pajonkje"
+          },
+          {
+            "rank": 2,
+            "valueA": 4057266,
+            "valueB": 4564879,
+            "userIdA": 519350497,
+            "userIdB": 416211614,
+            "nameA": "Andy",
+            "nameB": "Gogenks"
+          },
+          {
+            "rank": 3,
+            "valueA": 2202552,
+            "valueB": 353272,
+            "userIdA": 884034009,
+            "userIdB": 130393798,
+            "nameA": "Cheshipuss",
+            "nameB": "Wydra"
+          },
+          {
+            "rank": 4,
+            "valueA": 2183319,
+            "valueB": 175824,
+            "userIdA": 249958587,
+            "userIdB": 608574861,
+            "nameA": "Sakura",
+            "nameB": "Hoork"
+          },
+          {
+            "rank": 5,
+            "valueA": 302840,
+            "valueB": 130099,
+            "userIdA": 237959838,
+            "userIdB": 853463864,
+            "nameA": "Nheksh",
+            "nameB": "Flowein"
+          }
+        ]
+      },
+      {
+        "type": 4,
+        "typeName": "味方防御力支援",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 2085521,
+            "valueB": 4666271,
+            "userIdA": 884034009,
+            "userIdB": 173464350,
+            "nameA": "Cheshipuss",
+            "nameB": "Pajonkje"
+          },
+          {
+            "rank": 2,
+            "valueA": 1814919,
+            "valueB": 3867495,
+            "userIdA": 745714112,
+            "userIdB": 416211614,
+            "nameA": "Panda",
+            "nameB": "Gogenks"
+          },
+          {
+            "rank": 3,
+            "valueA": 1583426,
+            "valueB": 229145,
+            "userIdA": 519350497,
+            "userIdB": 853463864,
+            "nameA": "Andy",
+            "nameB": "Flowein"
+          },
+          {
+            "rank": 4,
+            "valueA": 1076285,
+            "valueB": 225794,
+            "userIdA": 249958587,
+            "userIdB": 608574861,
+            "nameA": "Sakura",
+            "nameB": "Hoork"
+          },
+          {
+            "rank": 5,
+            "valueA": 147355,
+            "valueB": 129718,
+            "userIdA": 237959838,
+            "userIdB": 130393798,
+            "nameA": "Nheksh",
+            "nameB": "Wydra"
+          }
+        ]
+      },
+      {
+        "type": 5,
+        "typeName": "敵攻撃力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4563800,
+            "valueB": 6328766,
+            "userIdA": 594178109,
+            "userIdB": 752205715,
+            "nameA": "Jeanne",
+            "nameB": "Biedronkie"
+          },
+          {
+            "rank": 2,
+            "valueA": 2790647,
+            "valueB": 5623809,
+            "userIdA": 662352178,
+            "userIdB": 700027865,
+            "nameA": "NotXam",
+            "nameB": "Śledź"
+          },
+          {
+            "rank": 3,
+            "valueA": 1726814,
+            "valueB": 5387968,
+            "userIdA": 268301929,
+            "userIdB": 484825123,
+            "nameA": "Frankger",
+            "nameB": "Borsuk"
+          },
+          {
+            "rank": 4,
+            "valueA": 21149,
+            "valueB": 3012150,
+            "userIdA": 161754158,
+            "userIdB": 122025758,
+            "nameA": "oeuf",
+            "nameB": "Zki"
+          },
+          {
+            "rank": 5,
+            "valueA": 0,
+            "valueB": 51759,
+            "userIdA": 0,
+            "userIdB": 961214187,
+            "nameA": "",
+            "nameB": "BenePL"
+          }
+        ]
+      },
+      {
+        "type": 6,
+        "typeName": "敵防御力妨害",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 4181947,
+            "valueB": 3026795,
+            "userIdA": 594178109,
+            "userIdB": 700027865,
+            "nameA": "Jeanne",
+            "nameB": "Śledź"
+          },
+          {
+            "rank": 2,
+            "valueA": 2413933,
+            "valueB": 2736853,
+            "userIdA": 662352178,
+            "userIdB": 752205715,
+            "nameA": "NotXam",
+            "nameB": "Biedronkie"
+          },
+          {
+            "rank": 3,
+            "valueA": 1622104,
+            "valueB": 2363932,
+            "userIdA": 268301929,
+            "userIdB": 122025758,
+            "nameA": "Frankger",
+            "nameB": "Zki"
+          },
+          {
+            "rank": 4,
+            "valueA": 175900,
+            "valueB": 2187323,
+            "userIdA": 449045316,
+            "userIdB": 484825123,
+            "nameA": "○.○",
+            "nameB": "Borsuk"
+          },
+          {
+            "rank": 5,
+            "valueA": 55823,
+            "valueB": 58156,
+            "userIdA": 489820080,
+            "userIdB": 979297214,
+            "nameA": "Poetic0",
+            "nameB": "Wolf"
+          }
+        ]
+      },
+      {
+        "type": 7,
+        "typeName": "コンボ",
+        "gvgMvpRankDetailList": [
+          {
+            "rank": 1,
+            "valueA": 165,
+            "valueB": 250,
+            "userIdA": 745714112,
+            "userIdB": 979297214,
+            "nameA": "Panda",
+            "nameB": "Wolf"
+          },
+          {
+            "rank": 2,
+            "valueA": 155,
+            "valueB": 227,
+            "userIdA": 658397897,
+            "userIdB": 249484503,
+            "nameA": "Juddy",
+            "nameB": "Sarna"
+          },
+          {
+            "rank": 3,
+            "valueA": 79,
+            "valueB": 205,
+            "userIdA": 449045316,
+            "userIdB": 476937187,
+            "nameA": "○.○",
+            "nameB": "Hork"
+          },
+          {
+            "rank": 4,
+            "valueA": 74,
+            "valueB": 98,
+            "userIdA": 489820080,
+            "userIdB": 961214187,
+            "nameA": "Poetic0",
+            "nameB": "BenePL"
+          },
+          {
+            "rank": 5,
+            "valueA": 70,
+            "valueB": 90,
+            "userIdA": 161754158,
+            "userIdB": 416211614,
+            "nameA": "oeuf",
+            "nameB": "Gogenks"
+          }
+        ]
+      }
+    ],
+    "gvgUltimateArtInfo": {
+      "gvgDataId": 3612357,
+      "gvgUltimateArtDataList": [
+        {
+          "artMstId": 5,
+          "ultimateArtMethodMstId": 5,
+          "guildACount": 38,
+          "guildBCount": 20
+        },
+        {
+          "artMstId": 35,
+          "ultimateArtMethodMstId": 35,
+          "guildACount": 22,
+          "guildBCount": 75
+        }
+      ]
+    }
+  },
+  "getBattleUserList": {
+    "battleNum": 703,
+    "gvgDataId": 3612357,
+    "guildDataIdA": 48205,
+    "guildDataIdB": 35814,
+    "guildDataNameA": "Daydreamer",
+    "guildDataNameB": "IV-RP",
+    "guildDataLevelA": 100,
+    "guildDataLevelB": 100,
+    "guildDataRankA": 4,
+    "guildDataRankB": 4,
+    "guildMemberA": [
+      {
+        "userId": 161754158,
+        "name": "oeuf",
+        "characterMstId": 732,
+        "level": 211,
+        "totalPower": 503323,
+        "maxHp": 155509
+      },
+      {
+        "userId": 658397897,
+        "name": "Juddy",
+        "characterMstId": 754,
+        "level": 215,
+        "totalPower": 454470,
+        "maxHp": 155627
+      },
+      {
+        "userId": 449045316,
+        "name": "○.○",
+        "characterMstId": 48,
+        "level": 231,
+        "totalPower": 542642,
+        "maxHp": 175033
+      },
+      {
+        "userId": 889582783,
+        "name": "Baka",
+        "characterMstId": 204,
+        "level": 201,
+        "totalPower": 456042,
+        "maxHp": 138045
+      },
+      {
+        "userId": 489820080,
+        "name": "Poetic0",
+        "characterMstId": 711,
+        "level": 228,
+        "totalPower": 551610,
+        "maxHp": 182733
+      },
+      {
+        "userId": 745714112,
+        "name": "Panda",
+        "characterMstId": 770,
+        "level": 227,
+        "totalPower": 609265,
+        "maxHp": 178933
+      },
+      {
+        "userId": 519350497,
+        "name": "Andy",
+        "characterMstId": 770,
+        "level": 207,
+        "totalPower": 530185,
+        "maxHp": 132337
+      },
+      {
+        "userId": 884034009,
+        "name": "Cheshipuss",
+        "characterMstId": 770,
+        "level": 208,
+        "totalPower": 429407,
+        "maxHp": 129076
+      },
+      {
+        "userId": 249958587,
+        "name": "Sakura",
+        "characterMstId": 826,
+        "level": 203,
+        "totalPower": 395419,
+        "maxHp": 107651
+      },
+      {
+        "userId": 268301929,
+        "name": "Frankger",
+        "characterMstId": 769,
+        "level": 207,
+        "totalPower": 486565,
+        "maxHp": 168187
+      },
+      {
+        "userId": 594178109,
+        "name": "Jeanne",
+        "characterMstId": 769,
+        "level": 229,
+        "totalPower": 475801,
+        "maxHp": 133283
+      },
+      {
+        "userId": 662352178,
+        "name": "NotXam",
+        "characterMstId": 769,
+        "level": 213,
+        "totalPower": 450515,
+        "maxHp": 105328
+      },
+      {
+        "userId": 237959838,
+        "name": "Nheksh",
+        "characterMstId": 761,
+        "level": 226,
+        "totalPower": 680488,
+        "maxHp": 216133
+      },
+      {
+        "userId": 335076343,
+        "name": "Melesie",
+        "characterMstId": 761,
+        "level": 236,
+        "totalPower": 522072,
+        "maxHp": 164833
+      },
+      {
+        "userId": 112665300,
+        "name": "ilyas",
+        "characterMstId": 761,
+        "level": 208,
+        "totalPower": 492475,
+        "maxHp": 151026
+      }
+    ],
+    "guildMemberB": [
+      {
+        "userId": 979297214,
+        "name": "Wolf",
+        "characterMstId": 732,
+        "level": 228,
+        "totalPower": 600237,
+        "maxHp": 186733
+      },
+      {
+        "userId": 476937187,
+        "name": "Hork",
+        "characterMstId": 732,
+        "level": 225,
+        "totalPower": 571993,
+        "maxHp": 184883
+      },
+      {
+        "userId": 249484503,
+        "name": "Sarna",
+        "characterMstId": 732,
+        "level": 223,
+        "totalPower": 560767,
+        "maxHp": 178933
+      },
+      {
+        "userId": 961214187,
+        "name": "BenePL",
+        "characterMstId": 732,
+        "level": 197,
+        "totalPower": 392064,
+        "maxHp": 129268
+      },
+      {
+        "userId": 669183072,
+        "name": "Ves",
+        "characterMstId": 103,
+        "level": 197,
+        "totalPower": 388088,
+        "maxHp": 129318
+      },
+      {
+        "userId": 173464350,
+        "name": "Pajonkje",
+        "characterMstId": 770,
+        "level": 224,
+        "totalPower": 630228,
+        "maxHp": 178083
+      },
+      {
+        "userId": 416211614,
+        "name": "Gogenks",
+        "characterMstId": 770,
+        "level": 220,
+        "totalPower": 599345,
+        "maxHp": 156133
+      },
+      {
+        "userId": 752205715,
+        "name": "Biedronkie",
+        "characterMstId": 806,
+        "level": 223,
+        "totalPower": 610342,
+        "maxHp": 171983
+      },
+      {
+        "userId": 700027865,
+        "name": "Śledź",
+        "characterMstId": 806,
+        "level": 216,
+        "totalPower": 593046,
+        "maxHp": 162513
+      },
+      {
+        "userId": 484825123,
+        "name": "Borsuk",
+        "characterMstId": 806,
+        "level": 201,
+        "totalPower": 495160,
+        "maxHp": 107095
+      },
+      {
+        "userId": 122025758,
+        "name": "Zki",
+        "characterMstId": 769,
+        "level": 212,
+        "totalPower": 492720,
+        "maxHp": 134615
+      },
+      {
+        "userId": 853463864,
+        "name": "Flowein",
+        "characterMstId": 85,
+        "level": 222,
+        "totalPower": 568451,
+        "maxHp": 163583
+      },
+      {
+        "userId": 608574861,
+        "name": "Hoork",
+        "characterMstId": 85,
+        "level": 224,
+        "totalPower": 547590,
+        "maxHp": 180683
+      },
+      {
+        "userId": 130393798,
+        "name": "Wydra",
+        "characterMstId": 85,
+        "level": 201,
+        "totalPower": 446419,
+        "maxHp": 106845
+      }
+    ]
+  }
+}
